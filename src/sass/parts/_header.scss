@@ -1,0 +1,43 @@
+header{
+  position: fixed;
+  top:0;
+  left:0;
+  line-height: 50px;
+  padding: 16px 0;
+  width: 100%;
+  border-bottom: 1px solid $bg-dark;
+  z-index: 10;
+  background: transparent;
+  @include web_transition(all 0.2s ease-in-out);
+  &.scroll{
+    background: $bg-body;
+  }
+
+  .logo{
+    img{
+      vertical-align: middle;
+    }
+  }
+  .social{
+    line-height: 30px;
+    .link{
+      padding: 4px;
+      line-height: 22px;
+      margin: 0 15px;
+    }
+  }
+  .lang{
+    position: absolute;
+    right: 0;
+    top:0;
+    color: $color_link;
+    padding-top: inherit;
+    font-size: 16px;
+    .link{
+      &.active{
+        color: $color_white;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,81 @@
+.icon{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  &-left{
+    margin-right: 5px;
+  }
+  &-right{
+    margin-left:5px;
+  }
+  &-middle{
+    vertical-align: middle;
+    margin-top: -2px;
+  }
+  &-play{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: $color_blue_1 url("../images/play.png") no-repeat 15px center;
+  }
+  &-logo{
+    width: 200px;
+    height: 30px;
+    background-image: url("../images/logo.svg");
+    background-position: center;
+    margin-left: -15px;
+  }
+  &-yt{
+    width: 22px;
+    height: 15px;
+    background-image: url("../images/you.svg");
+  }
+  &-tw{
+    width: 20px;
+    height: 15px;
+    background-image: url("../images/tw.svg");
+  }
+  &-tel{
+    width: 21px;
+    height: 18px;
+    background-image: url("../images/tel.svg");
+  }
+  &-air{
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/air.svg");
+  }
+  &-insta{
+    width: 21px;
+    height: 20px;
+    background-image: url("../images/inst.svg");
+  }
+  &-fb{
+    width: 22px;
+    height: 21px;
+    background-image: url("../images/fb.svg");
+  }
+  &-bit{
+    width: 16px;
+    height: 20px;
+    background-image: url("../images/bc.svg");
+  }
+  &-db{
+    width: 47px;
+    height: 47px;
+    background-image: url("../images/db.svg");
+  }
+  &-desktop{
+    width: 47px;
+    height: 47px;
+    background-image: url("../images/desktop.svg");
+  }
+  &-app{
+    width: 36px;
+    height: 47px;
+    background-image: url("../images/mobile.svg");
+  }
+}

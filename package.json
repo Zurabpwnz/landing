@@ -1,0 +1,20 @@
+{
+  "name": "html-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-nunjucks-render": "^2.2.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-concat": "latest",
+    "gulp-csso": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {  },
+  "repository": {  },
+  "author": "",
+  "license": "ISC"
+}

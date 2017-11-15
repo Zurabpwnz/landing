@@ -1,0 +1,79 @@
+.form{
+  &-name{
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid $border_color_1;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+  }
+  &-group{
+    margin-bottom: 30px;
+  }
+  &-btn{
+    margin-top: 30px;
+  }
+  &-control{
+    background: none;
+    margin: 0;
+    font-size: 16px;
+    color: $color_gray_1;
+    outline: none;
+    width: 100%;
+    border: 1px solid $border_color_1;
+    border-radius: 3px;
+    vertical-align: top;
+    line-height: normal;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    padding: 10px;
+    &:disabled{
+      background: $color_gray_1;
+      color: $color_white;
+    }
+    &:focus,
+    &:hover{
+      border-color:$color_gray_1;
+    }
+    &::-webkit-input-placeholder{
+      color: $color_placeholder;
+    }
+    &:-moz-placeholder{
+      color: $color_placeholder;
+    }
+    &:-ms-input-placeholder{
+      color: $color_placeholder;
+    }
+    &.error{
+      border-color: $color_red_1;
+    }
+    &.valid{
+      border-color: $color_green_1;
+    }
+    &.warning{
+      border-color:$color_yellow_1;
+    }
+  }
+}
+textarea.form-control{
+  resize: vertical;
+  max-height: 300px;
+}
+.box-control{
+  position: relative;
+  .box-icon{
+    &-left{
+      position: absolute;
+      text-align: center;
+      left:30px;
+      top: 50%;
+      transform: translateY(-50%);
+      @include web_transform(translateY(-50%));
+      z-index: 5;
+      font-size: 20px;
+      &+.form-control{
+        padding-left: 60px;
+      }
+    }
+  }
+}
