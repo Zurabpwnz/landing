@@ -26,6 +26,11 @@ $(document).ready(function(){
     $(document).on("scroll", onScroll);
 
 //    ---------------voropaev----------------
+    $('.oll-commands').on('click' , function(){
+        $(this).toggleClass('active');
+        $('.accordion-body-toggle').slideToggle(350)
+    });
+
     new Chart(document.getElementById("doughnut-chart"), {
         type: 'doughnut',
         data: {
@@ -54,7 +59,7 @@ $(document).ready(function(){
         }
     });
 
-
+//    ---------------/voropaev----------------
     $(".getting-started")
         .countdown('2017/11/30 14:00:00', function(event) {
             var $this = $(this).html(event.strftime(''
