@@ -1,6 +1,7 @@
 $(window).on('load', function() {
     $('.preloader .load').fadeOut();
     $('.preloader').delay(200).fadeOut().remove();
+    AOS.init();
 });
 $(document).ready(function(){
     $('.slide-group-next').on('click', function () {
