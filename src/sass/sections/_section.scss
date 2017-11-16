@@ -16,6 +16,10 @@
   &-intro{
     color: $color_white;
     text-align: center;
+    .btn{
+      z-index: 1;
+      position: relative;
+    }
     .text{
       font-size: 20px;
       line-height: 1.6;
@@ -60,13 +64,15 @@
     .intro{
       &-map{
         position: relative;
-        margin-top: -5%;
-        margin-bottom: -23%;
+        margin-top: -17%;
+        margin-bottom: -30%;
+        width: 132%;
+        margin-left: -16%;
         .point{
           position: absolute;
-          top: 15%;
-          left: 10%;
-          width: 80%;
+          top: 25%;
+          left: 18%;
+          width: 64%;
         }
       }
       &-down{
@@ -292,9 +298,22 @@
     .lead{
       &-line{
         padding-top:50px;
+        .slick-next, .slick-prev{
+          top:30%;
+        }
+        .slide{
+          display: inline-block;
+          vertical-align: top;
+          opacity: 1;
+          @include web_transition(all 0.2s ease);
+          &:not(.slick-center){
+            opacity: 0.3;
+            @include web_transform(scale(0.9));
+          }
+        }
       }
       &-quote{
-        width: 350px;
+        width: 380px;
         margin: 0 auto;
         font-family: $font_family_2;
         font-size: 16px;
@@ -325,7 +344,7 @@
             line-height: 24px;
           }
           &:before{
-            top:20px;
+            top:5px;
             left:0;
             content: '\201C';
           }
@@ -334,17 +353,12 @@
             content: '\201D';
             display: inline-block;
             vertical-align: top;
-            margin-left: 10px;
+            margin-left: 5px;
+            margin-top: 5px;
           }
         }
       }
-      .slick-next, .slick-prev{
-        top:30%;
-      }
-      .slide{
-        display: inline-block;
-        vertical-align: top;
-      }
+
     }
   }
   &-activity{
@@ -377,6 +391,7 @@
   &-start{
     color: $color_white;
     position: relative;
+    margin-top: 200px;
     &:before{
       position: absolute;
       top: -80%;
@@ -393,6 +408,34 @@
     }
     .form-subs{
       margin-top: 50px;
+    }
+  }
+  &-question{
+    .question{
+      &-item{
+        font-family: $font_family_2;
+        padding: 10px 0;
+        .name{
+          font-size: 20px;
+          border-bottom: 2px solid #ddebff;
+          line-height: 30px;
+          color: $color_title;
+          &.open{
+            border-bottom-color: transparent;
+          }
+
+        }
+        .text{
+          padding: 15px 20px;
+          background: $color_gray_3;
+          border-radius: 5px;
+          display: none;
+          margin: 20px 0 10px;
+          ul{
+            margin-top: 1em;
+          }
+        }
+      }
     }
   }
 }
