@@ -246,9 +246,10 @@ h4, .h4{
 /*CONTENT*/
 .wrapper{
   width: 100%;
-  background: url("../images/1bg.svg") no-repeat center top;
+  background: url("../images/bg1.svg") no-repeat center top;
   position: relative;
   padding-top: 85px;
+  overflow: hidden;
 }
 .name-block{
   font-size: 35px;
