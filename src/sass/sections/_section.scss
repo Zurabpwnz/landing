@@ -27,17 +27,6 @@
         }
       }
     }
-    .map{
-      position: relative;
-      margin-top: -5%;
-      margin-bottom: -23%;
-      .point{
-        position: absolute;
-        top: 15%;
-        left: 10%;
-        width: 80%;
-      }
-    }
     .label{
       font-size: 16px;
       margin-bottom: 10px;
@@ -53,11 +42,13 @@
         padding: 0 7px;
         border-radius: 7px;
         background: $bg-dark;
-        margin: 0 2px;
+        +.number{
+          margin-left: 5px;
+        }
       }
     }
     .cash,.timer{
-      width: 300px;
+      width: 310px;
       margin-top: 75px;
     }
     .cash{
@@ -66,7 +57,23 @@
     .timer{
       text-align: right;
     }
-
+    .intro{
+      &-map{
+        position: relative;
+        margin-top: -5%;
+        margin-bottom: -23%;
+        .point{
+          position: absolute;
+          top: 15%;
+          left: 10%;
+          width: 80%;
+        }
+      }
+      &-down{
+        z-index: 1;
+        position: relative;
+      }
+    }
   }
   &-about{
     .about{
@@ -288,11 +295,14 @@
       }
       &-quote{
         width: 350px;
+        margin: 0 auto;
         font-family: $font_family_2;
         font-size: 16px;
         line-height: 1.5;
         .video{
           margin-bottom: 20px;
+          height: 240px;
+          background:$color_gray_3;
         }
         .name{
           font-size: 25px;
@@ -328,7 +338,32 @@
           }
         }
       }
-
+      .slick-next, .slick-prev{
+        top:30%;
+      }
+      .slide{
+        display: inline-block;
+        vertical-align: top;
+      }
+    }
+  }
+  &-activity{
+    .activity{
+      &-tabs{
+        .tab-content{
+          min-height: 300px;
+        }
+        .slide{
+          text-align: center;
+        }
+      }
+      &-video{
+        margin: 0 auto;
+        display: inline-block;
+        vertical-align: top;
+        height: 300px;
+        background:$color_gray_3;
+      }
     }
   }
   &-player{
@@ -341,6 +376,17 @@
   }
   &-start{
     color: $color_white;
+    position: relative;
+    &:before{
+      position: absolute;
+      top: -80%;
+      height: 200%;
+      width: 100%;
+      left:0;
+      content: '';
+      background: url("../images/bg5.svg") no-repeat center top;
+      z-index: -1;
+    }
     .timer{
       margin-top: 40px;
       margin-bottom:80px;

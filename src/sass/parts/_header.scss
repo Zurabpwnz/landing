@@ -18,6 +18,14 @@ header{
       vertical-align: middle;
     }
   }
+  .user{
+    .btn{
+      min-width: 135px;
+      &+.btn{
+        margin-left: 5px;
+      }
+    }
+  }
   .social{
     line-height: 30px;
     .link{

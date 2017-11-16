@@ -81,12 +81,12 @@
   .number{
     display: inline-block;
     vertical-align: top;
-    padding: 0 7px;
     border-radius: 7px;
     background: $bg-dark;
-    margin: 0 2px;
-    min-width: 50px;
+    margin: 0;
+    min-width: 54px;
     text-align: center;
+    padding: 0 !important;
   }
   &.lg{
     .value{
