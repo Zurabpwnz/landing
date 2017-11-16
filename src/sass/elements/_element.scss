@@ -66,6 +66,9 @@
     color: $color_title;
     font-family: $font_family_2;
     position: relative;
+    &:not(:first-child){
+      margin-top: 50px;
+    }
     &:after{
       top:100%;
       width: 65px;
