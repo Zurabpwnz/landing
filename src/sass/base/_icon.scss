@@ -81,6 +81,21 @@
     height: 47px;
     background-image: url("../images/mobile.svg");
   }
+  &-buy{
+    width: 44px;
+    height: 44px;
+    background-image: url("../images/buy.png");
+  }
+  &-pass{
+    width: 41px;
+    height: 41px;
+    background-image: url("../images/pass.png");
+  }
+  &-swap{
+    width: 41px;
+    height: 41px;
+    background-image: url("../images/swap.png");
+  }
   &-trip{
     width: 36px;
     height: 53px;
@@ -111,4 +126,5 @@
       }
     }
   }
+
 }

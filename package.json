@@ -13,8 +13,8 @@
     "gulp-csso": "latest"
   },
   "devDependencies": {},
-  "scripts": {  },
-  "repository": {  },
+  "scripts": {},
+  "repository": {},
   "author": "",
   "license": "ISC"
 }
