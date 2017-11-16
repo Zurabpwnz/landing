@@ -66,3 +66,14 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'GothamPro-MediumItalic';
+    src: url('../fonts/GothamPro-MediumItalic.eot');
+    src: url('../fonts/GothamPro-MediumItalic.woff2') format('woff2'),
+    url('../fonts/GothamPro-MediumItalic.woff') format('woff'),
+    url('../fonts/GothamPro-MediumItalic.ttf') format('truetype'),
+    url('../fonts/GothamPro-MediumItalic.svg#GothamPro-MediumItalic') format('svg'),
+    url('../fonts/GothamPro-MediumItalic.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -22,11 +22,14 @@
     background: $color_blue_1 url("../images/play.png") no-repeat 15px center;
   }
   &-logo{
-    width: 200px;
+    width: 215px;
     height: 30px;
     background-image: url("../images/logo.svg");
     background-position: center;
     margin-left: -15px;
+    &.dark{
+      background-image: url("../images/logo-dark.svg");
+    }
   }
   &-yt{
     width: 22px;
@@ -77,5 +80,35 @@
     width: 36px;
     height: 47px;
     background-image: url("../images/mobile.svg");
+  }
+  &-trip{
+    width: 36px;
+    height: 53px;
+    background-image: url("../images/TRAV.svg");
+  }
+  &-bis{
+    width: 34px;
+    height: 53px;
+    background-image: url("../images/BM.svg");
+  }
+  &-dev{
+    width: 35px;
+    height: 53px;
+    background-image: url("../images/DEV.svg");
+  }
+}
+.active{
+  a{
+    .icon{
+      &-trip{
+        background-image: url("../images/TRAV-white.svg");
+      }
+      &-bis{
+        background-image: url("../images/BM-white.svg");
+      }
+      &-dev{
+        background-image: url("../images/DEV-white.svg");
+      }
+    }
   }
 }

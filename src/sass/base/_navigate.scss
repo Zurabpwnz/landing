@@ -18,4 +18,37 @@
       }
     }
   }
+  &-tabs{
+    text-align: center;
+    margin: 50px 0;
+    li{
+      display: inline-block;
+      vertical-align: top;
+      &+li{
+        margin-left: 10px;
+      }
+      a{
+        display: block;
+        line-height: 53px;
+        border-color: $color_gray_2;
+        font-size: 16px;
+        font-family: $font_family_2;
+        color: $color_text;
+        padding: 12px 35px;
+        min-width: 225px;
+        border-radius: 40px;
+        position: relative;
+        .icon{
+          margin-right: 20px;
+        }
+      }
+      &.active{
+        a{
+          background: $color_blue_1;
+          border-color: $color_blue_1;
+          color: $color_white;
+        }
+      }
+    }
+  }
 }

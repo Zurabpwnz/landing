@@ -3,10 +3,12 @@ $font_family_li: 'ProximaNova-Light', Arial, Helvetica, sans-serif;
 $font_family_it: 'ProximaNova-RegularIt', Arial, Helvetica, sans-serif;
 $font_family_2: 'GothamProRegular', Arial, Helvetica, sans-serif;
 $font_family_bold_2: 'GothamProMedium', Arial, Helvetica, sans-serif;
+$font_family_bold_it_2: 'GothamPro-MediumItalic', Arial, Helvetica, sans-serif;
 $color_white: #ffffff;
 $color_black: #000000;
 $color_gray_1: #333333;
 $color_gray_2: #d1d2de;
+$color_gray_3: #f3f6f8;
 $color_green_1: #78c214;
 $color_red_1: #f90059;
 $color_yellow_1: #ffdd2b;
@@ -255,6 +257,20 @@ h4, .h4{
   &.white{
     color: $color_white;
   }
+  &.border{
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    &:after{
+      top:100%;
+      width: 65px;
+      height: 3px;
+      left:0;
+      background: $color_blue_1;
+      position: absolute;
+      content: '';
+    }
+  }
 }
 .name-box{
   font-size:20px;
@@ -263,6 +279,14 @@ h4, .h4{
   font-size: 16px;
   font-family: $font_family_2;
   line-height: 1.5;
+  &.small{
+    font-size: 14px;
+  }
+  p{
+    &:not(:last-child){
+      margin-bottom: 1.5em;
+    }
+  }
   b,.bold{
     font-family: $font_family_bold_2;
     font-weight: normal;

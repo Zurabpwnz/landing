@@ -1,6 +1,18 @@
 .section{
   padding-top: 60px;
   padding-bottom: 60px;
+  &-text{
+    &.text{
+      &-md{
+        max-width: 810px;
+        margin: 0 auto;
+      }
+      &-sm{
+        max-width: 400px;
+        margin: 0 auto;
+      }
+    }
+  }
   &-intro{
     color: $color_white;
     text-align: center;
@@ -54,25 +66,7 @@
     .timer{
       text-align: right;
     }
-    .form-subs{
-      width: 480px;
-      .box-control{
-        margin: 0 15px 30px;
-      }
-      .form-control{
-        padding-top: 22px;
-        padding-bottom: 22px;
-        border-color: $color_white;
-        background: $color_white;
-        padding-right: 150px;
-        border-radius: 33px;
-      }
-      .box-btn{
-        position: absolute;
-        top:3px;
-        right:3px;
-      }
-    }
+
   }
   &-about{
     .about{
@@ -126,12 +120,12 @@
           margin: 0 -40px;
           margin-bottom: 80px;
           position: relative;
-          font-size: 120px;
           line-height: 30px;
           &:before,
           &:after{
             position:absolute;
             color: $color_gray_2;
+            font-size: 120px;
           }
           &:before{
             top:15px;
@@ -237,10 +231,122 @@
   &-benefit{
     .benefit{
       &-tabs{
-        max-width: 800px;
-        margin: 0 auto;
         text-align: center;
+        .nav-tabs{
+          li{
+            &.active{
+              a{
+                &:after{
+                  position: absolute;
+                  top:100%;
+                  left:50%;
+                  width: 0;
+                  height: 0;
+                  border-bottom:25px solid $color_white;
+                  border-left:25px solid transparent;
+                  border-right:25px solid transparent;
+                  content: '';
+                  margin-left: -25px;
+                  margin-top: 27px;
+                }
+              }
+            }
+
+          }
+        }
+        .tab{
+          &-content{
+            background: $color_white;
+            min-height: 450px;
+            @include box_shadow(0 -5px 150px rgba(169, 184, 199, 0.21));
+            border-radius: 5px;
+            padding: 80px 95px;
+          }
+        }
+        .block-text{
+          max-width: 450px;
+        }
       }
+    }
+  }
+  &-lead{
+    background: $color_gray_3;
+    position: relative;
+    &:before{
+      position: absolute;
+      top:-45%;
+      height: 245%;
+      width: 100%;
+      left:0;
+      content: '';
+      background: url("../images/2bg.svg") no-repeat center top;
+      z-index: -1;
+    }
+    .lead{
+      &-line{
+        padding-top:50px;
+      }
+      &-quote{
+        width: 350px;
+        font-family: $font_family_2;
+        font-size: 16px;
+        line-height: 1.5;
+        .video{
+          margin-bottom: 20px;
+        }
+        .name{
+          font-size: 25px;
+          color: $color_title;
+          line-height: 1;
+        }
+        .pos{
+          font-family: $font_family_bold_2;
+        }
+        .quote{
+          position: relative;
+          margin-top: 20px;
+          padding: 0 20px;
+          &:before,
+          &:after{
+            position:absolute;
+            color: $color_gray_2;
+            font-size: 44px;
+            font-family: $font_family;
+            line-height: 24px;
+          }
+          &:before{
+            top:20px;
+            left:0;
+            content: '\201C';
+          }
+          &:after{
+            position: relative;
+            content: '\201D';
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 10px;
+          }
+        }
+      }
+
+    }
+  }
+  &-player{
+    text-align: center;
+    .player{
+      &-line{
+        margin: 75px 0;
+      }
+    }
+  }
+  &-start{
+    color: $color_white;
+    .timer{
+      margin-top: 40px;
+      margin-bottom:80px;
+    }
+    .form-subs{
+      margin-top: 50px;
     }
   }
 }

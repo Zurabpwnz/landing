@@ -81,4 +81,13 @@ $(document).ready(function(){
 
     //var svg3DTagCloud = new SVG3DTagCloud( document.getElementById( 'holder'  ), settings );
     $( '#cloud' ).svg3DTagCloud( settings );
+
+    $("#getting-started")
+        .countdown('2017/11/30', function(event) {
+            var $this = $(this).html(event.strftime(''
+                + '<span class="number">%d</span> : '
+                + '<span class="number">%H</span> : '
+                + '<span class="number">%M</span> : '
+                + '<span class="number">%S</span>'));
+        });
 });
