@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1577" viewBox="0 0 1920 1577">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3000" height="1520" viewBox="0 0 3000 1520">
   <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -34,10 +34,10 @@
         fill: url(#linear-gradient);
       }
     </style>
-    <linearGradient id="linear-gradient" x1="1087.015" y1="14737" x2="1087.015" y2="13160" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient" x1="1319" y1="14737" x2="1319" y2="13017" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#000749"/>
       <stop offset="1" stop-color="#131a75"/>
     </linearGradient>
   </defs>
-  <path id="Фигура_22" data-name="Фигура 22" class="cls-1" d="M1016.83,13629.4c589.55-124,1068.63-469.3,1068.6-469.4L2544,14737s-453.36-267.4-1002.11-344c-679.316-94.8-1574.637,122.9-1785.73-171.8-195.343-272.7-172.085-214.9,128.159-481.2C81.338,13565.3,467.644,13744.9,1016.83,13629.4Z" transform="translate(0 -13160)"/>
+  <path id="Фигура_22" data-name="Фигура 22" class="cls-1" d="M1556.83,13629.4c589.55-124,1606.2-612.3,1606.17-612.4l-79,1720s-453.36-267.4-1002.11-344c-679.32-94.8-2269.64,223.7-2480.751-180.7-195.359-374.3-172.1-295,128.169-660.4C-73.657,13312.1,1007.64,13744.9,1556.83,13629.4Z" transform="translate(0 -13017)"/>
 </svg>

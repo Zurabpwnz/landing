@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="345" viewBox="0 0 3000 345">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3000" height="2160.84" viewBox="0 0 3000 2160.84">
   <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -30,10 +30,14 @@
 <defs>
     <style>
       .cls-1 {
-        fill: #f3f6f8;
         fill-rule: evenodd;
+        fill: url(#linear-gradient);
       }
     </style>
+    <linearGradient id="linear-gradient" x1="1459.765" y1="2160.84" x2="1459.765" y2="-92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000749"/>
+      <stop offset="1" stop-color="#131a75"/>
+    </linearGradient>
   </defs>
-  <path id="bg4-1" class="cls-1" d="M3042,11458q-137.85,38.55-294.11,78.4c-576.41,146.9-1749.006,48.5-2453.157,181.7C188.348,11738.3,90.242,11762,0,11788v-345H3042v15Z" transform="translate(0 -11443)"/>
+  <path id="Прямоугольник_2_копия_2" data-name="Прямоугольник 2 копия 2" class="cls-1" d="M-113-92H3034V1516c116.32-21.06-1145.52-607.29-1549-304-271.49,204.07-29.55,477.07-225,751-157.06,220.12-594.207,202.05-707.112,193.41C535.677,2155.1-122,2105-122,2105Z"/>
 </svg>
