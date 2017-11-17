@@ -95,4 +95,283 @@
   .hide-mobile {
     display: none;
   }
+  //  -----------voropaev-----------
+  header {
+    display: none;
+  }
+  .wrapper {
+    padding-top: 58px;
+    background: url(../images/bg1.svg) no-repeat 51% -2%;
+  }
+  .box-control {
+    .box-icon-left + .form-control {
+      padding-left: 30px;
+    }
+    .btn-lg {
+      width: 60px;
+      padding: 18px 18px;
+    }
+  }
+  .section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .h1, h1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .block-text {
+    font-size: 14px;
+  }
+  .block-text ul li {
+    margin-bottom: 1.75em;
+  }
+  .name-box {
+    font-size: 16px;
+  }
+  .nav-link-more {
+    padding-top: 10px;
+    li {
+      width: 46%;
+      line-height: 46px;
+      margin-left: 0;
+      padding-left: 31px;
+      a {
+        font-size: 14px;
+        border-bottom: none;
+      }
+    }
+  }
+  .name-block {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .section {
+    &.section-intro {
+      padding-left: 15px;
+      padding-right: 15px;
+      .text {
+        font-size: 16px;
+        line-height: inherit;
+        margin-bottom: 10px;
+      }
+      .intro-map {
+        .point {
+          position: absolute;
+          top: 25%;
+          left: 11%;
+          width: 111%;
+        }
+      }
+      .cash {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+      .timer {
+        text-align: left;
+        .number {
+          min-width: 50px;
+        }
+      }
+      .intro-down {
+        padding-bottom: 80px;
+      }
+      .form-subs {
+        .box-control {
+          margin: 0 0 20px;
+        }
+        .text-info {
+          font-size: 10px;
+        }
+      }
+      .cash,
+      .timer {
+        width: 290px;
+        padding-top: 40px;
+      }
+      .label {
+        font-size: 15px;
+        margin-bottom: 4px;
+      }
+      .value {
+        font-size: 36px;
+        line-height: 44px;
+      }
+    }
+    &.section-about {
+      .about-more {
+        margin: 0;
+        padding: 0;
+        .padding-block {
+          padding: 0 15px;
+        }
+        background: none;
+        .flexible {
+          display: block;
+        }
+      }
+      .about-text {
+        padding-top: 35px;
+        padding-left: 15px;
+        padding-right: 15px;
+        &.flexible {
+          display: block;
+        }
+        .row-half {
+          width: 100%;
+          float: none;
+        }
+      }
+      .about-ceo {
+        padding-right: 0;
+        text-align: center;
+        .name {
+          font-size: 14px;
+          width: 120px;
+          height: 90px;
+          padding-top: 33px;
+          padding-left: 34px;
+          right: 17%;
+          bottom: -15px;
+          border-radius: 74px 76px 80px 98px;
+        }
+      }
+      .about-quote{
+        padding-top: 50px;
+        .quote {
+          padding: 0;
+          margin: 0;
+          position: relative;
+          line-height: 8px;
+          &:after,&:before {
+            font-size: 80px;
+          }
+          &:before {
+            top: 0;
+          }
+          &:after {
+            bottom: 22px;
+          }
+        }
+      }
+    }
+    &.section-data{
+      padding-left: 15px;
+      padding-right: 15px;
+      .data-cloud{
+        height: auto;
+        width: auto;
+        margin: 20px auto 0;
+        .data-item {
+          position: relative;
+          right: inherit;
+          top:inherit;
+          left:inherit;
+          bottom: inherit;
+          width: auto;
+          font-size: 14px;
+          .box-icon {
+            width: 60px;
+            height: 60px;
+            padding: 0;
+            text-align: center;
+            margin-left: 0;
+            margin-right: 25px;
+          }
+          &:nth-child(1) {
+            margin-bottom: 32px;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+            align-items: center;
+            display: flex;
+            .name{
+              text-align: left;
+            }
+            .box-icon {
+              -webkit-transform: rotate(45deg);
+              -moz-transform: rotate(45deg);
+              transform: rotate(45deg);
+              .icon {
+                -webkit-transform: rotate(-45deg);
+                -moz-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+                &.icon-app {
+                  width: 23px;
+                  height: inherit;
+                  position: absolute;
+                  left: 30px;
+                  bottom: -10px;
+                }
+              }
+            }
+          }
+          &:nth-child(2) {
+            margin-bottom: 32px;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+            align-items: center;
+            display: flex;
+            .name{
+              text-align: left;
+            }
+            .box-icon {
+              border-radius: 50% 0 50% 50%;
+              -webkit-transform: rotate(135deg);
+              -moz-transform: rotate(135deg);
+              transform: rotate(135deg);
+              .icon {
+                -webkit-transform: rotate(-135deg);
+                -moz-transform: rotate(-135deg);
+                transform: rotate(-135deg);
+                &.icon-desktop {
+                  width: 35px;
+                  height: 39px;
+                  position: absolute;
+                  top: 6px;
+                  right: 10px;
+                }
+              }
+            }
+          }
+          &:nth-child(3) {
+            .box-icon {
+              border-radius: 0 50% 50% 50%;
+              -webkit-transform: rotate(-13deg);
+              -moz-transform: rotate(-13deg);
+              transform: rotate(-135deg);
+              .icon {
+                -webkit-transform: rotate(135deg);
+                -moz-transform: rotate(135deg);
+                transform: rotate(135deg);
+                &.icon-db {
+                  width: 35px;
+                  height: 35px;
+                  position: absolute;
+                  /* left: 29px; */
+                  top: 12px;
+                  /* bottom: 20px; */
+                  right: 12px;
+                }
+              }
+            }
+          }
+        }
+        .data-text-save {
+          font-size: 12px;
+        }
+      }
+    }
+    &.section-benefit{
+      .section-text{
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .padding-block{
+        padding-left:15px;
+        padding-right: 15px;
+      }
+    }
+  }
 }

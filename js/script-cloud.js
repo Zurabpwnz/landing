@@ -67,8 +67,8 @@ $(document).ready(function(){
     var settings = {
 
         entries: entries,
-        width: 420,
-        height: 420,
+        width: '100%',
+        height: '100%',
         radius: '65%',
         radiusMin: 75,
         bgDraw: true,
