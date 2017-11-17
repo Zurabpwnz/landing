@@ -1,3 +1,78 @@
+@media(max-width: 1320px) {
+  header{
+    .lang{
+      position: relative;
+      padding-top: 0;
+    }
+  }
+}
+@media(max-width: 1200px) {
+  header{
+    .social{
+      .link{
+        margin: 0 5px;
+      }
+    }
+  }
+  .padding-block{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section{
+    &-text{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    &-intro{
+      .form-subs{
+        position: absolute;
+        top: -60px;
+        left: 50%;
+        margin-left: -240px;
+      }
+      .cash,.timer{
+        padding-top: 200px;
+      }
+    }
+    &-about{
+      .about{
+        &-more{
+          margin: -70px 15px 30px;
+        }
+      }
+    }
+    &-benefit{
+      .benefit{
+        &-tabs{
+          .tab-content{
+            padding: 40px;
+            min-height: 420px;
+          }
+        }
+        &-item{
+          +&.benefit-item{
+            margin-top: 50px;
+          }
+        }
+      }
+
+    }
+    &-commands .block-commands .block-accordion .box-accordion-body .item-accordion{
+      width: 24%;
+    }
+    &-start{
+      margin-top: 100px;
+    }
+  }
+  .nav-link-more li{
+    margin-left: 30px;
+  }
+  .nav-tabs li a{
+    padding-left: 25px;
+    padding-right: 25px;
+    min-width: 190px;
+  }
+}
 @media(min-width: 1025px) {
   .hide-desktop {
     display: none;

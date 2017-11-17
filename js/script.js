@@ -27,9 +27,9 @@ $(document).ready(function(){
     $(document).on("scroll", onScroll);
 
 //    ---------------voropaev----------------
-    $('.oll-commands').on('click' , function(){
+    $('.all-commands').on('click' , function(){
         $(this).toggleClass('active');
-        $('.accordion-body-toggle').slideToggle(350)
+        $('.accordion-body-toggle').slideToggle(350);
     });
 
     new Chart(document.getElementById("doughnut-chart"), {
@@ -102,19 +102,45 @@ $(document).ready(function(){
     $('.slide-activity').slick({
         arrows:true,
         slidesToShow: 2,
+        variableWidth: true,
         responsive: [
             {
                 breakpoint: 768,
                 settings: {
                     arrows: false,
-                    slidesToShow: 2
+                    slidesToShow: 1,
+                    variableWidth: true
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     arrows: false,
-                    slidesToShow: 1
+                    slidesToShow: 1,
+                    variableWidth: true
+                }
+            }
+        ]
+    });
+    $('.slide-article').slick({
+        arrows:true,
+        slidesToShow: 3,
+        variableWidth: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 2,
+                    variableWidth: true
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                    variableWidth: true
                 }
             }
         ]

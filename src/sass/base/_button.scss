@@ -26,23 +26,31 @@
   &-blue{
     background: $color_blue_1;
     border-color: $color_blue_1;
+    &:hover{
+      background: #0d4bdd;
+      border-color: #0d4bdd;
+    }
   }
   &-red{
     background: $color_red_1;
     border-color: $color_red_1;
     @include box-shadow(0 5px 27px rgba(129, 0, 46, 0.44));
     &:hover{
-      @include box-shadow(0 2px 10px rgba(129, 0, 46, 0.6));
+      background: #de004e;
+      border-color: #de004e;
     }
   }
   &-border-blue{
     border-color: $color_blue_1;
+    &:hover{
+      border-color: #0d4bdd;
+    }
   }
   &-review{
     background:$bg-dark;
     border-color: transparent;
     .box-icon{
-      margin: -10px -20px -10px 15px;
+      margin: -10px -17px -10px 15px;
       display: inline-block;
       vertical-align: top;
     }
@@ -56,5 +64,9 @@
     &:hover{
       text-decoration: none;
     }
+  }
+  &-blue{
+    color: $color_blue_1;
+    font-size: 16px;
   }
 }

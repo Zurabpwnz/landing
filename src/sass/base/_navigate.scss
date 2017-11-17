@@ -15,6 +15,9 @@
         color: $color_white;
         border-bottom: 1px dashed $color_blue_1;
         font-size: 16px;
+        &:hover{
+          border-bottom-color: transparent;
+        }
       }
     }
   }
@@ -41,12 +44,19 @@
         .icon{
           margin-right: 20px;
         }
+        &:hover{
+          border-color: #0d4bdd;
+        }
       }
       &.active{
         a{
           background: $color_blue_1;
           border-color: $color_blue_1;
           color: $color_white;
+          cursor: default;
+          &:hover{
+            border-color: $color_blue_1;
+          }
         }
       }
     }

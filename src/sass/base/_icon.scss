@@ -75,6 +75,16 @@
     width: 47px;
     height: 47px;
     background-image: url("../images/db.svg");
+    &.blue{
+      width: 45px;
+      height: 45px;
+      background-image: url("../images/db-blue.svg");
+    }
+  }
+  &-map{
+    width: 45px;
+    height: 45px;
+    background-image: url("../images/map.svg");
   }
   &-desktop{
     width: 47px;

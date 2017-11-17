@@ -28,12 +28,12 @@
     background-clip: padding-box;
     padding: 10px;
     &:disabled{
-      background: $color_gray_1;
-      color: $color_white;
+      background: $color_gray_3;
+      color: $color_gray_2;
     }
     &:focus,
     &:hover{
-      border-color:$color_gray_1;
+      border-color:transparent;
     }
     &::-webkit-input-placeholder{
       color: $color_placeholder;

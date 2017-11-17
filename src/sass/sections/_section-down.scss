@@ -372,6 +372,11 @@
           .btn{
             color: $color_title;
             padding: 13px 35px;
+            &:hover{
+              background: #0d4bdd;
+              border-color: #0d4bdd;
+              color: $color_white;
+            }
           }
           padding-top: 40px;
           padding-bottom: 80px;

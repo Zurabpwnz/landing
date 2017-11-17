@@ -12,7 +12,6 @@ header{
   &.scroll{
     background: $bg-body;
   }
-
   .logo{
     img{
       vertical-align: middle;
@@ -32,6 +31,9 @@ header{
       padding: 4px;
       line-height: 22px;
       margin: 0 15px;
+      &:hover{
+        opacity: 0.7;
+      }
     }
   }
   .lang{
@@ -39,7 +41,7 @@ header{
     right: 0;
     top:0;
     color: $color_link;
-    padding-top: inherit;
+    padding-top: 16px;
     font-size: 16px;
     .link{
       &.active{

@@ -14,8 +14,8 @@
 <body>
 <div class="preloader"><div class="loader loader-main"><div class="loader-inner"></div></div></div>
 <div class="wrapper">
-    <header>
-        <div class="container" data-aos="fade-down" data-aos-delay="100">
+    <header data-aos="fade-down" data-aos-delay="100">
+        <div class="container">
             <div class="flexible padding-block between center">
                 <div class="logo"><i class="icon icon-logo icon-middle"></i></div>
                 <div class="social">
@@ -31,21 +31,24 @@
                   <a class="btn btn-border-blue" data-toggle="modal" data-target="#modalregistration">Регистрация</a>
                   <a class="btn btn-blue" data-toggle="modal" data-target="#modalin">Вход</a>
                 </div>
+
+                <div class="lang padding-block"><a class="link active">Ru</a> / <a class="link">En</a></div>
             </div>
         </div>
-        <div class="lang padding-block"><a class="link active">Ru</a> / <a class="link">En</a></div>
     </header>
     <div class="main">
 <section class="section section-intro">
     <div class="container">
-        <h1 class="lite" data-aos="fade-up" data-aos-delay="200">Децентрализованный маркет-плейс данных для рынка туризма</h1>
-        <div class="text" data-aos="fade-up" data-aos-delay="300">в котором пользователи зарабатывают на доступе к своей персональной информации</div>
-      <a class="btn btn-review" data-aos="fade-up" data-aos-delay="400" data-toggle="modal" data-target="#exampleModal">Отзыв лидера рынка <div class="box-icon"><i class="icon icon-play"></i></div></a>
+        <div class="padding-block">
+            <h1 class="lite" data-aos="fade-up" data-aos-delay="200">Децентрализованный маркет-плейс данных для рынка туризма</h1>
+            <div class="text" data-aos="fade-up" data-aos-delay="300">в котором пользователи зарабатывают на доступе к своей персональной информации</div>
+            <a class="btn btn-review" data-aos="fade-up" data-aos-delay="400" data-toggle="modal" data-target="#exampleModal">Отзыв лидера рынка <div class="box-icon"><i class="icon icon-play"></i></div></a>
+        </div>
         <div class="intro-map">
             <img src="images/map.png" alt="">
             <div class="point"><img src="images/paths.png" alt=""></div>
         </div>
-        <div class="intro-down flexible between">
+        <div class="intro-down flexible between padding-block">
             <div class="cash" data-aos="fade-right" data-aos-delay="600">
                 <div class="label italic">Привлечено на pre-ICO:</div>
                 <div class="value">$ <div class="number">606</div><div class="number">936</div></div>
@@ -166,15 +169,22 @@
                 </ul>
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane fade" id="trip">
-                        <div class="tab-name">Монетизация персональных данных</div>
-                        <div class="block-text">
-                            <p>За каждое разрешение использовать данные пользователь получает токены, которые можно обменять на деньги или туристическую услугу</p>
+                        <div class="benefit-item">
+                            <div class="box-icon"><i class="icon icon-db blue"></i></div>
+                            <div class="tab-name no-border">Монетизация персональных данных</div>
+                            <div class="block-text">
+                                <p>За каждое разрешение использовать данные пользователь получает токены, которые можно обменять на деньги или туристическую услугу</p>
+                            </div>
                         </div>
-                        <div class="tab-name">Организация поездки такая же простая, как вызов Убера</div>
-                        <div class="block-text">
-                            <p>
-                                Сервисы уже знают, в каких странах был пользователь, какую кухню любит, каким спортом занимается. На основе этих данных персональный тур будет формироваться как конструктор.
-                            </p>
+                        <div class="benefit-item">
+                            <div class="box-icon"><i class="icon icon-map"></i></div>
+                            <div class="tab-name no-border">Организация поездки такая же простая, как вызов Убера</div>
+                            <div class="block-text">
+                                <p>
+                                    Сервисы уже знают, в каких странах был пользователь, какую кухню любит, каким спортом занимается.
+                                    <b>На основе этих данных персональный тур будет формироваться как конструктор.</b>
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane fade in active" id="bis">
@@ -217,13 +227,7 @@
                                 <div class="block-text small">
                                     <div class="tab-subname">Например</div>
                                     <ul class="point point-blue">
-                                        <li>
-                                            Ai-сервисыВиджеты
-                                            Путеводители
-                                            Приложения-карты
-                                            Системы уведомлений
-                                            Узкоспециализированые предложения
-                                        </li>
+                                        <li>Ai-сервисы</li><li>Виджеты</li><li>Путеводители</li><li>Приложения-карты</li><li>Системы уведомлений</li><li>Узкоспециализированые предложения</li>
                                     </ul>
                                 </div>
                             </div>
@@ -298,15 +302,10 @@
             <div class="player-line" data-aos="zoom-out-up">
                 <img src="images/logos.png" alt="">
             </div>
-            <div class="box-btn">
-                <a class="btn btn-red btn-lg" data-aos="fade-up" data-aos-delay="100">Участвовать в закрытом пресейле</a>
+            <div class="box-btn" data-aos="fade-up" data-aos-delay="100">
+                <a class="btn btn-red btn-lg">Участвовать в закрытом пресейле</a>
             </div>
         </div>
-    </div>
-</section>
-<section class="section section-travel">
-    <div class="container">
-
     </div>
 </section>
 <!-------------voropaev------------>
@@ -317,27 +316,29 @@
         <div class="block-text" data-aos="fade-up" data-aos-delay="50">Такой сервис уже существует — Mapala, международное комьюнити путешественников
           и источник контента для сервисов на основе TravelChain </div>
       </div>
-      <div class="box-mapala" data-aos="flip-left" data-aos-delay="100">
-        <div class="box-mapala-info block-flex-top">
-          <div class="box-logo" data-aos="fade-right"  data-aos-delay="150">
-            <div class="box-img">
-              <img src="images/mapalalogo.png" alt="">
+      <div class="padding-block">
+        <div class="box-mapala" data-aos="flip-left" data-aos-delay="100">
+          <div class="box-mapala-info block-flex-top">
+            <div class="box-logo" data-aos="fade-right"  data-aos-delay="150">
+              <div class="box-img">
+                <img src="images/mapalalogo.png" alt="">
+              </div>
             </div>
-          </div>
-          <div class="box-text-info">
-            <div class="text" data-aos="fade-up" data-aos-delay="200">Mapala.net — это платформа для тревел-блоггинга, работающая на блокчейне. Мы создали ее в
-              начале 2017 года, и число пользователей растет с каждым днем.</div>
-            <div class="text" data-aos="fade-up" data-aos-delay="250">
-              Путешественники наполняют базу знаний, получают за это вознаграждение и очки опыта —
-              и получают возможность путешествовать бесплатно.
+            <div class="box-text-info">
+              <div class="text" data-aos="fade-up" data-aos-delay="200">Mapala.net — это платформа для тревел-блоггинга, работающая на блокчейне. Мы создали ее в
+                начале 2017 года, и число пользователей растет с каждым днем.</div>
+              <div class="text" data-aos="fade-up" data-aos-delay="250">
+                Путешественники наполняют базу знаний, получают за это вознаграждение и очки опыта —
+                и получают возможность путешествовать бесплатно.
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-</section>`
+</section>
 <section class="section section-distribution">
-  <div class="container">
+  <div class="container padding-block">
     <div class="text-distribution">
       <div class="name-block" data-aos="fade-up">TravelChain — это также платформа для создания мобильных и веб-приложений в туристической
         сфере
@@ -469,7 +470,7 @@
 </section>`
 <section class="section section-roadmap">
   <div class="container">
-    <div class="text-roadmap">
+    <div class="text-roadmap padding-block">
       <div class="name-block" data-aos="fade-right">Roadmap проекта</div>
     </div>
     <div class="box-roadmap block-flex-center">
@@ -592,7 +593,7 @@
   </div>
 </section>`
 <section class="section section-commands">
-  <div class="container">
+  <div class="container padding-block">
     <div class="text-commands text-center">
       <div class="name-block" data-aos="fade-up">Команда TravelChain</div>
       <div class="block-text" data-aos="fade-up" data-aos-delay="50">Команда насчитывает 24 специалиста своего дела, познакомьтесь с лидерами:</div>
@@ -641,11 +642,11 @@
             </div>
           </div>
         </div>
-        <div class="box-btn text-center">
-          <a class="btn oll-commands btn-border-blue" data-aos="zoom-out-up">Вся команда</a>
+        <div class="box-btn text-center" data-aos="zoom-out-up">
+          <a class="btn all-commands btn-border-blue">Вся команда</a>
         </div>
         <div class="box-accordion-body accordion-body-toggle">
-          <div class="item-accordion ">
+          <div class="item-accordion">
             <div class="box-img">
               <img src="images/team/orlov.png" alt="">
               <a class="btn btn-red box-icon">
@@ -720,13 +721,13 @@
       </div>
     </div>
     <div class="text-commands text-center">
-      <div class="name-block">Консультанты проекта</div>
-      <div class="block-text">Хорошо бы написать короткий текст про крутость этих ребят</div>
+      <div class="name-block" data-aos="fade-up">Консультанты проекта</div>
+      <div class="block-text" data-aos="fade-up" data-aos-delay="20">Хорошо бы написать короткий текст про крутость этих ребят</div>
     </div>
     <div class="block-commands">
       <div class="block-accordion">
         <div class="box-accordion-body">
-          <div class="item-accordion ">
+          <div class="item-accordion " data-aos="fade-left" data-aos-delay="50">
             <div class="box-img">
               <img src="images/team/orlov.png" alt="">
               <a class="btn btn-red box-icon">
@@ -736,7 +737,7 @@
             <div class="box-name">Илья Орлов</div>
             <div class="box-qualification">Co-Founder, CEO</div>
           </div>
-          <div class="item-accordion ">
+          <div class="item-accordion " data-aos="fade-left" data-aos-delay="150">
             <div class="box-img">
               <img src="images/team/muravev.png" alt="">
               <a class="btn btn-red box-icon">
@@ -746,7 +747,7 @@
             <div class="box-name">Алексей Муравьев</div>
             <div class="box-qualification">Co-Founder, Architect</div>
           </div>
-          <div class="item-accordion ">
+          <div class="item-accordion " data-aos="fade-left" data-aos-delay="250">
             <div class="box-img">
               <img src="images/team/orhan.png" alt="">
               <a class="btn btn-red box-icon">
@@ -756,7 +757,7 @@
             <div class="box-name">Орхан Зейналлы</div>
             <div class="box-qualification">CTO</div>
           </div>
-          <div class="item-accordion ">
+          <div class="item-accordion " data-aos="fade-left" data-aos-delay="350">
             <div class="box-img">
               <img src="images/team/petrov.png" alt="">
               <a class="btn btn-red box-icon">
@@ -766,7 +767,7 @@
             <div class="box-name">Александр Петров</div>
             <div class="box-qualification">Marketing Manager</div>
           </div>
-          <div class="item-accordion ">
+          <div class="item-accordion " data-aos="fade-left" data-aos-delay="450">
             <div class="box-img">
               <img src="images/team/sezemov.png" alt="">
               <a class="btn btn-red box-icon">
@@ -776,7 +777,7 @@
             <div class="box-name">Михаил Сезёмов</div>
             <div class="box-qualification">Marketing Manager</div>
           </div>
-          <div class="item-accordion ">
+          <div class="item-accordion " data-aos="fade-left" data-aos-delay="550">
             <div class="box-img">
               <img src="images/team/asia.png" alt="">
               <a class="btn btn-red box-icon">
@@ -787,7 +788,7 @@
             <div class="box-qualification">Head of Community
               Management</div>
           </div>
-          <div class="item-accordion ">
+          <div class="item-accordion " data-aos="fade-left" data-aos-delay="650">
             <div class="box-img">
               <img src="images/team/kolonin.png" alt="">
               <a class="btn btn-red box-icon">
@@ -801,13 +802,13 @@
       </div>
     </div>
     <div class="text-commands text-center">
-      <div class="name-block">Друзья Проекта</div>
-      <div class="block-text">Хорошо бы написать короткий текст про то кто эти ребята</div>
+      <div class="name-block" data-aos="fade-up">Друзья Проекта</div>
+      <div class="block-text" data-aos="fade-up" data-aos-delay="20">Хорошо бы написать короткий текст про то кто эти ребята</div>
     </div>
     <div class="block-commands">
       <div class="block-accordion">
         <div class="box-accordion-body padding-none">
-          <div class="item-accordion ">
+          <div class="item-accordion " data-aos="zoom-in" data-aos-delay="50">
             <div class="box-img">
               <img src="images/team/petrov.png" alt="">
               <a class="btn btn-red box-icon">
@@ -817,7 +818,7 @@
             <div class="box-name">Александр Петров</div>
             <div class="box-qualification">Marketing Manager</div>
           </div>
-          <div class="item-accordion ">
+          <div class="item-accordion " data-aos="zoom-in" data-aos-delay="100">
             <div class="box-img">
               <img src="images/team/sezemov.png" alt="">
               <a class="btn btn-red box-icon">
@@ -827,7 +828,7 @@
             <div class="box-name">Михаил Сезёмов</div>
             <div class="box-qualification">Marketing Manager</div>
           </div>
-          <div class="item-accordion ">
+          <div class="item-accordion " data-aos="zoom-in" data-aos-delay="150">
             <div class="box-img">
               <img src="images/team/asia.png" alt="">
               <a class="btn btn-red box-icon">
@@ -838,7 +839,7 @@
             <div class="box-qualification">Head of Community
               Management</div>
           </div>
-          <div class="item-accordion ">
+          <div class="item-accordion " data-aos="zoom-in" data-aos-delay="200">
             <div class="box-img">
               <img src="images/team/kolonin.png" alt="">
               <a class="btn btn-red box-icon">
@@ -931,7 +932,7 @@
             <div class="block-text" data-aos="fade-up" data-aos-delay="100">Мы открыто делимся наработками с рынком
                 и всегда готовы к обратной связи</div>
         </div>
-        <div class="activity-tabs padding-block" data-aos="zoom-in-down" data-aos-delay="100">
+        <div class="activity-tabs" data-aos="zoom-in-down" data-aos-delay="100">
             <div class="tab-block">
                 <ul class="nav-tabs" role="tablist">
                     <li role="presentation" ><a class="btn" href="#speech" aria-controls="speech" role="tab" data-toggle="tab"><span class="name">Выступления</span></a></li>
@@ -939,21 +940,101 @@
                     <li role="presentation" ><a class="btn" href="#smi" aria-controls="smi" role="tab" data-toggle="tab"><span class="name">Публикации в СМИ</span></a></li>
                 </ul>
                 <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane fade" id="speech">1</div>
-                    <div role="tabpanel" class="tab-pane fade in active" id="blog">
+                    <div role="tabpanel" class="tab-pane fade" id="speech">
                         <div class="slide-activity">
                             <div class="slide">
-                                <div class="activity-video"><!--iframe width="530" height="300" src="https://www.youtube.com/embed/KT1DkK7dkCA" frameborder="0" allowfullscreen></iframe--></div>
+                                <div class="activity-video">
+                                    <div class="video"><!--iframe width="530" height="300" src="https://www.youtube.com/embed/KT1DkK7dkCA" frameborder="0" allowfullscreen></iframe--></div>
+
+                                </div>
                             </div>
                             <div class="slide">
-                                <div class="activity-video"><!--iframe width="530" height="300" src="https://www.youtube.com/embed/KT1DkK7dkCA" frameborder="0" allowfullscreen></iframe--></div>
+                                <div class="activity-video"><div class="video"></div></div>
                             </div>
                             <div class="slide">
-                                <div class="activity-video"><!--iframe width="530" height="300" src="https://www.youtube.com/embed/KT1DkK7dkCA" frameborder="0" allowfullscreen></iframe--></div>
+                                <div class="activity-video"><div class="video"></div></div>
                             </div>
                         </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane fade" id="smi">3</div>
+                    <div role="tabpanel" class="tab-pane fade in active" id="blog">
+                        <div class="slide-activity">
+                            <div class="slide">
+                                <div class="activity-video">
+                                    <div class="video"></div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="activity-video"><div class="video"></div></div>
+                            </div>
+                            <div class="slide">
+                                <div class="activity-video"><div class="video"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="smi">
+                        <div class="slide-article">
+                            <div class="slide">
+                                <div class="activity-article">
+                                    <div class="activity-article-body">
+                                        <div class="image">
+                                            <img src="images/smi-logo.png" alt="">
+                                        </div>
+                                        <div class="quote">
+                                            Очень амбициозный проект, который, несомненно, выстрелит, и произведет революцию на рынке
+                                        </div>
+                                        <div class="box-link">
+                                            <a href="/" class="link link-blue">Читать</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="activity-article">
+                                    <div class="activity-article-body">
+                                        <div class="image">
+                                            <img src="images/smi-logo.png" alt="">
+                                        </div>
+                                        <div class="quote">
+                                            Очень амбициозный проект, который, несомненно, выстрелит, и произведет революцию на рынке
+                                        </div>
+                                        <div class="box-link">
+                                            <a href="/" class="link link-blue">Читать</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="activity-article">
+                                    <div class="activity-article-body">
+                                        <div class="image">
+                                            <img src="images/smi-logo.png" alt="">
+                                        </div>
+                                        <div class="quote">
+                                            Очень амбициозный проект, который, несомненно, выстрелит, и произведет революцию на рынке
+                                        </div>
+                                        <div class="box-link">
+                                            <a href="/" class="link link-blue">Читать</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="activity-article">
+                                    <div class="activity-article-body">
+                                        <div class="image">
+                                            <img src="images/smi-logo.png" alt="">
+                                        </div>
+                                        <div class="quote">
+                                            Очень амбициозный проект, который, несомненно, выстрелит, и произведет революцию на рынке
+                                        </div>
+                                        <div class="box-link">
+                                            <a href="/" class="link link-blue">Читать</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
