@@ -1,0 +1,112 @@
+.modal {
+  background-color: rgba(65, 72, 100, 0.5);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  .modal-dialog {
+    width: 730px;
+    top: 50%;
+    -webkit-transform: translateY(-50%) !important;
+    -moz-transform: translateY(-50%) !important;
+    transform: translateY(-50%) !important;
+    margin-top: 0 !important;
+    &.box-register{
+      width: 550px;
+      background: #3456bf;
+      padding: 20px;
+      border-radius: 15px;
+      .name{
+        font-size: 34px;
+        color: $color_white;
+        padding-bottom: 12px;
+      }
+      .form-subs{
+        .box-btn{
+          position: relative;
+          top:inherit;
+          right: inherit;
+          .btn{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .modal-dialog .modal-content {
+    border-radius: 15px;
+    .modal-header{
+      .box-video{
+        border-radius: 15px;
+        overflow: hidden;
+        iframe{
+          width: 100%;
+        }
+      }
+      .close{
+        cursor: pointer;
+        position: absolute;
+        right: -20px;
+        top: -20px;
+        opacity: 1;
+        outline: none !important;
+        text-align: center;
+        width: 45px;
+        height: 45px;
+        z-index: 100;
+        line-height: 45px;
+        display: block;
+        border-radius: 50%;
+        background: #155afd;
+        -webkit-box-shadow: 0 6px 25px rgba(12, 0, 255, 0.6);
+        -moz-box-shadow: 0 6px 25px rgba(12, 0, 255, 0.6);
+        box-shadow: 0 6px 25px rgba(12, 0, 255, 0.6);
+        &:hover{
+          box-shadow: none;
+        }
+      }
+    }
+  }
+
+  .modal-content {
+    //position: relative;
+    //background-color: #fff;
+    //-webkit-background-clip: padding-box;
+    //background-clip: padding-box;
+    //border: 1px solid #999;
+    //border: 1px solid rgba(0, 0, 0, .2);
+    //border-radius: 6px;
+    //outline: 0;
+    //-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    //box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+  }
+}
+
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px auto;
+}
+body.modal-open {
+  overflow: hidden;
+}

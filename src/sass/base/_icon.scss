@@ -121,6 +121,21 @@
     height: 21px;
     background-image: url("../images/linkedin.svg");
   }
+  &-close {
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/close.png);
+  }
+  &-name {
+    width: 19px;
+    height: 24px;
+    background-image: url("../images/name.png");
+  }
+  &-mail {
+    width: 20px;
+    height: 16px;
+    background-image: url("../images/email.png");
+  }
 }
 .active{
   a{

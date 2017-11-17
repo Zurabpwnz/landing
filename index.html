@@ -28,8 +28,8 @@
                      <a class="link"><i class="icon icon-github icon-middle"></i></a>
                 </div>
                 <div class="user">
-                    <a href="/" class="btn btn-border-blue">Регистрация</a>
-                    <a href="/" class="btn btn-blue">Вход</a>
+                  <a class="btn btn-border-blue" data-toggle="modal" data-target="#modalregistration">Регистрация</a>
+                  <a class="btn btn-blue" data-toggle="modal" data-target="#modalin">Вход</a>
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@
     <div class="container">
         <h1 class="lite" data-aos="fade-up" data-aos-delay="200">Децентрализованный маркет-плейс данных для рынка туризма</h1>
         <div class="text" data-aos="fade-up" data-aos-delay="300">в котором пользователи зарабатывают на доступе к своей персональной информации</div>
-        <a class="btn btn-review" data-aos="fade-up" data-aos-delay="400">Отзыв лидера рынка <div class="box-icon"><i class="icon icon-play"></i></div></a>
+      <a class="btn btn-review" data-aos="fade-up" data-aos-delay="400" data-toggle="modal" data-target="#exampleModal">Отзыв лидера рынка <div class="box-icon"><i class="icon icon-play"></i></div></a>
         <div class="intro-map">
             <img src="images/map.png" alt="">
             <div class="point"><img src="images/paths.png" alt=""></div>
@@ -477,7 +477,7 @@
         <div class="box-head">
           <div class="box-number">1</div>
           <div class="box-name">
-            ISO
+            ICO
           </div>
         </div>
         <div class="box-body">
@@ -853,6 +853,76 @@
     </div>
   </div>
 </section>`
+<section>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content animated flipInY">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><i class="icon icon-middle icon-close"></i></button>
+          <div class="box-video">
+            <iframe height="340" src="https://www.youtube.com/embed/KT1DkK7dkCA" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalregistration" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog box-register">
+      <div class="modal-content animated flipInY">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><i class="icon icon-middle icon-close"></i></button>
+          <div class="name text-center">Регистрация</div>
+          <div class="form-subs">
+          <form>
+            <div class="box-control">
+              <div class="box-icon-left"><i class="icon icon-middle icon-name"></i></div>
+              <input type="text" class="form-control" placeholder="Ваше имя">
+            </div>
+            <div class="box-control">
+              <div class="box-icon-left"><i class="icon icon-middle icon-mail"></i></div>
+              <input type="text" class="form-control" placeholder="Ваш e-mail">
+
+            </div>
+
+          </form>
+            <div class="box-btn">
+              <a class="btn btn-red btn-lg">Зарегистрироваться</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modalin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog box-register">
+      <div class="modal-content animated flipInY">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><i class="icon icon-middle icon-close"></i></button>
+          <div class="name text-center">Вход</div>
+          <div class="form-subs">
+          <form>
+            <div class="box-control">
+              <div class="box-icon-left"><i class="icon icon-middle icon-mail"></i></div>
+              <input type="text" class="form-control" placeholder="Ваш e-mail">
+
+            </div>
+
+            <div class="box-control">
+              <div class="box-icon-left"><i class="icon icon-middle icon-air"></i></div>
+              <input type="text" class="form-control" placeholder="Ваше пароль">
+            </div>
+
+          </form>
+            <div class="box-btn">
+              <a class="btn btn-red btn-lg">Войти</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <!-------------/voropaev------------>
 <section class="section section-activity">
     <div class="container">
@@ -1042,6 +1112,7 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/jquery.svg3dtagcloud.min.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/slick.min.js"></script>
