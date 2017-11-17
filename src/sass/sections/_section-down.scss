@@ -79,7 +79,7 @@
       display: block;
       z-index: -2;
       background-size: cover;
-      background-position: 0;
+      background-position: center top;
       background-repeat: no-repeat;
       background-image: url(../images/bg3.svg);
       width: 100%;
@@ -271,6 +271,7 @@
             font-size: 16px;
             line-height: 24px;
             padding: 0 14px;
+            color: $color_white;
           }
           .box-btn{
             width: 100%;

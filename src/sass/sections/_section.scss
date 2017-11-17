@@ -129,26 +129,29 @@
       }
       &-quote{
         padding-top: 100px;
-        max-width: 610px;
+        max-width: 640px;
+        padding-right: 30px;
         .quote{
           padding: 0 55px;
           margin: 0 -40px;
           margin-bottom: 80px;
           position: relative;
-          line-height: 30px;
+          font-size: 35px;
+          color: $color_title;
+          line-height: 1.2;
           &:before,
           &:after{
-            position:absolute;
             font-size: 120px;
+            line-height: 30px;
           }
           &:before{
             top:15px;
             left:0;
           }
           &:after{
-            bottom: -30px;
+            bottom: -50px;
             right:0;
-            margin: 0;
+            margin-left: 15px;
           }
         }
       }

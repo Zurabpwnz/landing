@@ -7,6 +7,12 @@
   position: relative;
   border:2px solid;
   color: #ffffff;
+  >.name{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -2px;
+    line-height: 0.8em;
+  }
   &-sm{
     font-size: 12px;
   }

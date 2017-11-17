@@ -38,6 +38,9 @@
       .about{
         &-more{
           margin: -70px 15px 30px;
+          .name-box{
+            white-space: nowrap;
+          }
         }
       }
     }
@@ -62,6 +65,9 @@
     }
     &-start{
       margin-top: 100px;
+      &:before{
+        top:-640px;
+      }
     }
   }
   .nav-link-more li{
@@ -72,6 +78,78 @@
     padding-right: 25px;
     min-width: 190px;
   }
+}
+@media(max-width: 1080px) {
+  .section{
+    &-about{
+      .about{
+        &-quote{
+          .quote{
+            font-size: 28px;
+          }
+        }
+        &-ceo{
+          .name{
+            right: 42%;
+            bottom: -40px;
+          }
+        }
+      }
+    }
+    &-data{
+      .data{
+        &-item{
+          width: 275px;
+          .box-icon{
+            @include box_shadow(0 7px 37px rgba(23, 106, 253, 0.4));
+          }
+        }
+        &-cloud{
+          .data-item{
+            &:nth-child(1) {
+              right: 70%;
+              top: -10%;
+            }
+            &:nth-child(2) {
+              right: 75%;
+              bottom: -10%;
+            }
+            &:nth-child(3) {
+              left: 80%;
+              top:80%;
+              .box-icon{
+                @include  web_transform(rotate(-7deg));
+                .icon{@include  web_transform(rotate(7deg));}
+              }
+            }
+          }
+        }
+      }
+    }
+    &-roadmap{
+      .box-roadmap .box-item-roadmap .box-head{
+        display: block;
+        .box-number{
+          font-size: 16px;
+          width: 36px;
+          height: 36px;
+          line-height: 36px;
+          margin-top: -8px;
+          margin-bottom: 8px;
+          display: inline-block;
+          vertical-align: top;
+        }
+        .box-name{
+          clear: both;
+          font-size: 14px;
+          line-height: 1.25;
+          padding: 0;
+        }
+      }
+
+    }
+  }
+
 }
 @media(min-width: 921px) {
   header{

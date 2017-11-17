@@ -82,6 +82,16 @@ $(document).ready(function(){
         infinite: true,
         responsive: [
             {
+                breakpoint: 1040,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    slidesToShow: 3,
+                    variableWidth: true,
+                    infinite: true
+                }
+            },
+            {
                 breakpoint: 768,
                 settings: {
                     arrows: false,
@@ -109,10 +119,20 @@ $(document).ready(function(){
         variableWidth: true,
         responsive: [
             {
+                breakpoint: 1040,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                    centerMode: true,
+                    variableWidth: true
+                }
+            },
+            {
                 breakpoint: 768,
                 settings: {
                     arrows: false,
                     slidesToShow: 1,
+                    centerMode: true,
                     variableWidth: true
                 }
             },
@@ -121,6 +141,7 @@ $(document).ready(function(){
                 settings: {
                     arrows: false,
                     slidesToShow: 1,
+                    centerMode: true,
                     variableWidth: true
                 }
             }
@@ -130,13 +151,24 @@ $(document).ready(function(){
         arrows:true,
         slidesToShow: 3,
         variableWidth: true,
+        centerMode: true,
         responsive: [
+            {
+                breakpoint: 1040,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 3,
+                    centerMode: true,
+                    variableWidth: true
+                }
+            },
             {
                 breakpoint: 768,
                 settings: {
                     arrows: false,
-                    slidesToShow: 2,
-                    variableWidth: true
+                    slidesToShow: 1,
+                    variableWidth: true,
+                    centerMode: true
                 }
             },
             {
@@ -144,7 +176,8 @@ $(document).ready(function(){
                 settings: {
                     arrows: false,
                     slidesToShow: 1,
-                    variableWidth: true
+                    variableWidth: true,
+                    centerMode: true
                 }
             }
         ]
