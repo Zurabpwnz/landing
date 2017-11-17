@@ -8,6 +8,10 @@ $(document).ready(function(){
         $(this).toggleClass('open');
         $('.navbar-collapse').toggleClass('open').slideToggle();
     });
+    $('.video .btn-play').on('click', function () {
+        $(this).fadeOut().parent('.video').addClass('open').find('.video-image').fadeOut();
+        $(this).parent('.video').find('.video-iframe').html('<iframe autoplay width="'+ $(this).data('width') +'" height="'+ $(this).data('height')+'" src="'+$(this).data('iframe') +'?autoplay=1'+'" frameborder="0" allowfullscreen></iframe>');
+    });
     $('.slide-group-next').on('click', function () {
         if (!$(this).hasClass('open')){
             $(this).parentsUntil('.slide-group').parent().find('.slide-group-next.open').removeClass('open').next().removeClass('open').hide();
