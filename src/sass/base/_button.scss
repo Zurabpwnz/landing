@@ -55,6 +55,45 @@
       vertical-align: top;
     }
   }
+  &-menu{
+    border: 0;
+    padding: 18px;
+    line-height: 2px;
+    text-align: right;
+    width: 54px;
+    .icon-bar{
+      display: inline-block;
+      vertical-align: top;
+      background: $color_white;
+      width: 18px;
+      height: 2px;
+      @include web_transition(all .2s ease-in-out);
+      &+.icon-bar{
+        margin-top: 5px;
+      }
+      &:nth-child(2){
+        width: 14px;
+      }
+      &:nth-child(3){
+        width: 16px;
+      }
+    }
+    &.open{
+      .icon-bar{
+        &:first-child {
+          @include web_transform(translateY(7px) rotate(45deg));
+          width: 100%;
+        }
+        &:nth-child(2) {
+          opacity: 0;
+        }
+        &:last-child {
+          @include web_transform(translateY(-7px) rotate(-45deg));
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 .link{
   display: inline-block;

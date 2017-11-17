@@ -30,6 +30,11 @@
     &.dark{
       background-image: url("../images/logo-dark.svg");
     }
+    &.small{
+      width: 157px;
+      height: 21px;
+      margin-left: -8px;
+    }
   }
   &-yt{
     width: 22px;

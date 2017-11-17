@@ -4,6 +4,10 @@ $(window).on('load', function() {
     AOS.init();
 });
 $(document).ready(function(){
+    $('.btn-menu').on('click', function () {
+        $(this).toggleClass('open');
+        $('.navbar-collapse').toggleClass('open').slideToggle();
+    });
     $('.slide-group-next').on('click', function () {
         if (!$(this).hasClass('open')){
             $(this).parentsUntil('.slide-group').parent().find('.slide-group-next.open').removeClass('open').next().removeClass('open').hide();

@@ -48,6 +48,14 @@ header{
         color: $color_white;
       }
     }
-
   }
+  .navbar{
+    &-mobile{
+      display: none;
+      .btn-menu{
+        margin-right: -18px;
+      }
+    }
+  }
+
 }
