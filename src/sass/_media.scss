@@ -69,6 +69,9 @@
     font-size: 16px;
     margin-bottom: 8px;
   }
+  .nav-tabs {
+    margin: 20px 0;
+  }
   .section {
     &.section-intro {
       padding-left: 15px;
@@ -297,6 +300,207 @@
       .padding-block{
         padding-left:15px;
         padding-right: 15px;
+      }
+    }
+    &.section-lead{
+      .lead-line{
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .lead-quote {
+        .name {
+          font-size: 18px;
+        }
+        .pos{
+          font-size: 12px;
+        }
+        .quote{
+          font-size: 12px;
+          position: relative;
+          :before {
+            left: -15px;
+          }
+        }
+        width: 260px;
+        .video {
+          margin-bottom: 14px;
+          height: 180px;
+        }
+      }
+    }
+    &.section-player{
+      .player{
+        padding-left: 15px;
+        padding-right: 15px;
+        .player-line {
+          margin: 25px 0;
+        }
+        .box-btn{
+          .btn{
+            font-size: 14px;
+            width: 100%;
+          }
+        }
+      }
+    }
+    &.section-stage-web{
+      .box-mapala{
+        .box-mapala-info{
+          display: block;
+          padding-left: 15px;
+          padding-right: 15px;
+          >div {
+            width: 100%;
+          }
+          .box-logo{
+            padding-bottom: 15px;
+            .box-img{
+              max-width:63%;
+              img{
+                max-width:63%;
+              }
+            }
+          }
+          .box-text-info .text {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    &.section-distribution{
+      &:after{
+        top: -80px;
+        background-size: cover;
+        background-position: 0;
+        background-repeat: no-repeat;
+        background-image: none;
+        background: #040a52;
+        height: 101.5%;
+      }
+      .box-distribution-step{
+        display: block;
+        padding-bottom: 40px;
+
+        .box-step {
+          min-height: 170px;
+          padding-bottom: 15px;
+          .box-icon {
+            height: 70px;
+          }
+          .name {
+            font-size: 14px;
+            line-height: 10px;
+          }
+          .text {
+            font-size: 14px;
+            line-height: 20px;
+          }
+        }
+      }
+      .box-chart-line {
+        padding: 100px 0 220px;
+        .box-img{
+          position: relative;
+          margin-top: -17%;
+          margin-bottom: -30%;
+          width: 206%;
+          margin-left: -56%;
+        }
+      }
+      .text-distribution{
+        &.date-distribution {
+          padding-bottom: 65px;
+        }
+
+      }
+      .box-chart-token{
+        display: block;
+        >div{
+          width: 100%;
+          padding: 0;
+        }
+        .box-sum{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-content: stretch;
+          .item-sum{
+            width: 48%;
+            text-align: left;
+            .name,.text{
+              font-size: 14px;
+            }
+          }
+        }
+        .box-chart {
+          margin: auto;
+          width: 290px;
+          height: 290px;
+        }
+        .box-chart-info{
+          padding-top: 20px;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-content: stretch;
+          .item-chart{
+            width: 48%;
+            .title,
+            .text{
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+    &.section-roadmap{
+      &:after{
+        display: none;
+      }
+      .text-roadmap{
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      .box-roadmap{
+        display: block;
+        .box-item-roadmap{
+          width: 100%;
+          padding-bottom: 30px;
+          height: auto;
+          .box-head{
+            padding-bottom: 12px;
+            .box-number{
+              font-size: 14px;
+              width: 30px;
+              height: 30px;
+              line-height: 30px;
+              box-shadow:none;
+            }
+            .box-name{
+              font-size: 14px;
+            }
+          }
+          .box-body{
+            padding-left: 45px;
+            .name-date,.text{
+              font-size: 14px;
+              padding-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media(max-width: 520px) {
+  .section {
+    &.section-benefit{
+      .nav-tabs li{
+        width: 100%;
+        margin: 7px 0;
+        +li {
+          margin-left: 0;
+        }
       }
     }
   }

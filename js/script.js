@@ -35,7 +35,18 @@ $(document).ready(function(){
         $(this).toggleClass('active');
         $('.accordion-body-toggle').slideToggle(350);
     });
+    function resize() {
+        if ($(window).width() > 768) {
+            $('.box-roadmap-resize').addClass('box-revers')
+        }
+        else {
+            $('.box-roadmap-resize').removeClass('box-revers')
+        }
+    }
 
+    $(window).on("load resize", function () {
+        resize();
+    });
     new Chart(document.getElementById("doughnut-chart"), {
         type: 'doughnut',
         data: {
