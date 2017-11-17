@@ -76,7 +76,7 @@ $(document).ready(function(){
 
 //    ---------------/voropaev----------------
     $(".getting-started")
-        .countdown('2016/11/30 14:00:00', function(event) {
+        .countdown('2017/11/30 14:00:00', function(event) {
             var $this = $(this).html(event.strftime(''
                 + '<span class="number">%D</span> : '
                 + '<span class="number">%H</span> : '
