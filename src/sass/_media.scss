@@ -10,13 +10,13 @@
   }
 }
 
-@media(min-width: 769px) {
+@media(min-width: 768px) {
   .show-mobile {
     display: none !important;
   }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 767px) {
   .hide-mobile {
     display: none;
   }
@@ -101,6 +101,8 @@
       }
       .intro-down {
         padding-bottom: 80px;
+        padding-left: 0;
+        padding-right: 0;
       }
       .form-subs {
         position: relative;
@@ -116,7 +118,8 @@
       }
       .cash,
       .timer {
-        width: 290px;
+        width: 100%;
+        text-align: center;
         padding-top: 40px;
       }
       .label {
@@ -468,23 +471,229 @@
           height: auto;
           .box-head{
             padding-bottom: 12px;
+            display: flex;
             .box-number{
               font-size: 14px;
               width: 30px;
               height: 30px;
               line-height: 30px;
               box-shadow:none;
+              margin-top: 0;
+              margin-bottom: 0;
+              margin-right: 15px;
+              display: inline-block;
+              vertical-align: top;
             }
             .box-name{
               font-size: 14px;
+              color: #515582;
             }
           }
           .box-body{
             padding-left: 45px;
+            &.box-body-last{
+              padding-left: 0;
+            }
             .name-date,.text{
               font-size: 14px;
               padding-bottom: 0;
             }
+          }
+        }
+      }
+    }
+    &.section-commands{
+      &:after{
+        display: none;
+      }
+      &:before{
+        display: none;
+      }
+      .text-commands{
+        text-align: left!important;
+      }
+      .block-commands{
+        .block-accordion{
+          .box-accordion-head{
+            display: block;
+            margin-top: 40px;
+            .item-accordion{
+              width: 100%;
+              padding-bottom: 25px;
+              .box-info{
+                text-align: left;
+              }
+              .box-img{
+                max-width: 125px;
+                float: left;
+                margin-bottom: 0;
+                .box-icon {
+                  width: 35px;
+                  height: 35px;
+                  border-radius: 50%;
+                  text-align: center;
+                  position: absolute;
+                  bottom: -10px;
+                  left: 65%;
+                  margin-left: 0;
+                  padding: 8px 0;
+                  .icon-in {
+                    width: 16px;
+                    height: 15px;
+                  }
+                }
+              }
+              .box-name{
+                max-width: 69%;
+                width: 100%;
+                padding-left: 15px;
+                float: left;
+                text-align: left;
+                font-size: 16px;
+                padding-top: 30px;
+              }
+              .box-qualification{
+                max-width: 69%;
+                width: 100%;
+                text-align: left;
+                padding-left: 15px;
+                float: left;
+                font-size: 14px;
+              }
+              .box-info{
+                text-align: left;
+                padding-top: 155px;
+              }
+            }
+          }
+          .box-accordion-body{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: stretch;
+            .item-accordion {
+              width: 100%;
+              max-width: 283px;
+              display: -webkit-flex;
+              display: flex;
+              -webkit-flex-direction: row;
+              flex-direction: row;
+              -webkit-justify-content: flex-start;
+              justify-content: flex-start;
+              align-items: center;
+              -webkit-align-items: center;
+              padding-bottom: 0;
+
+              .box-img {
+                margin-left: 0;
+                margin-right: 0;
+                margin-bottom: 20px;
+                width: 100%;
+                max-width: 90px;
+                .box-icon {
+                  width: 35px;
+                  height: 35px;
+                  bottom: -7px;
+                  left: 59%;
+                  padding: 8px 0;
+                  margin-left: 0;
+                  .icon-in {
+                    width: 16px;
+                    height: 15px;
+                  }
+                }
+                img {
+                  width: 90px;
+                  height: 90px;
+                  display: block;
+                }
+              }
+              .content{
+                padding-left: 15px;
+                text-align: left;
+                .box-name{
+                  font-size: 16px;
+                }
+                .box-qualification{
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+          .box-btn {
+            padding-top: 0;
+            padding-bottom: 30px;
+          }
+        }
+      }
+    }
+    &.section-activity{
+      .section-text{
+        text-align: left !important;
+      }
+      .activity-tabs{
+        .tab-block{
+          .nav-tabs{
+            li{
+              width: 100%;
+              a{
+                margin: 2px 0;
+                display: block;
+                width: 100%;
+                line-height: 5px;
+                font-size: 14px;
+              }
+              +li {
+                margin-left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+    &.section-question{
+      .section-text{
+        padding: 0;
+        .name-block{
+          &:after{
+            display: none;
+          }
+          margin-bottom: 0;
+          padding-bottom: 15px;
+        }
+      }
+      .question-list{
+        .question-item{
+          padding: 5px 0;
+          .name{
+            font-size: 14px;
+            border-bottom: none;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+    &.section-start{
+      .timer{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        &.lg{
+          .value{
+            font-size: 36px;
+            line-height: 44px;
+
+          .number{
+            padding: 0 7px;
+            min-width: 52px;
+            +.number{
+              margin-left: 5px;
+            }
+          }
+          }
+          .title {
+            min-width: 70px;
           }
         }
       }
@@ -502,5 +711,8 @@
         }
       }
     }
+  }
+  .section.section-commands .block-commands .block-accordion .box-accordion-head .item-accordion .box-img {
+    max-width: 30%;
   }
 }
