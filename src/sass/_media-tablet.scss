@@ -229,4 +229,18 @@
   .wrapper{
     padding-top: 57px;
   }
+  .section {
+    &-intro {
+      .intro-map {
+        position: relative;
+        margin-top: -17%;
+        margin-bottom: -30%;
+        width: 132%;
+        margin-left: -16%;
+      }
+      .intro-down{
+        margin-top: 0;
+      }
+    }
+  }
 }
