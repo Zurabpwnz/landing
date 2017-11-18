@@ -118,6 +118,14 @@
 }
 @media(max-width: 1080px) {
   .section{
+    &-intro{
+      .intro-down{
+        margin-top: 120px;
+        .cash, .timer{
+         padding-top: 280px;
+        }
+      }
+    }
     &-about{
       .about{
         &-quote{
