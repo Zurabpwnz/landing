@@ -22,7 +22,7 @@
   }
   .wrapper {
     padding-top: 58px;
-    background: url(../images/bg1.svg) no-repeat 51% -2%;
+    background: url(../images/bg1.svg) no-repeat 64% -2%;
   }
   .box-control {
     .box-icon-left + .form-control {
@@ -165,6 +165,9 @@
           right: 17%;
           bottom: -15px;
           border-radius: 74px 76px 80px 98px;
+          &:after{
+            display: none;
+          }
         }
       }
       .about-quote{
@@ -408,6 +411,14 @@
         }
       }
     }
+    .icon-vk {
+      width: 20px;
+      height: 18px;
+    }
+    .icon-facebook {
+      width: 16px;
+      height: 18px;
+    }
     &.section-stage-web{
       .box-mapala{
         .box-mapala-info{
@@ -463,20 +474,20 @@
         }
       }
       .box-chart-line {
-        padding: 100px 0 220px;
+        padding: 60px 0 105px;
         .box-img{
-          position: relative;
           margin-top: -17%;
           margin-bottom: -30%;
-          width: 206%;
-          margin-left: -56%;
+          width: 100%;
+          margin-left: auto;
+          max-width: 320px;
+          margin-right: auto;
         }
       }
       .text-distribution{
         &.date-distribution {
           padding-bottom: 65px;
         }
-
       }
       .box-chart-token{
         display: block;
@@ -494,6 +505,7 @@
             text-align: left;
             .name,.text{
               font-size: 14px;
+              padding-bottom: 4px;
             }
           }
         }
@@ -632,7 +644,6 @@
           .box-accordion-body{
             padding-top: 30px;
             padding-bottom: 30px;
-            display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             align-content: stretch;
@@ -660,7 +671,7 @@
                   height: 35px;
                   bottom: -7px;
                   left: 59%;
-                  padding: 8px 0;
+                  padding: 6px 0;
                   margin-left: 0;
                   .icon-in {
                     width: 16px;
@@ -796,4 +807,7 @@
   .section.section-commands .block-commands .block-accordion .box-accordion-head .item-accordion .box-img {
      max-width: 30%;
    }
+  .wrapper {
+    background: url(../images/bg1.svg) no-repeat 53% -2%;
+  }
 }

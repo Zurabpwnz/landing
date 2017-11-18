@@ -73,6 +73,33 @@ $(document).ready(function(){
             cutoutPercentage: 70
         }
     });
+    new Chart(document.getElementById("doughnut-chart1"), {
+        type: 'doughnut',
+        data: {
+            // labels: ["Africa", "Asia", "Europe", "Latin America"],
+            datasets: [
+                {
+                    label: "",
+                    backgroundColor: ["#1e2465", "#f90059","#9b4dfe","#155afd","#25dafc"],
+                    data: [51,21,19,6,3],
+                    borderColor: [
+                        "#040a52","#040a52","#040a52","#040a52","#040a52"
+                    ],
+                    borderWidth: 3
+                }
+            ]
+        },
+        options: {
+            title: {
+                display: false,
+                text: 'Predicted world population (millions) in 2050'
+            },
+            tooltips: {
+                enabled: false
+            },
+            cutoutPercentage: 70
+        }
+    });
 
 //    ---------------/voropaev----------------
     $(".getting-started")
