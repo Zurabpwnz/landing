@@ -369,6 +369,26 @@
         }
         .slide{
           text-align: center;
+          &-activity{
+            padding: 20px 0;
+          }
+        }
+        .tab{
+          &-content{
+            position: relative;
+            min-height: 360px;
+          }
+          &-pane{
+            display: block;
+            position: absolute;
+            width: 100%;
+            top:0;
+            left:0;
+            z-index: -1;
+            &.active{
+              z-index: 1;
+            }
+          }
         }
       }
       &-video{
