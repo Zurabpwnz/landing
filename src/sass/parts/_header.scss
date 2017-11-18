@@ -12,6 +12,10 @@ header{
   &.scroll{
     background: $bg-body;
   }
+  .header-content{
+    position: relative;
+    width: 100%;
+  }
   .logo{
     img{
       vertical-align: middle;
@@ -41,7 +45,6 @@ header{
     right: 0;
     top:0;
     color: $color_link;
-    padding-top: 16px;
     font-size: 16px;
     .link{
       &.active{
