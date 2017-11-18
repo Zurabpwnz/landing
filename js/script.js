@@ -4,6 +4,7 @@ $(window).on('load', function() {
     AOS.init();
 });
 $(document).ready(function(){
+    $("img.lazyload").lazyload();
     $('.btn-menu').on('click', function () {
         $(this).toggleClass('open');
         $('.navbar-collapse').toggleClass('open').slideToggle();
