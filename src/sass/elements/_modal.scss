@@ -1,8 +1,4 @@
-.modal {
-  background-color: rgba(65, 72, 100, 0.5);
-}
-
-.modal {
+.modal{
   position: fixed;
   top: 0;
   right: 0;
@@ -13,15 +9,58 @@
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
   outline: 0;
-  .modal-dialog {
-    width: 730px;
-    top: 50%;
-    -webkit-transform: translateY(-50%) !important;
-    -moz-transform: translateY(-50%) !important;
-    transform: translateY(-50%) !important;
-    margin-top: 0 !important;
+  &-open{
+    overflow: hidden;
+    .modal {
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+    header{
+      padding-right: inherit;
+    }
+  }
+  &-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+  }
+  &-content {
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border-radius: 6px;
+    outline: 0;
+  }
+
+  &-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: rgba(65,72,100,1);
+    &.fade {
+      filter: alpha(opacity=0);
+      opacity: 0;
+    }
+    &.in {
+      filter: alpha(opacity=50);
+      opacity: .5;
+    }
+  }
+  &-scrollbar-measure {
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+    height: 50px;
+    overflow: scroll;
+  }
+  &-dialog{
+    max-width: 730px;
+    position: relative;
+    margin: 0 auto;
     &.box-register{
-      width: 550px;
+      max-width: 550px;
       background: #3456bf;
       padding: 20px;
       border-radius: 15px;
@@ -42,11 +81,25 @@
       }
     }
   }
-  .modal-dialog .modal-content {
-    border-radius: 15px;
+  &.fade .modal-dialog {
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -o-transition:      -o-transform .3s ease-out;
+    transition:         transform .3s ease-out;
+    -webkit-transform: translate(0, -200%);
+    -ms-transform: translate(0, -200%);
+    -o-transform: translate(0, -200%);
+    transform: translate(0, -200%);
+    top:50%;
+  }
+  &.in .modal-dialog {
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
+  .modal-dialog .modal-content{
     .modal-header{
       .box-video{
-        border-radius: 15px;
         overflow: hidden;
         iframe{
           width: 100%;
@@ -76,24 +129,4 @@
       }
     }
   }
-}
-
-.modal-open .modal {
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
-.modal.in .modal-dialog {
-  -webkit-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  -o-transform: translate(0, 0);
-  transform: translate(0, 0);
-}
-.modal-dialog {
-  position: relative;
-  width: auto;
-  margin: 10px auto;
-}
-body.modal-open{
-  overflow: hidden;
 }
