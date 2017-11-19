@@ -176,19 +176,20 @@
       .about-quote{
         padding-top: 50px;
         .quote {
-          padding: 0;
+          padding: 0 15px;
           margin: 0;
           position: relative;
           line-height: 20px;
           font-size: 18px;
           &:after,&:before {
-            font-size: 80px;
+            font-size:70px;
           }
           &:before {
-            top: 0;
+            top: -5px;
+            left:-10px;
           }
           &:after {
-            bottom: -16px;
+            bottom: -15px;
           }
         }
       }
