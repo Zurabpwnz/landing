@@ -814,7 +814,7 @@
   .modal{
     .modal-dialog{
       max-width: 100%;
-      margin: 0 25px;
+      margin: 80px 25px 25px;
       &.box-register {
         max-width: 100%;
         padding: 20px 10px;
@@ -831,6 +831,19 @@
           }
         }
       }
+    }
+    &.fade .modal-dialog {
+      -webkit-transform: translate(0, -25%);
+      -ms-transform: translate(0, -25%);
+      -o-transform: translate(0, -25%);
+      transform: translate(0, -25%);
+      top:0;
+    }
+    &.in .modal-dialog {
+      -webkit-transform: translate(0,0);
+      -ms-transform: translate(0,0);
+      -o-transform: translate(0,0);
+      transform: translate(0, 0);
     }
   }
 }
