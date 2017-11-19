@@ -68,6 +68,9 @@
     font-size: 16px;
     margin-bottom: 8px;
   }
+  .btn-lg{
+    padding: 18px 18px;
+  }
   .nav-tabs {
     margin: 20px 0;
   }
@@ -317,7 +320,8 @@
               .btn{
                 width: 100%;
                 line-height: 30px;
-                padding: 5px 35px;
+                padding: 5px 10px 5px 50px;
+                text-align: left;
                 .icon-trip {
                   width: 20px;
                   height: 29px;
@@ -336,6 +340,11 @@
           .tab-content{
             padding: 15px;
             .tab-pane{
+              .tab-subname{
+                padding-top: 10px;
+                margin-bottom: 0;
+
+              }
               .benefit-item{
                 padding-left: 0;
                 .box-icon{
@@ -736,6 +745,7 @@
           }
           margin-bottom: 0;
           padding-bottom: 15px;
+          font-size: 19px;
         }
       }
       .question-list{
@@ -743,7 +753,6 @@
           padding: 5px 0;
           .name{
             font-size: 14px;
-            border-bottom: none;
             line-height: 18px;
           }
         }
@@ -798,6 +807,28 @@
           display: block;
           margin-left: 0;
           padding-top: 4px;
+        }
+      }
+    }
+  }
+  .modal{
+    .modal-dialog{
+      max-width: 100%;
+      margin: 0 25px;
+      &.box-register {
+        max-width: 100%;
+        padding: 20px 10px;
+      }
+      .modal-header{
+        .form-subs{
+          max-width: 100%;
+          .box-control {
+            margin: 0 0 15px;
+            .form-control{
+              padding-left: 58px;
+              padding-right: 30px;
+            }
+          }
         }
       }
     }

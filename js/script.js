@@ -82,7 +82,7 @@ $(document).ready(function(){
                 {
                     label: "",
                     backgroundColor: ["#1e2465", "#f90059","#9b4dfe","#155afd","#25dafc"],
-                    data: [51,21,19,6,3],
+                    data: [20,20,20,20,20],
                     borderColor: [
                         "#040a52","#040a52","#040a52","#040a52","#040a52"
                     ],

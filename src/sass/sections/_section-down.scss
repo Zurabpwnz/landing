@@ -89,10 +89,19 @@
       margin-bottom: 40px;
       .name-block {
         color: $color_white;
-        .color-blue {
-          color: #3f5295;
-          .text-decor {
+      }
+      .nav{
+        li{
+          display: inline-block;
+          .name-block {
+            color: #3f5295;
             border-bottom: 1px dashed #3f5295;
+          }
+          &.active{
+            .name-block {
+              color: $color_white;
+              border-bottom: none;
+            }
           }
         }
       }
