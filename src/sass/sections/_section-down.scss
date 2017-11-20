@@ -120,10 +120,12 @@
     }
     .box-distribution-step {
       padding-bottom: 150px;
+      margin: 0 -10px;
       .box-step {
         max-width: 330px;
         width: 100%;
         min-height: 230px;
+        padding: 0 10px;
         .box-icon {
           height: 90px;
           padding-top: 8px;
