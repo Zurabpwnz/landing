@@ -29,8 +29,14 @@
     background-clip: padding-box;
     border-radius: 6px;
     outline: 0;
+    color: $color_white;
   }
-
+  &-header{
+    .text{
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  }
   &-backdrop {
     position: fixed;
     top: 0;
@@ -77,6 +83,12 @@
           .btn{
             width: 100%;
           }
+        }
+        .text-info{
+          color: $color_white;
+          font-size: 12px;
+          opacity: 0.5;
+          margin-top: 15px;
         }
       }
     }
