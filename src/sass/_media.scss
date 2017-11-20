@@ -608,6 +608,8 @@
       }
       .text-commands{
         text-align: left!important;
+        margin: 0;
+        max-width: none;
       }
       .block-commands{
         .block-accordion{
@@ -728,6 +730,8 @@
     &.section-activity{
       .section-text{
         text-align: left !important;
+        margin: 0;
+        max-width: none;
       }
       .activity-tabs{
         .tab-block{
