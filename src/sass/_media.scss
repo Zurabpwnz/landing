@@ -738,7 +738,7 @@
                 margin: 2px 0;
                 display: block;
                 width: 100%;
-                line-height: 5px;
+                line-height: 16px;
                 font-size: 14px;
               }
               +li {
@@ -750,6 +750,7 @@
       }
     }
     &.section-question{
+      padding-top: 60px;
       .section-text{
         padding: 0;
         .name-block{
@@ -763,7 +764,7 @@
       }
       .question-list{
         .question-item{
-          padding: 5px 0;
+          padding: 7px 0;
           .name{
             font-size: 14px;
             line-height: 18px;
