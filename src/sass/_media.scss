@@ -484,14 +484,26 @@
         }
       }
       .box-chart-line {
-        padding: 60px 0 105px;
+        padding: 10px 0 35px;
+        max-width:760px;
+        margin: 0 auto;
         .box-img{
-          margin-top: -17%;
-          margin-bottom: -30%;
+          //margin-top: -17%;
+          //margin-bottom: -30%;
+          //width: 100%;
+          //margin-left: auto;
+          //max-width: 320px;
+          //margin-right: auto;
+          display: block;
+          white-space: nowrap;
           width: 100%;
-          margin-left: auto;
-          max-width: 320px;
-          margin-right: auto;
+          overflow-y: hidden;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          padding: 20px 0;
+          img{
+            max-width:760px;
+          }
         }
       }
       .text-distribution{
