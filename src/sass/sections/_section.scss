@@ -36,7 +36,7 @@
       margin-bottom: 10px;
     }
     .value{
-      font-size: 40px;
+      font-size: 38px;
       line-height: 50px;
       font-family:$font_family_li;
       letter-spacing: -2px;
@@ -53,8 +53,10 @@
     }
 
     .cash,.timer{
-      width: 320px;
+
+      width: 310px;
       padding-top: 75px;
+
     }
 
     .cash{
@@ -441,7 +443,8 @@
     text-align: center;
     .player{
       &-line{
-        margin: 75px 0;
+        max-height: 196px;
+        //margin: 75px 0;
       }
     }
   }
