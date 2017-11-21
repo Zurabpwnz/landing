@@ -147,6 +147,17 @@
       </div>
     </div>
   </div>
+  <div class="modal fade" id="thanks" tabindex="-1" role="dialog">
+    <div class="modal-dialog box-register">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><i class="icon icon-middle icon-close"></i></button>
+          <div class="name text-center">Thank you!</div>
+          <div class="text text-center">You have successfully subscribed!</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <section class="section section-intro">
     <div class="container"  data-aos="flip-up">
@@ -173,7 +184,7 @@
                         <div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>
                         <input type="text" class="form-control" placeholder="Your e-mail">
                         <div class="box-btn">
-                            <a class="btn btn-red btn-lg"><span class="hide-mobile">Subscribe</span><i class="icon icon-air-white show-mobile"></i></a>
+                            <a class="btn btn-red btn-lg" data-target="#thanks"  data-toggle="modal"><span class="hide-mobile">Subscribe</span><i class="icon icon-air-white show-mobile"></i></a>
                         </div>
                     </div>
                 </form>
@@ -1482,23 +1493,14 @@
                 </ul>
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane fade" id="speech">
-                        <div class="slide-activity">
-                            <div class="slide">
-                                <div class="activity-video">
-                                    <div class="video">
-                                        <a class="btn btn-play" data-width="100%" data-height="300" data-iframe="https://www.youtube.com/embed/rOVodrJEV5c"><i class="icon icon-play"></i></a>
-                                        <div class="video-image" style="background-image: url('images/video-image.png')"></div>
-                                        <div class="video-iframe"></div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="slide">
-                                <div class="activity-video"><div class="video"></div></div>
-                            </div>
-                            <div class="slide">
-                                <div class="activity-video"><div class="video"></div></div>
-                            </div>
+                        <div class="block-text text-center">
+                            <ul class="point box-inline text-left">
+                                <li>Blockchain confex <b>(22-23.11.2017)</b></li>
+                                <li>Blockshow Asiа <b>(29-30.11.2017)</b></li>
+                                <li>Blockchain World Conferences <b>(4.12.2017)</b></li>
+                                <li>Tech Crunch Berlin 2017 <b>(4-5.12.2017)</b></li>
+                                <li>Blockchain Conference Abu Dhabi <b>(7.12.2017)</b></li>
+                            </ul>
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane fade in active" id="blog">
@@ -1546,6 +1548,36 @@
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="smi">
                         <div class="slide-article">
+                            <div class="slide">
+                                <div class="activity-article">
+                                    <div class="activity-article-body">
+                                        <div class="image">
+                                            <img src="https://seeklogo.com/images/S/steemit-logo-C8ECB02BBF-seeklogo.com.png" alt="">
+                                        </div>
+                                        <div class="quote">
+                                            Course to the East or the Travelchain's Great Asian Trip
+                                        </div>
+                                        <div class="box-link">
+                                            <a href="https://steemit.com/travelchain/@travelchain/travelchain-offline-course-to-the-east-or-the-travelchain-s-great-asian-trip" target="_blank" class="link link-blue">Читать</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="activity-article">
+                                    <div class="activity-article-body">
+                                        <div class="image">
+                                            <img src="https://seeklogo.com/images/S/steemit-logo-C8ECB02BBF-seeklogo.com.png" alt="">
+                                        </div>
+                                        <div class="quote">
+                                            World BlockChain Summit (Dubai) — the results, assessment, perspectives
+                                        </div>
+                                        <div class="box-link">
+                                            <a href="https://steemit.com/travelchain/@travelchain/travelchain-offline-world-blockchain-summit-dubai-the-results-assessment-perspectives" target="_blank" class="link link-blue">Читать</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="slide">
                                 <div class="activity-article">
                                     <div class="activity-article-body">
@@ -1723,7 +1755,7 @@
                         <div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>
                         <input type="text" class="form-control" placeholder="Your e-mail">
                         <div class="box-btn">
-                            <a class="btn btn-red btn-lg"><span class="hide-mobile">Subscribe</span><i class="icon icon-air-white show-mobile"></i></a>
+                            <a class="btn btn-red btn-lg" data-target="#thanks"  data-toggle="modal"><span class="hide-mobile">Subscribe</span><i class="icon icon-air-white show-mobile"></i></a>
                         </div>
                     </div>
                 </form>

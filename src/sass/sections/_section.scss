@@ -419,6 +419,7 @@
           border-radius: 5px;
           box-shadow: 0 7px 38px 6px rgba(14, 49, 107, 0.05);
           background: $color_white;
+          min-height: 380px;
         }
         .image{
           height: 140px;
@@ -431,10 +432,12 @@
             max-height: 100%;
           }
         }
+        .quote{
+          min-height: 120px;
+        }
         .box-link{
-          margin-top: 30px;
+          margin-top: 10px;
           margin-left: 25px;
-          margin-bottom: 20px;
         }
       }
     }
