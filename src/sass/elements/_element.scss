@@ -9,7 +9,6 @@
   &-main{
     border: 6px groove $color_blue_2;
     @include web_transform(rotate(360deg));
-    @include web_transition(all 1s ease);
     -webkit-animation: loader-1-inner 1s ease-out alternate infinite;
     animation: loader-1-inner 1s ease-out alternate infinite;
     .loader-inner{

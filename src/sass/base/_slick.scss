@@ -97,6 +97,9 @@
             height: auto;
             border: 1px solid transparent;
         }
+        a{
+            outline: none;
+        }
     }
     &-arrow.slick-hidden {
         display: none;
