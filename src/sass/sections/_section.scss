@@ -225,6 +225,11 @@
         width: 420px;
         height: 420px;
         position: relative;
+        svg{
+          a{
+            cursor: default;
+          }
+        }
         .data-item{
           position: absolute;
           z-index: 1;
