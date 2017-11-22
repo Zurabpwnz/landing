@@ -137,15 +137,8 @@ $(document).ready(function () {
         e.preventDefault();
         var val = $(this).siblings('input.form-control').val();
         if(val){
-            var fd = new FormData();
-            fd.append('email', val);
-            if($(this).hasClass('subscribe-en')){
-                fd.append('lang', 'EN');
-            }else{
-                fd.append('lang', 'RU');
-            }
-            subscribeEmail(fd);
-
+            $('#mce-EMAIL').val(val);
+            $('#mc-embedded-subscribe').click();
         }
     });
     $('.subscribe-modal,.subscribe-modal-en').click(function (e) {
@@ -153,29 +146,31 @@ $(document).ready(function () {
 
         var val = $(this).siblings('.box-control').find('input.form-control').val();
         if(val){
-            var fd = new FormData();
-            fd.append('email', val);
-            if($(this).hasClass('subscribe-modal-en')){
-                fd.append('lang', 'EN');
-            }else{
-                fd.append('lang', 'RU');
-            }
-            subscribeEmail(fd);
-
+            $('#mce-EMAIL').val(val);
+            $('#mc-embedded-subscribe').click();
         }
     });
-    var subscribeEmail = function (fd) {
+    window.cbSubscribe = function (text) {
+        $('#presale').modal('hide');
+        $('#thanks').find('.text').html(text);
+        $('#thanks').modal('show');
+
+    };
+    var subscribeEmail = function (link) {
         $.ajax({
-            url: '/email.php',
-            data: fd,
-            processData: false,
-            contentType: false,
-            type: 'POST',
+            url: link,
+            type: 'GET',
+            dataType: 'json',
+            contentType: "application/json; charset=utf-8",
             success: function (data) {
-                yaCounter46376631.reachGoal('subsrc');
-                $('.form-wrapper').hide()
-                $('#input_upper_text').text('You have successfully subscribed!').addClass('success_subscription')
-                $('#input_upper_text2').text('You have successfully subscribed!').addClass('success_subscription')
+                console.log(data);
+                if (data.result == "success"){
+                    yaCounter46376631.reachGoal('subsrc');
+                    $('.form-wrapper').hide()
+                    $('#input_upper_text').text('You have successfully subscribed!').addClass('success_subscription')
+                    $('#input_upper_text2').text('You have successfully subscribed!').addClass('success_subscription')
+                }
+
             }
         });
     }
