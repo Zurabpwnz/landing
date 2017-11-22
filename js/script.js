@@ -48,7 +48,7 @@ $(document).ready(function () {
         data: {
             datasets: [{
                 label: "",
-                backgroundColor: ["#c2c6f3", "#f90059", "#9b4dfe", "#155afd", "#25dafc"],
+                backgroundColor: ["#c1c5f1", "#f90059", "#9b4dfe", "#155afd", "#25dafc"],
                 data: [51, 21, 19, 6, 3],
                 borderColor: ["#040a52", "#040a52", "#040a52", "#040a52", "#040a52"],
                 borderWidth: 3
@@ -65,7 +65,7 @@ $(document).ready(function () {
         data: {
             datasets: [{
                 label: "",
-                backgroundColor: ["#c2c6f3", "#f90059", "#9b4dfe", "#155afd", "#9b4dfe","#f90059", "#25dafc"],
+                backgroundColor: ["#c1c5f1", "#f90059", "#9b4dfe", "#155afd", "#9b4dfe","#f90059", "#25dafc"],
                 data: [2, 18, 33, 14, 3,1,30],
                 borderColor: ["#040a52", "#040a52", "#040a52", "#040a52", "#040a52","#040a52","#040a52"],
                 borderWidth: 3
