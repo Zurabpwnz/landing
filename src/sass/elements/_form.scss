@@ -75,5 +75,13 @@ textarea.form-control{
         padding-left: 60px;
       }
     }
+    &-left-input{
+      position: absolute;
+      text-align: center;
+      left:30px;
+      top: 22px;
+      z-index: 5;
+      font-size: 20px;
+    }
   }
 }
