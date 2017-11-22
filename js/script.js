@@ -119,18 +119,18 @@ $(document).ready(function () {
         arrows: true,
         slidesToShow: 3,
         variableWidth: true,
-        centerMode: true,
+        // centerMode: true,
         infinite: true,
         slidesToScroll: 1,
         responsive: [{
             breakpoint: 1040,
-            settings: {arrows: false, slidesToShow: 3, centerMode: true, infinite: true, variableWidth: true}
+            settings: {arrows: false, slidesToShow: 3,  infinite: true, variableWidth: true}
         }, {
             breakpoint: 768,
-            settings: {arrows: false, slidesToShow: 1, variableWidth: true, infinite: true, centerMode: true}
+            settings: {arrows: false, slidesToShow: 1, variableWidth: true, infinite: true}
         }, {
             breakpoint: 480,
-            settings: {arrows: false, slidesToShow: 1, variableWidth: true, infinite: true, centerMode: true}
+            settings: {arrows: false, slidesToShow: 1, variableWidth: true, infinite: true}
         }]
     });
     $('.subscribe,.subscribe-en').click(function (e) {
