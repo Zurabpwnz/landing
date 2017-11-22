@@ -110,11 +110,17 @@
     background: $color_white;
     padding-right: 150px;
     border-radius: 33px;
+    &-input{
+      padding-left: 60px;
+    }
   }
   .box-btn{
     position: absolute;
     top:3px;
     right:3px;
+    > input{
+      margin: 0 !important;
+    }
   }
   .text-info{
     color: $color_info;
