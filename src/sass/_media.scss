@@ -713,6 +713,7 @@
                   width: 90px;
                   height: 90px;
                   display: block;
+                  max-width:inherit;
                 }
               }
               .content{
@@ -906,5 +907,8 @@
    }
   .wrapper {
     background: url(../images/bg1.svg) no-repeat 53% -2%;
+  }
+  .section.section-commands .block-commands .block-accordion .box-accordion-body .item-accordion {
+    max-width: 100%;
   }
 }
