@@ -48,7 +48,7 @@ $(document).ready(function () {
         data: {
             datasets: [{
                 label: "",
-                backgroundColor: ["#1e2465", "#f90059", "#9b4dfe", "#155afd", "#25dafc"],
+                backgroundColor: ["#c1c5f1", "#f90059", "#9b4dfe", "#155afd", "#25dafc"],
                 data: [51, 21, 19, 6, 3],
                 borderColor: ["#040a52", "#040a52", "#040a52", "#040a52", "#040a52"],
                 borderWidth: 3
@@ -65,7 +65,7 @@ $(document).ready(function () {
         data: {
             datasets: [{
                 label: "",
-                backgroundColor: ["#1e2465", "#f90059", "#9b4dfe", "#155afd", "#9b4dfe","#f90059", "#25dafc"],
+                backgroundColor: ["#c1c5f1", "#f90059", "#9b4dfe", "#155afd", "#9b4dfe","#f90059", "#25dafc"],
                 data: [2, 18, 33, 14, 3,1,30],
                 borderColor: ["#040a52", "#040a52", "#040a52", "#040a52", "#040a52","#040a52","#040a52"],
                 borderWidth: 3
@@ -77,6 +77,12 @@ $(document).ready(function () {
             cutoutPercentage: 70
         }
     });
+    $(document).on('click', '.close', function() {
+        $(".box-video iframe").each(function () {
+            $(this)[0].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')
+        });
+    });
+
     $(".getting-started").countdown('2017/11/30 14:00:00', function (event) {
         var $this = $(this).html(event.strftime('' + '<span class="number">%D</span> : ' + '<span class="number">%H</span> : ' + '<span class="number">%M</span> : ' + '<span class="number">%S</span>'));
     });
@@ -127,50 +133,50 @@ $(document).ready(function () {
             settings: {arrows: false, slidesToShow: 1, variableWidth: true, infinite: true, centerMode: true}
         }]
     });
-    // $('.subscribe,.subscribe-en').click(function (e) {
-    //     e.preventDefault();
-    //     var val = $(this).siblings('input.form-control').val();
-    //     if(val){
-    //         var fd = new FormData();
-    //         fd.append('email', val);
-    //         if($(this).hasClass('subscribe-en')){
-    //             fd.append('lang', 'EN');
-    //         }else{
-    //             fd.append('lang', 'RU');
-    //         }
-    //         subscribeEmail(fd);
-    //
-    //     }
-    // });
-    // $('.subscribe-modal,.subscribe-modal-en').click(function (e) {
-    //     e.preventDefault();
-    //
-    //     var val = $(this).siblings('.box-control').find('input.form-control').val();
-    //     if(val){
-    //         var fd = new FormData();
-    //         fd.append('email', val);
-    //         if($(this).hasClass('subscribe-modal-en')){
-    //             fd.append('lang', 'EN');
-    //         }else{
-    //             fd.append('lang', 'RU');
-    //         }
-    //         subscribeEmail(fd);
-    //
-    //     }
-    // });
-    // var subscribeEmail = function (fd) {
-    //     $.ajax({
-    //         url: 'email.php',
-    //         data: fd,
-    //         processData: false,
-    //         contentType: false,
-    //         type: 'POST',
-    //         success: function (data) {
-    //             yaCounter46376631.reachGoal('subsrc');
-    //             $('.form-wrapper').hide()
-    //             $('#input_upper_text').text('You have successfully subscribed!').addClass('success_subscription')
-    //             $('#input_upper_text2').text('You have successfully subscribed!').addClass('success_subscription')
-    //         }
-    //     });
-    // }
+    $('.subscribe,.subscribe-en').click(function (e) {
+        e.preventDefault();
+        var val = $(this).siblings('input.form-control').val();
+        if(val){
+            var fd = new FormData();
+            fd.append('email', val);
+            if($(this).hasClass('subscribe-en')){
+                fd.append('lang', 'EN');
+            }else{
+                fd.append('lang', 'RU');
+            }
+            subscribeEmail(fd);
+
+        }
+    });
+    $('.subscribe-modal,.subscribe-modal-en').click(function (e) {
+        e.preventDefault();
+
+        var val = $(this).siblings('.box-control').find('input.form-control').val();
+        if(val){
+            var fd = new FormData();
+            fd.append('email', val);
+            if($(this).hasClass('subscribe-modal-en')){
+                fd.append('lang', 'EN');
+            }else{
+                fd.append('lang', 'RU');
+            }
+            subscribeEmail(fd);
+
+        }
+    });
+    var subscribeEmail = function (fd) {
+        $.ajax({
+            url: '/email.php',
+            data: fd,
+            processData: false,
+            contentType: false,
+            type: 'POST',
+            success: function (data) {
+                yaCounter46376631.reachGoal('subsrc');
+                $('.form-wrapper').hide()
+                $('#input_upper_text').text('You have successfully subscribed!').addClass('success_subscription')
+                $('#input_upper_text2').text('You have successfully subscribed!').addClass('success_subscription')
+            }
+        });
+    }
 });

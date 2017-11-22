@@ -817,6 +817,34 @@
       }
     }
   }
+  .form-subs {
+    .form-control {
+      &-input {
+        padding-left: 30px;
+      }
+    }
+    .clear{
+      &.box-btn{
+        .btn-lg{
+          font-size: 0;
+          padding: 28px;
+        }
+        &:after{
+          content: '';
+          position: absolute;
+          display: block;
+          width: 20px;
+          height: 20px;
+          top: 50%;
+          left: 50%;
+          z-index: 11;
+          margin-top: -10px;
+          background-image: url(../images/air-white.png);
+          margin-left: -10px;
+        }
+      }
+    }
+  }
   footer{
     padding: 75px 0 36px;
     .between{
