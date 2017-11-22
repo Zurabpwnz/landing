@@ -326,3 +326,34 @@ h4, .h4{
     }
   }
 }
+
+// thanks page
+.thanks {
+  .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .name-block {
+    font-size: 40px;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  p {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  ul {
+    display: block;
+    margin: 0 auto 40px;
+
+    li {
+      font-size: 20px;
+    }
+  }
+}
