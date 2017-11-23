@@ -903,6 +903,17 @@
       transform: translate(0, 0);
     }
   }
+  .thanks {
+    .name-block {
+      font-size: 28px;
+      padding-top: 50px;
+      padding-bottom: 30px;
+    }
+    p, ul li {
+      font-size: 16px;
+      margin-bottom: 0.75em;
+    }
+  }
 }
 @media(max-width: 520px) {
   .section.section-commands .block-commands .block-accordion .box-accordion-head .item-accordion .box-img {
