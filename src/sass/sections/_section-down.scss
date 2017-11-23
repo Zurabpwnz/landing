@@ -307,18 +307,33 @@
           }
         }
         .box-stages{
+          position: relative;
           .dropdown{
+
+            text-align: left;
             .dropdown-menu{
               display: none;
+              position: absolute;
+              left:0;
+              bottom:100%;
+              margin-bottom: 5px;
+              z-index: 1;
             }
             &.open{
               .dropdown-menu{
+                @include box-shadow(0 0 28px rgba(129, 0, 46, 0.24));
                 display: block;
+                background-color: #ffffff;
+                border-radius: 4px;
                 padding: 10px;
                 .block-text{
                   .point{
                     li{
                       margin-bottom: 5px;
+                      font-size: 13px;
+                      &:last-child{
+                        margin-bottom: 0;
+                      }
                     }
                   }
                 }
