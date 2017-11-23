@@ -251,6 +251,7 @@
             .box-name{
               text-align: right;
             }
+
           }
         }
       }
@@ -295,6 +296,7 @@
         .box-body{
           font-size: 16px;
           line-height: 24px;
+          padding-bottom: 10px;
           color: $color_text;
           .name-date{
             font-family: $font_family_bold_2;
@@ -302,6 +304,33 @@
           }
           .text{
             font-family: $font_family_2;
+          }
+        }
+        .box-stages{
+          .dropdown{
+            .dropdown-menu{
+              display: none;
+            }
+            &.open{
+              .dropdown-menu{
+                display: block;
+                padding: 10px;
+                .block-text{
+                  .point{
+                    li{
+                      margin-bottom: 5px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          a{
+            color: #1872fd;
+            font-size: 18px;
+            &:hover{
+              text-decoration: underline;
+            }
           }
         }
       }
