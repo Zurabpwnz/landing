@@ -402,10 +402,10 @@
         }
       }
       &-video{
-        margin: 0 auto;
-        width: 570px;
         padding: 0 15px;
-        height: 300px;
+        width: 380px;
+        text-align: left;
+        height: 240px;
         .video{
           height: 100%;
           background:$color_gray_3;

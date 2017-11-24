@@ -914,6 +914,11 @@
       margin-bottom: 0.75em;
     }
   }
+  .slick-next, .slick-prev {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+  }
 }
 @media(max-width: 520px) {
   .section.section-commands .block-commands .block-accordion .box-accordion-head .item-accordion .box-img {

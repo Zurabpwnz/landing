@@ -24,7 +24,23 @@ $(document).ready(function () {
             $('header').removeClass('scroll');
         }
     }
+//------------------scroll--------------
+    onScroll1();
+    function onScroll1(e) {
+        var winScT = $(window).scrollTop();
+        var wrT = $('.wrapper').offset().top;
+        ( winScT > wrT + 400) ? $('.box-scrolling').addClass('scroll') : $('.box-scrolling').removeClass('scroll');
 
+        if (winScT>($('footer').offset().top-$(window).height())){
+            $('.box-scrolling').removeClass('scroll');
+        }
+    }
+    $(window).scroll(onScroll1);
+    $('.scrolling-button').on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+    });
+//------------------/scroll--------------
     onScroll();
     $(document).on("scroll", onScroll);
     $('.all-commands').on('click', function () {
@@ -94,13 +110,13 @@ $(document).ready(function () {
         infinite: true,
         responsive: [{
             breakpoint: 1040,
-            settings: {arrows: false, centerMode: true, slidesToShow: 3, variableWidth: true, infinite: true}
+            settings: { centerMode: true, slidesToShow: 3, variableWidth: true, infinite: true}
         }, {
             breakpoint: 768,
-            settings: {arrows: false, centerMode: true, slidesToShow: 3, variableWidth: true, infinite: true}
+            settings: { centerMode: true, slidesToShow: 3, variableWidth: true, infinite: true}
         }, {
             breakpoint: 480,
-            settings: {arrows: false, centerMode: true, slidesToShow: 1, variableWidth: true, infinite: true}
+            settings: { centerMode: true, slidesToShow: 1, variableWidth: true, infinite: true}
         }]
     });
     $('.slide-activity').slick({
@@ -109,11 +125,11 @@ $(document).ready(function () {
         variableWidth: true,
         responsive: [{
             breakpoint: 1040,
-            settings: {arrows: false, slidesToShow: 1, centerMode: true, variableWidth: true}
+            settings: { slidesToShow: 1, centerMode: true, variableWidth: true}
         }, {
             breakpoint: 768,
-            settings: {arrows: false, slidesToShow: 1, centerMode: true, variableWidth: true}
-        }, {breakpoint: 480, settings: {arrows: false, slidesToShow: 1, centerMode: true, variableWidth: true}}]
+            settings: { slidesToShow: 1, centerMode: true, variableWidth: true}
+        }, {breakpoint: 480, settings: { slidesToShow: 1, centerMode: true, variableWidth: true}}]
     });
     $('.slide-article').slick({
         arrows: true,
@@ -124,7 +140,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         responsive: [{
             breakpoint: 1040,
-            settings: {arrows: false, slidesToShow: 3,  infinite: true, variableWidth: true}
+            settings: {arrows: false, slidesToShow: 1,  infinite: true, variableWidth: true}
         }, {
             breakpoint: 768,
             settings: {arrows: false, slidesToShow: 1, variableWidth: true, infinite: true}
