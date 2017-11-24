@@ -251,33 +251,24 @@
                 yaCounter46376631.reachGoal('subsrc');
                 $('.form-wrapper').hide();
                 if($('.subscribe-en,.subscribe-modal-en').length){
-                    // $('#thanks').find('.text').html('You have successfully subscribed!');
-                    // $('#thanks').modal('show');
                     window.cbSubscribe('You have successfully subscribed!');
+                    gtag('event','otpravka',{
+                        'event_category': 'forma'
+                    });
                 }else{
-                    // $('#thanks').find('.text').html('Вы подписались!');
-                    // $('#thanks').modal('show');
                     window.cbSubscribe('Вы подписались!');
-                    // $('#thanks').find('.text').html('You have successfully subscribed!');
-                    // $('#input_upper_text').text('Вы успешно подписались!').addClass('success_subscription');
-                    // $('#input_upper_text2').text('Вы успешно подписались!').addClass('success_subscription');
+                    gtag('event','otpravka',{
+                        'event_category': 'forma'
+                    });
                 }
 
                 // If the form has errors, display them, inline if possible, or appended to #mce-error-response
             } else {
                 $('.form-wrapper').hide();
                 if($('.subscribe-en,.subscribe-modal-en').length){
-                    // $('#thanks').find('.text').html('Error, try different email or try later!');
-                    // $('#thanks').modal('show');
                     window.cbSubscribe('Error, try different email or try later!');
-                    // $('#input_upper_text').text('Error, try different email or try later').addClass('success_subscription');
-                    // $('#input_upper_text2').text('Error, try different email or try later').addClass('success_subscription');
                 }else{
-                    // $('#thanks').find('.text').html('Ошибка!');
-                    // $('#thanks').modal('show');
                     window.cbSubscribe('Ошибка!');
-                    // $('#input_upper_text').text('Ошибка!').addClass('success_subscription');
-                    // $('#input_upper_text2').text('Ошибка!').addClass('success_subscription');
                 }
 
                 if (resp.msg === "captcha") {

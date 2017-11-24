@@ -208,9 +208,9 @@
                 <div class="flexible center">
                     <div class="name-box white">Learn more about us:</div>
                     <ul class="nav-link-more">
-                        <li><a href="files/TravelChain.WhitePaper(ENG).pdf" target="_blank" >Whitepaper</a></li>
-                        <li><a href="files/TravelChain.Overview(ENG).pdf" target="_blank" >Overview</a></li>
-                        <li><a href="files/Business-plan(ENG).pdf" target="_blank">Business plan</a></li>
+                        <li><a href="files/TravelChain.WhitePaper(ENG).pdf" target="_blank" class="files-gtag-event">Whitepaper</a></li>
+                        <li><a href="files/TravelChain.Overview(ENG).pdf" target="_blank" class="files-gtag-event">Overview</a></li>
+                        <li><a href="files/Business-plan(ENG).pdf" target="_blank" class="files-gtag-event">Business plan</a></li>
                     </ul>
                 </div>
             </div>
@@ -1996,7 +1996,10 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-109770328-2');
-    ga('set', 'userId', 'USER_ID');
+    gtag('event','set',{
+        'value':'USER_ID',
+        'event_category': 'userId'
+    });
 </script>
 
 <!-- Facebook Pixel Code -->
@@ -2091,8 +2094,8 @@
 <script src="js/lazyload.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/Chart.min.js"></script>
-<script src="js/script.js"></script>
+<script src="js/script.js?v=1"></script>
 <script src="js/script-cloud.js"></script>
-<script type='text/javascript' src='js/send-email.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<script type='text/javascript' src='js/send-email.js?v=1'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 </body>
 </html>

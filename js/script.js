@@ -172,6 +172,12 @@ $(document).ready(function () {
         $('#thanks').modal('show');
 
     };
+    $('.files-gtag-event').click(function () {
+        gtag('event','click',{
+            'value':'click',
+            'event_category': 'docs'
+        });
+    });
     var subscribeEmail = function (link) {
         $.ajax({
             url: link,
