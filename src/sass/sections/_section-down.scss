@@ -19,6 +19,16 @@
     align-items: flex-start;
     -webkit-align-items: flex-start;
   }
+  &-bottom{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+  }
 }
 
 .section {
@@ -63,7 +73,9 @@
             line-height: 24px;
             font-family: $font_family_2;
             color: $color_white;
-            padding-bottom: 25px;
+            &:first-child{
+              padding-bottom: 25px;
+            }
           }
         }
       }

@@ -105,7 +105,7 @@ $(document).ready(function () {
     });
     $('.slide-activity').slick({
         arrows: true,
-        slidesToShow: 2,
+        slidesToShow: 3,
         variableWidth: true,
         responsive: [{
             breakpoint: 1040,
