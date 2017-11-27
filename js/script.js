@@ -121,11 +121,12 @@ $(document).ready(function () {
     });
     $('.slide-activity').slick({
         arrows: true,
+        centerMode: false,
         slidesToShow: 3,
         variableWidth: true,
         responsive: [{
             breakpoint: 1040,
-            settings: { slidesToShow: 1, centerMode: true, variableWidth: true}
+            settings: { slidesToShow: 1, centerMode: false, variableWidth: true}
         }, {
             breakpoint: 768,
             settings: { slidesToShow: 1, centerMode: true, variableWidth: true}
