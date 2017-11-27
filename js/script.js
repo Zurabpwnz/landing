@@ -166,6 +166,14 @@ $(document).ready(function () {
             $('#mc-embedded-subscribe').click();
         }
     });
+    $('.subscribe-form').submit(function(e){
+        e.preventDefault();
+        var val =$(this).find('input').val();
+        if(val){
+            $('#mce-EMAIL').val(val);
+            $('#mc-embedded-subscribe').click();
+        }
+    });
     window.cbSubscribe = function (text) {
         $('#presale').modal('hide');
         $('#thanks').find('.text').html(text);
@@ -178,22 +186,5 @@ $(document).ready(function () {
             'event_category': 'docs'
         });
     });
-    var subscribeEmail = function (link) {
-        $.ajax({
-            url: link,
-            type: 'GET',
-            dataType: 'json',
-            contentType: "application/json; charset=utf-8",
-            success: function (data) {
-                console.log(data);
-                if (data.result == "success"){
-                    yaCounter46376631.reachGoal('subsrc');
-                    $('.form-wrapper').hide()
-                    $('#input_upper_text').text('You have successfully subscribed!').addClass('success_subscription')
-                    $('#input_upper_text2').text('You have successfully subscribed!').addClass('success_subscription')
-                }
 
-            }
-        });
-    }
 });
