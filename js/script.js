@@ -99,7 +99,7 @@ $(document).ready(function () {
         });
     });
 
-    $(".getting-started").countdown('2017/11/30 14:00:00', function (event) {
+    $(".getting-started").countdown('2017/12/10 14:00:00', function (event) {
         var $this = $(this).html(event.strftime('' + '<span class="number">%D</span> : ' + '<span class="number">%H</span> : ' + '<span class="number">%M</span> : ' + '<span class="number">%S</span>'));
     });
     $('.slide-lead').slick({
