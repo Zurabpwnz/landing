@@ -216,3 +216,20 @@
     margin: -26px 0 0 -26px;
   }
 }
+.intro-map{
+  .point{
+    width: 1132px;
+    height: 335px;
+    background: url("../images/sprite.png") no-repeat center top;
+    animation: play 3.25s steps(63) infinite;
+    -webkit-animation: play 3.25s steps(63) infinite;
+  }
+}
+@keyframes play {
+  0% { background-position:0 0; }
+  100% { background-position: 0 -21105px; }
+}
+@-webkit-keyframes play {
+  0% { background-position:0 0; }
+  100% { background-position: 0 -21105px; }
+}

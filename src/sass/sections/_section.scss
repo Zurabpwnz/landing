@@ -70,13 +70,14 @@
         position: relative;
         margin-top: -17%;
         margin-bottom: -30%;
-        width: 132%;
-        margin-left: -16%;
+        left: 50%;
+        @include web_transform(translateX(-50%));
+        width: 1545px;
+        height: 910px;
         .point{
           position: absolute;
-          top: 25%;
-          left: 18%;
-          width: 64%;
+          top: 15%;
+          left: 10%;
         }
       }
       &-down{
