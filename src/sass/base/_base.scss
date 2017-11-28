@@ -400,7 +400,7 @@ h4, .h4 {
     font-size: 40px;
     color: $color_white;
     padding-top: 100px;
-    padding-bottom: 30px;
+    //padding-bottom: 15px;
   }
   strong {
     font-weight: bold;
@@ -409,13 +409,22 @@ h4, .h4 {
     margin-bottom: 20px;
     font-size: 20px;
     color: #d0c0c0;
+    &.text{
+      font-size: 24px;
+      padding-bottom: 15px;
+    }
+    &.text-name{
+      font-size: 26px;
+      color: #ffffff;
+      padding-bottom: 5px;
+    }
   }
   ul {
     display: block;
     margin: 0 auto 40px;
 
     li {
-      font-size: 20px;
+      font-size: 18px;
       color: #d0c0c0;
     }
   }

@@ -16,6 +16,17 @@ $(document).ready(function () {
         $(this).toggleClass('open').next().toggleClass('open').slideToggle();
     });
 
+    var carousel = $("#carousel").flipster({
+        style: 'infinite-carousel',
+        spacing: 0,
+
+        nav: false,
+        start: 3,
+        click: true,
+        loop: 8,
+        buttons:   true
+    });
+
     function onScroll(event) {
         var scrollPos = $(document).scrollTop();
         if (scrollPos > $('header').outerHeight() - 20) {

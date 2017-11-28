@@ -509,6 +509,67 @@
       }
     }
   }
+  &-benefit-new{
+    .box-section{
+      .name-section{
+        font-size: 25px;
+        color: #00074a;
+        line-height: 1.2;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        &:after {
+          position: absolute;
+          top: 100%;
+          width: 64px;
+          height: 3px;
+          left: 50%;
+          margin-left: -32px;
+          background: #155afd;
+          content: '';
+        }
+      }
+      .text-section{
+        font-size: 16px;
+        color: #515582;
+        line-height: 24px;
+        &-padding{
+          padding-top: 22px;
+        }
+      }
+      .box-flip{
+        padding-top: 50px;
+      }
+      .flipster{
+        .flipster__item{
+          width: 400px;
+          height: 278px;
+          position: relative;
+          overflow: hidden;
+          .box-info{
+            width: 100%;
+            height: 100%;
+            padding: 95px 35px 10px 35px;
+            position: absolute;
+            top: 0;
+            font-family:$font_family_2;
+            &-name{
+              font-weight: bold;
+              font-size: 20px;
+              line-height: 24px;
+              padding-bottom: 16px;
+              color: $color_white;
+            }
+            &-text{
+              font-size: 14px;
+              line-height: 24px;
+              color: $color_white;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 .box-scrolling {
