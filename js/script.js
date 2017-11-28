@@ -17,14 +17,14 @@ $(document).ready(function () {
     });
 
     var carousel = $("#carousel").flipster({
-        style: 'infinite-carousel',
-        spacing: 0,
+        style: 'carousel',
+        spacing: -0.5,
 
         nav: false,
         start: 3,
         click: true,
-        loop: 8,
-        buttons:   true
+        loop: 8
+        // buttons:   true
     });
 
     function onScroll(event) {

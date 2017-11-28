@@ -196,6 +196,31 @@
     height: 16px;
     background-image: url(../images/up.png);
   }
+  &-coin {
+    width: 45px;
+    height: 45px;
+    background-image: url(../images/icon-coin.png);
+  }
+  &-map {
+    width: 45px;
+    height: 45px;
+    background-image: url(../images/icon-map.png);
+  }
+  &-1 {
+    width: 49px;
+    height: 67px;
+    background-image: url(../images/icon1.png);
+  }
+  &-2 {
+    width: 67px;
+    height: 67px;
+    background-image: url(../images/icon2.png);
+  }
+  &-3{
+    width: 56px;
+    height: 67px;
+    background-image: url(../images/icon3.png);
+  }
 }
 .active{
   a{
