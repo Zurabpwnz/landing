@@ -175,9 +175,10 @@ $(document).ready(function () {
             $('#mc-embedded-subscribe').click();
         }
     });
-    window.cbSubscribe = function (text) {
+    window.cbSubscribe = function (text,text_small) {
         $('#presale').modal('hide');
         $('#thanks').find('.text').html(text);
+        $('#thanks').find('.name').html(text_small);
         $('#thanks').modal('show');
 
     };

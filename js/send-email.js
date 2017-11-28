@@ -251,12 +251,12 @@
                 yaCounter46376631.reachGoal('subsrc');
                 $('.form-wrapper').hide();
                 if($('.subscribe-en,.subscribe-modal-en').length){
-                    window.cbSubscribe('You have successfully subscribed!');
+                    window.cbSubscribe('To confirm your subscription, please click the confirmation link in the email that just been sent to you.','Please confirm your subscription.');
                     gtag('event','otpravka',{
                         'event_category': 'forma'
                     });
                 }else{
-                    window.cbSubscribe('Вы подписались!');
+                    window.cbSubscribe('Чтобы подтвердить подписку, пожалуйста перейдите по ссылке в письме, которое мы только что вам отправили.','Пожайлуйста, подтвердите подписку.');
                     gtag('event','otpravka',{
                         'event_category': 'forma'
                     });
@@ -266,9 +266,9 @@
             } else {
                 $('.form-wrapper').hide();
                 if($('.subscribe-en,.subscribe-modal-en').length){
-                    window.cbSubscribe('Error, try different email or try later!');
+                    window.cbSubscribe('You wrote your email with an error or you are already subscribed to our news.','Error!');
                 }else{
-                    window.cbSubscribe('Ошибка!');
+                    window.cbSubscribe('Вы написали ваш email с ошибкой или вы уже подписаны на наши новости.','Ошибка!');
                 }
 
                 if (resp.msg === "captcha") {
