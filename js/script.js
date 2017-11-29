@@ -4,6 +4,7 @@ $(window).on('load', function () {
     AOS.init();
 });
 $(document).ready(function () {
+
     $('.btn-menu').on('click', function () {
         $(this).toggleClass('open');
         $('.navbar-collapse').toggleClass('open').slideToggle();
@@ -16,15 +17,10 @@ $(document).ready(function () {
         $(this).toggleClass('open').next().toggleClass('open').slideToggle();
     });
 
-    var carousel = $("#carousel").flipster({
+    $(".flipster").flipster({
         style: 'carousel',
-        spacing: -0.5,
-
-        nav: false,
-        start: 3,
-        click: true,
-        loop: 8
-        // buttons:   true
+        start: 0,
+        click: true
     });
 
     function onScroll(event) {

@@ -511,7 +511,7 @@
   }
   &-benefit-new{
     .box-section{
-      padding-top: 85px;
+      padding-top: 50px;
       .name-section{
         font-size: 25px;
         color: #00074a;
@@ -535,18 +535,16 @@
         color: #515582;
         line-height: 24px;
         &-padding{
-          padding-top: 22px;
+          padding-top: 16px;
         }
       }
       .box-flip{
         padding-top: 50px;
       }
       .flipster{
-        .flipster__item{
+        .flip-item{
           width: 400px;
           height: 278px;
-          position: relative;
-          overflow: hidden;
           .box-info{
             width: 100%;
             height: 100%;
@@ -598,7 +596,7 @@
           .box-info{
             padding-left: 40px;
             .box-name{
-              padding-top: 15px;
+              padding-top: 30px;
               font-size: 25px;
             }
             .box-text{
@@ -611,15 +609,35 @@
         }
       }
       .box-lesson{
-        padding-top: 25px;
-        padding-bottom: 25px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        overflow: hidden;
         .lesson{
           color: #ffffff;
           font-size: 14px;
+          line-height: 24px;
           padding: 30px 40px;
           width: 50%;
           &-left{
             background-color: #14195d;
+            position: relative;
+            &:after{
+              content: '';
+              position: absolute;
+              top: -2px;
+              left: 100%;
+              background-image: url(../images/lin.svg);
+              -webkit-background-size: contain;
+              background-size: contain;
+              background-repeat: no-repeat;
+              height: 103%;
+              width: 40px;
+              //height: 100%;
+              //width: 15px;
+              //background-color: #14195d;
+              //border-top-right-radius: 48%;
+              //border-bottom-right-radius: 48%;
+            }
           }
           &-right{
             background-color: #155afd;
@@ -629,10 +647,12 @@
       }
       .block-business{
         padding-top: 35px;
-        padding-bottom: 25px;
+        padding-bottom: 10px;
+        justify-content: space-around;
+        -webkit-justify-content: space-around;
         .box-business{
-          width: 33%;
-          padding: 0 30px;
+          width: 290px;
+          padding: 0 10px;
           .box-icon{
             height: 90px;
           }
