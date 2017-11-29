@@ -202,6 +202,25 @@
   }
 }
 @media(max-width: 920px) {
+  header {
+    .social{
+      .nav-link-more li {
+        width: 55%;
+        line-height: 35px;
+        margin-left: 0;
+        padding-left: 0;
+      }
+    }
+    .social-icon {
+      position: relative;
+      right: inherit;
+      top: inherit;
+      .link {
+        display: inline-block;
+        margin: 5px 10px;
+      }
+    }
+  }
     header{
       padding-top: 3px;
       padding-bottom: 3px;

@@ -612,6 +612,8 @@
         margin-top: 15px;
         margin-bottom: 30px;
         overflow: hidden;
+        align-items: inherit;
+        -webkit-align-items: inherit;
         .lesson{
           color: #ffffff;
           font-size: 14px;
@@ -665,6 +667,12 @@
       }
     }
   }
+  .btn-play-video{
+    margin-top: 15px;
+  }
+  .text.text-bold{
+    font-size: 30px;
+  }
 }
 
 // thanks page
@@ -706,7 +714,7 @@
       padding-bottom: 5px;
     }
   }
-  ul {
+  .wrapper ul {
     display: block;
     margin: 0 auto 40px;
 
@@ -724,7 +732,7 @@
 }
 .box-scrolling {
   position: fixed;
-  bottom: 75px;
+  bottom: 50px;
   right: 21px;
   z-index: 10000;
   pointer-events: none;

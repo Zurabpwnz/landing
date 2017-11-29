@@ -60,5 +60,13 @@ header{
       }
     }
   }
-
+.social-icon{
+  position: fixed;
+  right: 0;
+  top: 100px;
+  .link{
+    display: block;
+    margin: 0 10px;
+  }
+}
 }
