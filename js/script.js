@@ -195,5 +195,53 @@ $(document).ready(function () {
             'event_category': 'docs'
         });
     });
+    //analitycs for sidebar
+    $('.icon-tel').click(function(){
+        gtag('event',  'click',{
+            'event_category': 'telegram'
+        });
+    });
+    $('.icon-yt').click(function(){
+        gtag('event',  'click',{
+            'event_category': 'youtube'
+        });
+    });
+    $('.icon-medium').click(function(){
+        gtag('event',  'click',{
+            'event_category': 'medium'
+        });
+    });
+    $('.icon-vk-up').click(function(){
+        gtag('event',  'click',{
+            'event_category': 'vk'
+        });
+    });
+    $('.icon-tw').click(function(){
+        gtag('event',  'click',{
+            'event_category': 'twitter'
+        });
+    });
+    $('.icon-insta').click(function(){
+        gtag('event',  'click',{
+            'event_category': 'instagram'
+        });
+    });
+    $('.icon-golos').click(function(){
+        gtag('event',  'click',{
+            'event_category': 'golos'
+        });
+    });
+
+    $('.icon-bit').click(function(){
+        gtag('event',  'bitcointalk',{
+            'event_category': 'steemit'
+        });
+    });
+
+    $('.icon-github').click(function(){
+        gtag('event',  'bitcointalk',{
+            'event_category': 'github'
+        });
+    });
 
 });
