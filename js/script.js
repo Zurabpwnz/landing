@@ -88,9 +88,9 @@ $(document).ready(function () {
         data: {
             datasets: [{
                 label: "",
-                backgroundColor: ["#c1c5f1", "#f90059", "#9b4dfe", "#155afd", "#9b4dfe","#f90059", "#25dafc"],
-                data: [2, 18, 33, 14, 3,1,30],
-                borderColor: ["#040a52", "#040a52", "#040a52", "#040a52", "#040a52","#040a52","#040a52"],
+                backgroundColor: ["#f8004f", "#9044fe", "#1350fd", "#20d5fc", "#ff8c38","#8fd45c", "#fed444" , "#ffffff"],
+                data: [33, 30, 18, 14, 2,1,1,1],
+                borderColor: ["#040a52", "#040a52", "#040a52", "#040a52", "#040a52","#040a52","#040a52" ,"#040a52"],
                 borderWidth: 3
             }]
         },
