@@ -252,14 +252,14 @@
                 $('.form-wrapper').hide();
                 if($('.subscribe-en,.subscribe-modal-en').length){
                     window.cbSubscribe('To confirm your subscription, please click the confirmation link in the email that just been sent to you.','Please confirm your subscription.');
-                    gtag('event','otpravka',{
-                        'event_category': 'forma'
-                    });
+                    // gtag('event','otpravka',{
+                    //     'event_category': 'forma'
+                    // });
                 }else{
                     window.cbSubscribe('Чтобы подтвердить подписку, пожалуйста перейдите по ссылке в письме, которое мы только что вам отправили.','Пожайлуйста, подтвердите подписку.');
-                    gtag('event','otpravka',{
-                        'event_category': 'forma'
-                    });
+                    // gtag('event','otpravka',{
+                    //     'event_category': 'forma'
+                    // });
                 }
 
                 // If the form has errors, display them, inline if possible, or appended to #mce-error-response
