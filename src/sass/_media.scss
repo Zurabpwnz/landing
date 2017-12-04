@@ -8,9 +8,11 @@
   .hide-tablet {
     display: none;
   }
-  .nav-link-more li{
+  header {
+  .nav-link-more li {
     padding-left: 0;
     background: none;
+  }
   }
   h1{
     br{
@@ -39,6 +41,12 @@
 }
 
 @media(max-width: 767px) {
+  .wrapper:after {
+    height: 911px;
+  }
+  body {
+    font-size: 14px;
+  }
   .hide-mobile {
     display: none;
   }
@@ -60,7 +68,7 @@
     padding-bottom: 20px;
   }
   .h1, h1 {
-    font-size: 16px;
+    font-size: 25px;
     margin-bottom: 10px;
     font-weight: bold;
   }
@@ -87,8 +95,9 @@
     }
   }
   .name-block {
-    font-size: 16px;
-    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
   }
   .btn-lg {
     padding: 18px 18px;
@@ -97,8 +106,22 @@
     margin: 20px 0;
   }
   .section {
+    &.section-stage-web {
+      .box-mapala{
+        background-position: 23% 0;
+        .box-logo{
+          .box-img {
+            &.padding-block{
+              padding: 0;
+              max-width: 76%;
+            }
+          }
+        }
+      }
+    }
     &.section-intro {
-      min-height: auto;
+
+      min-height: inherit;
       padding-left: 15px;
       padding-right: 15px;
       .text {
@@ -155,13 +178,14 @@
       }
     }
     &.section-about {
+      background: #000749;
       .about-more {
         margin: 0;
         padding: 0;
+        background: none;
         .padding-block {
           padding: 0 15px;
         }
-        background: none;
         .flexible {
           display: block;
         }
@@ -222,7 +246,10 @@
       .data-cloud {
         height: auto;
         width: auto;
-        margin: 20px auto 0;
+        margin: 20px auto;
+        .data-text-save {
+          font-size: 14px;
+        }
         .data-item {
           position: relative;
           right: inherit;
@@ -469,9 +496,6 @@
             padding-bottom: 15px;
             .box-img {
               max-width: 63%;
-              img {
-                max-width: 63%;
-              }
             }
           }
           .box-text-info .text {
@@ -625,6 +649,13 @@
               font-size: 14px;
               padding-bottom: 0;
             }
+
+          }
+          .box-stages{
+            a{
+              text-align: left!important;
+              padding-left: 45px;
+            }
           }
         }
       }
@@ -656,6 +687,7 @@
                 max-width: 125px;
                 float: left;
                 margin-bottom: 0;
+                min-height: inherit;
                 .box-icon {
                   width: 35px;
                   height: 35px;
@@ -692,6 +724,7 @@
               .box-info {
                 text-align: left;
                 padding-top: 155px;
+                font-size: 14px;
               }
             }
           }
@@ -808,6 +841,9 @@
       }
     }
     &.section-start {
+      .name-block{
+        font-size: 18px;
+      }
       .timer {
         margin-top: 20px;
         margin-bottom: 30px;
@@ -832,7 +868,7 @@
       .form-subs {
         margin-top: 20px;
         .text-info {
-          font-size: 10px;
+          font-size: 12px;
         }
 
       }
@@ -844,7 +880,7 @@
       .box-section {
         padding-top: 25px;
         .name-section {
-          font-size: 16px;
+          font-size: 20px;
           padding-bottom: 15px;
         }
         .block-journey {
@@ -864,7 +900,8 @@
               padding-left: 0;
               .box-name {
                 padding-top: 20px;
-                font-size: 18px;
+                font-size: 20px;
+                font-weight: bold;
                 br {
                   display: none;
                 }
@@ -988,7 +1025,17 @@
       transform: translate(0, 0);
     }
   }
+  .data-cloud-item{
+    position: absolute;
+    left: -5000px;
+  }
+  .box-scrolling{
+    bottom: 65px;
+  }
   .thanks {
+    header{
+      background: #10176f;
+    }
     .name-block {
       font-size: 28px;
       padding-top: 50px;
@@ -1003,6 +1050,19 @@
     width: 40px;
     height: 40px;
     margin-top: -20px;
+  }
+  .section .text.text-bold {
+    font-size: 20px!important;
+  }
+  .section-benefit-new {
+    .box-section {
+      .box-lesson {
+        .lesson {
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
   }
 }
 
@@ -1022,6 +1082,7 @@
         display: block;
         .lesson {
           width: 100%;
+          padding: 20px 20px;
           &.lesson-left {
             &:after {
               display: none;
@@ -1064,6 +1125,18 @@
           }
         }
       }
+    }
+  }
+  .wrapper:after {
+    height: 980px;
+  }
+  .btn-review {
+    padding-right: 65px;
+    .box-icon{
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      margin-top: -18px;
     }
   }
 }

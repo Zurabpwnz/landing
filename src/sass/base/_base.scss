@@ -34,7 +34,7 @@ $bg-dark: rgba(0, 0, 0, 0.2);
 body {
   font-family: $font_family;
   -webkit-font-smoothing: antialiased;
-  font-size: 14px;
+  font-size: 18px;
   line-height: normal;
   background-color: $color_white;
   min-height: 400px;
@@ -52,9 +52,9 @@ input, button, textarea, select {
   font-size: 14px;
 }
 
-i, .italic {
-  font-family: $font_family_it;
-}
+//i, .italic {
+//  font-family: $font_family_it;
+//}
 
 .light {
   font-family: $font_family_li;
@@ -298,10 +298,22 @@ h4, .h4 {
 /*CONTENT*/
 .wrapper {
   width: 100%;
-  background: url("../images/bg1.svg") no-repeat center top;
   position: relative;
   padding-top: 85px;
   overflow: hidden;
+  &:after{
+    background: url(../images/bg1.svg);
+    content: '';
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: -2px;
+    right: 0;
+    width: 102%;
+    height: 1265px;
+    z-index: -1;
+  }
 }
 
 .name-block {
@@ -309,6 +321,7 @@ h4, .h4 {
   color: $color_title;
   line-height: 1.2;
   margin-bottom: 20px;
+  text-align: center;
   &.white {
     color: $color_white;
   }
@@ -333,7 +346,6 @@ h4, .h4 {
 }
 
 .block-text {
-  font-size: 16px;
   font-family: $font_family_2;
   line-height: 1.5;
   p {

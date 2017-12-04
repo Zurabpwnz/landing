@@ -26,13 +26,14 @@
       margin-bottom: 20px;
       &-info{
         color: $color_info;
+        font-size: 12px;
         a{
           color: inherit;
         }
       }
     }
     .label{
-      font-size: 16px;
+
       margin-bottom: 10px;
     }
     .value{
@@ -128,7 +129,7 @@
             z-index: -1;
           }
           .pos{
-            font-size: 16px;
+            font-size: 18px;
           }
         }
       }
@@ -169,7 +170,7 @@
         margin: 0 auto;
         text-align: center;
         &-save{
-          font-size: 16px;
+          font-size: 18px;
           line-height: 1.5;
           max-width: 620px;
           margin: 0 auto;
@@ -180,7 +181,7 @@
       &-item{
         width: 330px;
         text-align: right;
-        font-size: 16px;
+        font-size: 18px;
         font-family: $font_family_2;
         line-height: 1.5;
         .box-icon{
@@ -350,7 +351,7 @@
         width: 380px;
         margin: 0 auto;
         font-family: $font_family_2;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 1.5;
         .video{
           margin-bottom: 20px;
@@ -476,6 +477,9 @@
     }
     .form-subs{
       margin-top: 50px;
+      .text-info{
+        font-size: 12px;
+      }
     }
   }
   &-question{

@@ -9,6 +9,9 @@
       }
     }
   }
+  .wrapper:after {
+    height: 1202px;
+  }
 }
 
 @media(max-width: 1320px) {
@@ -113,6 +116,9 @@
   }
 }
 @media(max-width: 1080px) {
+  .wrapper:after {
+    height: 1320px;
+  }
   .section{
     &-intro{
       .intro-down{
@@ -171,7 +177,6 @@
       .box-roadmap .box-item-roadmap .box-head{
         display: block;
         .box-number{
-          font-size: 16px;
           width: 36px;
           height: 36px;
           line-height: 36px;
@@ -202,6 +207,10 @@
   }
 }
 @media(max-width: 920px) {
+
+  .wrapper:after {
+      height: 1152px;
+    }
   header {
     .social{
       .nav-link-more li {

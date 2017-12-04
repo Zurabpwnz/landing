@@ -69,7 +69,7 @@
         }
         .box-text-info {
           .text {
-            font-size: 16px;
+
             line-height: 24px;
             font-family: $font_family_2;
             color: $color_white;
@@ -101,6 +101,7 @@
       margin-bottom: 40px;
       .name-block {
         color: $color_white;
+        text-align: center;
       }
       .nav {
         li {
@@ -150,7 +151,7 @@
           padding-bottom: 15px;
         }
         .text {
-          font-size: 16px;
+
           line-height: 24px;
           color: $color_text_distribution;
           font-family: $font_family_2;
@@ -175,7 +176,7 @@
           .text {
             color: $color_text_distribution;
             font-family: $font_family_2;
-            font-size: 16px;
+
           }
         }
       }
@@ -223,7 +224,7 @@
               font-family: $font_family_bold_2;
             }
             .text {
-              font-size: 16px;
+
               color: $color_text_distribution;
               font-family: $font_family_2;
             }
@@ -293,7 +294,7 @@
           }
           .box-name {
             font-family: $font_family_2;
-            font-size: 16px;
+
             line-height: 24px;
             padding: 0 14px;
             color: $color_white;
@@ -306,7 +307,7 @@
           }
         }
         .box-body {
-          font-size: 16px;
+
           line-height: 24px;
           padding-bottom: 10px;
           color: $color_text;
@@ -355,6 +356,9 @@
           a {
             color: #1872fd;
             font-size: 18px;
+            display: inline-block;
+            width: 100%;
+            text-align: right;
             &:hover {
               text-decoration: underline;
             }
@@ -428,13 +432,14 @@
             }
             .box-qualification {
               font-family: $font_family_bold_2;
-              font-size: 16px;
+
               line-height: 24px;
               padding-bottom: 14px;
             }
             .box-info {
               line-height: 24px;
               font-family: $font_family_2;
+              font-size: 16px;
             }
           }
         }
@@ -514,7 +519,7 @@
     .box-section{
       padding-top: 50px;
       .name-section{
-        font-size: 25px;
+        font-size: 28px;
         color: #00074a;
         line-height: 1.2;
         padding-bottom: 20px;
@@ -532,7 +537,7 @@
         }
       }
       .text-section{
-        font-size: 16px;
+
         color: #515582;
         line-height: 24px;
         &-padding{
@@ -599,10 +604,10 @@
             padding-left: 40px;
             .box-name{
               padding-top: 30px;
-              font-size: 25px;
+              font-size: 28px;
             }
             .box-text{
-              font-size: 16px;
+
               line-height: 24px;
               padding-top: 15px;
             }
@@ -618,7 +623,7 @@
         -webkit-align-items: inherit;
         .lesson{
           color: #ffffff;
-          font-size: 14px;
+          font-size: 16px;
           line-height: 24px;
           padding: 30px 40px;
           width: 50%;
@@ -662,7 +667,7 @@
           }
           .text{
             color: #515582;
-            font-size: 16px;
+
             line-height: 24px;
           }
         }
@@ -721,11 +726,11 @@
     margin: 0 auto 40px;
 
     li {
-      font-size: 18px;
+
       color: #d0c0c0;
     }
   }
-  .btn {
+  .wrapper .btn {
     margin-top: 20px;
     & + .btn {
       margin-left: 20px;
