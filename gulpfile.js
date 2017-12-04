@@ -7,6 +7,24 @@ var sass = require('gulp-sass');
 var plumber = require('gulp-plumber');
 var cssmin = require('gulp-csso');
 var concat = require('gulp-concat');
+var rename = require('gulp-rename');
+var uglify = require('gulp-uglify-es').default;
+var gutil = require('gulp-util');
+
+var jsFiles = [
+    'js/jquery-3.2.1.min.js',
+    'js/jquery.flipster.js',
+    'js/bootstrap3.3.7.min.jsjs',
+    'js/jquery.svg3dtagcloud.min.js',
+    'js/jquery.countdown.min.js',
+    'js/lazyload.min.js',
+    'js/slick.min.js',
+    'js/Chart.min.js',
+    'js/script.js',
+    'js/script-cloud.js',
+    'js/send-email.js'
+    ],
+    jsDest = 'dist';
 
 var cwd = './src/';
 var html = ['*.html', '!_*.html'];
@@ -35,6 +53,16 @@ gulp.task('app-css', function () {
         .pipe(gulp.dest(appCssPath));//direction for css file
 });
 
-gulp.task('build', ['template', 'app-css']);
+gulp.task('scripts', function() {
+    return gulp.src(jsFiles)
+        .pipe(concat('scripts.js'))
+        .pipe(gulp.dest(jsDest))
+        .pipe(rename('scripts.min.js'))
+        .pipe(uglify())
+        .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
+        .pipe(gulp.dest(jsDest));
+});
+
+gulp.task('build', ['template', 'app-css','scripts']);
 
 gulp.task('default', ['build']);

@@ -12,7 +12,11 @@
     "gulp-concat": "latest",
     "gulp-csso": "latest"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify-es": "^0.1.7",
+    "gulp-util": "^3.0.8"
+  },
   "scripts": {},
   "repository": {},
   "author": "",
