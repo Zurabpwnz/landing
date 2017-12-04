@@ -248,7 +248,12 @@
                 $('#mc-embedded-subscribe-form').each(function(){
                     this.reset();
                 });
-                yaCounter46376631.reachGoal('subsrc');
+                try {
+                    yaCounter46376631.reachGoal('subsrc');
+                }
+                catch (e){
+                    console.log('yandex counter not found');
+                }
                 $('.form-wrapper').hide();
                 if($('.subscribe-en,.subscribe-modal-en').length){
                     window.cbSubscribe('To confirm your subscription, please click the confirmation link in the email that just been sent to you.','Please confirm your subscription.');
