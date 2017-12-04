@@ -14,7 +14,7 @@ var gutil = require('gulp-util');
 var jsFiles = [
     'js/jquery-3.2.1.min.js',
     'js/jquery.flipster.js',
-    'js/bootstrap3.3.7.min.jsjs',
+    'js/bootstrap3.3.7.min.js',
     'js/jquery.svg3dtagcloud.min.js',
     'js/jquery.countdown.min.js',
     'js/lazyload.min.js',
