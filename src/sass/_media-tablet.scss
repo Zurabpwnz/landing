@@ -102,7 +102,7 @@
     &-start{
       margin-top: 100px;
       &:before{
-        top:-640px;
+        top:-670px;
       }
     }
   }
@@ -117,7 +117,7 @@
 }
 @media(max-width: 1080px) {
   .wrapper:after {
-    height: 1320px;
+    height: 1241px;
   }
   .section{
     &-intro{
@@ -162,7 +162,7 @@
               bottom: -10%;
             }
             &:nth-child(3) {
-              left: 80%;
+              left: 75%;
               top:80%;
               .box-icon{
                 @include  web_transform(rotate(-7deg));
@@ -173,6 +173,7 @@
         }
       }
     }
+
     &-roadmap{
       .box-roadmap .box-item-roadmap .box-head{
         display: block;
@@ -197,7 +198,16 @@
   }
 
 }
+@media(max-width: 1020px) {
+  .wrapper:after {
+    height: 1180px;
+  }
+  .section-stage-web .box-mapala .box-mapala-info>div {
+    padding: 0 15px;
+  }
+}
 @media(min-width: 921px) {
+
   header{
     .navbar{
       &-collapse{
@@ -271,5 +281,8 @@
         margin-top: 0;
       }
     }
+  }
+  .section-roadmap .box-roadmap .box-item-roadmap .box-body {
+    font-size: 14px;
   }
 }
