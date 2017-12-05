@@ -57,10 +57,10 @@ gulp.task('scripts', function() {
     return gulp.src(jsFiles)
         .pipe(concat('scripts.js'))
         .pipe(gulp.dest(jsDest))
-        // .pipe(rename('scripts.min.js'))
-        // .pipe(uglify())
-        // .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
-        // .pipe(gulp.dest(jsDest));
+        .pipe(rename('scripts.min.js'))
+        .pipe(uglify())
+        .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
+        .pipe(gulp.dest(jsDest));
 });
 
 gulp.task('build', ['template', 'app-css','scripts']);
