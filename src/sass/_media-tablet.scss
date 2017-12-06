@@ -33,6 +33,11 @@
     left: -10px;
   }
 }
+@media(min-width: 1201px) {
+  h1 {
+    min-height: 95px;
+  }
+}
 @media(max-width: 1200px) {
   header{
     .social{
