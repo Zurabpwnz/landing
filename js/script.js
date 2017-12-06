@@ -1,8 +1,9 @@
-$(document).ready(function () {
+$(window).on('load', function () {
     $('.preloader .load').fadeOut();
     $('.preloader').delay(200).fadeOut().remove();
     AOS.init();
-
+});
+$(document).ready(function () {
     $('.btn-menu').on('click', function () {
         $(this).toggleClass('open');
         $('.navbar-collapse').toggleClass('open').slideToggle();
