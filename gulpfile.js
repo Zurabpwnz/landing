@@ -25,20 +25,31 @@ var jsFiles = [
     ],
     jsDest = 'dist';
 
-var cwd = './src/';
+var cwd_en = './src/en/';
+var cwd_ru = './src/ru/';
 var html = ['*.html', '!_*.html'];
 var appScss = "./src/sass/*.scss";
 var appCssPath= "./css/";
 
-gulp.task('template', function() {
+gulp.task('template-en', function() {
     return gulp.src(html, {
-            cwd: cwd
-        })
+        cwd: cwd_en
+    })
         .pipe(plumber({
             errorHandler: notify.onError('Error: <%= error.message %>')
         }))
-        .pipe(nunjucksRender({path: cwd}))
+        .pipe(nunjucksRender({path: cwd_en}))
         .pipe(gulp.dest('./'));//direction for html
+});
+gulp.task('template-ru', function() {
+    return gulp.src(html, {
+        cwd: cwd_ru
+    })
+        .pipe(plumber({
+            errorHandler: notify.onError('Error: <%= error.message %>')
+        }))
+        .pipe(nunjucksRender({path: cwd_ru})).pipe(rename('index.html'))
+        .pipe(gulp.dest('./ru'));//direction for html
 });
 
 gulp.task('app-css', function () {
@@ -62,6 +73,6 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest(jsDest));
 });
 
-gulp.task('build', ['template', 'app-css','scripts']);
+gulp.task('build', ['template-en','template-ru', 'app-css','scripts']);
 
 gulp.task('default', ['build']);

@@ -195,7 +195,7 @@ $(document).ready(function () {
     });
     var subscribeEmail = function (fd) {
         $.ajax({
-            url: 'email.php',
+            url: '/email.php',
             data: fd,
             processData: false,
             contentType: false,
