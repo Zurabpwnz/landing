@@ -574,7 +574,7 @@ $(document).ready(function () {
         tooltipDiffX: 0,
         tooltipDiffY: 20
     };
-    $('#cloud').svg3DTagCloud(settings);
+    // $('#cloud').svg3DTagCloud(settings);
 });
 $(window).on('load', function () {
     $('.preloader .load').fadeOut();
@@ -582,8 +582,6 @@ $(window).on('load', function () {
     AOS.init();
 });
 $(document).ready(function () {
-
-
     $('.btn-menu').on('click', function () {
         $(this).toggleClass('open');
         $('.navbar-collapse').toggleClass('open').slideToggle();

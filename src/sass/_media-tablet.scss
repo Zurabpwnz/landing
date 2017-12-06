@@ -116,6 +116,12 @@
   }
 }
 @media(max-width: 1080px) {
+  .section-data .block-data-tell{
+    img{
+      height: 390px;
+      margin-top: 40px;
+    }
+  }
   .wrapper:after {
     height: 1241px;
   }
@@ -217,7 +223,9 @@
   }
 }
 @media(max-width: 920px) {
-
+  .section-activity .block-presentation{
+    font-size: 14px;
+  }
   .wrapper:after {
       height: 1152px;
     }

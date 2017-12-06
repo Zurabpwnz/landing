@@ -41,6 +41,16 @@
 }
 
 @media(max-width: 767px) {
+  .section-activity {
+    .block-presentation{
+      display: block;
+      margin-top: 0;
+      margin-bottom: 0;
+       ul li {
+        margin-bottom: 0.6em;
+      }
+    }
+  }
   .wrapper:after {
     height: 911px;
   }
@@ -1139,5 +1149,8 @@
       top: 50%;
       margin-top: -18px;
     }
+  }
+  .section-activity .block-presentation ul li {
+    margin-bottom: 0!important;
   }
 }

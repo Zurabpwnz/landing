@@ -181,5 +181,5 @@ $(document).ready(function () {
         tooltipDiffX: 0,
         tooltipDiffY: 20
     };
-    $('#cloud').svg3DTagCloud(settings);
+    // $('#cloud').svg3DTagCloud(settings);
 });
