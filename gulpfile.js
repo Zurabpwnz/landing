@@ -20,9 +20,8 @@ var jsFiles = [
     'js/lazyload.min.js',
     'js/slick.min.js',
     'js/Chart.min.js',
-    'js/script.js',
     'js/script-cloud.js',
-    'js/send-email.js'
+    'js/script.js'
     ],
     jsDest = 'dist';
 

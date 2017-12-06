@@ -1,9 +1,7 @@
-$(window).on('load', function () {
+$(document).ready(function () {
     $('.preloader .load').fadeOut();
     $('.preloader').delay(200).fadeOut().remove();
     AOS.init();
-});
-$(document).ready(function () {
 
     $('.btn-menu').on('click', function () {
         $(this).toggleClass('open');
@@ -157,12 +155,26 @@ $(document).ready(function () {
             settings: {arrows: false, slidesToShow: 1, variableWidth: true, infinite: true}
         }]
     });
+    var cbSubscribe = function (text,text_small) {
+        $('#presale').modal('hide');
+        $('#thanks').find('.text').html(text);
+        $('#thanks').find('.name').html(text_small);
+        $('#thanks').modal('show');
+
+    };
     $('.subscribe,.subscribe-en').click(function (e) {
         e.preventDefault();
         var val = $(this).siblings('input.form-control').val();
         if(val){
-            $('#mce-EMAIL').val(val);
-            $('#mc-embedded-subscribe').click();
+            var fd = new FormData();
+            fd.append('email', val);
+            if($(this).hasClass('subscribe-en')){
+                fd.append('lang', 'EN');
+            }else{
+                window.language = 'RU';
+                fd.append('lang', 'RU');
+            }
+            subscribeEmail(fd);
         }
     });
     $('.subscribe-modal,.subscribe-modal-en').click(function (e) {
@@ -170,78 +182,51 @@ $(document).ready(function () {
 
         var val = $(this).siblings('.box-control').find('input.form-control').val();
         if(val){
-            $('#mce-EMAIL').val(val);
-            $('#mc-embedded-subscribe').click();
+            var fd = new FormData();
+            fd.append('email', val);
+            if($(this).hasClass('subscribe-modal-en')){
+                fd.append('lang', 'EN');
+            }else{
+                window.language = 'RU';
+                fd.append('lang', 'RU');
+            }
+            subscribeEmail(fd);
         }
     });
-    $('.subscribe-form').submit(function(e){
-        e.preventDefault();
-        var val =$(this).find('input').val();
-        if(val){
-            $('#mce-EMAIL').val(val);
-            $('#mc-embedded-subscribe').click();
-        }
-    });
-    window.cbSubscribe = function (text,text_small) {
-        $('#presale').modal('hide');
-        $('#thanks').find('.text').html(text);
-        $('#thanks').find('.name').html(text_small);
-        $('#thanks').modal('show');
-
+    var subscribeEmail = function (fd) {
+        $.ajax({
+            url: 'email.php',
+            data: fd,
+            processData: false,
+            contentType: false,
+            type: 'POST',
+            success: function (data) {
+                console.log(data);
+                data = JSON.parse(data);
+                if(data && data.status=='subscribed'){
+                    try {
+                        yaCounter46376631.reachGoal('subsrc');
+                    }
+                    catch (e){
+                        console.log('yandex counter not found');
+                    }
+                    if(window.language){
+                        window.location.href = '/ru/thanks';
+                    }else{
+                        window.location.href = '/thanks';
+                    }
+                }else{
+                    if(window.language){
+                        cbSubscribe('Вы написали ваш email с ошибкой или вы уже подписаны на наши новости.','Ошибка!');
+                    }else{
+                        cbSubscribe('You wrote your email with an error or you are already subscribed to our news.','Error!');
+                    }
+                }
+            },
+            error: function() {
+                cbSubscribe('You wrote your email with an error or you are already subscribed to our news.','Error!');
+            }
+        });
     };
-    $('.files-gtag-event').click(function () {
-        // gtag('event','click',{
-        //     'value':'click',
-        //     'event_category': 'docs'
-        // });
-    });
-    //analitycs for sidebar
-    $('.icon-tel').click(function(){
-        // gtag('event',  'click',{
-        //     'event_category': 'telegram'
-        // });
-    });
-    $('.icon-yt').click(function(){
-        // gtag('event',  'click',{
-        //     'event_category': 'youtube'
-        // });
-    });
-    $('.icon-medium').click(function(){
-        // gtag('event',  'click',{
-        //     'event_category': 'medium'
-        // });
-    });
-    $('.icon-vk-up').click(function(){
-        // gtag('event',  'click',{
-        //     'event_category': 'vk'
-        // });
-    });
-    $('.icon-tw').click(function(){
-        // gtag('event',  'click',{
-        //     'event_category': 'twitter'
-        // });
-    });
-    $('.icon-insta').click(function(){
-        // gtag('event',  'click',{
-        //     'event_category': 'instagram'
-        // });
-    });
-    $('.icon-golos').click(function(){
-        // gtag('event',  'click',{
-        //     'event_category': 'golos'
-        // });
-    });
-
-    $('.icon-bit').click(function(){
-        // gtag('event',  'bitcointalk',{
-        //     'event_category': 'steemit'
-        // });
-    });
-
-    $('.icon-github').click(function(){
-        // gtag('event',  'bitcointalk',{
-        //     'event_category': 'github'
-        // });
-    });
 
 });
