@@ -1004,6 +1004,8 @@
   .modal {
     .modal-dialog {
       max-width: 100%;
+      position: relative!important;
+      left: auto!important;
       margin: 80px 25px 25px;
       &.box-register {
         max-width: 100%;
@@ -1074,6 +1076,9 @@
         }
       }
     }
+  }
+  .section-activity .activity-tabs .slide-activity {
+    padding: 68px 0;
   }
 }
 

@@ -63,13 +63,14 @@
   }
   &-dialog{
     max-width: 730px;
-    position: relative;
-    margin: 0 auto;
+    position: absolute;
+    margin-left: -365px;
     &.box-register{
       max-width: 550px;
       background: #3456bf;
       padding: 20px;
       border-radius: 15px;
+      margin-left: -275px;
       .name{
         font-size: 34px;
         color: $color_white;
@@ -102,6 +103,7 @@
     -o-transform: translate(0, -200%);
     transform: translate(0, -200%);
     top:50%;
+    left: 50%;
   }
   &.in .modal-dialog {
     -webkit-transform: translate(0, -50%);

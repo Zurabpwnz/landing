@@ -359,8 +359,11 @@
             display: inline-block;
             width: 100%;
             text-align: left;
-            &:hover {
-              text-decoration: underline;
+            span{
+              border-bottom: 1px dashed #155afd;
+              &:hover {
+                border-bottom: none;
+              }
             }
           }
         }
