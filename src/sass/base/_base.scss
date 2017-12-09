@@ -108,7 +108,7 @@ b, .bold {
 }
 
 h1, .h1 {
-  font-size: 40px;
+  font-size: 38px;
   margin-bottom: 20px;
 }
 
@@ -299,20 +299,38 @@ h4, .h4 {
 .wrapper {
   width: 100%;
   position: relative;
-  padding-top: 85px;
+  //padding-top: 85px;
   overflow: hidden;
-  &:after{
-    background: url(../images/bg1.svg);
-    content: '';
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0;
-    left: -2px;
-    right: 0;
-    width: 102%;
-    height: 1265px;
-    z-index: -1;
+  //&:after{
+  //  background: url(../images/bg1.svg);
+  //  content: '';
+  //  background-size: cover;
+  //  background-repeat: no-repeat;
+  //  position: absolute;
+  //  top: 0;
+  //  left: -2px;
+  //  right: 0;
+  //  width: 102%;
+  //  height: 1265px;
+  //  z-index: -1;
+  //}
+  .section-intro{
+    width: 100%;
+    position: relative;
+    padding-top: 150px;
+    &:after{
+      background: url(../images/bg1.svg);
+      content: '';
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 0;
+      left: -5px;
+      right: 0;
+      width: 102%;
+      height: 105%;
+      z-index: -1;
+    }
   }
 }
 

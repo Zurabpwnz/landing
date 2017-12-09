@@ -159,7 +159,7 @@
       }
     }
     .box-chart-token {
-      padding-bottom: 110px;
+      padding-bottom: 45px;
       > div {
         width: 33%;
       }
@@ -267,6 +267,9 @@
 
           }
         }
+        .box-item-roadmap .box-stages a {
+          text-align: right;
+        }
       }
       .box-item-roadmap {
         width: 33%;
@@ -309,7 +312,7 @@
         .box-body {
           font-size: 16px;
           line-height: 24px;
-          padding-bottom: 10px;
+          padding-bottom: 4px;
           color: $color_text;
           .name-date {
             font-family: $font_family_bold_2;
@@ -377,7 +380,7 @@
     &:after {
       content: '';
       position: absolute;
-      top: 97%;
+      top: 95%;
       left: 0;
       display: block;
       z-index: -2;
@@ -468,8 +471,8 @@
             padding-bottom: 0;
           }
           text-align: center;
-          padding-top: 80px;
-          padding-bottom: 80px;
+          padding-top: 60px;
+          padding-bottom: 10px;
           .item-accordion {
             width: 19%;
             color: #515582;
@@ -681,7 +684,7 @@
     margin-top: 15px;
   }
   .text.text-bold{
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 
@@ -742,13 +745,13 @@
 }
 .box-scrolling {
   position: fixed;
-  bottom: 50px;
-  right: 21px;
+  bottom: 35px;
+  left: 10px;
   z-index: 10000;
   pointer-events: none;
   transition: all .2s linear;
-  opacity: 0;
   &.scroll {
+  opacity: 0;
     display: block;
     opacity: 1;
     transition: all .2s linear;
@@ -759,7 +762,6 @@
     height: 46px;
     line-height: 46px;
     text-align: center;
-    margin-left: 30px;
     -webkit-box-shadow: 0 0 35px rgba(229, 65, 255, 0.2);
     -moz-box-shadow: 0 0 35px rgba(229, 65, 255, 0.2);
     box-shadow: 0 0 35px rgba(229, 65, 255, 0.2);

@@ -33,11 +33,6 @@
     left: -10px;
   }
 }
-@media(min-width: 1201px) {
-  h1 {
-    min-height: 95px;
-  }
-}
 @media(max-width: 1200px) {
   header{
     .social{
@@ -63,15 +58,16 @@
         left: 50%;
         margin-left: -240px;
         z-index: 2;
+        width: 100%;
       }
       .cash,.timer{
-        padding-top: 260px;
+        padding-top: 35px;
       }
       .intro-down{
         margin-top: 130px;
       }
       .intro-map{
-        margin-bottom: -61%;
+        margin-bottom: -50%;
       }
     }
     &-about{
@@ -135,7 +131,7 @@
       .intro-down{
         margin-top: 120px;
         .cash, .timer{
-         padding-top: 280px;
+         padding-top: 200px;
         }
       }
     }
@@ -216,9 +212,14 @@
   .section-stage-web .box-mapala .box-mapala-info>div {
     padding: 0 15px;
   }
+  .section-intro .intro-map {
+    margin-bottom: -57%;
+  }
 }
 @media(min-width: 921px) {
-
+  .section-about{
+    display: none;
+  }
   header{
     .navbar{
       &-collapse{
@@ -231,9 +232,10 @@
   .section-activity .block-presentation{
     font-size: 14px;
   }
-  .wrapper:after {
-      height: 1152px;
-    }
+  .intro-map .point{
+    background: url(../images/paths.png) no-repeat top;
+    animation: none;
+  }
   header {
     .social{
       .nav-link-more li {
@@ -281,13 +283,13 @@
         }
       }
     }
-  .wrapper{
-    padding-top: 57px;
+  .wrapper .section-intro{
+    padding-top: 90px;
   }
   .section {
     &-intro {
       .intro-map {
-        margin-bottom: -69%;
+        //margin-bottom: -69%;
         margin-top: -26%;
       }
       .intro-down{
