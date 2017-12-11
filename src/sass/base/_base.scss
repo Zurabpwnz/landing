@@ -40,6 +40,9 @@ body {
   min-height: 400px;
   min-width: 320px;
   color: $color_text;
+  &.open{
+    overflow-y: hidden;
+  }
 }
 
 html, body {
