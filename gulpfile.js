@@ -27,6 +27,8 @@ var jsFiles = [
 
 var cwd_en = './src/en/';
 var cwd_ru = './src/ru/';
+var cwd_kr = './src/kr/';
+
 var html = ['*.html', '!_*.html'];
 var appScss = "./src/sass/*.scss";
 var appCssPath= "./css/";
@@ -52,6 +54,18 @@ gulp.task('template-ru', function() {
         .pipe(gulp.dest('./ru'));//direction for html
 });
 
+gulp.task('template-kr', function() {
+  return gulp.src(html, {
+    cwd: cwd_kr
+  })
+    .pipe(plumber({
+      errorHandler: notify.onError('Error: <%= error.message %>')
+    }))
+    .pipe(nunjucksRender({path: cwd_kr})).pipe(rename('index.html'))
+    .pipe(gulp.dest('./kr'));//direction for html
+});
+
+
 gulp.task('app-css', function () {
     return gulp.src([appScss])
         .pipe(plumber({
@@ -73,6 +87,6 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest(jsDest));
 });
 
-gulp.task('build', ['template-en','template-ru', 'app-css','scripts']);
+gulp.task('build', ['template-en','template-ru','template-kr',  'app-css','scripts']);
 
 gulp.task('default', ['build']);
