@@ -164,32 +164,42 @@ $(document).ready(function () {
         $('#thanks').modal('show');
 
     };
-    $('.subscribe,.subscribe-en').click(function (e) {
+    $('.subscribe').click(function (e) {
         e.preventDefault();
         var val = $(this).siblings('input.form-control').val();
-        if(val){
+        if(val)
+        {
             var fd = new FormData();
             fd.append('email', val);
-            if($(this).hasClass('subscribe-en')){
-                fd.append('lang', 'EN');
-            }else{
-                window.language = 'RU';
+            if( $(this).data('lang') )
+            {
+                window.language = $(this).data('lang');
+                fd.append('lang', $(this).data('lang').toUpperCase());
+            }
+            else
+            {
+                window.language = 'ru';
                 fd.append('lang', 'RU');
             }
             subscribeEmail(fd);
         }
     });
-    $('.subscribe-modal,.subscribe-modal-en').click(function (e) {
+    $('.subscribe-modal,.subscribe-modal-en').click(function (e)
+    {
         e.preventDefault();
 
         var val = $(this).siblings('.box-control').find('input.form-control').val();
         if(val){
             var fd = new FormData();
             fd.append('email', val);
-            if($(this).hasClass('subscribe-modal-en')){
-                fd.append('lang', 'EN');
-            }else{
-                window.language = 'RU';
+            if( $(this).data('lang') )
+            {
+                window.language = $(this).data('lang');
+                fd.append('lang', $(this).data('lang').toUpperCase());
+            }
+            else
+            {
+                window.language = 'ru';
                 fd.append('lang', 'RU');
             }
             subscribeEmail(fd);
@@ -212,16 +222,20 @@ $(document).ready(function () {
                     catch (e){
                         console.log('yandex counter not found');
                     }
-                    if(location.pathname){
-                        window.location.href = location.pathname + 'thanks';
+                    if(window.language){
+                        window.location.href = '/'+ window.language.toLowerCase() + '/thanks';
                     }else{
                         window.location.href = '/thanks';
                     }
                 }else{
-                    if(window.language){
-                        cbSubscribe('Вы написали ваш email с ошибкой или вы уже подписаны на наши новости.','Ошибка!');
-                    }else{
-                        cbSubscribe('You wrote your email with an error or you are already subscribed to our news.','Error!');
+                    switch( window.language.toLowerCase() )
+                    {
+                        case "ru":
+                            cbSubscribe('Вы написали ваш email с ошибкой или вы уже подписаны на наши новости.','Ошибка!');
+                            break;
+
+                        default:
+                            cbSubscribe('You wrote your email with an error or you are already subscribed to our news.','Error!');
                     }
                 }
             },

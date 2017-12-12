@@ -790,8 +790,8 @@ $(document).ready(function () {
                     catch (e){
                         console.log('yandex counter not found');
                     }
-                    if(location.pathname){
-                        window.location.href = location.pathname + 'thanks';
+                    if(window.language){
+                        window.location.href = '/ru/thanks';
                     }else{
                         window.location.href = '/thanks';
                     }
