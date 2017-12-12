@@ -3,9 +3,13 @@ node_modules
 .idea/*
 email.php
 _mac
+inspection
+IntelliLang.xml
+databaseSettings.xml
 debugger.xml
 diff.xml
 github_settings.xml
+other.xml
 ui.lnf.xml
 vcs.xml
 web-browsers.xml
