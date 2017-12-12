@@ -28,6 +28,7 @@ var jsFiles = [
 var cwd_en = './src/en/';
 var cwd_ru = './src/ru/';
 var cwd_kr = './src/kr/';
+var cwd_jp = './src/jp/';
 
 var html = ['*.html', '!_*.html'];
 var appScss = "./src/sass/*.scss";
@@ -65,6 +66,16 @@ gulp.task('template-kr', function() {
     .pipe(gulp.dest('./kr'));//direction for html
 });
 
+gulp.task('template-jp', function() {
+  return gulp.src(html, {
+    cwd: cwd_jp
+  })
+    .pipe(plumber({
+      errorHandler: notify.onError('Error: <%= error.message %>')
+    }))
+    .pipe(nunjucksRender({path: cwd_jp})).pipe(rename('index.html'))
+    .pipe(gulp.dest('./jp'));//direction for html
+});
 
 gulp.task('app-css', function () {
     return gulp.src([appScss])
@@ -87,6 +98,6 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest(jsDest));
 });
 
-gulp.task('build', ['template-en','template-ru','template-kr',  'app-css','scripts']);
+gulp.task('build', ['template-en','template-ru','template-kr','template-jp',  'app-css','scripts']);
 
 gulp.task('default', ['build']);

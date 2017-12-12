@@ -7,6 +7,7 @@ $(document).ready(function () {
     $('.btn-menu').on('click', function () {
         $(this).toggleClass('open');
         $('.navbar-collapse').toggleClass('open').slideToggle();
+        $('body').toggleClass('open');
     });
     $('.video .btn-play').on('click', function () {
         $(this).fadeOut().parent('.video').addClass('open').find('.video-image').fadeOut();
@@ -229,5 +230,8 @@ $(document).ready(function () {
             }
         });
     };
-
+  $(".href-dropdown").on('click', function () {
+    $(this).toggleClass('open');
+    $(".menu-dropdown").slideToggle(0)
+  });
 });
