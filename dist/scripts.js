@@ -798,11 +798,11 @@ $(document).ready(function () {
                     switch( window.language.toLowerCase() )
                     {
                         case "jp":
-                            cbSubscribe('Вы написали ваш email с ошибкой или вы уже подписаны на наши новости.','Ошибка!');
+                            cbSubscribe('You wrote your email with an error or you are already subscribed to our news.','Error!');
                             break;
 
                         case "kr":
-                            cbSubscribe('Вы написали ваш email с ошибкой или вы уже подписаны на наши новости.','Ошибка!');
+                            cbSubscribe('You wrote your email with an error or you are already subscribed to our news.','Error!');
                             break;
 
                         case "ru":
