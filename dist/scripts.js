@@ -742,15 +742,15 @@ $(document).ready(function () {
         $('#thanks').modal('show');
 
     };
+    window.language = $('body').data('lang') || 'ru';
     $('.subscribe').click(function (e) {
         e.preventDefault();
         var val = $(this).siblings('input.form-control').val();
         if( val )
         {
-            var fd = new FormData(), lang = $(this).data('lang') || "ru";
+            var fd = new FormData();
             fd.append('email', val);
-            fd.append('lang', lang);
-            window.language = lang;
+            fd.append('lang', window.language);
             subscribeEmail(fd);
         }
     });
@@ -761,10 +761,9 @@ $(document).ready(function () {
         var val = $(this).siblings('.box-control').find('input.form-control').val();
         if(val)
         {
-            var fd = new FormData(), lang = $(this).data('lang') || "ru";
+            var fd = new FormData();
             fd.append('email', val);
-            fd.append('lang', lang);
-            window.language = lang;
+            fd.append('lang', window.language);
             subscribeEmail(fd);
         }
     });
