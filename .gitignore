@@ -2,4 +2,14 @@ node_modules
 .sass-cache
 .idea/*
 email.php
-test
+_mac
+inspection
+IntelliLang.xml
+databaseSettings.xml
+debugger.xml
+diff.xml
+github_settings.xml
+other.xml
+ui.lnf.xml
+vcs.xml
+web-browsers.xml
