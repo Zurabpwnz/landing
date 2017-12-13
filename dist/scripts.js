@@ -784,7 +784,7 @@ $(document).ready(function () {
                     catch (e){
                         console.log('yandex counter not found');
                     }
-                    if(window.language && window.language != "en" )
+                    if(window.language && window.language.toLowerCase() != "en" )
                     {
                         window.location.href = '/'+ window.language.toLowerCase() + '/thanks';
                     }
