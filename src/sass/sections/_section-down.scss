@@ -889,3 +889,30 @@
     color: $color_white;
   }
 }
+header{
+  .header-content{
+    .navbar-collapse{
+      .flexible{
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 0 5px;
+        .nav-link-more li {
+          line-height: 30px;
+          padding-left: 28px;
+          margin-left: 50px;
+        }
+        .user{
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+}
+.wrapper-jp{
+  .subscribe-form{
+    .btn{
+      font-size: 12px;
+    }
+  }
+}
