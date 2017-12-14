@@ -206,14 +206,15 @@ $(document).ready(function () {
                     catch (e){
                         console.log('yandex counter not found');
                     }
-                    if(window.language && window.language.toLowerCase() != "en" )
-                    {
-                        window.location.href = '/'+ window.language.toLowerCase() + '/thanks';
-                    }
-                    else
-                    {
-                        window.location.href = '/thanks';
-                    }
+                    window.location.href = location.protocol+'//'+'wallet.travelchain.io';
+                    // if(window.language && window.language.toLowerCase() != "en" )
+                    // {
+                    //     window.location.href = '/'+ window.language.toLowerCase() + '/thanks';
+                    // }
+                    // else
+                    // {
+                    //     window.location.href = '/thanks';
+                    // }
                 }
                 else
                 {
