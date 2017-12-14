@@ -86,7 +86,7 @@
     margin-bottom: 1.75em;
   }
   .name-box {
-    font-size: 16px;
+    font-size: 16px!important;
   }
   .nav-link-more {
     padding-top: 10px;
@@ -1092,6 +1092,9 @@
   .section-intro .rating-wrapper .rating-cnt .rating-count {
     font-size: 30px;
   }
+  .section.section-public .player .player-line .box-img {
+    height: 80px;
+  }
 }
 
 @media(max-width: 520px) {
@@ -1209,5 +1212,8 @@
       }
     }
   }
-
+  .section.section-public .player .player-line .box-img {
+    width: 50%;
+    height: 75px;
+  }
 }
