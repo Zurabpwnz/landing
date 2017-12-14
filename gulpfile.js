@@ -29,6 +29,7 @@ var cwd_en = './src/en/';
 var cwd_ru = './src/ru/';
 var cwd_kr = './src/kr/';
 var cwd_jp = './src/jp/';
+var cwd_zh = './src/zh/';
 
 var html = ['*.html', '!_*.html'];
 var appScss = "./src/sass/*.scss";
@@ -77,6 +78,17 @@ gulp.task('template-jp', function() {
     .pipe(gulp.dest('./jp'));//direction for html
 });
 
+gulp.task('template-zh', function() {
+  return gulp.src(html, {
+    cwd: cwd_zh
+  })
+    .pipe(plumber({
+      errorHandler: notify.onError('Error: <%= error.message %>')
+    }))
+    .pipe(nunjucksRender({path: cwd_zh})).pipe(rename('index.html'))
+    .pipe(gulp.dest('./zh'));//direction for html
+});
+
 gulp.task('app-css', function () {
     return gulp.src([appScss])
         .pipe(plumber({
@@ -98,6 +110,6 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest(jsDest));
 });
 
-gulp.task('build', ['template-en','template-ru','template-kr','template-jp',  'app-css','scripts']);
+gulp.task('build', ['template-en','template-ru','template-kr','template-jp','template-zh',  'app-css','scripts']);
 
 gulp.task('default', ['build']);
