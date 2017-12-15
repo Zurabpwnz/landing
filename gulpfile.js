@@ -95,7 +95,7 @@ gulp.task('app-css', function () {
             errorHandler: notify.onError('Error: <%= error.message %>')
         }))
         .pipe(sass())
-        .pipe(concat('style.css'))
+        .pipe(concat('style.15122017.css'))
         .pipe(cssmin())
         .pipe(gulp.dest(appCssPath));//direction for css file
 });
