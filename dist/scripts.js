@@ -742,6 +742,12 @@ $(document).ready(function () {
         $('#thanks').modal('show');
 
     };
+    $( 'form' ).bind('keypress', function(e){
+        if(e.keyCode == 13){
+            e.preventDefault();
+            $(this).find('.subscribe,.subscribe-modal, .subscribe-modal-en').click();
+        }
+    });
     window.language = $('body').data('lang') || 'ru';
     $('.subscribe').click(function (e) {
         e.preventDefault();
