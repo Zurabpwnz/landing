@@ -30,7 +30,14 @@
     -webkit-align-items: flex-end;
   }
 }
-
+.main{
+  overflow: hidden;
+}
+body{
+  >img{
+    display: none;
+  }
+}
 .section {
   &-stage-web {
     padding-bottom: 60px;
@@ -688,6 +695,7 @@
   }
   &.section-public{
     padding-bottom: 15px;
+    padding-top: 90px;
     .player{
       max-width: 800px;
       margin: 0 auto;

@@ -137,9 +137,17 @@
         margin-bottom: 10px;
       }
       .intro-map {
-        height: 225px;
+        height: 120px;
         margin-top: -75px;
         margin-bottom: 0;
+        .point{
+          display: none;
+        }
+      }
+      .name-block {
+        font-size: 22px;
+        margin-bottom: 10px;
+        margin-top: 25px;
       }
       .cash {
         //position: absolute;

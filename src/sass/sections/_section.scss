@@ -74,7 +74,7 @@
         left: 50%;
         @include web_transform(translateX(-50%));
         width: 1545px;
-        height: 825px;
+        height: 800px;
         .point{
           position: absolute;
           top: 130px;
@@ -163,7 +163,13 @@
       }
     }
 
-
+.name-block{
+  font-size: 38px;
+  margin-bottom: 6px;
+  .livenowsubtext{
+    padding-top: 6px;
+  }
+}
   }
   &-about{
     .about{
@@ -558,7 +564,7 @@
     &:before{
       position: absolute;
       top: -675px;
-      height: 1520px;
+      height: 1057px;
       width: 100%;
       left:0;
       content: '';
@@ -570,11 +576,18 @@
       margin-bottom:80px;
     }
     .form-subs{
-      margin-top: 50px;
+      margin-top: 25px;
       .text-info{
         font-size: 12px;
       }
     }
+    .text-md{
+      .name-block{
+        font-size: 24px;
+        margin-bottom: 0;
+      }
+    }
+
   }
   &-question{
     .question{
