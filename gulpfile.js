@@ -31,6 +31,7 @@ var cwd_kr = './src/kr/';
 var cwd_jp = './src/jp/';
 var cwd_zh = './src/zh/';
 var cwd_ar = './src/ar/';
+var cwd_es = './src/es/';
 
 var html = ['*.html', '!_*.html'];
 var appScss = "./src/sass/*.scss";
@@ -101,6 +102,17 @@ gulp.task('template-ar', function() {
     .pipe(gulp.dest('./ar'));//direction for html
 });
 
+gulp.task('template-es', function() {
+  return gulp.src(html, {
+    cwd: cwd_es
+  })
+    .pipe(plumber({
+      errorHandler: notify.onError('Error: <%= error.message %>')
+    }))
+    .pipe(nunjucksRender({path: cwd_es})).pipe(rename('index.html'))
+    .pipe(gulp.dest('./es'));//direction for html
+});
+
 gulp.task('app-css', function () {
     return gulp.src([appScss])
         .pipe(plumber({
@@ -122,6 +134,6 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest(jsDest));
 });
 
-gulp.task('build', ['template-en','template-ru','template-kr','template-jp','template-zh','template-ar',  'app-css','scripts']);
+gulp.task('build', ['template-en','template-ru','template-kr','template-jp','template-zh','template-ar', 'template-es',  'app-css','scripts']);
 
 gulp.task('default', ['build']);
