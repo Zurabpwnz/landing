@@ -332,4 +332,16 @@
   .section-public {
     padding-top: 60px;
   }
+  body {
+    &.larg-ar {
+      .section-about{
+        padding-top: 60px;
+      }
+    }
+  }
+  header .navbar-mobile .btn-menu{
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
 }

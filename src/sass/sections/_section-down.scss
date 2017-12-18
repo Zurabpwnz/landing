@@ -948,3 +948,111 @@ header{
     }
   }
 }
+body{
+  &.larg-ar{
+    direction: rtl;
+    header {
+      .lang{
+        right:inherit;
+        left: 0;
+      }
+    }
+    .section-intro{
+      .cash {
+        text-align: right;
+      }
+      .timer {
+         text-align: left;
+       }
+
+      direction: initial;
+      .btn-review .box-icon {
+        margin: -8px 8px -10px -8px;
+      }
+      .padding-block,.intro-down,.block-social,.rating-wrapper{
+        direction: rtl;
+      }
+      .form-subs{
+        .box-control{
+          .box-icon-left{
+            right: 20px;
+            left: inherit;
+            &+.form-control {
+              padding-left: 120px;
+            }
+          }
+        }
+        .form-control {
+          padding-right: 60px;
+          text-align: right;
+        }
+        .box-btn {
+          left: 3px;
+          right: inherit;
+        }
+      }
+      .rating-wrapper .rating-cnt:not(:first-child) {
+         margin-left: 0;
+      }
+      .rating-wrapper .rating-cnt:not(:last-child) {
+        margin-left: 6px;
+      }
+      .rating-wrapper .rating-cnt .rating-count {
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0.2em;
+      }
+    }
+    .section-benefit-new .box-section .block-journey .box-journey .box-img .box-blue{
+      left: inherit;
+      right: 0;
+    }
+    .section-distribution .box-chart-token .box-chart-info .item-chart .item-cell{
+      text-align: right;
+      padding-right: 10px;
+    }
+    .section-roadmap .box-roadmap .box-item-roadmap .box-stages a{
+      text-align: right;
+    }
+    .name-block.border:after{
+      left: 50%;
+      margin-left: -32px;
+    }
+    .section-activity{
+      direction: initial !important;
+    }
+    .section-benefit-new .box-section .box-lesson .lesson-left:after{
+      -webkit-transform: rotate(-180deg);
+      -moz-transform: rotate(-180deg);
+      transform: rotate(-180deg);
+      margin-right: 0;
+      right: 100%;
+      left:inherit;
+    }
+    .section-start{
+      .form-subs{
+        .subscribe-form{
+          .box-control .box-icon-left{
+            right: 20px;
+            left: inherit;
+            &+.form-control {
+              padding-left: 120px;
+            }
+          }
+        }
+        .box-btn {
+          right: inherit;
+          left: 3px;
+        }
+        .form-control {
+          padding-right: 60px;
+          text-align: right;
+        }
+      }
+    }
+    footer .copy .link {
+      margin-left: 0;
+      margin-right: 30px;
+    }
+  }
+}
