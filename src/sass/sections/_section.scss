@@ -544,6 +544,23 @@
         }
       }
     }
+    .activity-tabs{
+      .tab-content{
+        .block-presentation{
+          .point{
+            li{
+              a{
+                border-bottom: 1px dashed #6a88a7;
+                padding-bottom: 2px;
+                &:hover{
+                  border-bottom: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
   &-player{
     text-align: center;
