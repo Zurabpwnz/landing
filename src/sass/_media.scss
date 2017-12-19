@@ -1111,6 +1111,55 @@
   .section.section-public .player .player-line .box-img {
     height: 80px;
   }
+  body {
+    &.larg-ar {
+
+      .section.section-roadmap .box-roadmap .box-item-roadmap {
+        .box-stages a{
+          text-align: right !important;
+        }
+        .box-head .box-name {
+          padding-right: 10px;
+        }
+      }
+      .section.section-commands .block-commands .block-accordion {
+        .box-accordion-head{
+          .item-accordion {
+            .box-img{
+              float: right;
+            }
+            .box-name {
+              padding-right: 15px;
+              float: right;
+              text-align: right;
+            }
+            .box-qualification {
+              text-align: right;
+              padding-right: 15px;
+              float: right;
+            }
+            .box-info {
+              text-align: right;
+            }
+          }
+        }
+        .box-accordion-body{
+          .item-accordion .content {
+            padding-left: inherit;
+            padding-right: 15px;
+            text-align: right;
+          }
+        }
+      }
+      footer .copy .link {
+        margin-right: 0;
+      }
+    }
+  }
+  body.larg-ar .section-intro .timer,
+  body.larg-ar .section-intro .cash {
+    text-align: center;
+  }
 }
 
 @media(max-width: 520px) {
