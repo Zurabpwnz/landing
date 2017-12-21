@@ -120,11 +120,35 @@
           background: #4954ac;
           width: 210px;
           display: -webkit-flex;
+          //display: flex;
+          flex-direction: row;
+          -webkit-flex-direction: row;
+          justify-content: space-between;
+          -webkit-justify-content: space-between;
+          display: none!important;
+        }
+        &-1-new{
+          background: #ffffff;
+          width: 210px;
+          display: -webkit-flex;
           display: flex;
           flex-direction: row;
           -webkit-flex-direction: row;
           justify-content: space-between;
           -webkit-justify-content: space-between;
+          padding: 0;
+          text-align: center;
+          .rating-imgs{
+            padding: 0;
+            height: 100%;
+            text-align: center;
+            width: 100%;
+
+            img{
+              height: 100%;
+              border-radius: 5px;
+            }
+          }
         }
         &-2{
           background: #3f4a59;
