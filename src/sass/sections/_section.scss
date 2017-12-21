@@ -593,7 +593,15 @@
         max-height: 196px;
         //margin: 75px 0;
         .box-img{
-          width: 30%;
+          width: 23%;
+          &.img-pavlin{
+            height: 100px;
+            img{
+              height: 100%;
+              border-radius: 50px;
+              overflow: hidden;
+            }
+          }
         }
       }
     }

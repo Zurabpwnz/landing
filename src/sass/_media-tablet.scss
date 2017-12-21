@@ -344,4 +344,16 @@
     -moz-transform: rotate(-180deg);
     transform: rotate(-180deg);
   }
+  .section-player {
+    .player-line {
+      .box-img{
+        &.img-pavlin{
+          height: inherit;
+          img{
+            height: inherit;
+          }
+        }
+      }
+    }
+  }
 }
