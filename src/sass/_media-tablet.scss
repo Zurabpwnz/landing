@@ -159,7 +159,7 @@
       .intro-down{
         margin-top: 120px;
         .cash, .timer{
-         padding-top: 200px;
+         padding-top: 220px;
         }
       }
     }
@@ -303,7 +303,7 @@
           .flexible{
             display: block;
             >div{
-              margin-top: 20px;
+              margin-top: 5px;
             }
           }
           .logo{
@@ -331,5 +331,29 @@
   }
   .section-public {
     padding-top: 60px;
+  }
+  body {
+    &.larg-ar {
+      .section-about{
+        padding-top: 60px;
+      }
+    }
+  }
+  header .navbar-mobile .btn-menu{
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+  .section-player {
+    .player-line {
+      .box-img{
+        &.img-pavlin{
+          height: inherit;
+          img{
+            height: inherit;
+          }
+        }
+      }
+    }
   }
 }
