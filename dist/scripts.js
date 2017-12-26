@@ -594,6 +594,21 @@ $(document).ready(function () {
     $('.slide-group-next').on('click', function () {
         $(this).toggleClass('open').next().toggleClass('open').slideToggle();
     });
+    $('.icon-close').on('click', function () {
+        $('.video-iframe iframe').remove();
+        $('.video .video-image').fadeIn();
+        $('.video .btn-play').fadeIn();
+    });
+    $(document).click( function(event){
+        if( $(event.target).closest('.video').length )
+            return;
+        $('.video-iframe iframe').remove();
+        $('.video .video-image').fadeIn();
+        $('.video .btn-play').fadeIn();
+        event.stopPropagation();
+    });
+
+
 
     $(".flipster").flipster({
         style: 'carousel',
