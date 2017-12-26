@@ -1,3 +1,9 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-roadmap .text-roadmap .name-block {
+    color: #fff;
+  }
+}
+
 @media(min-width: 1025px) {
   .hide-desktop {
     display: none;
@@ -579,6 +585,7 @@
             max-width: 760px;
           }
         }
+
       }
       .text-distribution {
         &.date-distribution {

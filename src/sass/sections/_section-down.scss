@@ -137,6 +137,18 @@ body{
     }
     .box-chart-line {
       padding: 30px 0 50px;
+      overflow: hidden;
+      clear: both;
+
+      .box-img-half {
+        width: 48%;
+        float: left;
+        margin-top: 50px;
+
+        & + .box-img-half {
+          margin-left: 4%;
+        }
+      }
     }
     .box-distribution-step {
       padding-bottom: 150px;

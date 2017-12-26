@@ -357,3 +357,17 @@
     }
   }
 }
+
+@media(max-width: 1023px) {
+  .section-distribution .box-chart-line .box-img-half {
+    width: 100%;
+
+    &.box-img-half {
+      margin-left: 0;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
