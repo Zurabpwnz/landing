@@ -267,6 +267,14 @@
   .section-distribution:after {
     height: 120%;
   }
+
+  .intro-down + .flexible {
+    flex-wrap: wrap;
+  }
+
+  .progress-wrapper {
+    width: 100%;
+  }
 }
 
 @media(max-width: 920px) {

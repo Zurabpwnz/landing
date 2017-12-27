@@ -65,6 +65,14 @@
     }
     .timer{
       text-align: right;
+
+      .label {
+        margin-bottom: 85px;
+      }
+
+      .progress-bar.progress-bar-info {
+        border: none;
+      }
     }
     .intro{
       &-map{
