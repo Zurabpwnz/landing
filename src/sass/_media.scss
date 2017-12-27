@@ -2,6 +2,10 @@
   .section-roadmap .text-roadmap .name-block {
     color: #fff;
   }
+
+  .section-distribution:after {
+    height: 126%;
+  }
 }
 
 @media(min-width: 1025px) {

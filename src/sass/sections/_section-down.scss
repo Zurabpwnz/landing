@@ -102,7 +102,7 @@ body{
       background-repeat: no-repeat;
       background-image: url(../images/bg3.svg);
       width: 100%;
-      height: 128%;
+      height: 123%;
     }
     .text-distribution {
       margin-bottom: 40px;
@@ -140,13 +140,35 @@ body{
       overflow: hidden;
       clear: both;
 
-      .box-img-half {
-        width: 48%;
-        float: left;
-        margin-top: 50px;
+      p {
+        margin-bottom: 15px;
+        color: #fff;
+      }
+      ul li {
+        margin-bottom: 15px;
+        color: #fff;
+      }
 
-        & + .box-img-half {
-          margin-left: 4%;
+      .box-img-half {
+        width: 50%;
+        float: left;
+        padding: 0 15px;
+
+        img {
+          margin-bottom: 30px;
+        }
+        p {
+          margin-bottom: 15px;
+          color: #fff;
+        }
+        ul li {
+          margin-bottom: 15px;
+          color: #fff;
+
+          ul {
+            margin-top: 10px;
+            margin-left: 25px;
+          }
         }
       }
     }
