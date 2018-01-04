@@ -29,6 +29,7 @@
         font-size: 12px;
         position: relative;
         z-index: 1;
+        padding-bottom: 20px;
         a {
           color: inherit;
         }
@@ -194,7 +195,7 @@
       .livenowsubtext {
         padding-top: 6px;
         color: $color_info;
-        padding-bottom: 20px;
+
       }
     }
     .intro-down-info{
