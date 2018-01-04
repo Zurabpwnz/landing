@@ -202,9 +202,11 @@
       padding-top: 45px;
       z-index: 1;
       position: relative;
+      padding-left: 10px;
+      padding-right: 10px;
       .block-progress-bar{
         width: 100%;
-        padding: 0 10px;
+
         .text{
           text-align: left;
           padding-left: 20px;
