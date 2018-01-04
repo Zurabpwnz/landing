@@ -42,6 +42,7 @@
       }
     }
   }
+
 }
 
 @media(min-width: 768px) {
@@ -1181,6 +1182,23 @@
     margin: 30px 0;
     padding: 0;
   }
+  .section-intro {
+    .intro-down-info{
+      display: block;
+      max-width: 450px;
+      margin: 0 auto;
+      .block-progress-bar{
+        padding-bottom: 20px;
+        .text {
+          text-align: center;
+        }
+        .progress .progress-bar,
+        .progress .number-text {
+          font-size: 16px;
+        }
+      }
+    }
+  }
 }
 
 @media(max-width: 520px) {
@@ -1302,10 +1320,17 @@
     width: 50%;
     height: 75px;
   }
+  .section-intro .block-social .social-icon{
+    padding: 10px 0;
+  }
   .section-intro .rating-wrapper .rating-cnt-1-new {
     padding-left: 8px;
     .rating-imgs{
       text-align: left;
+      padding: 0;
+      img{
+        max-width:130px;
+      }
     }
   }
   .section-player {
@@ -1320,4 +1345,5 @@
       }
     }
   }
+
 }
