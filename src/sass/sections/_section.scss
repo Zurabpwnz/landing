@@ -252,16 +252,18 @@
   }
     .box-chat{
       position: fixed;
-      right: 15px;
-      bottom:15px;
+      right: 14px;
+      bottom:14px;
       z-index: 2;
       .text-chat{
         font-size: 12px;
-        padding-bottom: 5px;
+        padding-bottom: 4px;
         color: #1f60fa;
       }
     }
   }
+
+
   &-about {
     .about {
       &-more {
