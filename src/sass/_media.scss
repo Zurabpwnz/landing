@@ -1200,6 +1200,10 @@
       }
     }
   }
+  .section.section-play-video .block-commands .box-video{
+    width: 50%;
+    padding: 4px;
+  }
 }
 
 @media(max-width: 520px) {
@@ -1346,5 +1350,8 @@
       }
     }
   }
-
+  .section.section-play-video .block-commands .box-video{
+    width: 100%;
+    height: 210px;
+  }
 }

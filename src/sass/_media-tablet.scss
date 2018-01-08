@@ -297,6 +297,9 @@
 }
 
 @media(max-width: 920px) {
+  .section.section-play-video .block-commands .box-video{
+    height: 180px;
+  }
   .section-activity .block-presentation {
     font-size: 14px;
   }
