@@ -404,6 +404,8 @@
         .box-accordion-head{
           flex-wrap: wrap;
           -webkit-flex-wrap: wrap;
+          justify-content: flex-start;
+          -webkit-justify-content: flex-start;
           .item-accordion {
             width: 48%;
             padding-bottom: 35px;
