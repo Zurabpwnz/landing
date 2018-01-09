@@ -405,8 +405,9 @@
           flex-wrap: wrap;
           -webkit-flex-wrap: wrap;
           .item-accordion {
-            width: 50%;
+            width: 48%;
             padding-bottom: 35px;
+            display: inline-block;
           }
         }
       }
