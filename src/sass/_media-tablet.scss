@@ -283,9 +283,9 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .section-distribution:after {
-    height: 120%;
-  }
+  //.section-distribution:after {
+  //  height: 120%;
+  //}
 
   .intro-down + .flexible {
     flex-wrap: wrap;
