@@ -4,6 +4,17 @@ $(window).on('load', function () {
     AOS.init();
 });
 $(document).ready(function () {
+
+    if( location.search.substring(1) ) {
+        location.search.substring(1).split("&").forEach(function(par) {
+            if ( par.split("=").length == 2 && par.split("=")[0] == "r" && par.split("=")[1] != "" ) {
+                $("a[href^='https://wallet.travelchain.io']").each(function() {
+                    $(this).attr('href', $(this).attr('href') + "/?r=" + par.split("=")[1])
+                })
+            }
+        })
+    }
+
     $('.btn-menu').on('click', function () {
         $(this).toggleClass('open');
         $('.navbar-collapse').toggleClass('open').slideToggle();
