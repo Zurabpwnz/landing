@@ -105,7 +105,7 @@ body {
       background-repeat: no-repeat;
       background-image: url(../images/bg3.svg);
       width: 100%;
-      height: 130%;
+      height: 122%;
     }
     .text-distribution {
       margin-bottom: 40px;
@@ -276,6 +276,81 @@ body {
         }
       }
     }
+
+
+
+    .block-chart-info-two{
+      padding-top: 60px;
+      padding-bottom: 60px;
+      .name-block{
+        color: $color-white;
+        text-align: center;
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .box-chart-info-two{
+        padding-top: 30px;
+        .box-chart-info{
+          width: 46%;
+          .box-chart{
+            padding-bottom: 20px;
+            .name-chart{
+              font-size: 18px;
+              color: $color-white;
+              text-align: left;
+            }
+            .box-img{
+              min-height: 338px;
+              height: 100%;
+              flex-direction: column;
+              justify-content: flex-end;
+              display: flex;
+              img{
+                vertical-align: bottom;
+                display: inline-block;
+              }
+            }
+            .box-text-charges{
+              color: $color-white;
+              padding-top: 20px;
+              font-size: 16px;
+              min-height: 100px;
+              height: 100%;
+              .item{
+                &:not(:last-child){
+                  padding-bottom: 15px;
+                }
+                span{
+                  padding-left: 10px;
+                }
+              }
+            }
+          }
+          .box-chart-text{
+            .block-text{
+              span{
+                color: $color-white;
+                padding-bottom: 10px;
+                display: block;
+              }
+              .point{
+                li{
+                  color: #6d89ca;
+                  margin-bottom: 5px;
+                  &:after{
+                    background: #1350fd;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+
   }
   &-roadmap {
     position: relative;

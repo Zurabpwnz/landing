@@ -44,6 +44,9 @@
 }
 
 @media(max-width: 1200px) {
+  .section-distribution .block-chart-info-two .box-chart-info-two .box-chart-info .box-chart .box-img{
+    min-height: 340px;
+  }
   header {
     .social {
       .link {
@@ -147,6 +150,9 @@
 }
 
 @media(max-width: 1080px) {
+  .section-distribution .block-chart-info-two .box-chart-info-two .box-chart-info .box-chart .box-img{
+    min-height: 305px;
+  }
   .section-data .block-data-tell {
     img {
       height: 390px;
@@ -238,6 +244,9 @@
 
 }
 @media(max-width: 1023px) {
+  .section-distribution .block-chart-info-two .box-chart-info-two .box-chart-info .box-chart .box-img{
+    min-height: 295px;
+  }
   .section-distribution .box-chart-line {
     .flexible {
       flex-wrap: wrap;
@@ -297,6 +306,9 @@
 }
 
 @media(max-width: 920px) {
+  .section-distribution .block-chart-info-two .box-chart-info-two .box-chart-info .box-chart .box-img{
+    min-height: 266px;
+  }
   .section.section-play-video .block-commands .box-video{
     height: 180px;
   }
