@@ -1,10 +1,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
-  .section-roadmap .text-roadmap .name-block {
-    color: #fff;
-  }
 
   .section-distribution:after {
-    height: 126%;
+    height: 121%;
   }
 }
 
@@ -1203,6 +1200,18 @@
   .section.section-play-video .block-commands .box-video{
     width: 50%;
     padding: 4px;
+  }
+  .section-distribution .block-chart-info-two .box-chart-info-two{
+    display: block;
+    .box-chart-info{
+      width: 100%;
+      .box-img{
+        min-height: inherit!important;
+      }
+      .box-chart .box-text-charges .item span{
+        font-size: 14px;
+      }
+    }
   }
 }
 
