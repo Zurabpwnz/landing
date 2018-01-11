@@ -1,31 +1,31 @@
+<?php include '../init.php'; ?>
 <!doctype html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <title>TravelChain - децентрализованная платформа обмена данных для рынка туризма</title>
+    <title>TravelChain — Decentralized Data Exchange for the Travel Industry.</title>
     <meta name="description"
-          content="Продажа токенов TravelChain стартует 15 декабря 2017. — Мы создаем экосистему умных путешествий.
-          TravelChain - блокчейн с открытым кодом, который управляется всеми участниками рынка.">
+          content="Join TravelChain Token Sale. Starts on December 15, 14:00 UTC. — We create smart traveling ecosystem.
+           TravelChain is an open source blockchain managed by all market players.">
     <meta name="yandex-verification" content="7a3dae47a050cfac" />
     <link href="/css/style.15122017.css?version=1.1" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
-
     <meta property="og:site_name" content="TravelChain">
-    <meta property="og:title" content="TravelChain - децентрализованная платформа обмена данных для рынка туризма" />
-    <meta property="og:description" content="Продажа токенов TravelChain стартует 15 декабря 2017. — Мы создаем экосистему умных путешествий.
-          TravelChain - блокчейн с открытым кодом, который управляется всеми участниками рынка" />
+    <meta property="og:title" content="TravelChain — Decentralized Data Exchange for the Travel Industry" />
+    <meta property="og:description" content="Join TravelChain Token Sale. Starts on December 15, 14:00 UTC. — We create smart traveling ecosystem.
+           TravelChain is an open source blockchain managed by all market players" />
     <meta property="og:image" content="https://travelchain.io/images/logo-og.png" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://travelchain.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://travelchain.io/" />
 
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="TravelChain - децентрализованная платформа обмена данных для рынка туризма">
-	<meta name="twitter:description" content="Продажа токенов TravelChain стартует 15 декабря 2017. — Мы создаем экосистему умных путешествий.
-          TravelChain - блокчейн с открытым кодом, который управляется всеми участниками рынка">
-           <meta name="twitter:image" content="https://travelchain.io/images/logo-og.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="TravelChain — Decentralized Data Exchange for the Travel Industry">
+    <meta name="twitter:description" content="Join TravelChain Token Sale. Starts on December 15, 14:00 UTC. — We create smart traveling ecosystem.
+           TravelChain is an open source blockchain managed by all market players">
+    <meta name="twitter:image" content="https://travelchain.io/images/logo-og.png">
 
     <script type='text/javascript' src='/js/jquery-3.2.1.min.js'></script>
     <!-- Google Tag Manager -->
@@ -64,7 +64,7 @@
         }
     </style>
 </head>
-<body data-lang="RU">
+<body data-lang="EN">
 <!-- Google Tag Manager (noscript) -->
 <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQRXHZ5"
@@ -95,23 +95,22 @@
 
                     <div class="social">
                         <ul class="nav-link-more">
-                            <li><a href="White.Paper.pdf" target="_blank" class="files-gtag-event">White Paper</a></li>
-                            <li><a href="Overview.pdf" target="_blank" class="files-gtag-event">Overview</a></li>
-                            <li><a href="Business-plan.pdf" target="_blank" class="files-gtag-event">Business Plan</a>
+                            <li><a href="WhitePaper.pdf" target="_blank" class="files-gtag-event">White Paper</a></li>
+                            <li><a href="Overview.pdf" target="_blank" class="files-gtag-event">Überblick</a></li>
+                            <li><a href="Business-plan.pdf" target="_blank" class="files-gtag-event">Businessplan</a>
                             </li>
-                            <li><a href="technical_whitepaper.pdf" target="_blank" class="files-gtag-event">Technical
-                                WP</a></li>
+                            <li><a href="technical_whitepaper.pdf" target="_blank" class="files-gtag-event">Technisches WP</a></li>
                         </ul>
                     </div>
                     <div class="user">
                         <!--<a class="btn btn-border-blue" data-toggle="modal" data-target="#modalregistration">Регистрация</a>-->
-                        <a href="https://wallet.travelchain.io"  class="btn btn-red">Приобрести токены</a>
+                        <a href="https://wallet.travelchain.io"  class="btn btn-red">Token sale</a>
                     </div>
 
                     <!--<div class="lang padding-block"><a class="link active">Ru</a> / <a class="link" href="/">En</a>-->
                     <div class="lang lang-dropdown padding-block">
                         <div class="box-dropdown box-lang  box-inline"><a class="btn href-dropdown">
-                            <div class="change-value box-inline">Rus</div>
+                            <div class="change-value box-inline">Deu</div>
                             <i class="caret"></i></a>
                             <div class="menu-dropdown">
                                 <a href="/" >Eng</a>
@@ -120,7 +119,7 @@
                                 <a href="/zh" >Chi</a>
                                 <a href="/ar" >Ara</a>
                                 <a href="/es" >Spa</a>
-                                <a href="/de" >Deu</a>
+                                <a href="/ru" >Rus</a>
                             </div>
                         </div>
                     </div>
@@ -143,8 +142,8 @@
             <!--<iframe id="video-iframe" height="340"  src="https://www.youtube.com/embed/63gsuFGZlhY?enablejsapi=1;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>-->
             <div class="video">
               <a class="btn btn-play" data-width="100%" data-height="340"
-                 data-iframe="https://www.youtube.com/embed/63gsuFGZlhY"><i
-                      class="icon icon-play"></i></a>
+                 data-iframe="https://www.youtube.com/embed/_pECUlD2LXo"><i
+                  class="icon icon-play"></i></a>
               <div class="video-image"
                    style="background-image: url('https://img.youtube.com/vi/_pECUlD2LXo/0.jpg')"></div>
 
@@ -216,21 +215,21 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal"><i class="icon icon-middle icon-close"></i></button>
-          <div class="text text-center">Скидка 15% доступна ограниченное время </div>
+          <div class="text text-center">15% Rabatt für eine begrenzte Zeit </div>
           <div class="form-subs">
           <form class="subscribe-form">
             <div class="box-control">
               <div class="box-icon-left"><i class="icon icon-middle icon-mail"></i></div>
-              <input type="text" class="form-control subscribe-modal-input" placeholder="Ваш e-mail">
+              <input type="text" class="form-control subscribe-modal-input" placeholder="Ihre E-Mail">
 
             </div>
 
             <div class="box-btn subscribe-modal">
-              <a class="btn btn-red btn-lg"><span class="middle">Приобрести токены</span></a>
+              <a class="btn btn-red btn-lg"><span class="middle">Kauftoken</span></a>
             </div>
           </form>
-            <div class="text-info">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и соглашаетесь с
-              <a href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">Политикой конфиденциальности</a>
+            <div class="text-info">Durch Klicken auf den Button stimmen Sie der Verarbeitung Ihrer persönlichen Daten zu und akzeptieren die
+              <a href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">Datenschutzerklärung</a>
             </div>
           </div>
         </div>
@@ -250,134 +249,223 @@
   </div>
 
 <section class="section section-intro">
-  <div class="container" data-aos="flip-up">
-    <div class="padding-block">
-      <h1 class="lite" data-aos="fade-up" data-aos-delay="200">Децентрализованная платформа обмена данных <br/> для
-        рынка туризма</h1>
-      <div class=" name-block white" data-aos="fade-up" data-aos-delay="300">Token Sale открыт!
-        <p class="livenowsubtext">Рекомендуемый браузер - Google Chrome</p>
-      </div>
-      <a class="btn btn-review " data-aos="fade-up" data-aos-delay="400" data-toggle="modal"
-         data-target="#exampleModal">
-        Что такое TravelChain за 90 сек
-        <div class="box-icon"><i class="icon icon-play"></i></div>
-      </a>
-    </div>
-    <div class="intro-map">
-      <img src="/images/map.png" alt="">
-      <div class="point"></div>
-    </div>
-
-    <div class="intro-down-info block-flex-top">
-      <div class="block-progress-bar">
-        <div class="text">Всего средств собрано:</div>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="30"
-               aria-valuemin="0" aria-valuemax="100" style="width:110px">
-            798 884
-          </div>
-          <div class="number-text">
-            of 10 606 000
-          </div>
-        </div>
-      </div>
-      <div class="form-subs">
-        <div class="text">Подпишитесь, чтоб получить токены со скидкой в 15%</div>
-        <form class="subscribe-form">
-          <div class="box-control">
-            <div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>
-            <input type="text" class="form-control subscribe-input" placeholder="Ваш e-mail">
-            <div class="box-btn subscribe" data-lang="ru">
-              <a class="btn btn-red btn-lg" data-toggle="modal"><span
-                  class="hide-mobile">Подписаться</span><i
-                  class="icon icon-air-white show-mobile"></i></a>
+    <div class="container" data-aos="flip-up">
+        <div class="padding-block">
+            <h1 class="lite" data-aos="fade-up" data-aos-delay="200">Dezentralisierte Datenaustauschplattform <br/> für den Tourismusmarkt</h1>
+            <div class=" name-block white" data-aos="fade-up" data-aos-delay="300">TokenSale ist jetzt verfügbar
+                <p class="livenowsubtext">Recommended browser is Google Chrome</p>
             </div>
-          </div>
-        </form>
+            <a class="btn btn-review " data-aos="fade-up" data-aos-delay="400" data-toggle="modal"
+               data-target="#exampleModal">
+                Was ist TravelChain in 90 Sekunden
+                <div class="box-icon"><i class="icon icon-play"></i></div>
+            </a>
+        </div>
+        <div class="intro-map">
+            <img src="/images/map.png" alt="">
+            <div class="point"></div>
+        </div>
+
+        <div class="intro-down-info block-flex-top">
+            <div class="block-progress-bar">
+                <div class="text">Total funds raised (usd equivalent): </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="30"
+                         aria-valuemin="0" aria-valuemax="100" style="width:110px">
+                        798 884
+                    </div>
+                    <div class="number-text">
+                        of 10 606 000
+                    </div>
+                </div>
+            </div>
+            <div class="form-subs">
+                <div class="text">Melden Sie sich an, um Tokens mit einem Rabatt von 15% zu erhalten</div>
+                <form class="subscribe-form">
+                    <div class="box-control">
+                        <div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>
+                        <input type="text" class="form-control subscribe-input" placeholder="Ihre E-Mail">
+                        <div class="box-btn subscribe" data-lang="de">
+                            <a class="btn btn-red btn-lg" data-toggle="modal"><span
+                                class="hide-mobile">Jetzt abonnieren</span><i
+                                class="icon icon-air-white show-mobile"></i></a>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <div class="block-social-rating block-flex-center">
+            <div class="rating-wrapper block-flex-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="rating-cnt rating-cnt-3" style="background: #575ea2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="rating-imgs">
+                        <img src="/images/img-logo-0.png" alt="">
+                    </div>
+                    <span class="rating-count" style="color: #ffffff">STABLE</span>
+                </div>
+                <div class="rating-cnt rating-cnt-1 " data-aos="fade-up" data-aos-delay="100">
+                    <div class="rating-imgs">
+                        <img src="/images/logo-img-1.png" alt="">
+                    </div>
+                    <span class="rating-count">4.5</span>
+                </div>
+                <div class="rating-cnt rating-cnt-1-new" data-aos="fade-up" data-aos-delay="100">
+                    <div class="rating-imgs">
+                        <img src="/images/Tokendesknew-min.png" alt="">
+                    </div>
+                </div>
+                <div class="rating-cnt rating-cnt-2" data-aos="fade-up" data-aos-delay="100">
+                    <div class="rating-imgs">
+                        <img src="/images/logo-img-2.png" alt="">
+                    </div>
+                    <span class="rating-count">4.6</span>
+                </div>
+                <div class="rating-cnt rating-cnt-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="rating-imgs">
+                        <img src="/images/logo-img-3.png" alt="">
+                    </div>
+                    <span class="rating-count">97/100</span>
+                </div>
+            </div>
+            <div class="block-social">
+                <div class="social-icon">
+                    <a class="link" href="https://letitplay.io/" target="_blank"><i
+                        class="icon icon-letitpay icon-middle"></i></a>
+                    <a class="link" href="https://Travelchainico.slack.com" target="_blank"><i
+                        class="icon icon-slack icon-middle"></i></a>
+                    <a class="link" href="https://t.me/travelchain" target="_blank"><i
+                        class="icon icon-tel icon-middle"></i></a>
+                    <a class="link" href="https://www.youtube.com/channel/UC0RykikaWqYQcBf2hp2E7qw" target="_blank"><i
+                        class="icon icon-yt icon-middle"></i></a>
+                    <a class="link" href="https://medium.com/@travelchain" target="_blank"><i
+                        class="icon icon-medium icon-middle"></i></a>
+                    <a class="link" href="https://facebook.com/travelchain/" target="_blank"><i
+                        class="icon icon-fb icon-middle"></i></a>
+                    <a class="link" href="https://twitter.com/travelchain_ico" target="_blank"><i
+                        class="icon icon-tw icon-middle"></i></a>
+                    <a class="link" href="https://www.instagram.com/travelchain_ico/" target="_blank"><i
+                        class="icon icon-insta icon-middle"></i></a>
+                    <a class="link" href="https://steemit.com/@travelchain" target="_blank"><i
+                        class="icon icon-steemit icon-middle"></i></a>
+                    <a class="link" href="https://bitcointalk.org/index.php?topic=2363991.new#new" target="_blank"><i
+                        class="icon icon-bit icon-middle"></i></a>
+                    <a class="link" href="https://github.com/TravelChain" target="_blank"><i
+                        class="icon icon-github icon-middle"></i></a>
+                    <a class="link" href="https://www.linkedin.com/company/travelchain/" target="_blank"><i
+                        class="icon icon-link-hed icon-middle"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-info">Durch Klicken auf den Button stimmen Sie der Verarbeitung Ihrer persönlichen Daten zu und akzeptieren die
+        <a  href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">Datenschutzerklärung</a>
+        </div>
 
 
-      </div>
-    </div>
-    <div class="block-social-rating block-flex-center">
-      <div class="rating-wrapper block-flex-center" data-aos="fade-up" data-aos-delay="100">
-        <div class="rating-cnt rating-cnt-3" style="background: #575ea2" data-aos="fade-up" data-aos-delay="200">
-          <div class="rating-imgs">
-            <img src="/images/img-logo-0.png" alt="">
-          </div>
-          <span class="rating-count" style="color: #ffffff">STABLE</span>
-        </div>
-        <div class="rating-cnt rating-cnt-1 " data-aos="fade-up" data-aos-delay="100">
-          <div class="rating-imgs">
-            <img src="/images/logo-img-1.png" alt="">
-          </div>
-          <span class="rating-count">4.5</span>
-        </div>
-        <div class="rating-cnt rating-cnt-1-new" data-aos="fade-up" data-aos-delay="100">
-          <div class="rating-imgs">
-            <img src="/images/Tokendesknew-min.png" alt="">
-          </div>
-        </div>
-        <div class="rating-cnt rating-cnt-2" data-aos="fade-up" data-aos-delay="100">
-          <div class="rating-imgs">
-            <img src="/images/logo-img-2.png" alt="">
-          </div>
-          <span class="rating-count">4.6</span>
-        </div>
-        <div class="rating-cnt rating-cnt-3" data-aos="fade-up" data-aos-delay="200">
-          <div class="rating-imgs">
-            <img src="/images/logo-img-3.png" alt="">
-          </div>
-          <span class="rating-count">97/100</span>
-        </div>
-      </div>
-      <div class="block-social">
-        <div class="social-icon">
-          <a class="link" href="https://letitplay.io/" target="_blank"><i
-              class="icon icon-letitpay icon-middle"></i></a>
-          <a class="link" href="https://Travelchainico.slack.com" target="_blank"><i
-              class="icon icon-slack icon-middle"></i></a>
-          <a class="link" href="https://t.me/travelchain" target="_blank"><i
-              class="icon icon-tel icon-middle"></i></a>
-          <a class="link" href="https://www.youtube.com/channel/UC0RykikaWqYQcBf2hp2E7qw" target="_blank"><i
-              class="icon icon-yt icon-middle"></i></a>
-          <a class="link" href="https://medium.com/@travelchain" target="_blank"><i
-              class="icon icon-medium icon-middle"></i></a>
-          <a class="link" href="https://facebook.com/travelchain/" target="_blank"><i
-              class="icon icon-fb icon-middle"></i></a>
-          <a class="link" href="https://twitter.com/travelchain_ico" target="_blank"><i
-              class="icon icon-tw icon-middle"></i></a>
-          <a class="link" href="https://www.instagram.com/travelchain_ico/" target="_blank"><i
-              class="icon icon-insta icon-middle"></i></a>
-          <a class="link" href="https://steemit.com/@travelchain" target="_blank"><i
-              class="icon icon-steemit icon-middle"></i></a>
-          <a class="link" href="https://bitcointalk.org/index.php?topic=2363991.new#new" target="_blank"><i
-              class="icon icon-bit icon-middle"></i></a>
-          <a class="link" href="https://github.com/TravelChain" target="_blank"><i
-              class="icon icon-github icon-middle"></i></a>
-          <a class="link" href="https://www.linkedin.com/company/travelchain/" target="_blank"><i
-              class="icon icon-link-hed icon-middle"></i></a>
-        </div>
-      </div>
-    </div>
 
-    <div class="text-info">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и
-      соглашаетесь с
-      <a href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">Политикой
-        конфиденциальности</a>
+        <!--<div class="intro-down flexible padding-block" style="justify-content: space-around;">-->
+            <!--<div class="cash">-->
+                <!--<div class="label italic">Angeworben im Token pre-Sale:</div>-->
+                <!--<div class="value">$-->
+                    <!--<div class="number">606</div>-->
+                    <!--<div class="number">936</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="form-subs">-->
+                <!--<div class="text">Melden Sie sich an, um Tokens mit einem Rabatt von 15% zu erhalten</div>-->
+                <!--<form class="subscribe-form">-->
+                    <!--<div class="box-control">-->
+                        <!--<div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>-->
+                        <!--<input type="text" class="form-control subscribe-input" placeholder="Ihre E-Mail">-->
+                        <!--<div class="box-btn subscribe">-->
+                            <!--<a class="btn btn-red btn-lg" data-toggle="modal"><span-->
+                                    <!--class="hide-mobile">Jetzt abonnieren</span><i-->
+                                    <!--class="icon icon-air-white show-mobile"></i></a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</form>-->
+
+                <!--<div class="text-info">Durch Klicken auf den Button stimmen Sie der Verarbeitung Ihrer persönlichen Daten zu und akzeptieren die-->
+                    <!--<a  href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">Datenschutzerklärung</a>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="timer">-->
+                <!--<div class="label italic">Der Verkauf von Token ist offen!</div>-->
+
+                <!--<div class="tokenbuybutton" style="display: none; margin-top: 1em;">-->
+                    <!--<a href="https://wallet.travelchain.io" class="btn btn-red">Kauftoken</a>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="block-social">-->
+            <!--<div class="social-icon">-->
+                <!--<a class="link" href="https://Travelchainico.slack.com" target="_blank"><i-->
+                    <!--class="icon icon-slack icon-middle"></i></a>-->
+                <!--<a class="link" href="https://t.me/travelchain" target="_blank"><i-->
+                    <!--class="icon icon-tel icon-middle"></i></a>-->
+                <!--<a class="link" href="https://www.youtube.com/channel/UC0RykikaWqYQcBf2hp2E7qw" target="_blank"><i-->
+                    <!--class="icon icon-yt icon-middle"></i></a>-->
+                <!--<a class="link" href="https://medium.com/@travelchain" target="_blank"><i-->
+                    <!--class="icon icon-medium icon-middle"></i></a>-->
+                <!--<a class="link" href="https://facebook.com/travelchain/" target="_blank"><i-->
+                    <!--class="icon icon-fb icon-middle"></i></a>-->
+                <!--<a class="link" href="https://twitter.com/travelchain_ico" target="_blank"><i-->
+                    <!--class="icon icon-tw icon-middle"></i></a>-->
+                <!--<a class="link" href="https://www.instagram.com/travelchain_ico/" target="_blank"><i-->
+                    <!--class="icon icon-insta icon-middle"></i></a>-->
+                <!--<a class="link" href="https://steemit.com/@travelchain" target="_blank"><i-->
+                    <!--class="icon icon-steemit icon-middle"></i></a>-->
+                <!--<a class="link" href="https://bitcointalk.org/index.php?topic=2363991.new#new" target="_blank"><i-->
+                    <!--class="icon icon-bit icon-middle"></i></a>-->
+                <!--<a class="link" href="https://github.com/TravelChain" target="_blank"><i-->
+                    <!--class="icon icon-github icon-middle"></i></a>-->
+                <!--<a class="link" href="https://www.linkedin.com/company/travelchain/" target="_blank"><i-->
+                    <!--class="icon icon-link-hed icon-middle"></i></a>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="rating-wrapper block-flex-center" data-aos="fade-up" data-aos-delay="100">-->
+            <!--<div class="rating-cnt rating-cnt-3" style="background: #ffffff" data-aos="fade-up" data-aos-delay="200">-->
+                <!--<div class="rating-imgs">-->
+                    <!--<img src="/images/img-logo-0.png" alt="">-->
+                <!--</div>-->
+                <!--<span class="rating-count" style="color: #66cd22">STABLE</span>-->
+            <!--</div>-->
+            <!--<div class="rating-cnt rating-cnt-1" data-aos="fade-up" data-aos-delay="100">-->
+                <!--<div class="rating-imgs">-->
+                    <!--<img src="/images/logo-img-1.png" alt="">-->
+                <!--</div>-->
+                <!--<span class="rating-count">4.5</span>-->
+            <!--</div>-->
+            <!--<div class="rating-cnt rating-cnt-1-new" data-aos="fade-up" data-aos-delay="100">-->
+                <!--<div class="rating-imgs">-->
+                    <!--<img src="/images/Tokendesknew-min.png" alt="">-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="rating-cnt rating-cnt-2" data-aos="fade-up" data-aos-delay="100">-->
+                <!--<div class="rating-imgs">-->
+                    <!--<img src="/images/logo-img-2.png" alt="">-->
+                <!--</div>-->
+                <!--<span class="rating-count">4.6</span>-->
+            <!--</div>-->
+            <!--<div class="rating-cnt rating-cnt-3" data-aos="fade-up" data-aos-delay="200">-->
+                <!--<div class="rating-imgs">-->
+                    <!--<img src="/images/logo-img-3.png" alt="">-->
+                <!--</div>-->
+                <!--<span class="rating-count">97/100</span>-->
+            <!--</div>-->
+        <!--</div>-->
     </div>
-  </div>
 </section>
 <section class="section section-about">
     <div class="container">
         <div class="about-more" data-aos="flip-up">
             <div class="padding-block">
                 <div class="">
-                    <div class="name-box ">Узнайте больше о нас:</div>
+                    <div class="name-box ">Erfahren Sie mehr über uns:</div>
                     <ul class="nav-link-more">
                         <li><a href="White.Paper.pdf" target="_blank" class="files-gtag-event">White Paper</a></li>
-                        <li><a href="Overview.pdf" target="_blank" class="files-gtag-event">Overview</a></li>
-                        <li><a href="Business-plan.pdf" target="_blank" class="files-gtag-event">Business Plan</a></li>
-                        <li><a href="technical_whitepaper.pdf" target="_blank" class="files-gtag-event">Technical WP</a></li>
+                        <li><a href="Overview.pdf" target="_blank" class="files-gtag-event">Überblick</a></li>
+                        <li><a href="Business-plan.pdf" target="_blank" class="files-gtag-event">Businessplan</a></li>
+                        <li><a href="technical_whitepaper.pdf" target="_blank" class="files-gtag-event">Technisches WP</a></li>
                     </ul>
                 </div>
             </div>
@@ -387,7 +475,7 @@
 <section class="section section-public">
     <div class="container padding-block">
         <div class="section-text text-center">
-            <div class="name-block" data-aos="fade-up">Публикации о TravelChain</div>
+            <div class="name-block" data-aos="fade-up">Publikationen über TravelChain</div>
         </div>
         <div class="player">
             <div class="player-line " data-aos="zoom-out-up">
@@ -416,28 +504,23 @@
 <section class="section section-data">
     <div class="container">
         <div class="data-text">
-            <div class="name-block" data-aos="fade-up">TravelChain — блокчейн с открытым кодом,
-                который управляется всеми участниками рынка</div>
-            <div class="block-text" data-aos="fade-up">Пользователь устанавливает приложение или виджет и сам решает,
-                какие данные и в каком виде можно собирать  </div>
+            <div class="name-block" data-aos="fade-up">TravelChain ist eine Open-Source-Blockchain, die von allen Marktteilnehmern verwaltet wird</div>
+            <div class="block-text" data-aos="fade-up">Der Benutzer installiert die App oder das Widget und entscheidet,
+                welche Daten und in welcher Form sie gesammelt werden können  </div>
         </div>
         <div class="data-cloud">
             <div class="data-item flexible center" data-aos="fade-right" data-aos-delay="50">
-                <div class="name free">Пользовательские данные
-                из приложений</div>
+                <div class="name free">Benutzerdaten aus Apps</div>
                 <div class="box-icon"><i class="icon icon-app"></i></div>
             </div>
             <div class="data-item flexible center" data-aos="fade-right" data-aos-delay="100">
-                <div class="name free">Данные веб-сервисов</div>
+                <div class="name free">Web-Service-Daten</div>
                 <div class="box-icon"><i class="icon icon-desktop"></i></div>
             </div>
             <div class="data-item right flexible center" data-aos="fade-left" data-aos-delay="150">
                 <div class="box-icon"><i class="icon icon-db"></i></div>
-                <div class="name free">Данные турагентств и агрегаторов</div>
+                <div class="name free">Daten von Reisebüros und Aggregatoren</div>
             </div>
-            <!--<div class="data-cloud-item" data-aos="zoom-in">-->
-                <!--<div id="cloud"></div>-->
-            <!--</div>-->
             <div class="block-data-tell" data-aos="zoom-in">
                 <div class="box-img text-center">
                     <img src="/images/Untitled-1.png" alt="">
@@ -445,7 +528,8 @@
             </div>
         </div>
         <div class="data-text" data-aos="flip-down">
-            <div class="data-text-save italic">Данные могут храниться в открытом, деперсонализованном или зашифрованном виде с представлением одноразового доступа.</div>
+            <div class="data-text-save italic">Die Daten können offen, anonymisiert oder verschlüsselt gespeichertmit
+                einem einmaligen Zugriff gespeichert werden</div>
         </div>
     </div>
 </section>
@@ -453,13 +537,13 @@
   <div class="container">
     <div class="padding-block">
       <div class="section-text text-md text-center">
-        <div class="name-block" data-aos="fade-up">Использовать TravelChain выгодно всем —
-          как бизнесу, так и конечным пользователям
+        <div class="name-block" data-aos="fade-up">Nutzen Sie TravelChain für alle - sowohl für Geschäfts- als auch
+          Endbenutzer
         </div>
       </div>
 
       <div class="box-section">
-        <div class="name-section text-center">Путешественникам</div>
+        <div class="name-section text-center">TravelChain für Reisende</div>
         <div class="block-journey block-flex-top">
           <div class="box-journey" data-aos="fade-right" data-aos-delay="50">
             <div class="box-img">
@@ -470,11 +554,11 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                Монетизация <br/> персональных данных
+                Monetarisierung <br/> persönlicher Daten
               </div>
               <div class="box-text">
-                За каждое разрешение использовать данные пользователь получает токены, которые можно обменять на деньги
-                или туристическую услугу
+                Für jede Erlaubnis, die Daten zu verwenden, erhält der Benutzer Token, die gegen Geld oder einen
+                Touristenservice eingetauscht werden können
               </div>
             </div>
           </div>
@@ -487,40 +571,39 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                Организация поездки такая же <br/> простая, как вызов Убера
+                Die Organisation der Reise ist die <br/> genauso einfach wie bei Uber anzurufen
               </div>
               <div class="box-text">
-                Сервисы уже знают, в каких странах был пользователь, какую кухню любит, каким спортом
-                занимается.
-                <span class="bold">На основе этих данных персональный тур будет формироваться как конструктор.</span>
+                Die Dienste wissen bereits, in welchen Ländern der Benutzer war, welche Art von Küche er mag und welchen
+                Sport er treibt. Basierend auf diesen Daten wird eine persönliche Tour im Baukastenformat erstellt
               </div>
             </div>
           </div>
         </div>
-        <div class="text-section text-section-padding text-center"><span class="bold italic">Например</span>
+        <div class="text-section text-section-padding text-center"><span class="bold italic">Zum Beispiel</span>
         </div>
         <div class="box-lesson block-flex-center">
           <div class="lesson lesson-left">
-            Отель видит, что пользователь собирается в Мадрид, и знает, <br/> что он
-            <span class="italic">вегетарианец и занимается йогой.</span>
+            Das Hotel sieht, dass der Benutzer nach Madrid fährt und weiß, dass er Vegetarier ist und sich mit Yoga
+            beschäftigt.
           </div>
           <div class="lesson lesson-right">
-            И отправляет ему оффер: номер с вегетарианским завтраком, <br/> уже включенным в стоимость. В отеле
-            <span class="italic">рядом с йога-центром.</span>
+            Daraufhin schickt es ihm folgendes Angebot: ein Zimmer mit vegetarischem Frühstück, bereits im Preis
+            inbegriffen. Im Hotel neben dem Yoga-Zentrum.
           </div>
         </div>
 
       </div>
 
       <div class="box-section">
-        <div class="name-section text-center">Бизнесу</div>
+        <div class="name-section text-center">TravelChain für Unternehmen</div>
         <div class="block-business block-flex-top" data-aos="flip-up">
           <div class="box-business">
             <div class="box-icon text-center">
               <i class="icon icon-middle icon-1"></i>
             </div>
             <div class="text text-center">
-              Экономия на рекламе и доступ к клиенту на ранней стадии принятия решения.
+              Einsparungen bei Werbung und Zugang zu den Kunden in einem frühen Stadium der Entscheidungsfindung
             </div>
           </div>
           <div class="box-business">
@@ -528,7 +611,7 @@
               <i class="icon icon-middle icon-2"></i>
             </div>
             <div class="text text-center">
-              Искусственный интеллект расскажет о желаниях пользователя раньше, чем он сам их осознает.
+              Künstliche Intelligenz wird über die Wünsche des Benutzers berichten, bevor er sie selbst wahrnimmt
             </div>
           </div>
           <div class="box-business">
@@ -536,21 +619,25 @@
               <i class="icon icon-middle icon-3"></i>
             </div>
             <div class="text text-center">
-              Компании перестанут тратить деньги на массовую рекламу. И будут делать персональное предложение в
-              несколько кликов.
+              Unternehmen werden aufhören, Geld für Massenwerbung auszugeben. Und sie werden mit wenigen Klicks ein
+              persönliches Angebot machen
+
+
             </div>
           </div>
         </div>
-        <div class="text-section text-section-padding text-center"><span class="bold italic">Например</span></div>
+        <div class="text-section text-section-padding text-center"><span class="bold italic">Zum Beispiel</span>
+        </div>
         <div class="box-lesson block-flex-center">
           <div class="lesson lesson-left">
-            Отель забронировал человек, у которого более 100 000 подписчиков в Инстаграме.
+            Das Hotel sieht, dass der Benutzer nach Madrid fährt und weiß, dass er Vegetarier ist und sich mit Yoga
+            beschäftigt.
           </div>
           <div class="lesson lesson-right">
-            Гостиница делает ему скидку или спецпредложение — и получает отзыв, который повлияет на мнение тысяч людей.
+            Daraufhin schickt es ihm folgendes Angebot: ein Zimmer mit vegetarischem Frühstück, bereits im Preis
+            inbegriffen. Im Hotel neben dem Yoga-Zentrum.
           </div>
         </div>
-
         <div class="block-journey block-flex-top">
           <div class="box-journey" data-aos="fade-left" data-aos-delay="50">
             <div class="box-img">
@@ -561,13 +648,15 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                Повышение прибыли за счет отказа от комиссии онлайн-агентствам
+                Gewinnsteigerung durch Provisionsverweigerung an Online-Agenturen
               </div>
               <div class="box-text">
-                Компании смогут продавать свои услуги клиентам напрямую, не платя высокие комиссионные посредникам.
+                Unternehmen können ihre Dienstleistungen direkt an Kunden verkaufen, ohne hohe Provisionen an Vermittler
+                zahlen zu müssen.
               </div>
               <div class="box-text bold italic">
-                Cейчас компании платят до 30% комиссий посредникам и не имеют выхода из этой ситуации
+                Derzeit zahlen Unternehmen bis zu 30% Provision an Vermittler und haben keinen Ausweg aus dieser
+                Situation
               </div>
             </div>
           </div>
@@ -580,41 +669,38 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                Получение рекомендаций
-                от лидеров мнений
+                Empfehlungen von Meinungsführern erhalten
               </div>
               <div class="box-text">
-                Сервисы смогут анализировать потенциальных клиентов и определять людей с высоким статусом, у которых
-                много последователей
+                Dienste werden in der Lage sein, potenzielle Kunden zu analysieren und Personen mit hohem Status zu
+                identifizieren, die viele Follower haben
               </div>
-
-              <!--<div class="box-text bold italic">-->
-                <!--Например-->
-              <!--</div>-->
-              <!--<div class="box-text">-->
-                <!--Отель забронировал человек, у которого более 100 000 подписчиков в Инстаграме.-->
-                <!--Гостиница делает ему скидку или спецпредложение — и получает отзыв, который повлияет на мнение тысяч-->
-                <!--людей.-->
-              <!--</div>-->
+              <div class="box-text bold italic">
+                Zum Beispiel
+              </div>
+              <div class="box-text">
+                Das Hotel wurde von einer Person gebucht, die mehr als 100.000 Abonnenten auf Instagram hat. Das Hotel
+                gibt
+                ihm einen Rabatt oder macht ein besonderes Angebot - und erhält eine Bewertung, die Einfluss auf
+                Meinungen von Tausenden von Menschen hat.
+              </div>
             </div>
           </div>
         </div>
       </div>
 
       <div class="box-section">
-        <div class="name-section text-center">Разработчикам</div>
-        <div class="text-section text-section-padding text-center">Разработчики могут использовать TravelChain
-          для
-          своих проектов и экспериментов.
+        <div class="name-section text-center">TravelChain für Entwickler</div>
+        <div class="text-section text-section-padding text-center">Entwickler können TravelChain für ihre Projekte und
+          Experimente nutzen.
         </div>
-        <div class="text-section text-center"><span
-            class="bold">А также продавать обработанную информацию </span>компаниям
-          и рекламным площадкам.
+        <div class="text-section text-center">Des Weiteren können sie die verarbeiteten Informationen an Unternehmen und
+          Werbeplattformen verkaufen.
         </div>
         <div class="text-section text-section-padding text-center">
-          <span>Вот лишь несколько примеров сервисов, </span>которые могут быть созданы на базе TravelChain
+          Hier sind einige Beispiele für Services, die auf Basis von TravelChain erstellt werden können
         </div>
-        <div class="text-section text-section-padding text-center"><span class="bold italic">Например</span>
+        <div class="text-section text-section-padding text-center"><span class="bold italic">Zum Beispiel</span>
         </div>
         <div id="demo-carousel" class="box-flip" data-aos="flip-up">
 
@@ -623,65 +709,56 @@
               <li>
                 <img src="/images/33-k.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">Приложения-карты:
+                  <div class="box-info-name">Karten-Apps
 
                   </div>
-                  <div class="box-info-text"> Карты с нужными пользователю фильтрами. Это могут быть
-                    все музеи в центре города или вегетарианские рестораны принимающие к оплате TravelTokens.
-                  </div>
+
                 </div>
               </li>
               <li>
                 <img src="/images/44-p.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">Путеводители:
+                  <div class="box-info-name">Reiseführer
 
                   </div>
-                  <div class="box-info-text"> Маршруты, составленные из положительных отзывов ваших друзей и основанные
-                    на ваших предпочтениях. Максимально достоверный способ получить ожидаемый результат от путешествия.
-                  </div>
+
                 </div>
               </li>
               <li>
                 <img src="/images/55-y.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">Системы уведомлений:
+                  <div class="box-info-name">Benachrichtigungssysteme
 
                   </div>
-                  <div class="box-info-text">Например, уведомления о том, что можно арендовать мотоцикл через дорогу от
-                    отеля и оплатить аренду с помощью TravelTokens. Гарантией хорошей сделки является рейтинг
-                    арендодателя.
-                  </div>
+                  <!--<div class="box-info-text">Например, уведомления о том, что можно арендовать мотоцикл через дорогу от-->
+                  <!--отеля и оплатить аренду с помощью TravelTokens. Гарантией хорошей сделки является рейтинг-->
+                  <!--арендодателя.-->
+                  <!--</div>-->
                 </div>
               </li>
               <li>
                 <img src="/images/22-v.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">Виджеты
+                  <div class="box-info-name">Widgets
 
                   </div>
-                  <div class="box-info-text">Визуальные элементы отображающие нужную пользователю информацию. От погоды
-                    на море, до количества любителей итальянской кухни в указанное время в определенном месте.
-                  </div>
+
                 </div>
               </li>
               <li>
                 <img src="/images/66-yz.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">Персонализированные предложения:
+                  <div class="box-info-name">maßgeschneiderte Angebote
                   </div>
-                  <div class="box-info-text">Система собирает и обрабатывает информацию о пользователях, а потому
-                    предлагает оффер, включающий все ключевые предпочтения пользователя, в то время, когда он наиболее
-                    актуален.
-                  </div>
+
                 </div>
               </li>
               <li>
                 <img src="/images/ai.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">AI-сервисы:</div>
-                  <div class="box-info-text">Например сервис Aigents, на основе вашей деятельности в социальных сетях
-                    выявляет ваших последователей, авторитетов, людей со схожими интересами.
+                  <div class="box-info-name">AI-Dienste</div>
+                  <div class="box-info-text">Zum Beispiel identifiziert der Aigents-Service, basierend auf Ihrer
+                    Aktivität in sozialen Netzwerken, Ihre Anhänger, Authoritäten uns Personen mit ähnlichen Interessen
                   </div>
                 </div>
               </li>
@@ -755,8 +832,8 @@
 <section class="section section-play-video">
     <div class="container padding-block">
         <div class="text-commands text-center">
-            <div class="name-block" data-aos="fade-up">Мы снимаем сериал о команде TravelChain и развитии проекта </div>
-            <div class="block-text" data-aos="fade-up" data-aos-delay="50">Ставьте лайки и подписывайтесь на наш Youtube-канал
+            <div class="name-block" data-aos="fade-up">We are making a series about the TravelChain team and project creation! </div>
+            <div class="block-text" data-aos="fade-up" data-aos-delay="50">Push the Like button and subscribe to our channel
             </div>
         </div>
         <div class="block-commands">
@@ -765,125 +842,146 @@
                     <div class="box-video">
                         <div class="video">
                             <a class="btn btn-play" data-width="100%" data-height="100%"
-                               data-iframe="https://www.youtube.com/embed/IWDnqwRVRvg"><i
+                               data-iframe="https://www.youtube.com/embed/jTHgFMH79Pc"><i
                                 class="icon icon-play"></i></a>
                             <div class="video-image"
-                                 style="background-image: url('https://img.youtube.com/vi/IWDnqwRVRvg/0.jpg')"></div>
+                                 style="background-image: url('https://img.youtube.com/vi/jTHgFMH79Pc/0.jpg')"></div>
                             <div class="video-iframe"></div>
                         </div>
                     </div>
                     <div class="box-video">
                         <div class="video">
                             <a class="btn btn-play" data-width="100%" data-height="100%"
-                               data-iframe="https://www.youtube.com/embed/rOVodrJEV5c"><i
+                               data-iframe="https://www.youtube.com/embed/HH36xOg5TVk"><i
                                 class="icon icon-play"></i></a>
                             <div class="video-image"
-                                 style="background-image: url('https://img.youtube.com/vi/rOVodrJEV5c/0.jpg')"></div>
+                                 style="background-image: url('https://img.youtube.com/vi/HH36xOg5TVk/0.jpg')"></div>
                             <div class="video-iframe"></div>
                         </div>
                     </div>
                     <div class="box-video">
                         <div class="video">
                             <a class="btn btn-play" data-width="100%" data-height="100%"
-                               data-iframe="https://www.youtube.com/embed/i2PLDv5tOpg"><i
+                               data-iframe="https://www.youtube.com/embed/XNKjjr694ls"><i
                                 class="icon icon-play"></i></a>
                             <div class="video-image"
-                                 style="background-image: url('https://img.youtube.com/vi/i2PLDv5tOpg/0.jpg')"></div>
+                                 style="background-image: url('https://img.youtube.com/vi/XNKjjr694ls/0.jpg')"></div>
                             <div class="video-iframe"></div>
                         </div>
                     </div>
                     <div class="box-video">
                         <div class="video">
                             <a class="btn btn-play" data-width="100%" data-height="100%"
-                               data-iframe="https://www.youtube.com/embed/pR5zPQlf8r4"><i
+                               data-iframe="https://www.youtube.com/embed/xHW54IpAy44"><i
                                 class="icon icon-play"></i></a>
                             <div class="video-image"
-                                 style="background-image: url('https://img.youtube.com/vi/pR5zPQlf8r4/0.jpg')"></div>
+                                 style="background-image: url('https://img.youtube.com/vi/xHW54IpAy44/0.jpg')"></div>
                             <div class="video-iframe"></div>
                         </div>
                     </div>
                     <div class="box-video">
                         <div class="video">
                             <a class="btn btn-play" data-width="100%" data-height="100%"
-                               data-iframe="https://www.youtube.com/embed/DOPtDiezULg"><i
+                               data-iframe="https://www.youtube.com/embed/cvu8ZRISreE"><i
                                 class="icon icon-play"></i></a>
                             <div class="video-image"
-                                 style="background-image: url('https://img.youtube.com/vi/DOPtDiezULg/0.jpg')"></div>
+                                 style="background-image: url('https://img.youtube.com/vi/cvu8ZRISreE/0.jpg')"></div>
                             <div class="video-iframe"></div>
                         </div>
                     </div>
                     <div class="box-video">
                         <div class="video">
                             <a class="btn btn-play" data-width="100%" data-height="100%"
-                               data-iframe="https://www.youtube.com/embed/wD-iNx23yas"><i
+                               data-iframe="https://www.youtube.com/embed/_pECUlD2LXo"><i
                                 class="icon icon-play"></i></a>
                             <div class="video-image"
-                                 style="background-image: url('https://img.youtube.com/vi/wD-iNx23yas/0.jpg')"></div>
+                                 style="background-image: url('https://img.youtube.com/vi/_pECUlD2LXo/0.jpg')"></div>
                             <div class="video-iframe"></div>
                         </div>
                     </div>
                 </div>
                 <div class="box-btn text-center" data-aos="zoom-out-up">
-                    <a class="btn all-commands btn-red btn-lg">Все видео</a>
+                    <a class="btn all-commands btn-red btn-lg">All video</a>
                 </div>
                 <div class="box-accordion-body accordion-body-toggle" style="display: none;">
                     <div class="box-video">
                         <div class="video">
                             <a class="btn btn-play" data-width="100%" data-height="100%"
-                               data-iframe="https://www.youtube.com/embed/pv0WEwkNDPQ"><i
+                               data-iframe="https://www.youtube.com/embed/d0JB8Guni7s"><i
                                 class="icon icon-play"></i></a>
                             <div class="video-image"
-                                 style="background-image: url('https://img.youtube.com/vi/pv0WEwkNDPQ/0.jpg')"></div>
+                                 style="background-image: url('https://img.youtube.com/vi/d0JB8Guni7s/0.jpg')"></div>
                             <div class="video-iframe"></div>
                         </div>
                     </div>
                     <div class="box-video">
                         <div class="video">
                             <a class="btn btn-play" data-width="100%" data-height="100%"
-                               data-iframe="https://www.youtube.com/embed/gJakHdf5zqE"><i
+                               data-iframe="https://www.youtube.com/embed/B7lM_Uluzek"><i
                                 class="icon icon-play"></i></a>
                             <div class="video-image"
-                                 style="background-image: url('https://img.youtube.com/vi/gJakHdf5zqE/0.jpg')"></div>
+                                 style="background-image: url('https://img.youtube.com/vi/B7lM_Uluzek/0.jpg')"></div>
                             <div class="video-iframe"></div>
                         </div>
                     </div>
                     <div class="box-video">
                         <div class="video">
                             <a class="btn btn-play" data-width="100%" data-height="100%"
-                               data-iframe="https://www.youtube.com/embed/63gsuFGZlhY"><i
+                               data-iframe="https://www.youtube.com/embed/1bP3gekQXdw"><i
                                 class="icon icon-play"></i></a>
                             <div class="video-image"
-                                 style="background-image: url('https://img.youtube.com/vi/63gsuFGZlhY/0.jpg')"></div>
+                                 style="background-image: url('https://img.youtube.com/vi/1bP3gekQXdw/0.jpg')"></div>
                             <div class="video-iframe"></div>
                         </div>
                     </div>
                     <div class="box-video">
                         <div class="video">
                             <a class="btn btn-play" data-width="100%" data-height="100%"
-                               data-iframe="https://www.youtube.com/embed/9yl0N8YbB1w"><i
+                               data-iframe="https://www.youtube.com/embed/pwpDzDNq-MQ"><i
                                 class="icon icon-play"></i></a>
                             <div class="video-image"
-                                 style="background-image: url('https://img.youtube.com/vi/9yl0N8YbB1w/0.jpg')"></div>
+                                 style="background-image: url('https://img.youtube.com/vi/pwpDzDNq-MQ/0.jpg')"></div>
                             <div class="video-iframe"></div>
                         </div>
                     </div>
                     <div class="box-video">
                         <div class="video">
                             <a class="btn btn-play" data-width="100%" data-height="100%"
-                               data-iframe="https://www.youtube.com/embed/TsyOD_lx0Ss"><i
+                               data-iframe="https://www.youtube.com/embed/X8x55lyHF6A"><i
                                 class="icon icon-play"></i></a>
                             <div class="video-image"
-                                 style="background-image: url('https://img.youtube.com/vi/TsyOD_lx0Ss/0.jpg')"></div>
+                                 style="background-image: url('https://img.youtube.com/vi/X8x55lyHF6A/0.jpg')"></div>
                             <div class="video-iframe"></div>
                         </div>
                     </div>
                     <div class="box-video">
                         <div class="video">
                             <a class="btn btn-play" data-width="100%" data-height="100%"
-                               data-iframe="https://www.youtube.com/embed/zsH_YLVLe6o"><i
+                               data-iframe="https://www.youtube.com/embed/82ItVSs5sb0"><i
                                 class="icon icon-play"></i></a>
                             <div class="video-image"
-                                 style="background-image: url('https://img.youtube.com/vi/zsH_YLVLe6o/0.jpg')"></div>
+                                 style="background-image: url('https://img.youtube.com/vi/82ItVSs5sb0/0.jpg')"></div>
+                            <div class="video-iframe"></div>
+                        </div>
+                    </div>
+
+                    <div class="box-video">
+                        <div class="video">
+                            <a class="btn btn-play" data-width="100%" data-height="100%"
+                               data-iframe="https://www.youtube.com/embed/mfhxRsZHGVE"><i
+                                class="icon icon-play"></i></a>
+                            <div class="video-image"
+                                 style="background-image: url('https://img.youtube.com/vi/mfhxRsZHGVE/0.jpg')"></div>
+                            <div class="video-iframe"></div>
+                        </div>
+                    </div>
+                    <div class="box-video">
+                        <div class="video">
+                            <a class="btn btn-play" data-width="100%" data-height="100%"
+                               data-iframe="https://www.youtube.com/embed/g_nMRt-WnN8"><i
+                                class="icon icon-play"></i></a>
+                            <div class="video-image"
+                                 style="background-image: url('https://img.youtube.com/vi/g_nMRt-WnN8/0.jpg')"></div>
                             <div class="video-iframe"></div>
                         </div>
                     </div>
@@ -896,9 +994,8 @@
 <section class="section section-player">
     <div class="container padding-block">
         <div class="section-text text-center">
-            <div class="name-block" data-aos="fade-up">К нам присоединяются крупные игроки индустрии</div>
-            <div class="block-text " data-aos="fade-up">Более <span class="bold">3 000 000 пользователей </span> наших партнёров будут интегрированы в
-                экосистему TravelChain</div>
+            <div class="name-block" data-aos="fade-up">An unserer Seite stehen wichtige Akteuren der Branche</div>
+            <div class="block-text " data-aos="fade-up">Mehr als 3.000.000 Nutzer unserer Partner werden in das TravelChain-Ökosystem integriert</div>
         </div>
         <div class="player">
             <div class="player-line block-flex-center" data-aos="zoom-out-up">
@@ -906,7 +1003,7 @@
                     <img src="/images/PavlinTravel.png" alt="">
                 </div>
                 <div class="box-img">
-                    <img src="/images/turister.png" alt="">
+                    <img src="/images/turister-eng.121217.png" alt="">
                 </div>
                 <div class="box-img">
                     <img src="/images/izi.Travel.svg" alt="">
@@ -916,8 +1013,8 @@
                 </div>
             </div>
             <div class="box-btn" data-aos="fade-up" data-aos-delay="100">
-                <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">Приобрести токены</a>-->
-                <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">Приобрести токены</a>
+                <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">Kauftoken</a>-->
+                <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">Token sale</a>
             </div>
         </div>
     </div>
@@ -925,9 +1022,9 @@
 <section class="section section-stage-web">
     <div class="container">
       <div class="text-stage padding-block">
-        <div class="name-block" data-aos="fade-up">TravelChain — это также платформа для создания мобильных и веб-приложений в туристической сфере</div>
-        <div class="block-text" data-aos="fade-up" data-aos-delay="50">Такой сервис уже существует — Mapala, международное комьюнити путешественников
-          и источник контента для сервисов на основе TravelChain </div>
+        <div class="name-block" data-aos="fade-up">TravelChain ist auch eine Plattform für die Erstellung von mobilen und Web-Anwendungen in der Reisebranche</div>
+        <div class="block-text" data-aos="fade-up" data-aos-delay="50">Solch ein Service existiert bereits - Mapala, eine
+          internationale Gemeinschaft von Reisenden und eine Content-Quelle für Dienste auf Basis von TravelChain</div>
       </div>
       <div class="">
         <div class="box-mapala" data-aos="flip-left" data-aos-delay="100">
@@ -938,11 +1035,10 @@
               </div>
             </div>
             <div class="box-text-info" data-aos="fade-up" data-aos-delay="200">
-              <div class="text" >Mapala.net — это платформа для тревел-блоггинга, работающая на блокчейне. Мы создали ее в
-                начале 2017 года, и число пользователей растет с каждым днем.</div>
+              <div class="text" >Mapala.net ist eine Plattform für Reiseblogging und arbeitet in Form einer Blockchain.
+                Wir haben sie Anfang 2017 erstellt und die Anzahl der Nutzer wächst täglich.</div>
               <div class="text">
-                Путешественники наполняют базу знаний, получают за это вознаграждение и очки опыта —
-                и получают возможность путешествовать бесплатно.
+                Reisende füllen die Wissensbasis, werden dafür bezahlt und erhalten Erfahrungspunkte - und erhalten die Möglichkeit, kostenlos zu reisen
               </div>
             </div>
           </div>
@@ -954,11 +1050,10 @@
     <div class="container padding-block">
         <div class="text-distribution">
             <div class="name-block" data-aos="fade-up">
-                TravelToken — топливо экосистемы умных путешествий
+                TravelToken - der Treibstoff des SmartTravel Ökosystems
             </div>
-            <div class="block-text aos-init aos-animate text-center" data-aos="fade-up" data-aos-delay="50">Пользователи
-                сами решают, как воспользоваться
-                токенами
+            <div class="block-text aos-init aos-animate text-center" data-aos="fade-up" data-aos-delay="50">Die Benutzer
+                entscheiden selbst, wie Token zu verwenden sind
             </div>
         </div>
         <div class="box-distribution-step block-flex-top">
@@ -966,162 +1061,47 @@
                 <div class="box-icon">
                     <i class="icon icon-middle icon-buy"></i>
                 </div>
-                <div class="name">Покупка SmartData</div>
-                <div class="text">Компании могут получать обработанные данные у AI-сервиса, передавая TravelToken в
-                    качестве
-                    оплаты.
+                <div class="name">Erwerben Sie SmartData</div>
+                <div class="text">Unternehmen können verarbeitete Daten von einem AI-Service empfangen, indem sie
+                    TravelToken als Zahlung übertragen.
                 </div>
             </div>
             <div class="box-step" data-aos="fade-left" data-aos-delay="150">
                 <div class="box-icon">
                     <i class="icon icon-middle icon-pass"></i>
                 </div>
-                <div class="name">Передача данных</div>
+                <div class="name">Datenübertragung</div>
                 <div class="text">
-                    Пользователи могут делиться данными с другими участниками TravelChain с помощью веб-сервисов или
-                    приложений — и получать взамен TravelToken.
+                    Benutzer können Daten über Webdienste oder Anwendungen mit anderen TravelChain-Mitgliedern teilen
+                    und erhalten stattdessen ein TravelToken.
                 </div>
             </div>
             <div class="box-step" data-aos="fade-left" data-aos-delay="250">
                 <div class="box-icon">
                     <i class="icon icon-middle icon-swap"></i>
                 </div>
-                <div class="name">Обмен данными</div>
-                <div class="text">Сервисы могут использовать TravelToken и обмениваться данными между собой, используя
-                    ключи
-                    доступа.
+                <div class="name">Datenaustausch</div>
+                <div class="text">Dienste können das TravelToken verwenden und über die Zugriffsschlüssel miteinander
+                    Daten austauschen
                 </div>
             </div>
         </div>
         <div class="text-distribution">
-            <div class="name-block" data-aos="fade-up" data-aos-delay="350">Ценность токенов будет расти с увеличением
-                количества пользователей и накопленных данных
+            <div class="name-block" data-aos="fade-up" data-aos-delay="350">Der Wert der Token wächst mit der Anzahl der
+                Benutzer und den gesammelten Daten
             </div>
-            <div class="block-text text-center white aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">Рост
-                спроса на данные vs. Количество пользователей
-            </div>
-
         </div>
         <div class="box-chart-line">
             <div class="box-img" data-aos="zoom-in" data-aos-delay="50">
-                <img class="" src="/images/RUS.png" alt="">
-                <!--<img class="show-mobile" src="images/1112.png" alt="">-->
+                <img class="" src="/images/enggraph.121217.png" alt="">
             </div>
         </div>
-
-
-        <div class="block-chart-info-two">
-            <div class="name-block"> Почему не нужно бояться неограниченного выпуска TravelToken
-                и в чем разница между TravelChain и Ethereum
-            </div>
-            <div class="box-chart-info-two block-flex-top">
-                <div class="box-chart-info">
-                    <div class="box-chart">
-                        <div class="name-chart">TravelToken Charts</div>
-                        <div class="box-img">
-                           <img src="/images/1-ch.png" alt="">
-                       </div>
-                        <div class="box-text-charges">
-                            <div class="item">
-                                <i class="icon icon-11"></i>
-                                <span>AMOUNT OF USERS</span>
-                            </div>
-                            <div class="item">
-                                <i class="icon icon-12"></i>
-                                <span>TOKENS / USERS</span>
-                            </div>
-                            <div class="item">
-                                <i class="icon icon-13"></i>
-                                <span>CIRCULATING SUPPLY (TT)</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box-chart-text">
-                        <div class="block-text">
-                            <span >TravelChain - будут использовать ВСЕ путешественники (1,2 млрд. чел. в 2016г)</span>
-                            <ul class="point">
-                                <li>Выпуск новых токенов не ограничен.</li>
-                                <li>Новые токены идут на популяризацию и наполнение платформы. Каждый новый токен подкреплен новыми данными.
-                                </li>
-                                <li>Возможно изменить объем “эмиссии”. Осуществляется голосованием всех пользователей сообщества, владеющих токенами.
-                                </li>
-                                <li>Выпуск новых токенов достаточен, чтобы мотивировать пользователей развивать платформу, но сохраняет дефляционную модель (количество токенов на пользователя платформы со временем уменьшается).
-                                </li>
-                            </ul>
-                            <span>Встроенные алгоритмы мотивации удерживать токен:</span>
-                            <ul class="point">
-                                <li>TT Holder Rating (Travel Power) зависит от количества токенов и времени их нахождения в кошельке - чем больше этот рейтинг у пользователя тем большее вознаграждение он получает за развитие платформы;
-                                </li>
-                                <li>доступ к реестру для анализа в сутки ограничен объемом токенов на кошельке. Токены не тратятся. </li>
-
-                            </ul>
-                            <span>Исчерпывается лимит обращений.</span>
-                            <ul class="point">
-                                <li>до 100 000 транзакций в секунду.
-                                </li>
-                                <li>транзакции внутри сети без комиссий.
-                                </li>
-                                <li>Рост цены на токен начнется когда спрос превысит предложение с появлением первого приложения
-                                    в Q1 2018 г.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="box-chart-info">
-                    <div class="box-chart">
-                        <div class="name-chart">Ethereum Charts</div>
-                        <div class="box-img">
-                            <img src="/images/2-ch.png" alt="">
-                        </div>
-                        <div class="box-text-charges">
-                            <div class="item">
-                                <i class="icon icon-13"></i>
-                                <span>CIRCULATING SUPPLY (ETH)</span>
-                            </div>
-                            <div class="item">
-                                <i class="icon icon-14"></i>
-                                <span>ETHEREUM BASED COIN</span>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="box-chart-text">
-                        <div class="block-text">
-                            <span>Ethereum - используют большинство крипто-инвесторов и ICO основатели.</span>
-                            <ul class="point">
-                                <li>Выпуск новых токенов не ограничен.
-                                </li>
-                                <li>Новые токены идут на поддержание работоспособности сети (майнинг).</li>
-                                <li>В 2017 году при средней цене $300 за ETH на майнинг потрачено $3 млрд.
-                                </li>
-                                <li>Изменить объем эмиссии невозможно (только хард-форком).
-                                </li>
-                                <li>Рост цены на токен начался с ростом популярности благодаря ICO.
-                                </li>
-                                <li> 30 транзакций в секунду.
-                                </li>
-                                <li>комиссия сети за транзакции (gas).
-                                </li>
-                                <li>ETH вырос в 2 800 раз с июля 2015 г.</li>
-                                <li>BTC вырос в 1 000 раз с июля 2015 г.</li>
-                            </ul>
-                            <span>Ethereum Classic - используют некоторые крипто-инвесторы и ICO основатели.</span>
-                            <ul class="point">
-                                <li>ETC вырос в 150 раз с июля 2015 г.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
 
         <div class="text-distribution date-distribution" data-aos="zoom-in" data-aos-delay="100">
-            <div class="name-block"><span class="bold">693 000 000 </span> TravelToken <span class="light">распределятся среди участников Token Sale</span>
-                <span class="bold">до 15 февраля</span></div>
-            <!--<div class="block-text">Token Sale завершится 15 февраля в 14:00 (UTC)</div>-->
+            <div class="name-block">693 000 000 TravelToken werden am 15. Dezember unter den Teilnehmern von Token Sale
+                verteilt
+            </div>
+            <div class="block-text">Der Token Sale endet am 15. Februar um 14:00 Uhr (UTC)</div>
         </div>
         <div class="box">
             <div class="container ">
@@ -1130,11 +1110,11 @@
                         <ul class="nav">
                             <li class="active">
                                 <a href="#1a" data-toggle="tab" aria-expanded="true">
-                                    <div class="name-block">Распределение токенов</div>
+                                    <div class="name-block">Verteilung von Token</div>
                                 </a>
                             </li>
                             <li class=""><a href="#2a" data-toggle="tab" aria-expanded="false">
-                                <div class="name-block"> и фондов</div>
+                                <div class="name-block"> und Fonds</div>
                             </a>
                             </li>
                         </ul>
@@ -1144,20 +1124,20 @@
                             <div class="box-chart-token block-flex-center" data-aos="zoom-in-down">
                                 <div class="box-sum ">
                                     <div class="item-sum">
-                                        <div class="name">Эквивалент $10 млн</div>
+                                        <div class="name">Gegenwert 10 Mio. $</div>
                                         <div class="text">Hard Cap</div>
                                     </div>
                                     <div class="item-sum">
                                         <div class="name">693 000 000</div>
-                                        <div class="text">Токенов на продажу</div>
+                                        <div class="text">Token zum Verkauf</div>
                                     </div>
                                     <div class="item-sum">
-                                        <div class="name">Эквивалент $0.0151</div>
-                                        <div class="text">Цена токена</div>
+                                        <div class="name">Gegenwert 0,0151 $</div>
+                                        <div class="text">Preis des Tokens</div>
                                     </div>
                                     <div class="item-sum">
                                         <div class="name">BCH, ETH, BTC, ETC, LSK, LTC, NEO, ZEC, DASH, DOGE, WAVES</div>
-                                        <div class="text">Валюта входа</div>
+                                        <div class="text">Eingangswährung</div>
                                     </div>
                                 </div>
                                 <div class="block-chart ">
@@ -1181,7 +1161,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">30.00%</div>
-                                            <div class="text">Фонд Разработки</div>
+                                            <div class="text">Entwicklungsfonds</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1199,7 +1179,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">13.80%</div>
-                                            <div class="text">Команда</div>
+                                            <div class="text">Team</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1208,7 +1188,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">2.00%</div>
-                                            <div class="text">Консультанты</div>
+                                            <div class="text">Berater</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1217,7 +1197,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">1.51%</div>
-                                            <div class="text">Ранние участники и основатели</div>
+                                            <div class="text">Frühe Investoren und Gründer</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1226,7 +1206,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">1.00%</div>
-                                            <div class="text">Bounty</div>
+                                            <div class="text">Belohnung</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1235,7 +1215,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">1.00%</div>
-                                            <div class="text">Стартовый баланс Резервного фонда</div>
+                                            <div class="text">Startbilanz des Reservefonds</div>
                                         </div>
                                     </div>
                                 </div>
@@ -1245,23 +1225,22 @@
                             <div class="box-chart-token block-flex-center" data-aos="zoom-in-down">
                                 <div class="box-sum ">
                                     <div class="item-sum">
-                                        <div class="name">Эквивалент $10 млн</div>
+                                        <div class="name">Gegenwert 10 Mio. $</div>
                                         <div class="text">Hard Cap</div>
                                     </div>
                                     <div class="item-sum">
                                         <div class="name">693 000 000</div>
-                                        <div class="text">Токенов на продажу</div>
+                                        <div class="text">Token zum Verkauf</div>
                                     </div>
                                     <div class="item-sum">
-                                        <div class="name">Эквивалент $0.0151</div>
-                                        <div class="text">Цена токена</div>
+                                        <div class="name">Gegenwert 0,0151 $</div>
+                                        <div class="text">Preis des Tokens</div>
                                     </div>
                                     <div class="item-sum">
                                         <div class="name">BCH, ETH, BTC, ETC, LSK, LTC, NEO, ZEC, DASH, DOGE, WAVES</div>
-                                        <div class="text">Валюта входа</div>
+                                        <div class="text">Eingangswährung</div>
                                     </div>
                                 </div>
-
 
                                 <div class="block-chart ">
                                     <div class="box-chart ">
@@ -1275,7 +1254,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">50.30%</div>
-                                            <div class="text">Разработка</div>
+                                            <div class="text">Entwicklung</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1284,7 +1263,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">21.70%</div>
-                                            <div class="text">Маркетинг</div>
+                                            <div class="text">Marketing</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1293,7 +1272,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">19.40%</div>
-                                            <div class="text">Операционные расходы</div>
+                                            <div class="text">Betriebskosten</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1302,7 +1281,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">6.70%</div>
-                                            <div class="text">Сообщество разработчиков</div>
+                                            <div class="text">Entwicklercommunity</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1311,7 +1290,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">1.90%</div>
-                                            <div class="text">Юридические услуги</div>
+                                            <div class="text">Juristische Dienstleistungen</div>
                                         </div>
                                     </div>
                                 </div>
@@ -1323,16 +1302,15 @@
         </div>
 
         <div class="box-btn text-center" data-aos="fade-up" data-aos-delay="100">
-
-            <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">Приобрести токены</a>-->
-            <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">Приобрести токены</a>
+            <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">Kauftoken</a>-->
+            <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">Token sale</a>
         </div>
     </div>
 </section>
 <section class="section section-roadmap">
     <div class="container">
         <div class="text-roadmap padding-block">
-            <div class="name-block" data-aos="fade-right">Roadmap проекта</div>
+            <div class="name-block" data-aos="fade-right">Roadmap-Projekt</div>
         </div>
         <div class="box-roadmap block-flex-center">
             <div class="box-item-roadmap" data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">
@@ -1343,21 +1321,21 @@
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">Декабрь 2017</div>
-                    <div class="text">Цель: привлечь до $10.000.000 на разработку и развитие TravelChain</div>
+                    <div class="name-date">Dezember 2017</div>
+                    <div class="text">Zweck: Anziehung von bis zu 10.000.000 $ für die Erstellung und Weiterentwicklung von TravelChain</div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages1"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>Этапы</span>
+                            <span>Etappen</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages1">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>Запуск тестнета TravelChain;</li>
-                                    <li>Запуск MVP TravelChain;</li>
-                                    <li>Формирование рабочей группы по внедрению TravelChain с представителями индустрии;</li>
+                                    <li> Inbetriebnahme des TravelChain-Testnets;</li>
+                                    <li>Starten von  MVP TravelChain;</li>
+                                    <li>Bildung einer Arbeitsgruppe zur Implementierung von TravelChain mit Vertretern der Industrie;</li>
                                     <li>TOKEN SALE;</li>
                                 </ul>
                             </div>
@@ -1369,25 +1347,25 @@
                 <div class="box-head">
                     <div class="box-number">2</div>
                     <div class="box-name">
-                        Подготовка к запуску <br/> TravelChain
+                        Vorbereitung für den <br/> Start der TravelChain
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">Январь 2018</div>
-                    <div class="text">Цель: подготовка к запуску рабочей сети TravelChain</div>
+                    <div class="name-date">Januar 2018</div>
+                    <div class="text">Ziel: Vorbereitung zum Start des TravelChain-Arbeitsnetzwerks</div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages2"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>Этапы</span>
+                            <span>Etappen</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages2">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>Создание базовых стандартов хранения данных о туризме на платформе TravelChain;</li>
-                                    <li>Запуск исследователя блоков (block-explorer);</li>
-                                    <li>Запуск базового функционала на платформе TravelChain.io;</li>
+                                    <li>Schaffung von Grundstandards für die Speicherung von Tourismusdaten auf der Plattform von TravelChain;</li>
+                                    <li>Start des Block-Testers (Block Explorer);</li>
+                                    <li>Start der grundlegenden Funktionalität auf der Plattform TravelChain.io;</li>
                                 </ul>
                             </div>
                         </div>
@@ -1398,27 +1376,26 @@
                 <div class="box-head">
                     <div class="box-number">3</div>
                     <div class="box-name">
-                        Запуск рабочей сети
+                        Start des <br/> Arbeitsnetzwerkes
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">Февраль 2018</div>
-                    <div class="text">Цель: запустить рабочую сеть, предоставив возможность разработчикам создавать
-                        приложения
+                    <div class="name-date">Februar 2018</div>
+                    <div class="text">Ziel: Start eines Arbeitsnetzwerkes und somit Schaffung der Möglichkeit für Entwickler Apps zu erstellen
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages3"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>Этапы</span>
+                            <span>Etappen</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages3">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>Формирование генезис-блока;</li>
-                                    <li>Запуск рабочей сети;</li>
-                                    <li>Выход на биржу;</li>
+                                    <li>Bildung des Genesis-Blocks;</li>
+                                    <li>Start des Arbeitsnetzwerkes;</li>
+                                    <li>Emission an der Börse;</li>
                                 </ul>
                             </div>
                         </div>
@@ -1432,26 +1409,26 @@
                 <div class="box-head">
                     <div class="box-number">4</div>
                     <div class="box-name">
-                        Подготовка инструментов<br/> сбора информации
+                        Werkzeugen<br/>Informationensammlung
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">I-II квартал 2018</div>
-                    <div class="text">Цель: подготовить и запустить сборщики информации</div>
+                    <div class="name-date">I-II Quartal 2018</div>
+                    <div class="text">Ziel: Vorbereitung und Start von Informationssammlern</div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages4"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>Этапы</span>
+                            <span>Etappen</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages4">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>Внедрение дополнительных операций и плагинов для Travelchain;</li>
-                                    <li>Мобильное приложение TravelChain с функционалом кошелька и функцией сбора и контроля данных;</li>
-                                    <li>Плагин для Chrome;</li>
-                                    <li>Виджет JS для внедрения на сайты партнеров;</li>
+                                    <li>Implementierung zusätzlicher Operationen und Plugins für Travelchain;</li>
+                                    <li>Mobile Anwendung TravelChain mit Wallet-Funktion sowie Datenerhebungs- und Kontrollfunktion;</li>
+                                    <li>Plugin für Chrome;</li>
+                                    <li>JS-Widget zur Implementierung auf Partnerseiten;</li>
                                 </ul>
                             </div>
                         </div>
@@ -1462,26 +1439,26 @@
                 <div class="box-head">
                     <div class="box-number">5</div>
                     <div class="box-name">
-                        Интеграция<br/> партнеров
+                        Integration<br/>von Partnern
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">ll квартал 2018</div>
-                    <div class="text">Цель: подключить стратегических партнеров из туристического сектора экономики
+                    <div class="name-date">ll Quartal  2018</div>
+                    <div class="text">Ziel: Einbinden strategische Partner aus dem Tourismussektor der Wirtschaft
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages5"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>Этапы</span>
+                            <span>Etappen</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages5">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>Расширение онтологии по запросам партнеров;</li>
-                                    <li>Внедрение виджетов в сайты партнеров;</li>
-                                    <li>Глубокая интеграция партнеров;</li>
+                                    <li>Erweiterung der Ontologie auf Anfrage der Partner;</li>
+                                    <li>Integration von Widgets in Partnerseiten;</li>
+                                    <li>Tiefe Integration von Partnern;</li>
                                 </ul>
                             </div>
                         </div>
@@ -1492,27 +1469,25 @@
                 <div class="box-head">
                     <div class="box-number">6</div>
                     <div class="box-name">
-                        Создание сообщества<br/> разработчиков
+                        Gründung einer<br/>Entwickler-Community
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">ll квартал 2018</div>
-                    <div class="text">Цель: создание сообщества разработчиков, готовых внедрять TravelChain или
-                        создавать свои
-                        проекты
+                    <div class="name-date">ll Quartal  2018</div>
+                    <div class="text">Ziel: Gründung einer Entwickler-Community, die bereit sind, TravelChain zu implementieren oder eigene Projekte zu erstellen
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages6"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>Этапы</span>
+                            <span>Etappen</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages6">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>Создать расширенную документацию;</li>
-                                    <li>Создать сообщество разработчиков;</li>
+                                    <li>Erstellen einer erweiterten Dokumentation;</li>
+                                    <li>Erstellen einer Entwickler-Community</li>
                                 </ul>
                             </div>
                         </div>
@@ -1525,29 +1500,27 @@
                 <div class="box-head">
                     <div class="box-number">7</div>
                     <div class="box-name">
-                        Дистрибьюция монет <br/> и набор критической массы
+                        Verteilung <br/> von Münzen
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">ll-lll квартал 2018</div>
-                    <div class="text">Цель: запуск дистрибуции токена через проекты экосистемы, команды разработчиков и
-                        активных
-                        пользователей
+                    <div class="name-date">ll-lll Quartal  2018</div>
+                    <div class="text">Ziel: Start der TokenVerteilung über Projekte des Ökosystems von Entwicklerteams und aktiven Nutzern
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages7"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>Этапы</span>
+                            <span>Etappen</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages7">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>Запуск фонда труда;
+                                    <li>Start des Arbeitsfonds;
                                     </li>
-                                    <li>Запуск эмиссии;</li>
-                                    <li>Набор 100 тысяч пользователей;</li>
+                                    <li>Start der Emission</li>
+                                    <li>Aufnahme von 100 Tausend Benutzern;</li>
                                 </ul>
                             </div>
                         </div>
@@ -1558,25 +1531,24 @@
                 <div class="box-head">
                     <div class="box-number">8</div>
                     <div class="box-name">
-                        Инфраструктура <br/> для масштабирования
+                        Infrastruktur <br/> zur Skalierung
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">l-ll квартал 2019</div>
-                    <div class="text">Цель: создание и внедрение инфраструктурных решений для масштабирования
-                        экосистемы
+                    <div class="name-date">l-ll Quartal  2019</div>
+                    <div class="text">Das Ziel:  Erstellung und Implementierung von Infrastrukturlösungen zur Skalierung des Ökosystems
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages8"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>Этапы</span>
+                            <span>Etappen</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages8">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>Создание и внедрение инфраструктурных решений для масштабирования экосистемы;</li>
+                                    <li>Schaffung und Implementierung von Infrastrukturlösungen zur Skalierung des Ökosystems;</li>
                                 </ul>
                             </div>
                         </div>
@@ -1586,13 +1558,12 @@
             <div class="box-item-roadmap" data-aos="fade-left" data-aos-delay="600" data-aos-duration="800">
                 <div class="box-head">
                     <div class="box-btn text-center">
-
-                        <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale"><span class="middle">Приобрести токены</span></a>-->
-                        <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io"><span class="middle">Приобрести токены</span></a>
+                        <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale"><span class="middle">Kauftoken</span></a>-->
+                        <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io"><span class="middle">Token sale</span></a>
                     </div>
                 </div>
                 <div class="box-body box-body-last">
-                    <div class="text text-center">Узнавайте о новостях <br/> TravelChain первыми</div>
+                    <div class="text text-center">Informieren Sie sich als <br/> Erste über Neuigkeiten zu TravelChain</div>
                 </div>
             </div>
         </div>
@@ -1601,15 +1572,15 @@
 <section class="section section-commands">
     <div class="container padding-block">
         <div class="text-commands text-center">
-            <div class="name-block" data-aos="fade-up">Команда TravelChain</div>
-            <div class="block-text" data-aos="fade-up" data-aos-delay="50">Команда насчитывает 24 специалиста своего
-                дела, познакомьтесь с лидерами:
+            <div class="name-block" data-aos="fade-up">Das TravelChain-Team</div>
+            <div class="block-text" data-aos="fade-up" data-aos-delay="50">Das Team zählt 27 Mitarbeiter, jeder von ihnen
+                ist ein Spezialist in seinem jeweiligen Bereich. Lernen Sie die Leader kennen:
             </div>
         </div>
         <div class="block-commands">
             <div class="block-accordion">
-                <div class="box-accordion-head block-flex-top">
-                    <div class="item-accordion " data-aos="fade-up" data-aos-delay="200">
+                <div class="box-accordion-head block-flex-top clearfix">
+                    <div class="item-accordion clearfix" data-aos="fade-up" data-aos-delay="200">
                         <div class="box-img">
                             <img class="lazyload" src="/images/orlov.png" alt="">
                             <a href="https://www.linkedin.com/in/ilya-orlov-0123ba80" target="_blank"
@@ -1617,31 +1588,23 @@
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
-                        <div class="box-name">Илья Орлов</div>
+                        <div class="box-name">Ilya Orlov</div>
                         <div class="box-qualification">CEO/Co-Founder</div>
-                        <div class="box-info">Ответственен за корпоративное управление и стратегический менеджмент.
-                            Богатый
-                            управленческий опыт в маленьких и крупных предприятиях с численностью персонала в подчинении
-                            до 450
-                            человек
-                        </div>
+
                     </div>
-                    <div class="item-accordion " data-aos="fade-up" data-aos-delay="400">
+                    <div class="item-accordion clearfix" data-aos="fade-up" data-aos-delay="400">
                         <div class="box-img">
                             <img class="lazyload" src="/images/muraviev.png" alt="">
-							<a href="https://www.linkedin.com/in/alex-ant-89b664154/" target="_blank"
+                            <a href="https://www.linkedin.com/in/alex-ant-89b664154/" target="_blank"
                                class="btn btn-red box-icon">
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
-                        <div class="box-name">Алексей Mуравьев</div>
+                        <div class="box-name">Alexey Muravjev</div>
                         <div class="box-qualification">Architect/Co-Founder</div>
-                        <div class="box-info">Блокчейн-эксперт и программист - исследователь. Магистр физики
-                            наноматериалов и
-                            оптоэлектроники. ТОП-делегат блокчейна Голос.
-                        </div>
+
                     </div>
-                    <div class="item-accordion " data-aos="fade-up" data-aos-delay="600">
+                    <div class="item-accordion clearfix" data-aos="fade-up" data-aos-delay="600">
                         <div class="box-img">
                             <img class="lazyload" src="/images/coloviev.png" alt="">
                             <a href="https://www.linkedin.com/in/aleksey-soloviev-a8147727/" target="_blank"
@@ -1649,14 +1612,11 @@
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
-                        <div class="box-name">Алексей Соловьев</div>
+                        <div class="box-name">Alexey Solovyev</div>
                         <div class="box-qualification">Co-Founder</div>
-                        <div class="box-info">Серийный предприниматель с опытом более 15 лет в различных сферах:
-                            торговле, сфере
-                            услуг, строительстве. ТОП-делегат блокчейна Голос.
-                        </div>
+
                     </div>
-                    <div class="item-accordion " data-aos="fade-up" data-aos-delay="600">
+                    <div class="item-accordion clearfix" data-aos="fade-up" data-aos-delay="600">
                         <div class="box-img">
                             <img class="lazyload" src="/images/team/polevich.png" alt="">
                             <a href="https://www.linkedin.com/in/антон-полевич-388027123/" target="_blank"
@@ -1664,14 +1624,13 @@
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
-                        <div class="box-name">Антон Полевич</div>
+                        <div class="box-name">Anton Polevich</div>
                         <div class="box-qualification">COO</div>
-                        <div class="box-info">Креативный продюсер, scrum мастер и предприниматель с опытом в it сфере более 7 лет.
-                        </div>
+                        <div class="box-info">Creative producer, scrum master and entrepreneur in IT for last 7 years </div>
                     </div>
                 </div>
                 <div class="box-btn text-center" data-aos="zoom-out-up">
-                    <a class="btn all-commands btn-border-blue">Вся команда</a>
+                    <a class="btn all-commands btn-border-blue">Das ganze Team</a>
                 </div>
                 <div class="box-accordion-body accordion-body-toggle">
 
@@ -1684,9 +1643,10 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Орхан Зейналлы</div>
+                            <div class="box-name">Orkhan Zeynally</div>
                             <div class="box-qualification">CTO</div>
                         </div>
+
                     </div>
 
                     <div class="item-accordion ">
@@ -1697,7 +1657,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Антон Колонин</div>
+                            <div class="box-name">Anton Kolonin</div>
                             <div class="box-qualification">AI, BigData Expert</div>
                         </div>
                     </div>
@@ -1705,12 +1665,12 @@
                     <div class="item-accordion ">
                         <div class="box-img">
                             <img class="lazyload" src="/images/team/anikin.png" alt="">
-                            <a href="https://www.linkedin.com/in/дмитрий-кин-767191122/" target="_blank" class="btn btn-red box-icon">
-                                <i class="icon icon-middle icon-in"></i>
+                            <a href="https://www.facebook.com/yury.anikin" target="_blank" class="btn btn-red box-icon">
+                                <i class="icon icon-middle icon-facebook"></i>
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Юрий Аникин</div>
+                            <div class="box-name">Yury Anikin</div>
                             <div class="box-qualification">Ontology Analyst</div>
                         </div>
                     </div>
@@ -1724,7 +1684,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Павел Дорожкин</div>
+                            <div class="box-name">Pavel Dorozkhin</div>
                             <div class="box-qualification">Team Lead, Back-end
                                 Developer
                             </div>
@@ -1740,7 +1700,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Артем Богомолов</div>
+                            <div class="box-name">Artem Bogomolov</div>
                             <div class="box-qualification">Front-end Developer</div>
                         </div>
                     </div>
@@ -1754,7 +1714,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Зураб Шиварбидзе</div>
+                            <div class="box-name">Zurab Shivarbidze</div>
                             <div class="box-qualification">Front-end Developer</div>
                         </div>
                     </div>
@@ -1762,12 +1722,13 @@
                     <div class="item-accordion ">
                         <div class="box-img">
                             <img class="lazyload" src="/images/team/sabina.jpg" alt="">
-							<a href="https://www.linkedin.com/in/sabina-gurbanova-7497b5154/" target="_blank" class="btn btn-red box-icon">
+                            <a href="https://www.linkedin.com/in/sabina-gurbanova-7497b5154/" target="_blank"
+                               class="btn btn-red box-icon">
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Сабина Гурбанова</div>
+                            <div class="box-name">Sabina Gurbanova</div>
                             <div class="box-qualification">UX/UI Designer</div>
                         </div>
                     </div>
@@ -1775,25 +1736,28 @@
                     <div class="item-accordion ">
                         <div class="box-img">
                             <img class="lazyload" src="/images/team/chanchikov.png" alt="">
-                            <a href="https://www.linkedin.com/in/konstantin-chanchikov-3ba5a4154/" target="_blank" class="btn btn-red box-icon">
+                            <a href="https://www.linkedin.com/in/konstantin-chanchikov-3ba5a4154/" target="_blank"
+                               class="btn btn-red box-icon">
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Константин Чанчиков</div>
+                            <div class="box-name">Konstantin Chanchikov</div>
                             <div class="box-qualification">System Architect</div>
                         </div>
                     </div>
+
+
 
                     <div class="item-accordion " data-aos="fade-left" data-aos-delay="650">
                         <div class="box-img">
                             <img class="lazyload" src="/images/team/alex.png" alt="">
                             <!--<a href="https://www.linkedin.com/in/антон-полевич-388027123/" target="_blank" class="btn btn-red box-icon">-->
-                                <!--<i class="icon icon-middle icon-in"></i>-->
+                            <!--<i class="icon icon-middle icon-in"></i>-->
                             <!--</a>-->
                         </div>
                         <div class="content">
-                            <div class="box-name">Алексей Пчелин</div>
+                            <div class="box-name">Aleksey Pchelin</div>
                             <div class="box-qualification">Web product manager</div>
                         </div>
                     </div>
@@ -1807,7 +1771,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Максим Уваров</div>
+                            <div class="box-name">Maxim Uvarov</div>
                             <div class="box-qualification">Digital Producer</div>
                         </div>
                     </div>
@@ -1820,7 +1784,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Александр Петров</div>
+                            <div class="box-name">Alexandr Petrov</div>
                             <div class="box-qualification">Marketing Manager</div>
                         </div>
                     </div>
@@ -1833,7 +1797,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Михаил Сезёмов</div>
+                            <div class="box-name">Mikhail Sezemov</div>
                             <div class="box-qualification">Marketing Manager</div>
                         </div>
                     </div>
@@ -1841,12 +1805,13 @@
                     <div class="item-accordion ">
                         <div class="box-img">
                             <img class="lazyload" src="/images/team/baranova.png" alt="">
-                            <a href="https://www.linkedin.com/in/vlrbaranova/" target="_blank" class="btn btn-red box-icon">
+                            <a href="https://www.linkedin.com/in/vlrbaranova/" target="_blank"
+                               class="btn btn-red box-icon">
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Валерия Баранова</div>
+                            <div class="box-name">Valeria Baranova</div>
                             <div class="box-qualification">Head of SMM</div>
                         </div>
                     </div>
@@ -1860,7 +1825,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Роман Уфаев</div>
+                            <div class="box-name">Roman Ufaev</div>
                             <div class="box-qualification">Head of Media Integration and Traffic</div>
                         </div>
                     </div>
@@ -1868,13 +1833,13 @@
                     <div class="item-accordion ">
                         <div class="box-img">
                             <img class="lazyload" src="/images/team/seleznev.png" alt="">
-                            <a href="https://www.linkedin.com/in/dmitrycom/" target="_blank"
+                            <a href="https://www.linkedin.com/in/dmitrycom" target="_blank"
                                class="btn btn-red box-icon">
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Дмитрий Селезнев</div>
+                            <div class="box-name">Dmitriy Seleznev</div>
                             <div class="box-qualification">Graphic Designer</div>
                         </div>
                     </div>
@@ -1888,7 +1853,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Иван Бегунов</div>
+                            <div class="box-name">Ivan Begunov</div>
                             <div class="box-qualification">Chief Business Development Officer</div>
                         </div>
                     </div>
@@ -1902,7 +1867,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Дмитрий Лагутин</div>
+                            <div class="box-name">Dmitriy Lagutin</div>
                             <div class="box-qualification">Investor Relations</div>
                         </div>
                     </div>
@@ -1916,7 +1881,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Сергей Логвин</div>
+                            <div class="box-name">Sergey Logvin</div>
                             <div class="box-qualification">HR Manager</div>
                         </div>
                     </div>
@@ -1924,13 +1889,13 @@
                     <div class="item-accordion ">
                         <div class="box-img">
                             <img class="lazyload" src="/images/team/dima-kin.png" alt="">
-                            <a href="https://www.facebook.com/profile.php?id=100001654368700" target="_blank"
+                            <a href="https://www.linkedin.com/in/дмитрий-кин-767191122/" target="_blank"
                                class="btn btn-red box-icon">
-                                <i class="icon icon-middle icon-facebook"></i>
+                                <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Дмитрий Кин</div>
+                            <div class="box-name">Dmitriy Kin</div>
                             <div class="box-qualification">Lead Editor</div>
                         </div>
                     </div>
@@ -1944,7 +1909,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Екатерина Власова</div>
+                            <div class="box-name">Ekaterina Vlasova</div>
                             <div class="box-qualification">Copywriter</div>
                         </div>
                     </div>
@@ -1958,7 +1923,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Анастасия Размахнина</div>
+                            <div class="box-name">Anastasia Razmakhnina</div>
                             <div class="box-qualification">Head of Community
                                 Management
                             </div>
@@ -1974,16 +1939,15 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Тимофей Матвеев</div>
+                            <div class="box-name">Timofey Matveev</div>
                             <div class="box-qualification">Community Manager</div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
         <div class="text-commands text-center">
-            <div class="name-block" data-aos="fade-up">Консультанты по развитию</div>
+            <div class="name-block" data-aos="fade-up">Entwicklungsberater</div>
 
         </div>
         <div class="block-commands">
@@ -1998,7 +1962,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Картик Айэр</div>
+                            <div class="box-name">Karthik Iyer</div>
                             <div class="box-qualification">Mentor, Founder & CEO of BlockchainMonk</div>
                         </div>
                     </div>
@@ -2011,7 +1975,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Кристоф Геринг</div>
+                            <div class="box-name">Christoph Hering</div>
                             <div class="box-qualification">Elected BitShares Committee Member and Graphene Ambassador</div>
                         </div>
                     </div>
@@ -2024,13 +1988,14 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Десмонд Маршалл
+                            <div class="box-name">Desmond Marshall
                             </div>
                             <div class="box-qualification">Member of global Enterprise Ethereum Alliance,
                                 Advisor to Hong Kong Government, MD of Rouge Ventures
                             </div>
                         </div>
                     </div>
+
                     <div class="item-accordion " data-aos="fade-left" data-aos-delay="150">
                         <div class="box-img">
                             <img class="lazyload" src="/images/advisers/vincent.png" alt="">
@@ -2040,12 +2005,10 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Винсент Лаи
-                            </div>
+                            <div class="box-name">Vincent Lai</div>
                             <div class="box-qualification">Founder/CEO of ToccoTravel</div>
                         </div>
                     </div>
-
 
                     <div class="item-accordion " data-aos="fade-left" data-aos-delay="350">
                         <div class="box-img">
@@ -2056,25 +2019,30 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Алекс Турский</div>
+                            <div class="box-name">Alex Tourski</div>
                             <div class="box-qualification">Founder/CEO of izi.travel</div>
                         </div>
                     </div>
 
-                    <div class="item-accordion " data-aos="fade-left" data-aos-delay="650">
+
+                    <div class="item-accordion " data-aos="fade-left" data-aos-delay="250">
                         <div class="box-img">
                             <img class="lazyload" src="/images/advisers/povolotskiy.png" alt="">
-                            <a href="https://m.facebook.com/roman.povolotski" target="_blank"
+                            <a href="https://facebook.com/roman.povolotski" target="_blank"
                                class="btn btn-red box-icon">
                                 <i class="icon icon-middle icon-facebook"></i>
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Роман Поволоцкий
-                            </div>
-                            <div class="box-qualification">Founder/CEO of “Cyber Russia”</div>
+                            <div class="box-name">Roman Povolotski</div>
+                            <div class="box-qualification">Founder/CEO of "Cyber Russia"</div>
                         </div>
                     </div>
+
+
+
+
+
                     <div class="item-accordion " data-aos="fade-left" data-aos-delay="750">
                         <div class="box-img">
                             <img class="lazyload" src="/images/advisers/dzhamgaryan.png" alt="">
@@ -2084,22 +2052,22 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Эдуард Джамгарян</div>
+                            <div class="box-name">Eduard Dzhamgaryan</div>
                             <div class="box-qualification">CBDO ICObox, TOKEN SALE Analyst/Adviser</div>
                         </div>
                     </div>
+
 
 
                 </div>
             </div>
         </div>
         <div class="text-commands text-center">
-            <div class="name-block" data-aos="fade-up">Консультанты по маркетингу</div>
+            <div class="name-block" data-aos="fade-up">Marketingberater</div>
         </div>
         <div class="block-commands">
             <div class="block-accordion">
                 <div class="box-accordion-body">
-
                     <div class="item-accordion " data-aos="fade-left" data-aos-delay="50">
                         <div class="box-img">
                             <img class="lazyload" src="/images/advisers/karolik.png" alt="">
@@ -2109,9 +2077,9 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Александр Каролик-Шлейн</div>
-                            <div class="box-qualification">Founder of Panache Managment Pte Ltd; Holds an Executive MBA
-                                from Kellogg School of Management and Hong Kong University of Science and Technology.
+                            <div class="box-name">Alexander Karolik-Shlaen</div>
+                            <div class="box-qualification">Founder of Panache Managment Pte Ltd; Holds an Executive
+                                MBA from Kellogg School of Management and Hong Kong University of Science and Technology.
                             </div>
                         </div>
                     </div>
@@ -2125,7 +2093,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Тони Симоновский</div>
+                            <div class="box-name">Tony Simonovsky</div>
                             <div class="box-qualification">Marketing data scientist, Token Sale focused growth hacker
                             </div>
                         </div>
@@ -2140,29 +2108,28 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Юрий Матвеев</div>
+                            <div class="box-name">Yuriy Matveev</div>
                             <div class="box-qualification">Founder/CEO of the "Banzay" and "National Business"
                                 magazines
                             </div>
                         </div>
                     </div>
 
-                    <div class="item-accordion " data-aos="fade-left" data-aos-delay="550">
+                    <div class="item-accordion " data-aos="fade-left" data-aos-delay="750">
                         <div class="box-img">
                             <img class="lazyload" src="/images/advisers/sokolovskiy.png" alt="">
-                            <a href="https://www.linkedin.com/in/руслан-соколовский/" target="_blank"
+                            <a href="https://www.youtube.com/channel/UCyGPa4_EYA1OiBNjf6IeF6A" target="_blank"
                                class="btn btn-red box-icon">
-                                <i class="icon icon-middle icon-in"></i>
+                                <i class="icon icon-middle icon-youtube"></i>
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Руслан Соколовский</div>
+                            <div class="box-name">Ruslan Sokolovskiy</div>
                             <div class="box-qualification">Founder/CEO of the magazine "BitJournal",
                                 YouTube Blogger > 500k subscribers
                             </div>
                         </div>
                     </div>
-
                     <div class="item-accordion " data-aos="fade-left" data-aos-delay="650">
                         <div class="box-img">
                             <img class="lazyload" src="/images/team/larin.png" alt="">
@@ -2172,7 +2139,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Дмитрий Ларин</div>
+                            <div class="box-name">Dmitry Larin</div>
                             <div class="box-qualification">PR-advisor, <br>
                                 YouTube Blogger > 2kk subscribers
                             </div>
@@ -2187,10 +2154,10 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Малкольм Тан</div>
+                            <div class="box-name">Malcolm Tan</div>
                             <div class="box-qualification">
-                                CEO of The Bluesky Group; Founder of Gravitas Holding (Pte) Limited;
-                                Author of "How to ICO/ITO in Singapore";
+                                CEO of The Bluesky Group; Founder of Gravitas Holding (Pte) Limited; Author of "How
+                                to ICO/ITO in Singapore";
                             </div>
                         </div>
                     </div>
@@ -2199,7 +2166,7 @@
         </div>
 
         <div class="text-commands text-center">
-            <div class="name-block" data-aos="fade-up">Консультанты по юридическим вопросам</div>
+            <div class="name-block" data-aos="fade-up">Berater in Rechtsfragen</div>
         </div>
         <div class="block-commands">
             <div class="block-accordion">
@@ -2213,7 +2180,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">Дмитрий Мачихин</div>
+                            <div class="box-name">Dmitry Machikhin</div>
                             <div class="box-qualification">Partner GMT Legal</div>
                         </div>
                     </div>
@@ -2221,138 +2188,109 @@
                 </div>
             </div>
         </div>
-
     </div>
 </section>
 <section class="section section-activity">
   <div class="container">
     <div class="section-text text-sm text-center">
-      <div class="name-block" data-aos="fade-up">Наша активность</div>
-      <div class="block-text" data-aos="fade-up" data-aos-delay="100">Мы открыто делимся наработками с рынком
-        и всегда готовы к обратной связи
+      <div class="name-block" data-aos="fade-up">Unsere Aktivität</div>
+      <div class="block-text" data-aos="fade-up" data-aos-delay="100">Wir teilen offen alle Entwicklungen mit dem Markt und sind immer bereit zu Rückmeldungen
       </div>
     </div>
     <div class="activity-tabs" data-aos="zoom-in-down" data-aos-delay="100">
       <div class="tab-block">
         <ul class="nav-tabs" role="tablist">
           <li role="presentation"><a class="btn" href="#speech" aria-controls="speech" role="tab"
-                                     data-toggle="tab"><span class="name">Выступления</span></a></li>
+                                     data-toggle="tab"><span class="name">Reden</span></a></li>
           <li role="presentation" class="active"><a class="btn" href="#blog" aria-controls="blog" role="tab"
-                                                    data-toggle="tab"><span class="name">Live блог</span></a>
+                                                    data-toggle="tab"><span class="name">Live Blog</span></a>
           </li>
           <li role="presentation"><a class="btn" href="#smi" aria-controls="smi" role="tab" data-toggle="tab"><span
-              class="name">Публикации в СМИ</span></a></li>
+              class="name">Publikationen Medien</span></a></li>
         </ul>
         <div class="tab-content">
           <div role="tabpanel" class="tab-pane fade" id="speech">
             <div class="block-text text-center block-flex-top block-presentation">
               <ul class="point box-inline text-left">
-
-                <li><a target="_blank"
-                       href="https://golos.io/travelchain/@travelchain/travelchain-idyot-v-offlain-obzor-meropriyatii">Бизнес-среда<b>(11.10.2017)</b></a>
-                </li>
-                <li><a target="_blank"
-                       href="https://golos.io/travelchain/@travelchain/travelchain-idyot-v-offlain-obzor-meropriyatii">International
-                  Blockchain Forum <b>(12.10.2017)</b></a></li>
-                <li><a target="_blank"
-                       href="https://golos.io/travelchain/@travelchain/travelchain-idyot-v-offlain-obzor-meropriyatii">300 стартапов <b>(18.10.2017)</b></a></li>
-                <li><a target="_blank"
-                       href="https://golos.io/travelchain/@travelchain/travelchain-offlain-khroniki-moskva-online-travel-3-0-dubai-world-blockchain-summit-den-2">Online.Travel
-                  3.0 <b>(24-25.10.2017)</b></a></li>
-                <li><a target="_blank"
-                       href="https://golos.io/travelchain/@travelchain/travelchain-offlain-khroniki-dubai-world-blockchain-summit-itogi-ocenki-perspektivy">World
-                  Blockchain Summit <b>(24-25.10.2017)</b></a></li>
-                <li><a target="_blank"
-                       href="https://golos.io/travelchain/@travelchain/travelchain-offlain-khroniki-moskva-russian-blockchain-week">
-                  Russian Blockchain Week<b>(26-28.10.2017)</b></a></li>
+                <li><a target="_blank"  href="https://golos.io/travelchain/@travelchain/travelchain-idyot-v-offlain-obzor-meropriyatii">International Blockchain Forum <b>(12.10.2017)</b></a></li>
+                <li><a target="_blank"  href="https://steemit.com/travelchain/@travelchain/travelchain-offline-online-travel-3-0-moscow-world-blockchain-summit-dubai">Online.Travel 3.0 <b>(24-25.10.2017)</b></a></li>
+                <li><a target="_blank"  href="https://steemit.com/travelchain/@travelchain/travelchain-offline-world-blockchain-summit-dubai-the-results-assessment-perspectives">World Blockchain Summit <b>(24-25.10.2017)</b></a></li>
+                <li><a target="_blank"  href="https://steemit.com/travelchain/@travelchain/travelchain-offline-russian-blockchain-week-moscow"> Russian Blockchain Week<b>(26-28.10.2017)</b></a></li>
+                <li><a target="_blank"  href="https://steemit.com/travelchain/@travelchain/travelchain-offline-blockchain-project-on-graphene-2-0-won-the-ico-battle">ICO Battle <b>(1.11.2017)</b></a></li>
               </ul>
               <ul class="point box-inline text-left">
-                <li><a target="_blank"
-                       href="https://golos.io/travelchain/@travelchain/travelchain-offlain-khroniki-dubai-world-blockchain-summit-itogi-ocenki-perspektivy">ICO
-                  Battle <b>(1.11.2017)</b></a></li>
-
-                <li><a target="_blank" href="http://www.fintechfestival.sg">Singapore FinTech Festiva
-                  <b>(13-17.11.2017)</b></a></li>
-                <li><a target="_blank" href="http://blockchainconfex.com/">Blockchain confex <b>(22-23.11.2017)</b></a>
-                </li>
-                <li><a target="_blank" href="https://blockshowasia.com">Blockshow Asiа <b>(29-30.11.2017)</b></a></li>
-                <li><a target="_blank" href="https://blockchainworldconferences.com/">Blockchain World Conferences <b>(4.12.2017)</b></a>
-                </li>
-                <li><a target="_blank" href="https://bconference.org/">Blockchain Conference Abu Dhabi
-                  <b>(7.12.2017)</b></a></li>
+                <li><a target="_blank"  href="http://www.fintechfestival.sg">Singapore FinTech Festival <b>(13-17.11.2017)</b></a></li>
+                <li><a target="_blank"  href="http://blockchainconfex.com/">Blockchain confex <b>(22-23.11.2017)</b></a></li>
+                <li><a target="_blank"  href="https://blockshowasia.com">Blockshow Asiа <b>(29-30.11.2017)</b></a></li>
+                <li><a target="_blank"  href="https://blockchainworldconferences.com/">Blockchain World Conferences <b>(4.12.2017)</b></a></li>
+                <li><a target="_blank"  href="https://bconference.org/">Blockchain Conference Abu Dhabi <b>(7.12.2017)</b></a></li>
               </ul>
             </div>
           </div>
           <div role="tabpanel" class="tab-pane fade in active" id="blog">
             <div class="slide-activity">
+
               <div class="slide">
                 <div class="activity-video">
                   <div class="video">
                     <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/IWDnqwRVRvg"><i
+                       data-iframe="https://www.youtube.com/embed/jTHgFMH79Pc"><i
                         class="icon icon-play"></i></a>
                     <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/IWDnqwRVRvg/0.jpg')"></div>
+                         style="background-image: url('https://img.youtube.com/vi/jTHgFMH79Pc/0.jpg')"></div>
+
                     <div class="video-iframe"></div>
                   </div>
                 </div>
               </div>
+
               <div class="slide">
                 <div class="activity-video">
                   <div class="video">
                     <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/rOVodrJEV5c"><i
+                       data-iframe="https://www.youtube.com/embed/HH36xOg5TVk"><i
                         class="icon icon-play"></i></a>
                     <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/rOVodrJEV5c/0.jpg')"></div>
+                         style="background-image: url('https://img.youtube.com/vi/HH36xOg5TVk/0.jpg')"></div>
                     <div class="video-iframe"></div>
                   </div>
                 </div>
               </div>
+
               <div class="slide">
                 <div class="activity-video">
                   <div class="video">
                     <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/i2PLDv5tOpg"><i
+                       data-iframe="https://www.youtube.com/embed/XNKjjr694ls"><i
                         class="icon icon-play"></i></a>
                     <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/i2PLDv5tOpg/0.jpg')"></div>
+                         style="background-image: url('https://img.youtube.com/vi/XNKjjr694ls/0.jpg')"></div>
                     <div class="video-iframe"></div>
                   </div>
                 </div>
               </div>
+
               <div class="slide">
                 <div class="activity-video">
                   <div class="video">
                     <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/pR5zPQlf8r4"><i
+                       data-iframe="https://www.youtube.com/embed/d0JB8Guni7s"><i
                         class="icon icon-play"></i></a>
                     <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/pR5zPQlf8r4/0.jpg')"></div>
+                         style="background-image: url('https://img.youtube.com/vi/d0JB8Guni7s/0.jpg')"></div>
                     <div class="video-iframe"></div>
                   </div>
                 </div>
               </div>
+
               <div class="slide">
                 <div class="activity-video">
                   <div class="video">
                     <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/TsyOD_lx0Ss"><i
+                       data-iframe="https://www.youtube.com/embed/_pECUlD2LXo"><i
                         class="icon icon-play"></i></a>
                     <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/TsyOD_lx0Ss/0.jpg')"></div>
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/63gsuFGZlhY"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/63gsuFGZlhY/0.jpg')"></div>
+                         style="background-image: url('https://img.youtube.com/vi/_pECUlD2LXo/0.jpg')"></div>
                     <div class="video-iframe"></div>
                   </div>
                 </div>
@@ -2365,7 +2303,7 @@
                 <div class="activity-article">
                   <div class="activity-article-body">
                     <div class="image">
-                      <img src="https://neufund.org/cms_resources/art_logos/cointelegraph-1.png"
+                      <img src="/images/media/cointelegraph.jpg"
                            alt="">
                     </div>
                     <div class="quote">
@@ -2373,75 +2311,60 @@
                     </div>
                     <div class="box-link">
                       <a href="https://cointelegraph.com/news/innovation-for-traveling-on-blockchain"
-                         target="_blank" class="link link-blue">Читать</a>
+                         target="_blank" class="link link-blue">Read more</a>
                     </div>
                   </div>
                 </div>
               </div>
+
               <div class="slide">
                 <div class="activity-article">
                   <div class="activity-article-body">
                     <div class="image">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Vc.ru-logo.png"
+                      <img src="/images/media/huffpost.jpg" alt="">
+                    </div>
+                    <div class="quote">
+                      How to Get Rewarded For Sharing Your Data The RIGHT Way
+                    </div>
+                    <div class="box-link">
+                      <a href="https://www.huffingtonpost.com/entry/travel-chain-the-first-ever-decentralized-blockchain_us_5a426f2fe4b06cd2bd03dcb2" target="_blank" class="link link-blue" tabindex="0">Read more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div class="activity-article">
+                  <div class="activity-article-body">
+                    <div class="image">
+                      <img src="/images/media/newsbtc.jpg"
                            alt="">
                     </div>
                     <div class="quote">
-                      Чек-лист для проектов, выходящих на TOKEN SALE – на примере инновационного
-                      стартапа
+                      TravelChain Launches World’s First Decentralized Data Exchange For the
+                      Travel Industry
                     </div>
                     <div class="box-link">
-                      <a href="https://vc.ru/29343-put-k-ico-ot-blog-platformy-k-blokcheyn-proektu-test-po-alekseyu-krolu"
-                         target="_blank" class="link link-blue">Читать</a>
+                      <a href="http://www.newsbtc.com/2017/11/26/travelchain-launches-worlds-first-decentralized-data-exchange-travel-industry/"
+                         target="_blank" class="link link-blue">Read more</a>
                     </div>
                   </div>
                 </div>
               </div>
+
               <div class="slide">
                 <div class="activity-article">
                   <div class="activity-article-body">
                     <div class="image">
-                      <img src="https://static.tildacdn.com/tild3633-3530-4530-b436-666362636466/Bitjournal.png" alt="">
-                    </div>
-                    <div class="quote">
-                      Почему блокчейн-технологии изменят отношение к туризму навсегда?
-                    </div>
-                    <div class="box-link">
-                      <a href="https://bitjournal.media/2017-11-20/blokchejn_v_sfere_turizma"
-                         target="_blank" class="link link-blue">Читать</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!--<div class="slide">-->
-                <!--<div class="activity-article">-->
-                  <!--<div class="activity-article-body">-->
-                    <!--<div class="image">-->
-                      <!--<img src="https://imgp.golos.io/0x0/https://i.imgsafe.org/ecf6983fb7.png"-->
-                           <!--alt="">-->
-                    <!--</div>-->
-                    <!--<div class="quote">-->
-                      <!--Dubai World BlockChain Summit - итоги, оценки, перспективы-->
-                    <!--</div>-->
-                    <!--<div class="box-link">-->
-                      <!--<a href="https://golos.io/travelchain/@travelchain/travelchain-offlain-khroniki-dubai-world-blockchain-summit-itogi-ocenki-perspektivy"-->
-                         <!--target="_blank" class="link link-blue">Читать</a>-->
-                    <!--</div>-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</div>-->
-              <div class="slide">
-                <div class="activity-article">
-                  <div class="activity-article-body">
-                    <div class="image">
-                      <img src="/images/ielogo.jpg"
+                      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAZlBMVEUTm9D///8AmM8Als4AlM0Amc8Ak837/v/j8vn2+/3f8Pih0unt9/uNyeXl8/nQ6fXG5PJ2vuBuu940pNRetNuw2u2Yzee/4PAcn9JRr9lFq9dctNzN5/NzvN+CweG63e+r1uuUyOUZ0UWOAAAMOklEQVR4nO2d63qqOhCGMcmoIKgYqoitdt3/TW7AahNIIIfh4K7fn73Ws7ssrxmSyWRmEiz+7wqmfoDB9SZ8fb0JX19vwtfXm/D19SbE0CqMd6ePzb9resgul0t2SK//Nh+nXRyuRvjtwxKG689jeuHBklFKagHA/Q+UMRbwLD1+rsNBn2E4wnifnDmUYBBAoFb5f0pU4OdkHw/2HMMQhreUE1oOmAatAQrlz/L0NsxY4hOuomNBGTFiEzEJY8Uxwn8zsQl3CS/Hzhbvl5InEfIToRJuE06sB68hQniyxXwoPMLV6bz0xfuBXJ5PeNaKRRgfc+ZqnG0By49YsysOYZQGFI+vZqRBivNGYhBGGXGeXDoYCckwGP0Jowzp9WuLMARGX8J1Sofiqxlp6juxehImMCRfzRgkExLecuT5RSWg+W0iwuiMuD50MrLzegrCo7f7Yi5CNqMTRsUIBvoroIXrrOpIuBnJQAXGpeMwOhFuMzoyXyWaOTlyLoSnfLw3UBTJ9+MQJqNb6EPAjiMQhpcpLPQhmlmHOmwJIz6NhT5EuO3SaEn4qY2bjSWA3ZCEH6MughrRj+EIj3MALFd/q/nGhjBhU8P9iNlsNywIr1NOorLYdQjCr7mMYCWW4hN+zWcEK1FjRFPC65xGsBI1NVRDwmReI1jJdLoxIzzObQQrGTqpRoQf8xvBSmZLvwnh5ywW+raAmjhwBoTR5L6oTgAGbng/YcjnClgi8v7NVD9hNu12qVsk8yec4Tohqt8L7yM8zXGdEMX6Yjc9hHE+35fwR3lPBK6HcNYv4V19r2I34WbeL+FdtDtU3EkYzf0lvGvZGfDvJCxm/xLWgsKV8CVstFKnnXYQRgOkHwyjTu+tg/A8/3n0IXJ2Iby9xjRzF9MfhOsJ57/WC4LcnnDm/mhTVBvT0BGuDbNf5yIIdHk3OsL0daaZu4guvKghjF7LRitRjWejIXwBj7spcrAhjJZTP6+DmHoQ1YRzGUIILKJgmm2UkjCaByChOeeB+bMQ5SAqCWcxkVLITuX2PU6MH4YojzJUhPHkAVIgS755LHDGiBCoAhoqwuPESwVQ+BKi2SvjQVQG3hSEq0k9UiCk+JbjvGfT54FcUcSgIJwygAgsbxfNfBkPIjsZERp/Zegiy8tJEaY3X7tAsU9sE26nWe2BUK6pIuHmn8Lan9AmNJ+dEQU0P3wq8UpZ2BRpzzVtQotvDEkAy+JbH7le20ztvJ9wN/YQAoNrZ8Bzb0PY3mG0CEc2UgLnvloDqycirb1+k3A1ppFWk0v/Ka7d3F40l8Qm4YhbX8oOe4Myw9DOAWmZaZPwOI6RAlC+MUv3tdzotGbTJuEoRxWl55Ia58F+21lVa9FvEIbDGykQdtEWpn9eW3WVtls52vjsBuHQge4SL0+0k0ucUbpswttaFW34pg3CYfe+5bYo6zh231Q9CpqeTWz72jTDig3CAdeK0vEsNh1n7lFBy+1P6/XcWVtVw62RCePBhrDyXLoml1VCICB524A31o9E5K9RJrRykMxVDd9H59K3rwqNCFcM8cGakMovgkw4iMtGqGJXKyk+VKZILqovwT7g0HDcZMIBNr+UZH0NEr7rSjGqjFnH9pN7Y0WUCLGT9KpOHl2TS631vdhWk5t+cnhv5HQ+iXCNCtgImWmU1NkC2qo0Fy8SpIM2ifATb6KpJ5d+x/OT0/tPf2t+wOW9odKaKhGiud3KkFlbYXrPPoamHyI8nwuhlHwiESJ5NGR5uZl0X7n91KK2HZmnnE5Q5Oi+RHjxfw+BEF3IrKHto5yf5Prhvrm8NyAdQomE/vt7YMGXdjxkbR79JkC1zj90dbIqaZ8vEoZ+JzJAOkNmknbPcn5adM1HTttVyMWPFAljn1gw0KA7ZCZodX3WN9DO7FDHBF4pLiwS2rvxTxmEzH61/61276lecnwiJi7DIqHrkQxY9SDbHn6r3fV5Pnc5ZkdKi49I6Fb8Q1iv4ynq+/fYGnqye52XL6lcSCS034pVXUcSm14OYsMQIL2G7Ti5S9+cSPjPnpBadY5ZJUIFVcc6/5BrXEyKKIqE9ouPNtVKqT0Xnhg61vnnP3AlFOcvkdDe6tsnPXqFB7EEjnCDDleufrL0xYuE1gED8mUOeJNaEpHW8YJKrl6k9FwioXUmlDq9Q6XoItUw0sxo9nXNAJVS3ERC+68MuFnHmKPc9MywEHvr6oFIrrcfYeVW9ruiOy4XoZrWKDsnhcAFkbBcttl50zVrhKncsad/nX/IOfKnHUPXjESgpNC6bbdGyyUgxq1JnM/BtO+hffBVeG7Kr4oVPG51JKLGvZ4sj0ZFQt1c6hnEIBTSRsLPptkxGQJzF909Z0K7HrptqMXnLyEPH8+XMi6aA2i0zj/k3gVA69M4+KUtAWFw3kQ/I9j8zYWNl+5uUlq/1GVvoRCUMw+vdmjN8kXaUZ2kkPuBu3ZvgdgcAmjcekb1wYRWHnm82v0hZtpl/UukBa1vP9+UR0xFu8f3+MyW6kVXTM6xbuzo8c5o4zQOJ1la3Z3y3z16/36+KfO82Za0sTbPeKksWiE9zBQC+56O7rnY+ngpak5b7TntfsyUWPbJW/gZlDbmvcgQxxDI6jkQ6kKIbrkcjT5+tfbcAjebRjBTVYJ5nzxO+jrOnlDT9u5mWtsaNTytEeWRUtBxfoh4Bly5NtVH1mbKHJpVe9SwdpwB457j1/uk2ptv5ar1y6u4TH+Oj5uLUe/S6tkUrAHdjkZ/xKUw14D5NPWyFPLOUnKtPCY9KUozbE5U/T6Uj9rdmUMtj0zezpwo3Ly2etYuZy/ob1fVlE9vo868NuTcxOqFWOXgsODvPL7qztxE5PzS2sdPSbMGwmCj79M4pjO/FDlHuEbb00aANM77gxkeG4ueHGHcPO/7JEqotHPalmbbt5daFe6/tCfPO8TNZK87OB2W4s5iXc0h0NMIOPYw0p5cfeR6i9pMT0vBx4h+JkladHlyHnN6X70Fds1M9daHwhlc9FwFADqi+z4bi76aGeQGZvXWN30S7oQoAiy/tIeIHhvV3ron5Nq1+hvdPkgacXrCdSF+j41Fb+0asuMmOWy75nMDqANwHqXI/fWH2DWkgtHs258MTHlfhcfGwqCGFNmt+W1zsFd2IyZcEaTyOCIyqAPGNtPH5K0GrCJW7Rx29yXLqJYbuR7/J4Jx0zfwa1mqR9zWqB4fuawEeBSG+6zr9p3mHUDuG4vG5ldHiN0Xg1a3Gvf8iGRcllWjglQtd2fS24SeBfNyTqg37W0ySX8aEjy3BO5hNtP+NNP0GIJlch+AlfNMat5jaKI+UZR/xNWtiu7H98Z9oibr9VX19vJwSS16fU3Wrw18+lHa9Gt7lSbQsjSnI3+1b+JL9r7UhEX+bP/SxXbyvnt2su9B+3J9hLX3XPzhXtB/oJ/3S/VkV+wLDQjX//u++v//uxH+wP0Wr+KeappAmxC+hp0yj3tmXsID764Gf9/3tFjs5/4q+t7ZNX1j6B7537s281cR4+68P3D/IXJOJqYgQLnDsjopmScj2j2ks71LlqHdJfsH7gOe0cXxvzKtozIknNPV8XcZF4qZEi7SeSGaXx9vTDgvRPPL4y0I53SBvE0towXhfKYb06YM1oSlFz6HpV/bRRKBcBZLP5hdGu9IKKVPTgQYWNYyWhIu1nzazRThtlVitoSLMJvSUqkylxGXsHJSJ7NUuznGmVDsCjiqaG5fL+1GWPW/nwCQZTZdNfwIF4vNcmxLhZ7ALzah1B5wDD5amDe2wSEUmsiOIKJJeR+W8NFqfHgBuziUSiMQVl2uRjBVoLlDOT8SYbndGNxUSeCwBiISLrYpHZKR0NSis9QghOWsemg29MLjYwePFxCNsGTMyABJDUBI5s+HQ1gyXgPkOcemeXa3cAhLR+6YI64dwHKz1vUGwiJcLFanM9ILSdjF5EI2Q+ERLqqB5N4zq/6yTkehEpaKkoI6TzvVtR8Wvc/NhE1YWmt0PFOHoSSUno8RnnU+hE9YKTylnJiPZTl2hDf7ZmJpGMJK8T45c6AVp44UKjYa8EuyR331JA1HWCncfm6uWZEzRkvUSgBQ/7f8O2N5kV03n1t8yxQ1LOFdqzDenT42/67p1yG7ZIev9HrcfJx2cTgs211jEE6rN+Hr6034+noTvr7ehK+vN+Hr6z9ZBq9frUD+cQAAAABJRU5ErkJggg=="
                            alt="">
                     </div>
                     <div class="quote">
-                      Гегемония корпораций
+                      TravelChain: We Create Smart Traveling Ecosystem
                     </div>
                     <div class="box-link">
-                      <a href="http://www.esm-invest.com/ru/The-hegemony-of-the-corporations"
-                         target="_blank" class="link link-blue">Читать</a>
+                      <a href="http://telegra.ph/TravelChain-We-Create-Smart-Traveling-Ecosystem-12-04"
+                         target="_blank" class="link link-blue">Read more</a>
                     </div>
                   </div>
                 </div>
@@ -2468,40 +2391,6 @@
                 <div class="activity-article">
                   <div class="activity-article-body">
                     <div class="image">
-                      <img src="https://cpeda.space/local/templates/socnet/img/logo.png"
-                           alt="">
-                    </div>
-                    <div class="quote">
-                      [TRAVELCHAIN ОФФЛАЙН-ХРОНИКИ] МОСКВА - RUSSIAN BLOCKCHAIN WEEK
-                    </div>
-                    <div class="box-link">
-                      <a href="https://cpeda.space/socnet/post/6369/"
-                         target="_blank" class="link link-blue">Читать</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="slide">
-                <div class="activity-article">
-                  <div class="activity-article-body">
-                    <div class="image">
-                      <img src="/images/media/huffpost.jpg" alt="">
-                    </div>
-                    <div class="quote">
-                      How to Get Rewarded For Sharing Your Data The RIGHT Way
-                    </div>
-                    <div class="box-link">
-                      <a href="https://www.huffingtonpost.com/entry/travel-chain-the-first-ever-decentralized-blockchain_us_5a426f2fe4b06cd2bd03dcb2" target="_blank" class="link link-blue" tabindex="0">Read more</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="slide">
-                <div class="activity-article">
-                  <div class="activity-article-body">
-                    <div class="image">
                       <img src="/images/insident.jpg"
                            alt="">
                     </div>
@@ -2510,24 +2399,6 @@
                     </div>
                     <div class="box-link">
                       <a href="https://insiderfinancial.com/travelchain-is-trying-to-shake-up-the-dated-and-duopolized-travel-industry/173937/"
-                         target="_blank" class="link link-blue">Read more</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="activity-article">
-                  <div class="activity-article-body">
-                    <div class="image">
-                      <img src="/images/media/newsbtc.jpg"
-                           alt="">
-                    </div>
-                    <div class="quote">
-                      TravelChain Launches World’s First Decentralized Data Exchange For the
-                      Travel Industry
-                    </div>
-                    <div class="box-link">
-                      <a href="/images/media/cryptocoinsnews.jpg"
                          target="_blank" class="link link-blue">Read more</a>
                     </div>
                   </div>
@@ -2561,152 +2432,161 @@
   <div class="container">
     <div class="padding-block">
       <div class="section-text">
-        <div class="name-block border" data-aos="fade-right">Часто задаваемые вопросы</div>
+        <div class="name-block border" data-aos="fade-right">Häufig gestellte Fragen</div>
       </div>
       <div class="question-list slide-group">
         <div class="question-item" data-aos="fade-right" data-aos-delay="50">
           <a class="link name slide-group-next"><span
-              class="name-link">1. Зачем блокчейн в туристической индустрии?</span></a>
+              class="name-link">1. Wozu wird eine Blockchain in der Tourismusindustrie benötigt?</span></a>
           <div class="block-text text">
-            Данные — это нефть 21 века, но чаще всего они оказываются закрыты внутри корпоративных систем и
-            не могут быть использованы другими компаниями для создания инновационных сервисов. Наша миссия —
-            предоставить равный доступ для обмена данными между всеми игроками рынка.
+            Daten sind das Erdöl des 21. Jahrhunderts, jedoch sind diese meist unzugänglich in den
+            Systemen von Unternehmen gelagert und können nicht von anderen Firmen für die
+            Erstellung innovativer Dienstleitungen verwendet werden. Unsere Mission ist es deshalb
+            die Schaffung eines gleichwertigen Zugangs für den Austausch von Daten zwischen allen
+            Marktakteuren.
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="50">
           <a class="link name slide-group-next"><span
-              class="name-link">2. Почему блокчейн с открытым кодом?</span></a>
-          <div class="block-text text">Чем больше приложений в экосистеме TravelChain, тем выше количество ее
-            участников и тем больше спрос на TravelToken.
+              class="name-link">2. Warum eine Blockchain als Open Source?</span></a>
+          <div class="block-text text">Je mehr Anwendungen im Ökosystem der TravelChain vorhanden sind, desto größer ist
+            die Zahl ihrer Teilnehmer und desto höher ist auch die Nachfrage nach TravelToken.
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="50">
           <a class="link name slide-group-next"><span
-              class="name-link">3. Почему TravelToken нужен бизнесу?</span></a>
-          <div class="block-text text">Доступ к данным экосистемы TravelChain может существенно снизить
-            расходы бизнеса на маркетинг.
+              class="name-link">3. Wozu braucht man im Business TravelToken?</span></a>
+          <div class="block-text text">Durch einen Zugang zu den Daten des Ökosystems TravelChain können
+            Marketingausgaben von Unternehmen signifikant gesenkt werden.
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="100">
-          <a class="link name slide-group-next"><span class="name-link">4. Сколько будет стоить TravelToken на Token Sale?</span></a>
+          <a class="link name slide-group-next"><span class="name-link">4. Wie viel kosten TravelToken auf Token Sale?</span></a>
           <div class="block-text text">
-            Будет выставлено два ордера.
+            Es werden zwei Bestellformen angeboten.
             <ul class="point">
-              <li>В эквиваленте $ 3 000 000 c 15% скидкой на 232 290 502,8 TT. <br/>
-                Цена:эквивалент $0.0129
+              <li>Im Gleichwert von 3 000 000 $ mit einem Rabatt von 15% auf 232 290 502,8 TT. <br/>
+                Preis: Gleichwert 0,0129 $
               </li>
-              <li>В эквиваленте $ 7 000 000 на 460 709 497,2 TT. <br/>
-                Цена: эквивалент $0.0151
+              <li>Im Gleichwert von 7 000 000 $ für 460 709 497,2 TT. <br/>
+                Preis: Gleichwert 0,0151 $
               </li>
             </ul>
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="100">
-          <a class="link name slide-group-next"><span class="name-link">5. Какого размера будет эмиссия токенов,
-            распределенных на Token PreSale и Token Sale ? </span></a>
+          <a class="link name slide-group-next"><span class="name-link">5. Wie hoch wird die Zahl der emittierten Token, unterteilt nach Token PreSale
+und Token Sale, sein? </span></a>
           <div class="block-text text">
-            Всего эмитируется 2 100 000 000 TravelToken, которые будут распределены по итогам Token PreSale
-            и Token Sale:
+            Insgesamt werden 2 100 000 000 TravelToken ausgegeben, die
+            sich wie folgt auf Token PreSale und Token Sale aufteilen:
             <ul class="point">
               <li>Early founders & participants — 1,51%</li>
               <li> Token PreSale — 17,69%</li>
               <li> Token Sale — 33,00%</li>
-              <li> Команда — 13,80%</li>
+              <li> Team — 13,80%</li>
               <li> Advisors — 2,00%</li>
-              <li> Баунти — 1,00%</li>
-              <li> Фонд развития — 30,00%</li>
-              <li> Стартовый баланс Резервного входа - 1%</li>
+              <li> Belohnung — 1,00%</li>
+              <li> Development-Fond — 30,00%</li>
+              <li> Startbilanz des Reserveeingangs - 1%</li>
 
             </ul>
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="100">
-          <a class="link name slide-group-next"><span class="name-link">6. Когда начнется и сколько продлится Token Sale? </span></a>
-          <div class="block-text text">Старт 15 декабря в 14.00 UTC. Окончание 15 февраля в 14.00 UTC.</div>
+          <a class="link name slide-group-next"><span class="name-link">6. Wann beginnt und wie lange dauert der Token Sale? </span></a>
+          <div class="block-text text">Beginn: 10. Dezember um 14:00 Uhr UTC. Ende: 10. Februar um 14:00 Uhr UTC.</div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="150">
           <a class="link name slide-group-next"><span
-              class="name-link">7. Какая цель у Token Sale кампании? </span></a>
-          <div class="block-text text">Hard cap: эквивалент $10 000 000.
+              class="name-link">7. Welches Ziel verfolgt die Kampagne Token Sale? </span></a>
+          <div class="block-text text">Hard Cap: Gleichwert 10 000 000 $.
             <br/>
-            Цель сбора средств на Token Sale - обеспечить запуск платформы и финансирование разработки на первые 3 года.
-            За это время команда должна выйти на самоокупаемость. Подробно бизнес-модель описана в White paper.
-
+            Das Ziel des Sammelns von Mitteln für den Token Sale ist es, die Inbetriebnahme einer
+            Plattform zu realisieren sowie die Finanzierung der Entwicklung für die ersten 3 Jahre
+            sicherzustellen. In diesem Zeitraum schafft das Team die Voraussetzungen, um in der
+            Folgezeit Gewinne zu erwirtschaften. Genauere Informationen zum Geschäftsmodell
+            finden Sie im White Paper.
             <br/>
-            Мы запланировали за время Token Sale реализовать фиксированное количество токенов по фиксированной цене
-            путём размещения 2-х ордеров в эквивалентах $3 000 000 и $7 000 000 соответственно. Если за период Token
-            Sale не будет продан ордер по минимальной цене в эквиваленте $3 000 000 , то оставшиеся токены будут
-            реализованы в дальнейшем путём договоренностей с фондами и участниками, либо через внешнюю биржу. В
-            случае если не будут реализованы токены ордера в эквиваленте $7 000 000, то они будут направлены на аккаунт
-            Development Trust и реализованы после обозначенного в White paper KPI в 100 тыс. пользователей.
+            Wir planen für die Zeit des Token Sales eine festgelegte Anzahl an Token zu einem
+            festen Preis durch die Platzierung von 2 Bestelloptionen im Gegenwert von 3 000 000 $
+            und 7 000 000 $ zu verkaufen. Im Fall, dass in der Zeit des Token Sales nicht in Höhe
+            des Minimalpreises im Wert von 3 000 000 $ verkauft werden, werden die verbleibenden
+            Token im weiteren Verlauf nach Absprache mit den Fonds und den Investoren, oder über
+            eine externe Börse veräußert. Im Fall, dass die Token der Bestelloption im Wert von 7
+            000 000 $ nicht verkauft werden, werden diese auf das Konto des Development Trusts
+            geleitet und nach dem der KPI im White Paper festgeschrieben wurde in 100 Tausend
+            Nutzer verkauft.
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="150">
-          <a class="link name slide-group-next"><span class="name-link">8. Как будут использованы собранные на Token Sale средства? </span></a>
+          <a class="link name slide-group-next"><span class="name-link">8. Wie werden die auf Token Sale gesammelten Mittel verwendet? </span></a>
           <div class="block-text text">
-            Собранные средства будут распределены следующим образом:
-
             <ul class="point">
-              <li>Разработка — 50,3 %</li>
-              <li>Операционные расходы — 19,4 %</li>
-              <li>Маркетинг — 21,7 %</li>
-              <li>Сообщество разработчиков — 6,3 %</li>
-              <li>Юридические услуги — 1,9 %</li>
+              <li>Entwicklung — 50,3 %</li>
+              <li>Betriebsausgaben — 19,4 %</li>
+              <li>Marketing — 21,7 %</li>
+              <li>Entwickler-Community — 6,3 %</li>
+              <li>Juristische Dienstleistungen — 1,9 %</li>
             </ul>
 
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="150">
           <a class="link name slide-group-next"><span
-              class="name-link">9. Где выпускается TravelToken? </span></a>
+              class="name-link">9. Wo werden TravelToken generiert? </span></a>
           <div class="block-text text">
-            TravelToken выпускается на базе блокчейна TravelChain.
+            TravelToken werden auf Grundlage der TravelChain-Blockchain generiert.
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="200">
           <a class="link name slide-group-next"><span
-              class="name-link">10.  Почему мы выпускаем TravelToken на собственном блокчейне? </span></a>
-          <div class="block-text text">Изначально мы предполагали выпускать на базе смарт-контракта (ETH - 20)
-            в сети Ethereum с последующим переносом в блокчейн TravelChain. Но наш отдел разработки досрочно
-            справился с задачей написания прототипа, что позволяет нам провести Token Sale на собственном
-            блокчейне.
+              class="name-link">10.  Warum erzeugen wir TravelToken mittels einer eigenen Blockchain? </span></a>
+          <div class="block-text text">Zu Beginn hatten wir vor, Token auf Grundlage eines Smart-Contracts (ETH - 20) im
+            Ethereum-Netz zu erzeugen und diese anschließend in die Blockchain TravelChain zu
+            übertragen. Allerdings hat es unsere Entwicklungsabteilung die Aufgabe gelöst, einen
+            Prototyp zu programmieren, was es uns ermöglicht, Token Sale auf unserer eigenen
+            Blockchain durchzuführen.
 
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="200">
-          <a class="link name slide-group-next"><span class="name-link">11. Блокчейн запущен?</span></a>
-          <div class="block-text text">Да. Приглашаем перейти по ссылке <a href="https://wallet.travelchain.io/"> wallet.travelchain.io</a>
+          <a class="link name slide-group-next"><span class="name-link">11. Wurde ein Testnet in Betrieb genommen?</span></a>
+          <div class="block-text text">Das Testnet wurde auf testnet.travelchain.io realisiert.
 
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="250">
           <a class="link name slide-group-next"><span
-              class="name-link">12. В каких валютах будут собираться средства?</span></a>
+              class="name-link">12. In welchen Währungen werden die Mittel gesammelt?</span></a>
           <div class="block-text text">BCH, ETH, BTC, ETC, LSK. LTC, NEO, ZEC, DASH, DOGE, WAVES
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="250">
           <a class="link name slide-group-next"><span
-              class="name-link">13. Когда можно будет продать токены на бирже?</span></a>
-          <div class="block-text text">Выход на биржу в течение двух недель после завершения Token Sale.
+              class="name-link">13. Ab wann kann man Token an der Börse verkaufen?</span></a>
+          <div class="block-text text">Die Börseneinführung findet innerhalb von zwei Wochen nach Beendigung des Token
+            Sales statt.
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="250">
-          <a class="link name slide-group-next"><span class="name-link">14. Могут ли граждане США, КНР, Сингапура принять участие в Token Sale? </span></a>
-          <div class="block-text text">Вы не можете участвовать в Token Sale, если Вы являетесь гражданином США, КНР или
-            Сингапура, а также являетесь гражданином или резидентом страны, в которой ограничено пользование
-            криптовалютами и токенами.
+          <a class="link name slide-group-next"><span class="name-link">14. Können auch Staatsangehörige der USA, China und Singapur am Token Sale
+teilnehmen?</span></a>
+          <div class="block-text text">Staatsangehörige der USA, China und Singapur sowie Bewohner eines Staates, in dem
+            die Verwendung von Kryptowährungen und Token eingeschränkt ist, können nicht am
+            Token Sale teilnehmen.
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="300">
           <a class="link name slide-group-next"><span
-              class="name-link">15. Как  принять участие в Token Sale? </span></a>
-          <div class="block-text text">На сайте Travelchain.io появится кнопка "Участвовать в Token Sale". При переходе
-            по ней, Вы попадете в личный кабинет на wallet.travelchain.io, где Вы сможете пройти регистрацию аккаунта в
-            блокчейне TravelChain. Далее Вам будет необходимо подтвердить свое согласие с условиями участия в Token Sale
-            и заполнить форму KYC.
-            Для того, чтобы получить оповещение о старте Token Sale, Вы можете оставить свою почту на TravelChain.io.
-
+              class="name-link">15. Wie kann man am Token Sale teilnehmen? </span></a>
+          <div class="block-text text">Auf der Webseite Travelchain.io wird ein Button &quot;am Token Sale teilnehmen&quot; erscheinen.
+            Nach Klick auf den Button gelangen Sie zu ihrem persönlichen Account auf
+            wallet.travelchain.io. Dort können Sie Ihr Account in der Blockchain TravelChain
+            registrieren. Weiter ist es erforderlich, dass Sie die notwendigen Teilnahmebedingungen
+            des Token Sales akzeptieren und das KYC-Formular ausfüllen.
+            Um eine Benachrichtigung zum Start des Token Sale zu erhalten, können Sie Ihre E-
+            Mail-Adresse auf TravelChain.io hinterlassen.
           </div>
         </div>
       </div>
@@ -2717,25 +2597,25 @@
     <div class="container">
         <div class="padding-block">
             <div class="section-text text-center">
-                <div class="name-block white" data-aos="fade-up">Продажа Токенов открыта!</div>
+                <div class="name-block white" data-aos="fade-up">Der Verkauf von Token ist offen!</div>
             </div>
             <div class="section-text text-md text-center" data-aos="zoom-out-up" data-aos-delay="200">
                 <div class="name-block white">
-                    Успейте получить токены <br/> с 15% скидкой
+                    Beeilen Sie sich, Tokens mit <br/> 15% Rabatt zu bekommen
                 </div>
             </div>
             <div class="form-subs" data-aos="zoom-out-up" data-aos-delay="250">
                 <form class="subscribe-form">
                     <div class="box-control">
                         <div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>
-                        <input type="text" class="form-control subscribe-input" placeholder="Ваш e-mail">
-                        <div class="box-btn subscribe" data-lang="ru">
-                            <a class="btn btn-red btn-lg"  data-toggle="modal"><span class="hide-mobile">Присоединиться</span><i class="icon icon-air-white show-mobile"></i></a>
+                        <input type="text" class="form-control subscribe-input" placeholder="Ihre E-Mail">
+                        <div class="box-btn subscribe" data-lang="de">
+                            <a class="btn btn-red btn-lg"  data-toggle="modal"><span class="hide-mobile">Jetzt abonnieren</span><i class="icon icon-air-white show-mobile"></i></a>
                         </div>
                     </div>
                 </form>
-                <div class="text-info">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и соглашаетесь с
-                    <a href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">Политикой конфиденциальности</a>
+                <div class="text-info">Durch Klicken auf den Button stimmen Sie der Verarbeitung Ihrer persönlichen Daten zu und akzeptieren die
+                    <a  href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">Datenschutzerklärung</a>
                 </div>
             </div>
         </div>

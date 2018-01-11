@@ -1,3 +1,4 @@
+<?php include '../init.php'; ?>
 <!doctype html>
 <html>
 <head>
@@ -63,7 +64,7 @@
         }
     </style>
 </head>
-<body data-lang="EN" class="larg-ar">
+<body data-lang="EN">
 <!-- Google Tag Manager (noscript) -->
 <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQRXHZ5"
@@ -94,30 +95,30 @@
 
                     <div class="social">
                         <ul class="nav-link-more">
-                            <li><a href="WhitePaper.pdf" target="_blank" class="files-gtag-event">ورقة بيضاء</a></li>
-                            <li><a href="Overview.pdf" target="_blank" class="files-gtag-event">نظرة عامة</a></li>
-                            <li><a href="Business-plan.pdf" target="_blank" class="files-gtag-event">خطة العمل</a>
+                            <li><a href="WhitePaper.pdf" target="_blank" class="files-gtag-event">Libro Blanco</a></li>
+                            <li><a href="Overview.pdf" target="_blank" class="files-gtag-event">Resumen</a></li>
+                            <li><a href="Business-plan.pdf" target="_blank" class="files-gtag-event">Plano de negocios</a>
                             </li>
-                            <li><a href="technical_whitepaper.pdf" target="_blank" class="files-gtag-event">الورقة البيضاء التقنية</a></li>
+                            <li><a href="technical_whitepaper.pdf" target="_blank" class="files-gtag-event">LB técnico</a></li>
                         </ul>
                     </div>
                     <div class="user">
                         <!--<a class="btn btn-border-blue" data-toggle="modal" data-target="#modalregistration">Регистрация</a>-->
-                        <a href="https://wallet.travelchain.io"  class="btn btn-red">شراء الرموز المميزة</a>
+                        <a href="https://wallet.travelchain.io"  class="btn btn-red">Tokens de compra</a>
                     </div>
 
                     <!--<div class="lang padding-block"><a class="link active">Ru</a> / <a class="link" href="/">En</a>-->
                     <div class="lang lang-dropdown padding-block">
                         <div class="box-dropdown box-lang  box-inline"><a class="btn href-dropdown">
-                            <div class="change-value box-inline">Ara</div>
+                            <div class="change-value box-inline">Spa</div>
                             <i class="caret"></i></a>
                             <div class="menu-dropdown">
                                 <a href="/" >Eng</a>
                                 <a href="/kr" >Kor</a>
                                 <a href="/jp" >Jpn</a>
                                 <a href="/zh" >Chi</a>
+                                <a href="/ar" >Ara</a>
                                 <a href="/ru" >Rus</a>
-                                <a href="/es" >Spa</a>
                                 <a href="/de" >Deu</a>
                             </div>
                         </div>
@@ -214,21 +215,21 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal"><i class="icon icon-middle icon-close"></i></button>
-          <div class="text text-center">الخصم 15% متاح خلال الوقت المحدّد </div>
+          <div class="text text-center">15% de descuento disponible por tiempo limitado </div>
           <div class="form-subs">
           <form class="subscribe-form">
             <div class="box-control">
               <div class="box-icon-left"><i class="icon icon-middle icon-mail"></i></div>
-              <input type="text" class="form-control subscribe-modal-input" placeholder="البريد الإلكتروني الخاص بك">
+              <input type="text" class="form-control subscribe-modal-input" placeholder="Su correo electrónico">
 
             </div>
 
             <div class="box-btn subscribe-modal">
-              <a class="btn btn-red btn-lg"><span class="middle">شراء الرموز المميزة</span></a>
+              <a class="btn btn-red btn-lg"><span class="middle">Tokens de compra</span></a>
             </div>
           </form>
-            <div class="text-info">
-              <a href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">من خلال النقر على الزر، فإنك توافق على معالجة بياناتك الشخصية وتوافق على سياسة الخصوصية</a>
+            <div class="text-info">Pulsando el botón da su acuerdo al procesamiento de sus datos personales y acepta la
+              <a href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">Política de confidencialidad </a>
             </div>
           </div>
         </div>
@@ -250,13 +251,13 @@
 <section class="section section-intro">
     <div class="container" data-aos="flip-up">
         <div class="padding-block">
-            <h1 class="lite" data-aos="fade-up" data-aos-delay="200"> المنصة اللامركزية لتبادل <br/>  البيانات المخصصة لسوق السياحة </h1>
-            <div class=" name-block white" data-aos="fade-up" data-aos-delay="300">بيع رمزية مفتوحة!
+            <h1 class="lite" data-aos="fade-up" data-aos-delay="200">Plataforma decentralizada de intercambio <br/> de datos para la industria turística </h1>
+            <div class=" name-block white" data-aos="fade-up" data-aos-delay="300">Token Sale está abierto!
                 <p class="livenowsubtext">Recommended browser is Google Chrome</p>
             </div>
             <a class="btn btn-review " data-aos="fade-up" data-aos-delay="400" data-toggle="modal"
                data-target="#exampleModal">
-                ما هو TravelChain في 90 ثانية
+                Qué es TravelChain en 90 segundos?
                 <div class="box-icon"><i class="icon icon-play"></i></div>
             </a>
         </div>
@@ -265,9 +266,10 @@
             <div class="point"></div>
         </div>
 
+
         <div class="intro-down-info block-flex-top">
             <div class="block-progress-bar">
-                <div class="text">Total funds raised (usd equivalent):</div>
+                <div class="text">Total funds raised (usd equivalent): </div>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="30"
                          aria-valuemin="0" aria-valuemax="100" style="width:110px">
@@ -279,18 +281,19 @@
                 </div>
             </div>
             <div class="form-subs">
-                <div class="text">قم بالتسجيل لمعرفة كيفية الحصول على الرموز المميزة بخصم قدره 15%</div>
+                <div class="text">Regístrese para recibir tokens con un 15% de descuento</div>
                 <form class="subscribe-form">
                     <div class="box-control">
                         <div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>
-                        <input type="text" class="form-control subscribe-input" placeholder="بريدك الإلكتروني">
-                        <div class="box-btn subscribe" data-lang="ar">
+                        <input type="text" class="form-control subscribe-input" placeholder="Su correo electrónico">
+                        <div class="box-btn subscribe" data-lang="es">
                             <a class="btn btn-red btn-lg" data-toggle="modal"><span
-                                class="hide-mobile">الاشتراك</span><i
+                                class="hide-mobile">Suscribirse</span><i
                                 class="icon icon-air-white show-mobile"></i></a>
                         </div>
                     </div>
                 </form>
+
 
             </div>
         </div>
@@ -355,53 +358,43 @@
                 </div>
             </div>
         </div>
-        <div class="text-info">
-            <a  href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline"> من خلال النقر على الزر، فإنك توافق على معالجة بياناتك الشخصية وتوافق على سياسة الخصوصية</a>
+        <div class="text-info">Pulsando el botón acepta el procesamiento de sus datos personales y está de acuerdo con la
+            <a  href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">Política de confidencialidad </a>
         </div>
-
-
-
-
-
-
-
-
 
 
 
         <!--<div class="intro-down flexible padding-block" style="justify-content: space-around;">-->
             <!--<div class="cash">-->
-                <!--<div class="label italic">مجموع ما تم جذبه مقابل عمليات ما قبل بيع الرموز المميزة:-->
-                   <!--دولار أمريكي-->
-                <!--</div>-->
+                <!--<div class="label italic">Acumulado para la pre-venta Token PreSale:</div>-->
                 <!--<div class="value">$-->
                     <!--<div class="number">606</div>-->
                     <!--<div class="number">936</div>-->
                 <!--</div>-->
             <!--</div>-->
             <!--<div class="form-subs">-->
-                <!--<div class="text">قم بالتسجيل لمعرفة كيفية الحصول على الرموز المميزة بخصم قدره 15%</div>-->
+                <!--<div class="text">Regístrese para recibir tokens con un 15% de descuento</div>-->
                 <!--<form class="subscribe-form">-->
                     <!--<div class="box-control">-->
                         <!--<div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>-->
-                        <!--<input type="text" class="form-control subscribe-input" placeholder="بريدك الإلكتروني">-->
+                        <!--<input type="text" class="form-control subscribe-input" placeholder="Su correo electrónico">-->
                         <!--<div class="box-btn subscribe">-->
                             <!--<a class="btn btn-red btn-lg" data-toggle="modal"><span-->
-                                    <!--class="hide-mobile">الاشتراك</span><i-->
+                                    <!--class="hide-mobile">Suscribirse</span><i-->
                                     <!--class="icon icon-air-white show-mobile"></i></a>-->
                         <!--</div>-->
                     <!--</div>-->
                 <!--</form>-->
 
-                <!--<div class="text-info">-->
-                    <!--<a  href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline"> من خلال النقر على الزر، فإنك توافق على معالجة بياناتك الشخصية وتوافق على سياسة الخصوصية</a>-->
+                <!--<div class="text-info">Pulsando el botón acepta el procesamiento de sus datos personales y está de acuerdo con la-->
+                    <!--<a  href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">Política de confidencialidad </a>-->
                 <!--</div>-->
             <!--</div>-->
             <!--<div class="timer">-->
-                <!--<div class="label italic">بيع الرموز المميزة مفتوح!</div>-->
+                <!--<div class="label italic">La venta de tokens está abierta!</div>-->
 
                 <!--<div class="tokenbuybutton" style="display: none; margin-top: 1em;">-->
-                    <!--<a href="https://wallet.travelchain.io" class="btn btn-red">شراء الرموز المميزة</a>-->
+                    <!--<a href="https://wallet.travelchain.io" class="btn btn-red">Tokens de compra</a>-->
                 <!--</div>-->
             <!--</div>-->
         <!--</div>-->
@@ -469,12 +462,12 @@
         <div class="about-more" data-aos="flip-up">
             <div class="padding-block">
                 <div class="">
-                    <div class="name-box ">لمعرفة المزيد عنا:</div>
+                    <div class="name-box ">Conozca más sobre nosotros:</div>
                     <ul class="nav-link-more">
-                        <li><a href="White.Paper.pdf" target="_blank" class="files-gtag-event">ورقة بيضاء</a></li>
-                        <li><a href="Overview.pdf" target="_blank" class="files-gtag-event">نظرة عامة</a></li>
-                        <li><a href="Business-plan.pdf" target="_blank" class="files-gtag-event">خطة العمل</a></li>
-                        <li><a href="technical_whitepaper.pdf" target="_blank" class="files-gtag-event">الورقة البيضاء التقنية</a></li>
+                        <li><a href="White.Paper.pdf" target="_blank" class="files-gtag-event">Libro Blanco</a></li>
+                        <li><a href="Overview.pdf" target="_blank" class="files-gtag-event">Resumen</a></li>
+                        <li><a href="Business-plan.pdf" target="_blank" class="files-gtag-event">Plano de negocios</a></li>
+                        <li><a href="technical_whitepaper.pdf" target="_blank" class="files-gtag-event">LB técnico</a></li>
                     </ul>
                 </div>
             </div>
@@ -484,7 +477,7 @@
 <section class="section section-public">
     <div class="container padding-block">
         <div class="section-text text-center">
-            <div class="name-block" data-aos="fade-up">المنشورات حول ترافلشين</div>
+            <div class="name-block" data-aos="fade-up">Publicaciones sobre TravelChain</div>
         </div>
         <div class="player">
             <div class="player-line " data-aos="zoom-out-up">
@@ -513,23 +506,21 @@
 <section class="section section-data">
     <div class="container">
         <div class="data-text">
-            <div class="name-block" data-aos="fade-up">TravelChain — هي عبارة عن سلسلة كتل مفتوحة المصدر تدار من قبل جميع المشاركين في السوق،
-
-            </div>
-            <div class="block-text" data-aos="fade-up">حيث يقوم المستخدم بتثبيت التطبيق أو البرنامج ويحدد بنفسه ما هي البيانات وفي أي شكل يمكن جمعها</div>
+            <div class="name-block" data-aos="fade-up">TravelChain — es una plataforma blockchain con código abierto manejada por todos los participantes del mercado </div>
+            <div class="block-text" data-aos="fade-up">El usuario instala la aplicación o widget y decide cuáles son los datos que esta aplicación puede recoger y de qué manera lo hará </div>
         </div>
         <div class="data-cloud">
             <div class="data-item flexible center" data-aos="fade-right" data-aos-delay="50">
-                <div class="name free">بيانات المستخدم من التطبيقات</div>
+                <div class="name free">Datos del usuario en las aplicaciones</div>
                 <div class="box-icon"><i class="icon icon-app"></i></div>
             </div>
             <div class="data-item flexible center" data-aos="fade-right" data-aos-delay="100">
-                <div class="name free">بيانات خدمات الويب </div>
+                <div class="name free">Datos de los servicios turísticos en la web                                                         </div>
                 <div class="box-icon"><i class="icon icon-desktop"></i></div>
             </div>
             <div class="data-item right flexible center" data-aos="fade-left" data-aos-delay="150">
                 <div class="box-icon"><i class="icon icon-db"></i></div>
-                <div class="name free">بيانات وكالات السفر والمُجمعات</div>
+                <div class="name free">Datos de las agencias turísticas y agregadores</div>
             </div>
             <!--<div class="data-cloud-item" data-aos="zoom-in">-->
                 <!--<div id="cloud"></div>-->
@@ -541,7 +532,7 @@
             </div>
         </div>
         <div class="data-text" data-aos="flip-down">
-            <div class="data-text-save italic">يمكن تخزين البيانات بشكل مفتوح، غير شخصية أو بشكل مشفر مع توفير إمكانية الوصول لمرة واحدة</div>
+            <div class="data-text-save italic">Los datos pueden guardarse abiertos a todos, despersonalizados o cifrados con la autorización para una entrada y salida</div>
         </div>
     </div>
 </section>
@@ -549,12 +540,12 @@
   <div class="container">
     <div class="padding-block">
       <div class="section-text text-md text-center">
-        <div class="name-block" data-aos="fade-up">يعتبر استخدام TravelChain مفيد للجميع — سواء بالنسبة لرجال الأعمال وللمستخدمين النهائيين على حد السواء
+        <div class="name-block" data-aos="fade-up">Usar TravelChain resulta provechoso para todos - tanto para los negocios como para los turistas usuarios
         </div>
       </div>
 
       <div class="box-section">
-        <div class="name-section text-center">TravelChain للمسافرين</div>
+        <div class="name-section text-center">TravelChain para los viajeros</div>
         <div class="block-journey block-flex-top">
           <div class="box-journey" data-aos="fade-right" data-aos-delay="50">
             <div class="box-img">
@@ -565,12 +556,11 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                تسييل<br/>
-                البيانات الشخصية
-
+                Monetización
+                <br/> de datos personales
               </div>
               <div class="box-text">
-                مقابل كل إذن لاستخدام البيانات، يحصل المستخدم على الرموز المميزة التي يمكن استبدالها بالمال أو للحصول على خدمة سياحية
+                Por cada autorización de uso de datos el usuario recibe los tokens que puede cambiar por dinero o servicios turísticos
               </div>
             </div>
           </div>
@@ -583,41 +573,37 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                تنظيم رحلة أمر بسيط للغاية<br/>
-                مثل استدعاء أوبير
+                La organización del viaje <br/> es igual de fácil que llamar un taxi Uber
               </div>
               <div class="box-text">
-                وأصبحت الخدمات تعرف بالفعل في أي البلدان كان المستخدم متواجداً، أي نوع من المأكولات يحب، وأي نوع من الرياضة يمارس. وبناء على هذه البيانات، سيتم تشكيل الرحلة الشخصية كمصمم
+                Los servicios ya saben en qué países estuvo el usuario, qué cocina le gusta, qué deportes hace.
+                Basándose en estos datos se forma un tour personalizado como si fuese un constructor de niños
               </div>
             </div>
           </div>
         </div>
-        <div class="text-section text-section-padding text-center"><span class="bold italic">على سبيل المثال</span>
+        <div class="text-section text-section-padding text-center"><span class="bold italic">Por ejemplo</span>
         </div>
         <div class="box-lesson block-flex-center">
           <div class="lesson lesson-left">
-            يرى الفندق أن المستخدم يعتزم الذهاب إلى مدريد،
-            وهو على علم بأنه نباتي ويمارس اليوغا.
-
+            Un hotel ve que el usuario va a Madrid y sabe que él es vegetariano y practica el yoga.
           </div>
           <div class="lesson lesson-right">
-            ويرسل له العرض: غرفة مع وجبة إفطار نباتية،
-            والتي هي بالفعل مدرجة ضمن التكلفة. في الفندق بجوار مركز اليوغا.
-
+            Y le manda una oferta: una habitación con desayuno vegetariano ya incluido en el precio. En un hotel al lado de un centro de yoga.
           </div>
         </div>
 
       </div>
 
       <div class="box-section">
-        <div class="name-section text-center">TravelChain للأعمال</div>
+        <div class="name-section text-center">TravelChain  para los negocios</div>
         <div class="block-business block-flex-top" data-aos="flip-up">
           <div class="box-business">
             <div class="box-icon text-center">
               <i class="icon icon-middle icon-1"></i>
             </div>
             <div class="text text-center">
-              التوفير على الإعلان والقدرة على الوصول إلى العملاء في مرحلة مبكرة من مرحلة اتخاذ القرار
+              El ahorro en la publicidad y acceso al cliente en las primeras etapas de la toma de decisiones
             </div>
           </div>
           <div class="box-business">
@@ -625,7 +611,7 @@
               <i class="icon icon-middle icon-2"></i>
             </div>
             <div class="text text-center">
-              سوف يفصح الذكاء الاصطناعي عن رغبة المستخدم قبل أن يتكلم هو عنها
+              La inteligencia artificial contará sobre los deseos del usuario antes qué él se dé cuenta de los mismos
             </div>
           </div>
           <div class="box-business">
@@ -633,24 +619,20 @@
               <i class="icon icon-middle icon-3"></i>
             </div>
             <div class="text text-center">
-              ستتوقف الشركات عن إنفاق المال على الدعاية الضخمة. وسوف تقدم عرضاً شخصياً فقط بعدد قليل من النقرات
+              Las empresas dejarán de gastar dinero en publicidad masiva. Y harán ofertas personalizadas con sólo un par de clicks
 
 
             </div>
           </div>
         </div>
-        <div class="text-section text-section-padding text-center"><span class="bold italic">على سبيل المثال</span>
+        <div class="text-section text-section-padding text-center"><span class="bold italic">Por ejemplo</span>
         </div>
         <div class="box-lesson block-flex-center">
           <div class="lesson lesson-left">
-            يرى الفندق أن المستخدم يعتزم الذهاب إلى مدريد،
-            وهو على علم بأنه نباتي ويمارس اليوغا.
-
+            Un hotel ve que el usuario va a Madrid y sabe que él es vegetariano y practica el yoga.
           </div>
           <div class="lesson lesson-right">
-            ويرسل له العرض: غرفة مع وجبة إفطار نباتية،
-            والتي هي بالفعل مدرجة ضمن التكلفة. في الفندق بجوار مركز اليوغا.
-
+            Y le manda una oferta: una habitación con desayuno vegetariano ya incluido en el precio. En un hotel al lado de un centro de yoga.
           </div>
         </div>
         <div class="block-journey block-flex-top">
@@ -663,13 +645,13 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                زيادة الأرباح عن طريق رفض تكليف وكالات الإنترنت
+                El incremento de las ganancias gracias a la renuncia de pago de las comisiones a las agencias de Internet.
               </div>
               <div class="box-text">
-                سوف تكون الشركات قادرة على بيع خدماتها مباشرة للعملاء، دون دفع عمولات عالية للوسطاء.
+                Las empresas podrán vender sus servicios a los clientes directamente sin pagar comisiones altas a los intermediarios.
               </div>
               <div class="box-text bold italic">
-                في الوقت الحاضر تدفع الشركات ما يصل إلى 30% عمولات للوسطاء وليس لديها وسيلة للخروج من هذا الوضع
+                Ahora las compañías pagan hasta un 30% de comisiones a los intermediarios y no tienen salida alguna de esta situación.
               </div>
             </div>
           </div>
@@ -682,16 +664,16 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                الحصول على توصيات من رواد استطلاعات الرأي
+                Recibir recomendaciones de los líderes de opinión pública
               </div>
               <div class="box-text">
-                وسوف تكون الخدمات قادرة على تحليل العملاء المحتملين وتحديد الأشخاص الذين لديهم مكانة عالية والذين لديهم الكثير الأتباع.
+                Los servicios podrán analizar a clientes potenciales y encontrar a personas con un status alto que tengan muchos seguidores
               </div>
               <div class="box-text bold italic">
-                على سبيل المثال
+                Por ejemplo
               </div>
               <div class="box-text">
-                تم حجز غرفة في فندق من قبل شخص لديه أكثر من 100000 متابع على انستغرام.  يعمل الفندق على تقديم خصم أو عرض خاص — وبالتالي يحصل على تقييم من شأنه أن يؤثر على آراء الآلاف من الناس.
+                Una persona con más de 100 000 seguidores en Instagram reserva un hotel. El hotel le hace un descuento o oferta especial - y a cambio recibe una opinión favorable, que va a influir a miles de personas.
               </div>
             </div>
           </div>
@@ -699,15 +681,16 @@
       </div>
 
       <div class="box-section">
-        <div class="name-section text-center">TravelChain للمطورين</div>
-        <div class="text-section text-section-padding text-center">يمكن للمطورين استخدام TravelChain لمشاريعهم وتجاربهم.
+        <div class="name-section text-center">TravelChain para los elaboradores</div>
+        <div class="text-section text-section-padding text-center">Los elaboradores pueden usar el TravelChain para sus proyectos y experimentos.
         </div>
-        <div class="text-section text-center">وأيضاً بيع المعلومات التي تمت معالجتها غلى الشركات والمنصات الإعلانية.
+        <div class="text-section text-center">Así como vender la información procesada a empresas y espacios publicitarios.
+
         </div>
         <div class="text-section text-section-padding text-center">
-          وفيما يلي بعض الأمثلة على الخدمات التي يمكن إنشاؤها على أساس TravelChain
+          Vamos a dar unos cuantos ejemplos de servicios que pueden ser creados a base de TravelChain
         </div>
-        <div class="text-section text-section-padding text-center"><span class="bold italic">على سبيل المثال</span>
+        <div class="text-section text-section-padding text-center"><span class="bold italic">Por ejemplo</span>
         </div>
         <div id="demo-carousel" class="box-flip" data-aos="flip-up">
 
@@ -716,7 +699,7 @@
               <li>
                 <img src="/images/33-k.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">تطبيقات الخرائط
+                  <div class="box-info-name">Aplicaciones-mapas
 
                   </div>
                   <!--<div class="box-info-text"> Карты с нужными пользователю фильтрами. Это могут быть-->
@@ -727,7 +710,7 @@
               <li>
                 <img src="/images/44-p.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">الأدلاء السياحيين
+                  <div class="box-info-name">Guías
 
                   </div>
                   <!--<div class="box-info-text"> Маршруты, составленные из положительных отзывов ваших друзей и основанные-->
@@ -738,7 +721,7 @@
               <li>
                 <img src="/images/55-y.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">نظم الإخطار
+                  <div class="box-info-name">Sistemas de avisos
 
                   </div>
                   <!--<div class="box-info-text">Например, уведомления о том, что можно арендовать мотоцикл через дорогу от-->
@@ -750,7 +733,7 @@
               <li>
                 <img src="/images/22-v.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">التطبيقات المصغرة
+                  <div class="box-info-name">Aplicaciones-widgets
 
                   </div>
                   <!--<div class="box-info-text">Визуальные элементы отображающие нужную пользователю информацию. От погоды-->
@@ -761,7 +744,7 @@
               <li>
                 <img src="/images/66-yz.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">العروض المتخصصة
+                  <div class="box-info-name">Aplicaciones de perfil especializado
                   </div>
                   <!--<div class="box-info-text">Система собирает и обрабатывает информацию о пользователях, а потому-->
                     <!--предлагает оффер, включающий все ключевые предпочтения пользователя, в то время, когда он наиболее-->
@@ -772,9 +755,10 @@
               <li>
                 <img src="/images/ai.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">خدمات-AI </div>
-                  <div class="box-info-text">خدمة Aigents، استناداً إلى النشاط الخاص بك في الشبكات الاجتماعية، ويحدد متابعيك والأشخاص المحببين إليك والأشخاص ذوي المصالح المتشابهة
-                  </div>
+                  <div class="box-info-name">Servicios AI</div>
+                  <!--<div class="box-info-text">Например сервис Aigents, на основе вашей деятельности в социальных сетях-->
+                    <!--выявляет ваших последователей, авторитетов, людей со схожими интересами.-->
+                  <!--</div>-->
                 </div>
               </li>
 
@@ -1009,8 +993,8 @@
 <section class="section section-player">
     <div class="container padding-block">
         <div class="section-text text-center">
-            <div class="name-block" data-aos="fade-up">انضم إلينا كبار اللاعبين في هذه الصناعة</div>
-            <div class="block-text " data-aos="fade-up">وسيتم دمج أكثر من 3000000 مستخدم لشركائنا في النظام البيئي TravelChain</div>
+            <div class="name-block" data-aos="fade-up">Jugadores importantes de la industria están uniéndose a nosotros </div>
+            <div class="block-text " data-aos="fade-up">Más de 3 000 000 usuarios de nuestros socios serán integrados en el ecosistema TravelChain</div>
         </div>
         <div class="player">
             <div class="player-line block-flex-center" data-aos="zoom-out-up">
@@ -1028,8 +1012,8 @@
                 </div>
             </div>
             <div class="box-btn" data-aos="fade-up" data-aos-delay="100">
-                <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">شراء الرموز المميزة</a>-->
-                <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">شراء الرموز المميزة</a>
+                <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">Tokens de compra</a>-->
+                <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">Tokens de compra</a>
             </div>
         </div>
     </div>
@@ -1037,8 +1021,8 @@
 <section class="section section-stage-web">
     <div class="container">
       <div class="text-stage padding-block">
-        <div class="name-block" data-aos="fade-up">TravelChain — هي أيضاً منصة لإنشاء تطبيقات الهاتف المحمول والويب الخاصة بمجال صناعة السياحة</div>
-        <div class="block-text" data-aos="fade-up" data-aos-delay="50">هذه الخدمة موجودة بالفعل — Mapala، الجمعية الدولية للمسافرين ومصدر للمحتوى الخاص بالخدمات القائمة على أساس TravelChain</div>
+        <div class="name-block" data-aos="fade-up">TravelChain —  también es una plataforma para crear aplicaciones web y aplicaciones de móvil en la industria turística </div>
+        <div class="block-text" data-aos="fade-up" data-aos-delay="50">Ya existe el servicio Mapala, que es una comunidad internacional de viajeros y una fuente de contenido para los servicios a base de TravelChain</div>
       </div>
       <div class="">
         <div class="box-mapala" data-aos="flip-left" data-aos-delay="100">
@@ -1049,10 +1033,9 @@
               </div>
             </div>
             <div class="box-text-info" data-aos="fade-up" data-aos-delay="200">
-              <div class="text" >Mapala.net — هي منصة لمدونات السفر، تعمل على أساس سلاسل الكتل. لقد قمنا بإنشائها في أوائل العام 2017، وينمو عدد المستخدمين كل يوم.</div>
+              <div class="text" >TravelChain —  también es una plataforma para crear aplicaciones web y aplicaciones de móvil en la industria turística  </div>
               <div class="text">
-                يعمل المسافرين على ملء قاعدة المعرفة، ويحصلون مقابل ذلك على الأموال ونقاط الخبرة — ويحصلون على فرصة للسفر مجاناً
-              </div>
+                Los viajeros rellenan la base de datos, reciben recompensa y puntos de experiencia, así como obtienen la oportunidad de viajar gratis </div>
             </div>
           </div>
         </div>
@@ -1063,10 +1046,10 @@
     <div class="container padding-block">
         <div class="text-distribution">
             <div class="name-block" data-aos="fade-up">
-                TravelToken — هو وقود النظام البيئي للسفر الذكي
+                TravelToken — es el combustible del ecosistema de viajes inteligentes
             </div>
-            <div class="block-text aos-init aos-animate text-center" data-aos="fade-up" data-aos-delay="50">Пيختار
-                المستخدمون بأنفسهم كيفية استخدام الرموز المميزة
+            <div class="block-text aos-init aos-animate text-center" data-aos="fade-up" data-aos-delay="50">Los usuarios
+                deciden por su cuenta cómo quieren usar los tokens
             </div>
         </div>
         <div class="box-distribution-step block-flex-top">
@@ -1074,49 +1057,52 @@
                 <div class="box-icon">
                     <i class="icon icon-middle icon-buy"></i>
                 </div>
-                <div class="name">شراء البيانات الذكية</div>
-                <div class="text">يمكن للشركات الحصول على بيانات معالجة من خدمة-AI من خلال نقل TravelToken كدفع لقيمة
-                    الخدمة.
+                <div class="name">Compra de SmartData</div>
+                <div class="text">Las empresas pueden recibir datos procesados del servicio AI, transfiriendo los
+                    TravelTokens como el pago.
                 </div>
             </div>
             <div class="box-step" data-aos="fade-left" data-aos-delay="150">
                 <div class="box-icon">
                     <i class="icon icon-middle icon-pass"></i>
                 </div>
-                <div class="name">نقل البيانات</div>
+                <div class="name">Transferencia de datos</div>
                 <div class="text">
-                    يمكن للمستخدمين تبادل البيانات مع أعضاء TravelChain الآخرين عبر خدمات الويب أو التطبيقات — والحصول
-                    على TravelToken بدلا عن ذلك.
+                    Los usuarios pueden compartir los datos con otros participantes de TravelChain con la ayuda de
+                    web-servicios o aplicaciones recibiendo TravelTokens a cambio.
+                    Intercambio de datos
+
                 </div>
             </div>
             <div class="box-step" data-aos="fade-left" data-aos-delay="250">
                 <div class="box-icon">
                     <i class="icon icon-middle icon-swap"></i>
                 </div>
-                <div class="name">تبادل البيانات</div>
-                <div class="text">يمكن للخدمات استخدام TravelToken وتبادل البيانات مع بعضها البعض باستخدام مفاتيح الوصول
+                <div class="name">El intercambio de datos</div>
+                <div class="text">Los servicios pueden usar los TravelToken e intercambiar los datos entre sí usando
+                    claves de acceso
                 </div>
             </div>
         </div>
         <div class="text-distribution">
-            <div class="name-block" data-aos="fade-up" data-aos-delay="350">سوف ترتفع قيمة الرموز المميزة بزيادة عدد
-                المستخدمين والبيانات المتراكمة
+            <div class="name-block" data-aos="fade-up" data-aos-delay="350">El valor de los tokens crecerá con el
+                incremento de la cantidad de usuarios y datos acumulados
             </div>
             <!--<div class="block-text text-center white aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">Рост спроса на данные vs. Количество пользователей </div>-->
+
         </div>
         <div class="box-chart-line">
             <div class="box-img" data-aos="zoom-in" data-aos-delay="50">
                 <img class="" src="/images/enggraph.121217.png" alt="">
+                <!--<img class="show-mobile" src="images/1112.png" alt="">-->
             </div>
         </div>
 
         <div class="text-distribution date-distribution" data-aos="zoom-in" data-aos-delay="100">
-            <div class="name-block">سيتم توزيع 693000000 من TravelToken بين المشاركين في عملية بيع الرموز بتاريخ 15
-                ديسمبر/ كانون الأول
+            <div class="name-block">693 000 000 TravelToken serán distribuidos entre los participantes de Token Sale el
+                15 de diciembre
             </div>
-            <div class="block-text">سوف تنتهي عملية بيع الرموز بتاريخ 15 فبراير/ شباط في الساعة 14:00 (بالتوقيت
-                العالمي)
-            </div>
+            <div class="block-text">La venta Token Sale terminará el 15 de febrero a las 14:00 (UTC)</div>
         </div>
         <div class="box">
             <div class="container ">
@@ -1125,11 +1111,11 @@
                         <ul class="nav">
                             <li class="active">
                                 <a href="#1a" data-toggle="tab" aria-expanded="true">
-                                    <div class="name-block">توزيع الرموز المميزة</div>
+                                    <div class="name-block">Distribución de tokens</div>
                                 </a>
                             </li>
                             <li class=""><a href="#2a" data-toggle="tab" aria-expanded="false">
-                                <div class="name-block"> والصناديق</div>
+                                <div class="name-block"> y recursos</div>
                             </a>
                             </li>
                         </ul>
@@ -1139,20 +1125,20 @@
                             <div class="box-chart-token block-flex-center" data-aos="zoom-in-down">
                                 <div class="box-sum ">
                                     <div class="item-sum">
-                                        <div class="name">ما يعادل 10 مليون دولار أمريكي</div>
-                                        <div class="text">الغطاء الصلب</div>
+                                        <div class="name">Equivalente $10 millones</div>
+                                        <div class="text">Hard Cap</div>
                                     </div>
                                     <div class="item-sum">
-                                        <div class="name"> لـ 693000000</div>
-                                        <div class="text">رموز مخصصة للبيع</div>
+                                        <div class="name">693 000 000</div>
+                                        <div class="text">Tokens a la venta</div>
                                     </div>
                                     <div class="item-sum">
-                                        <div class="name">ما يعادل 0،0151 دولار أمريكي</div>
-                                        <div class="text">سعر الرمز</div>
+                                        <div class="name">Equivalente $0.0151</div>
+                                        <div class="text">Precio del token</div>
                                     </div>
                                     <div class="item-sum">
                                         <div class="name">BCH, ETH, BTC, ETC, LSK, LTC, NEO, ZEC, DASH, DOGE, WAVES</div>
-                                        <div class="text">عملة الدخول</div>
+                                        <div class="text">Divisa de entrada</div>
                                     </div>
                                 </div>
                                 <div class="block-chart ">
@@ -1167,7 +1153,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">33.00%</div>
-                                            <div class="text">بيع الرموز المميزة</div>
+                                            <div class="text">Token Sale</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1176,7 +1162,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">30.00%</div>
-                                            <div class="text">صندوق التنمية</div>
+                                            <div class="text">Fundación de desarrollo</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1185,7 +1171,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">17.69%</div>
-                                            <div class="text">ما قبل بيع الرموز المميزة</div>
+                                            <div class="text">Token PreSale</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1194,7 +1180,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">13.80%</div>
-                                            <div class="text">الفريق</div>
+                                            <div class="text">Equipo</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1203,7 +1189,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">2.00%</div>
-                                            <div class="text">الاستشاريون</div>
+                                            <div class="text">Asesores</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1212,7 +1198,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">1.51%</div>
-                                            <div class="text">المستثمرين والمؤسسين المباشرين</div>
+                                            <div class="text">Primeros inversionistas y creadores</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1221,7 +1207,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">1.00%</div>
-                                            <div class="text">المكافآت</div>
+                                            <div class="text">Bounty</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1230,7 +1216,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">1.00%</div>
-                                            <div class="text"> الرصيد الافتتاحي للصندوق الاحتياطي</div>
+                                            <div class="text">Balance inicial del Fondo de reserva</div>
                                         </div>
                                     </div>
                                 </div>
@@ -1240,24 +1226,22 @@
                             <div class="box-chart-token block-flex-center" data-aos="zoom-in-down">
                                 <div class="box-sum ">
                                     <div class="item-sum">
-                                        <div class="name">ما يعادل 10 مليون دولار أمريكي</div>
-                                        <div class="text">الغطاء الصلب</div>
+                                        <div class="name">Equivalente $10 millones</div>
+                                        <div class="text">Hard Cap</div>
                                     </div>
                                     <div class="item-sum">
-                                        <div class="name"> لـ 693000000</div>
-                                        <div class="text">رموز مخصصة للبيع</div>
+                                        <div class="name">693 000 000</div>
+                                        <div class="text">Tokens a la venta</div>
                                     </div>
                                     <div class="item-sum">
-                                        <div class="name">ما يعادل 0،0151 دولار أمريكي</div>
-                                        <div class="text">سعر الرمز</div>
+                                        <div class="name">Equivalente $0.0151</div>
+                                        <div class="text">Precio del token</div>
                                     </div>
                                     <div class="item-sum">
                                         <div class="name">BCH, ETH, BTC, ETC, LSK, LTC, NEO, ZEC, DASH, DOGE, WAVES</div>
-                                        <div class="text">عملة الدخول</div>
+                                        <div class="text">Divisa de entrada</div>
                                     </div>
                                 </div>
-
-
                                 <div class="block-chart ">
                                     <div class="box-chart ">
                                         <canvas id="doughnut-chart" height="350" width="350"></canvas>
@@ -1270,7 +1254,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">50.30%</div>
-                                            <div class="text">التطوير</div>
+                                            <div class="text">Elaboración</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1279,7 +1263,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">21.70%</div>
-                                            <div class="text">التسويق</div>
+                                            <div class="text">Mercadotecnia</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1288,7 +1272,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">19.40%</div>
-                                            <div class="text">النفقات التشغيلية</div>
+                                            <div class="text">Gastos operativos</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1297,7 +1281,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">6.70%</div>
-                                            <div class="text">مجتمع المطورين</div>
+                                            <div class="text">Comunidad de elaboradores</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1306,7 +1290,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">1.90%</div>
-                                            <div class="text">الخدمات القانونية</div>
+                                            <div class="text">Servicios jurídicos</div>
                                         </div>
                                     </div>
                                 </div>
@@ -1319,41 +1303,41 @@
 
         <div class="box-btn text-center" data-aos="fade-up" data-aos-delay="100">
 
-            <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">شراء الرموز المميزة</a>-->
-            <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">شراء الرموز المميزة</a>
+            <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">Tokens de compra</a>-->
+            <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">Tokens de compra</a>
         </div>
     </div>
 </section>
-<section class="section section-roadmap roadmap-ara">
+<section class="section section-roadmap">
     <div class="container">
         <div class="text-roadmap padding-block">
-            <div class="name-block" data-aos="fade-right">خريطة الطريق للمشروع</div>
+            <div class="name-block" data-aos="fade-right">Plano de desarrollo del proyecto</div>
         </div>
         <div class="box-roadmap block-flex-center">
             <div class="box-item-roadmap" data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">
                 <div class="box-head">
                     <div class="box-number">1</div>
                     <div class="box-name">
-                        بيع الرموز المميزة
+                        TOKEN SALE
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">ديسمبر/ كانون الأول من العام 2017</div>
-                    <div class="text">الهدف: جذب ما يصل إلى 10000000 دولار أمريكي لتصميم وتطوير TravelChain</div>
+                    <div class="name-date">Diciembre del 2017</div>
+                    <div class="text">Objetivo: atraer hasta $10.000.000 para la elaboración y el desarrollo de TravelChain</div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages1"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>المراحل</span>
+                            <span>Etapas</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages1">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li> - تشغيل العينة الاختبارية من TravelChain</li>
-                                    <li>تشكيل فريق عمل حول إدخال TravelChain مع ممثلي الصناعة</li>
-                                    <li>تشكيل فريق عمل حول إدخال TravelChain مع ممثلي الصناعة</li>
-                                    <li>بيع الرموز</li>
+                                    <li>Lanzamiento de la red de prueba (testnet) TravelChain;</li>
+                                    <li>Lanzamiento de MVP TravelChain;</li>
+                                    <li>Formación del grupo operacional para la implementación de TravelChain entre los representantes de la industria</li>
+                                    <li>Venta de Token</li>
                                 </ul>
                             </div>
                         </div>
@@ -1364,26 +1348,25 @@
                 <div class="box-head">
                     <div class="box-number">2</div>
                     <div class="box-name">
-                        الاستعداد لإطلاق عمل
-                        <br/> TravelChain
+                        Preparación para el  <br/> lanzamiento de  TravelChain
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">يناير/ كانون الأول من العام 2018</div>
-                    <div class="text">الهدف: الاستعداد لإطلاق شبكة عمل TravelChain</div>
+                    <div class="name-date">Enero del 2018</div>
+                    <div class="text">Objetivo: preparación para el lanzamiento de la red operativa TravelChain</div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages2"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>المراحل</span>
+                            <span>Etapas</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages2">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>إنشاء المعايير الأساسية لتخزين البيانات السياحية على منصة TravelChain</li>
-                                    <li> إطلاق مستكشف الكتل (block-explorer)</li>
-                                    <li>بدء تشغيل الميزة الأساسية على منصة TravelChain.io</li>
+                                    <li>Creación de los estándares básicos de almacenamiento de datos sobre el turismo en la plataforma TravelChain</li>
+                                    <li>Lanzamiento del investigador de bloques (block-explorer)</li>
+                                    <li>Puesta en marcha de las aplicaciones básicas de la plataforma TravelChain.io</li>
                                 </ul>
                             </div>
                         </div>
@@ -1394,26 +1377,26 @@
                 <div class="box-head">
                     <div class="box-number">3</div>
                     <div class="box-name">
-                        إطلاق شبكة العمل
+                        Lanzamiento de la <br/> red operativa
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">فبراير/ شباط من العام 2018</div>
-                    <div class="text">الهدف: بدء تشغيل شبكة عمل، وإعطاء المطورين القدرة على إنشاء التطبيقات
+                    <div class="name-date">Febrero del 2018</div>
+                    <div class="text">Objetivo: lanzar la red operativa, ofreciendo a los elaboradores la posibilidad de crear aplicaciones
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages3"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>المراحل</span>
+                            <span>Etapas</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages3">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>       تشكيل كتلة التكوين</li>
-                                    <li>بدء تشغيل شبكة العمل</li>
-                                    <li>الدخول إلى البورصة</li>
+                                    <li> Formación del bloque-génesis;</li>
+                                    <li>Lanzamiento de la red operativa;</li>
+                                    <li>Salida a la bolsa;</li>
                                 </ul>
                             </div>
                         </div>
@@ -1427,28 +1410,27 @@
                 <div class="box-head">
                     <div class="box-number">4</div>
                     <div class="box-name">
-                        إعداد أدوات <br/>  جمع
-                        المعلومات
+                        Preparación <br/> de información
 
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">الربع الأول-الثاني من العام 2018</div>
-                    <div class="text">الهدف: تحضير وبدء عمل جامعي المعلومات</div>
+                    <div class="name-date">I-II trimestre del 2018</div>
+                    <div class="text">Objetivo: preparar y lanzar aplicaciones de recogida de información</div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages4"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>المراحل</span>
+                            <span>Etapas</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages4">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>إدخال العمليات والمكونات الإضافية الخاصة بـ Travelchain</li>
-                                    <li>تطبيق الهاتف المحمول TravelChain مع المحفظة الوظيفية ومهام جمع وإدارة البيانات</li>
-                                    <li>إضافة مخصصة لغوغل كروم</li>
-                                    <li>التطبيق المصغر JS من أجل وضعها على مواقع الشركاء</li>
+                                    <li>Implementación de operaciones adicionales y plug-ins para Travelchain;</li>
+                                    <li>Aplicación para móviles TravelChain que se puede usar como monedero y con las opciones de recogida y control de datos;</li>
+                                    <li>Plug-in para Chrome</li>
+                                    <li>Widget JS para implementarlo en las páginas web de nuestros socios;</li>
                                 </ul>
                             </div>
                         </div>
@@ -1459,27 +1441,26 @@
                 <div class="box-head">
                     <div class="box-number">5</div>
                     <div class="box-name">
-                        تكامل<br/> الشركاء
-
+                        Integración de <br/> los socios
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">الربع الثاني من العام 2018</div>
-                    <div class="text">الهدف: دمج الشركاء الاستراتيجيين من القطاع السياحي في الاقتصاد
+                    <div class="name-date">ll trimestre del 2018</div>
+                    <div class="text">Objetivo: conectar a los socios estratégicos del sector turístico de la economía
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages5"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>المراحل</span>
+                            <span>Etapas</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages5">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>التوسع في الأنطولوجيا بناء على طلبات الشركاء</li>
-                                    <li>تضمين التطبيقات المصغرة في مواقع الشركاء</li>
-                                    <li>التكامل العميق للشركاء</li>
+                                    <li>Ampliación de la ontología de búsquedas de socios</li>
+                                    <li>Implementación de aplicaciones widget en las páginas web de los socios</li>
+                                    <li>Integración profunda de los socios</li>
                                 </ul>
                             </div>
                         </div>
@@ -1490,25 +1471,26 @@
                 <div class="box-head">
                     <div class="box-number">6</div>
                     <div class="box-name">
-                        إنشاء مجتمع<br/>  المطورين
+                        Creación de la comunidad <br/> de
+                        elaboradores
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">الربع الثاني من العام 2018</div>
-                    <div class="text">الهدف خلق مجتمع من المطورين على استعداد لإدخال TravelChain في المشاريع النهائية، أو إنشاء المشاريع الخاصة بهم.
+                    <div class="name-date">ll trimestre del 2018</div>
+                    <div class="text">Objetivo: creación de la comunidad de elaboradores, preparados para implementar TravelChain o crear proyectos propios
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages6"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>المراحل</span>
+                            <span>Etapas</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages6">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>إنشاء وثائق موسعة</li>
-                                    <li>خلق مجتمع من المطورين</li>
+                                    <li>Crear documentación ampliada</li>
+                                    <li>Crear comunidad de elaboradores</li>
                                 </ul>
                             </div>
                         </div>
@@ -1521,27 +1503,27 @@
                 <div class="box-head">
                     <div class="box-number">7</div>
                     <div class="box-name">
-                       وتحديد الكتلة الحرجة <br/>   توزيع العملات
+                        Distribución de monedas
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">الربع الثاني والثالث من العام 2018</div>
-                    <div class="text">الهدف: بدء توزيع الرمز المميز من خلال مشاريع النظم الإيكولوجية، وفرق المطورين والمستخدمين النشيطين
+                    <div class="name-date">ll-lll trimestre del 2018</div>
+                    <div class="text">Objetivo: lanzamiento de la distribución de tokens vía proyectos del ecosistema, equipos de elaboradores y usuarios activos
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages7"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>المراحل</span>
+                            <span>Etapas</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages7">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li> إطلاق صندوق العمل
+                                    <li>Lanzamiento de la fundación laboral;
                                     </li>
-                                    <li> طرح الإصدار</li>
-                                    <li> جمع 100 ألف مستخدم</li>
+                                    <li>Comienzo de la emisión;</li>
+                                    <li>Registro de 100 000 usuarios</li>
                                 </ul>
                             </div>
                         </div>
@@ -1552,24 +1534,25 @@
                 <div class="box-head">
                     <div class="box-number">8</div>
                     <div class="box-name">
-                       الخاصة بتوسيع النطاق<br/>   البنية التحتية
+                        Infraestructura para <br/>
+                        la ampliación
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">الربع الأول والثاني من العام 2019 </div>
-                    <div class="text">الهدف: إنشاء وإدخال حلول البنية التحتية لتوسيع نطاق النظام الإيكولوجي
+                    <div class="name-date">l-ll trimestre 2019</div>
+                    <div class="text">Objetivo: creación e implementación de decisiones estructurales para la ampliación del ecosistema
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages8"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>المراحل</span>
+                            <span>Etapas</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages8">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>إنشاء وإدخال حلول البنية التحتية لتوسيع نطاق النظام الإيكولوجي</li>
+                                    <li> Creación e implementación de decisiones estructurales para la ampliación del ecosistema</li>
                                 </ul>
                             </div>
                         </div>
@@ -1579,12 +1562,12 @@
             <div class="box-item-roadmap" data-aos="fade-left" data-aos-delay="600" data-aos-duration="800">
                 <div class="box-head">
                     <div class="box-btn text-center">
-                        <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale"><span class="middle">شراء الرموز المميزة</span></a>-->
-                        <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io"><span class="middle">شراء الرموز المميزة</span></a>
+                        <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale"><span class="middle">Tokens de compra</span></a>-->
+                        <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io"><span class="middle">Tokens de compra</span></a>
                     </div>
                 </div>
                 <div class="box-body box-body-last">
-                    <div class="text text-center">المتعلقة بـ TravelChain <br/> كن أول من تصله الأخبار </div>
+                    <div class="text text-center">Sean los primeros en conocer <br/> noticias sobre TravelChain</div>
                 </div>
             </div>
         </div>
@@ -1593,7 +1576,10 @@
 <section class="section section-commands">
     <div class="container padding-block">
         <div class="text-commands text-center">
-            <div class="name-block" data-aos="fade-up">فريق  TravelChain</div>
+            <div class="name-block" data-aos="fade-up">Equipo de TravelChain</div>
+            <div class="block-text" data-aos="fade-up">El equipo consiste de 24 especialistas en su trabajo, conozca a
+                los jefes:
+            </div>
         </div>
         <div class="block-commands">
             <div class="block-accordion">
@@ -1606,11 +1592,12 @@
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
-                        <div class="box-name">إيليا أورلوف </div>
-                        <div class="box-qualification">مؤسس مشارك، الرئيس التنفيذي</div>
-                        <div class="box-info">مسؤول عن حوكمة الشركات والإدارة الاستراتيجية. خبرة ادارية واسعة فيما يتعلق بالمشاريع الصغيرة والكبيرة مع الموظفين تصل إلى 450 موظف
+                        <div class="box-name">Ilya Orlov</div>
+                        <div class="box-qualification">CEO/Co-Founder</div>
+                        <div class="box-info">Está responsable por la gestión corporativa y management estratégico.
+                            Posee de buena experiencia de gerencia de empresas pequeñas y medianas con el personal a su
+                            cargo hasta 450 personas.
                         </div>
-
                     </div>
                     <div class="item-accordion clearfix" data-aos="fade-up" data-aos-delay="400">
                         <div class="box-img">
@@ -1620,10 +1607,10 @@
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
-                        <div class="box-name">أليكسي مورافيوف </div>
-                        <div class="box-qualification">مؤسس مشارك، مصمم</div>
-                        <div class="box-info">خبير في سلاسل الكتل ومبرمج-باحث. ماجستير في الفيزياء
-                            من المواد النانوية والإلكترونيات الضوئية. صوت المفوض الأعلى لسلاسل الكتل.
+                        <div class="box-name">Alexey Muraviev</div>
+                        <div class="box-qualification">Architect/Co-Founder</div>
+                        <div class="box-info">Experto en plataformas blockchain y programador­ investigador. Máster en
+                            física de nanomateriales y optoelectrónica. ТОP­delegado de blockchain Voz (Gólos
                         </div>
                     </div>
                     <div class="item-accordion clearfix" data-aos="fade-up" data-aos-delay="600">
@@ -1634,9 +1621,11 @@
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
-                        <div class="box-name">أليكسي سولوفيوف </div>
-                        <div class="box-qualification">مؤسس مشارك، كبير مسؤولي التشغيل</div>
-                        <div class="box-info">رجل أعمال كبير يتمتع بأكثر من 15 سنة من الخبرة في مجالات مختلفة: التجارة، الخدمات، البناء. المفوض الأول لسلاسل الكتل.
+                        <div class="box-name">Alexey Soloviev</div>
+                        <div class="box-qualification">Co-Founder</div>
+                        <div class="box-info">Emprendedor en serie con la experiencia de más de 15 años en varias
+                            esferas:
+                            comercio, sector de servicios, construcción. TOP­delegado de blockchain
                         </div>
                     </div>
                     <div class="item-accordion clearfix" data-aos="fade-up" data-aos-delay="600">
@@ -1653,7 +1642,7 @@
                     </div>
                 </div>
                 <div class="box-btn text-center" data-aos="zoom-out-up">
-                    <a class="btn all-commands btn-border-blue">الفريق كاملاً
+                    <a class="btn all-commands btn-border-blue">Todo el equipo
                     </a>
                 </div>
                 <div class="box-accordion-body accordion-body-toggle">
@@ -1667,8 +1656,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">اورهان زيينالي</div>
-                            <div class="box-qualification">كبير الموظفين الفنيين</div>
+                            <div class="box-name">Orkhan Zeynally</div>
+                            <div class="box-qualification">Director Técnico</div>
                         </div>
 
                     </div>
@@ -1681,8 +1670,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">أنطون كولينين</div>
-                            <div class="box-qualification">AI, BigData Expert</div>
+                            <div class="box-name">Anton Kolonin</div>
+                            <div class="box-qualification">AI, Experto de BigData</div>
                         </div>
                     </div>
 
@@ -1694,8 +1683,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">يوري أنيكين</div>
-                            <div class="box-qualification">Ontology Analyst</div>
+                            <div class="box-name">Yury Anikin</div>
+                            <div class="box-qualification">Analista de Ontología</div>
                         </div>
                     </div>
 
@@ -1708,9 +1697,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">بافيل دوروجكين</div>
-                            <div class="box-qualification">Team Lead, Back-end
-                                Developer
+                            <div class="box-name">Pavel Dorozhkin</div>
+                            <div class="box-qualification">Jefe de equipo, Desarrollador dorsal final
                             </div>
                         </div>
                     </div>
@@ -1724,8 +1712,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">أرتيوم بوغومولوف</div>
-                            <div class="box-qualification">Front-end Developer</div>
+                            <div class="box-name">Artem Bogomolov</div>
+                            <div class="box-qualification">Desarrollador Frontal final</div>
                         </div>
                     </div>
 
@@ -1738,8 +1726,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">زوراب شيفاربيدزه</div>
-                            <div class="box-qualification">Front-end Developer</div>
+                            <div class="box-name">Zurab Shivarbidze</div>
+                            <div class="box-qualification">Desarrollador Frontal final</div>
                         </div>
                     </div>
 
@@ -1752,8 +1740,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">سابينا غوربانوفا </div>
-                            <div class="box-qualification">UX/UI Designer</div>
+                            <div class="box-name">Sabina Gurbanova</div>
+                            <div class="box-qualification">UX/UI Diseñadora</div>
                         </div>
                     </div>
 
@@ -1766,11 +1754,10 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">قسطنطين تشانتشيكوف</div>
-                            <div class="box-qualification">System Architect</div>
+                            <div class="box-name">Konstantin Chanchikov</div>
+                            <div class="box-qualification">Ingeniero de sistemas</div>
                         </div>
                     </div>
-
 
 
                     <div class="item-accordion " data-aos="fade-left" data-aos-delay="650">
@@ -1795,21 +1782,22 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">مكسيم اوفاروف</div>
-                            <div class="box-qualification">Digital Producer</div>
+                            <div class="box-name">Maxim Uvarov</div>
+                            <div class="box-qualification">Productor Digital</div>
                         </div>
                     </div>
 
                     <div class="item-accordion ">
                         <div class="box-img">
                             <img class="lazyload" src="/images/team/petrov.png" alt="">
-                            <a href="https://www.linkedin.com/in/alexandr-petrov-024a2179/" target="_blank" class="btn btn-red box-icon">
+                            <a href="https://www.linkedin.com/in/alexandr-petrov-024a2179/" target="_blank"
+                               class="btn btn-red box-icon">
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">ألكساندر بيتروف</div>
-                            <div class="box-qualification">Marketing Manager</div>
+                            <div class="box-name">Alexandr Petrov</div>
+                            <div class="box-qualification">Gerente de Marketing</div>
                         </div>
                     </div>
 
@@ -1821,8 +1809,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">ميخائيل سيزيموف</div>
-                            <div class="box-qualification">Marketing Manager</div>
+                            <div class="box-name">Mikhail Sezemov</div>
+                            <div class="box-qualification">Gerente de Marketing</div>
                         </div>
                     </div>
 
@@ -1835,8 +1823,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">فاليريا بارانوفا</div>
-                            <div class="box-qualification">Head of SMM</div>
+                            <div class="box-name">Valeria Baranova</div>
+                            <div class="box-qualification">Jefe de trabajo con las redes sociales</div>
                         </div>
                     </div>
 
@@ -1849,8 +1837,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">رومان اوفايف </div>
-                            <div class="box-qualification">Head of Media Integration and Traffic</div>
+                            <div class="box-name">Roman Ufaev</div>
+                            <div class="box-qualification">Jefe de Integración de medios y tráfico</div>
                         </div>
                     </div>
 
@@ -1863,8 +1851,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">دميتري سيليزنيف</div>
-                            <div class="box-qualification">Graphic Designer</div>
+                            <div class="box-name">Dmitriy Seleznev</div>
+                            <div class="box-qualification">Diseñador gráfico</div>
                         </div>
                     </div>
 
@@ -1877,8 +1865,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">إيفان بيغونوف</div>
-                            <div class="box-qualification">Chief Business Development Officer</div>
+                            <div class="box-name">Ivan Begunov</div>
+                            <div class="box-qualification">Jefe de Desarrollo Comercial</div>
                         </div>
                     </div>
 
@@ -1891,8 +1879,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">دميتري لاغوتين</div>
-                            <div class="box-qualification">Investor Relations</div>
+                            <div class="box-name">Dmitriy Lagutin</div>
+                            <div class="box-qualification">Relaciones con inversionistas</div>
                         </div>
                     </div>
 
@@ -1905,8 +1893,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">سيرغي لوغفين</div>
-                            <div class="box-qualification">HR Manager</div>
+                            <div class="box-name">Sergey Logvin</div>
+                            <div class="box-qualification">Gerente de Recursos Humanos</div>
                         </div>
                     </div>
 
@@ -1919,8 +1907,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">دميتري كين</div>
-                            <div class="box-qualification">Lead Editor</div>
+                            <div class="box-name">Dmitriy Kin</div>
+                            <div class="box-qualification">Editor Principal</div>
                         </div>
                     </div>
 
@@ -1933,7 +1921,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">إيكاتيرينا فلالسوفا</div>
+                            <div class="box-name">Ekaterina Vlasova</div>
                             <div class="box-qualification">Copywriter</div>
                         </div>
                     </div>
@@ -1947,9 +1935,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">أناستاسيا رازماخنينا</div>
-                            <div class="box-qualification">Head of Community
-                                Management
+                            <div class="box-name">Anastasia Razmakhnina</div>
+                            <div class="box-qualification">Jefe de Gestión de la comunidad de internet
                             </div>
                         </div>
                     </div>
@@ -1963,8 +1950,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">تيموفي ماتفييف</div>
-                            <div class="box-qualification">Community Manager</div>
+                            <div class="box-name">Timofey Matveev</div>
+                            <div class="box-qualification">Gestor de la comunidad de internet</div>
                         </div>
                     </div>
                 </div>
@@ -1972,7 +1959,7 @@
         </div>
 
         <div class="text-commands text-center">
-            <div class="name-block" data-aos="fade-up">استشاريو التطوير</div>
+            <div class="name-block" data-aos="fade-up">Asesores de desarrollo</div>
             <!--<div class="block-text" data-aos="fade-up" data-aos-delay="20">Хорошо бы написать короткий текст про крутость этих ребят</div>-->
         </div>
         <div class="block-commands">
@@ -1987,8 +1974,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">كارثيك ايير </div>
-                            <div class="box-qualification">Mentor, Founder & CEO of BlockchainMonk</div>
+                            <div class="box-name">Karthik Iyer</div>
+                            <div class="box-qualification">Tutor, Fundador/ Director Ejecutivo de BlockchainMonk</div>
                         </div>
                     </div>
                     <div class="item-accordion " data-aos="fade-left" data-aos-delay="50">
@@ -2000,8 +1987,9 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">كريستوف هيرينغ</div>
-                            <div class="box-qualification">Elected BitShares Committee Member and Graphene Ambassador</div>
+                            <div class="box-name">Christoph Hering</div>
+                            <div class="box-qualification">Miembro elegido del Comité BitShares y Graphene Embajador
+                            </div>
                         </div>
                     </div>
                     <div class="item-accordion " data-aos="fade-left" data-aos-delay="100">
@@ -2013,10 +2001,11 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">   ديزموند مارشال
+                            <div class="box-name">Desmond Marshall
                             </div>
-                            <div class="box-qualification">Member of global Enterprise Ethereum Alliance,
-                                Advisor to Hong Kong Government, MD of Rouge Ventures
+                            <div class="box-qualification">Miembro de la Alianza global Enterprise Ethereum Alliance,
+                                Asesor de Departamento de Comercio e Industria del Gobierno de Hong Kong,
+                                Director General de Rouge Ventures
                             </div>
                         </div>
                     </div>
@@ -2030,8 +2019,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">فينسينت لاي</div>
-                            <div class="box-qualification">Founder/CEO of ToccoTravel</div>
+                            <div class="box-name">Vincent Lai</div>
+                            <div class="box-qualification">Fundador /CEO de ToccoTravel</div>
                         </div>
                     </div>
 
@@ -2044,8 +2033,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">أليكسي تورسكي </div>
-                            <div class="box-qualification">Founder/CEO of izi.travel</div>
+                            <div class="box-name">Alex Tourski</div>
+                            <div class="box-qualification">Fundador/Director Ejecutivo de izi.travel</div>
                         </div>
                     </div>
 
@@ -2059,13 +2048,10 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">رومان بوفولوتسكي</div>
-                            <div class="box-qualification">Founder/CEO of "Cyber Russia"</div>
+                            <div class="box-name">Roman Povolotski</div>
+                            <div class="box-qualification">Fundador/Director Ejecutivo de “Cyber Russia</div>
                         </div>
                     </div>
-
-
-
 
 
                     <div class="item-accordion " data-aos="fade-left" data-aos-delay="750">
@@ -2077,11 +2063,12 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">إدوارد جمهاريان </div>
-                            <div class="box-qualification">CBDO ICObox, TOKEN SALE Analyst/Adviser</div>
+                            <div class="box-name">Eduard Dzhamgaryan</div>
+                            <div class="box-qualification">Jefe del desarrollo de negocio ICObox, ICO
+                                Analista/Asesor (Oferta Inicial de Monedas)
+                            </div>
                         </div>
                     </div>
-
 
 
                 </div>
@@ -2090,7 +2077,7 @@
 
 
         <div class="text-commands text-center">
-            <div class="name-block" data-aos="fade-up">استشاريو التسويق</div>
+            <div class="name-block" data-aos="fade-up">Asesores de mercadotecnia</div>
         </div>
         <div class="block-commands">
             <div class="block-accordion">
@@ -2104,9 +2091,10 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">ألكساندر كاروليك-شلاين</div>
-                            <div class="box-qualification">Founder of Panache Managment Pte Ltd; Holds an Executive
-                                MBA from Kellogg School of Management and Hong Kong University of Science and Technology.
+                            <div class="box-name">Alexander Karolik-Shlaen</div>
+                            <div class="box-qualification">Fundador de Panache Managment Pte Ltd; Se graduó del programa
+                                Executive MBA de Kellogg School of Management y la Universidad de Ciencia y Tecnología
+                                de Hong Kong.
                             </div>
                         </div>
                     </div>
@@ -2120,8 +2108,9 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name"> توني سيمونوفسكي </div>
-                            <div class="box-qualification">Marketing data scientist, Token Sale focused growth hacker
+                            <div class="box-name">Tony Simonovsky</div>
+                            <div class="box-qualification">Científico de datos de marketing, responsable de estrategia
+                                de posicionamiento de ICO (Oferta Inicial de Monedas)
                             </div>
                         </div>
                     </div>
@@ -2135,9 +2124,9 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">يوري ماتفييف </div>
-                            <div class="box-qualification">Founder/CEO of the "Banzay" and "National Business"
-                                magazines
+                            <div class="box-name">Yuriy Matveev</div>
+                            <div class="box-qualification">Fundador/Director Ejecutivo de las revistas "Banzay" y
+                                "National Business
                             </div>
                         </div>
                     </div>
@@ -2151,9 +2140,9 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">رسلان سوكولوفسكي </div>
-                            <div class="box-qualification">Founder/CEO of the magazine "BitJournal",
-                                YouTube Blogger > 500k subscribers
+                            <div class="box-name">Ruslan Sokolovskiy</div>
+                            <div class="box-qualification">Fundador/Director Ejecutivo de la revista "BitJournal"
+                                YouTube Blogger YouTube Blogger > 500k abonados
                             </div>
                         </div>
                     </div>
@@ -2166,9 +2155,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">دميتري لارين</div>
-                            <div class="box-qualification">PR-advisor, <br>
-                                YouTube Blogger > 2kk subscribers
+                            <div class="box-name">Dmitry Larin</div>
+                            <div class="box-qualification">asesor de PR, <br/> YouTube Blogger > 2kk abonados
                             </div>
                         </div>
                     </div>
@@ -2181,10 +2169,10 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">مالكولم تان</div>
+                            <div class="box-name">Malcolm Tan</div>
                             <div class="box-qualification">
-                                CEO of The Bluesky Group; Founder of Gravitas Holding (Pte) Limited; Author of "How
-                                to ICO/ITO in Singapore";
+                                CEO de The Bluesky Group; Fundador de Gravitas Holding (Pte) Limited; Autor de "How to
+                                ICO/ITO in Singapore";
                             </div>
                         </div>
                     </div>
@@ -2193,7 +2181,8 @@
         </div>
 
         <div class="text-commands text-center">
-            <div class="name-block" data-aos="fade-up">المستشار القانوني</div>
+            <div class="name-block" data-aos="fade-up">Consejero legal
+            </div>
         </div>
         <div class="block-commands">
             <div class="block-accordion">
@@ -2207,8 +2196,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">دميتري ماتشخين </div>
-                            <div class="box-qualification">Partner GMT Legal</div>
+                            <div class="box-name">Dmitry Machikhin</div>
+                            <div class="box-qualification">Socio de GMT Legal</div>
                         </div>
                     </div>
 
@@ -2222,20 +2211,20 @@
 <section class="section section-activity">
   <div class="container">
     <div class="section-text text-sm text-center">
-      <div class="name-block" data-aos="fade-up">نشاطنا</div>
-      <div class="block-text" data-aos="fade-up" data-aos-delay="100">نحن وبشكل منفتح نعمل على مشاركة أحدث التطورات مع السوق ونحن على استعداد دائم للرد على الاتصالات
+      <div class="name-block" data-aos="fade-up">Nuestra actividad </div>
+      <div class="block-text" data-aos="fade-up" data-aos-delay="100">Nosotros compartimos abiertamente nuestros logros con el mercado y siempre estamos preparados para el feedback
       </div>
     </div>
     <div class="activity-tabs" data-aos="zoom-in-down" data-aos-delay="100">
       <div class="tab-block">
         <ul class="nav-tabs" role="tablist">
           <li role="presentation"><a class="btn" href="#speech" aria-controls="speech" role="tab"
-                                     data-toggle="tab"><span class="name">الخطب</span></a></li>
+                                     data-toggle="tab"><span class="name">Presentaciones</span></a></li>
           <li role="presentation" class="active"><a class="btn" href="#blog" aria-controls="blog" role="tab"
-                                                    data-toggle="tab"><span class="name">المنتديات الحية</span></a>
+                                                    data-toggle="tab"><span class="name">Live bitácora </span></a>
           </li>
           <li role="presentation"><a class="btn" href="#smi" aria-controls="smi" role="tab" data-toggle="tab"><span
-              class="name">المنشورات في وسائل الإعلام</span></a></li>
+              class="name">Publicaciones en los medios</span></a></li>
         </ul>
         <div class="tab-content">
           <div role="tabpanel" class="tab-pane fade" id="speech">
@@ -2461,159 +2450,165 @@
   <div class="container">
     <div class="padding-block">
       <div class="section-text">
-        <div class="name-block border" data-aos="fade-right">الأسئلة الأكثر تكراراً</div>
+        <div class="name-block border" data-aos="fade-right">Preguntas más frecuentes</div>
       </div>
       <div class="question-list slide-group">
         <div class="question-item" data-aos="fade-right" data-aos-delay="50">
           <a class="link name slide-group-next"><span
-              class="name-link">1. لتكلا ةلسلس اذامل block chain ؟ةحايسلا لاجم يف</span></a>
+              class="name-link">1. Por qué el blockchain es importante en la industria del turismo?</span></a>
           <div class="block-text text">
-            لبق نم اهمادختسا نكمي الو تاكرشلا ةمظنأ لخاد ةقلغم
-            صرف ريفوت يه انتمهم .ةركتبم تامدخ ءاشنإل ىرخأ تاكرش
-            قوسلا يف نيبعاللا عيمج نيب تانايبلا لدابتل ةيواستم.
+            Los datos son petróleo del siglo XXI, pero más a menudo están cerrados dentro de los
+            sistemas corporativos y no pueden ser utilizados por otras compañías para crear
+            servicios innovadores. Nuestra misión es proporcionar el acceso equitativo para el
+            intercambio de datos entre todos los jugadores del mercado.
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="50">
           <a class="link name slide-group-next"><span
-              class="name-link">2. لتكلا ةلسلس اذامل block chain ؟حوتفملا دوكلا عم</span></a>
-          <div class="block-text text">والمزيد من التطبيقات في النظام البيئي ترافلشين، وارتفاع عدد من التطبيقات
-                         المشاركين وزيادة الطلب على تر افلتوكين TravelToken .
-
-
+              class="name-link">2. Por qué el blockchain tiene un código abierto?</span></a>
+          <div class="block-text text">
+            Cuantas más aplicaciones haya en el ecosistema del TravelChain, mayor será el número
+            de participantes y mayor será la demanda para el TravelToken.
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="50">
           <a class="link name slide-group-next"><span
-              class="name-link">3. ىلإ جاتحي سنزيبلا اذامل TravelToken ؟</span></a>
-          <div class="block-text text">يئيبلا ماظنلا تانايب ىلع لوصحلا TravelChain يطعي
-            ةيراجتلا لامعألا يف قيوستلا فيلاكت ليلقتل ةيناكمإلا
-            ريبك لكشب.
+              class="name-link">3. Por qué las empresas necesitan el TravelToken?</span></a>
+          <div class="block-text text">El acceso a los datos del ecosistema del TravelChain puede reducir significativamente los
+            costos de comercialización de las empresas.
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="100">
-          <a class="link name slide-group-next"><span class="name-link">4. ةفلكت مك TravelToken ىلع Token Sale؟</span></a>
+          <a class="link name slide-group-next"><span class="name-link">4. Cuánto costará el TravelToken en Token Sale?</span></a>
           <div class="block-text text">
-            ناماظن كانه:
+            Se emitirán dos pedidos.
             <ul class="point">
-              <li>232 290 502,8 يواسي ٪15 مصخ عم $ 3,000,000 ةلداعم TT. <br/>
-                0.0129 ةلداعم :رعسلا $
+              <li>En el equivalente de $ 3,000,000 con un 15% de descuento por 232,290,502.8 TT.<br/>
+                Precio: el equivalente de $ 0.0129
               </li>
-              <li>460 709 497,2 يواسي $ 7,000,000 ةلداعم TT.<br/>
-                0.0151 ةلداعم :رعسلا $.
+              <li>En el equivalente de $ 7,000,000 por 460,709,497.2 TT. <br/>
+                Precio: el equivalente de $ 0.0151
               </li>
             </ul>
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="100">
-          <a class="link name slide-group-next"><span class="name-link">5. ىلع ةعّزوم زنيكوتلا رادصإ ةيمك يه ام Token PreSale وToken Sale؟ </span></a>
+          <a class="link name slide-group-next"><span class="name-link">5. Cuál es el tamaño de emisión de los tokens, distribuidos en Token PreSale y
+Token Sale? </span></a>
           <div class="block-text text">
-            2,100,000,000 رادصإ ّمتيTravelToken ، ّمتي فوس يتلاو
-            جئاتن دعب اهعيزوت Token PreSale وToken Sale:
+            Se emitirá un total de 2 100 000 000 de TravelToken, que se distribuirán siguiendo los
+            resultados de Token PreSale y Token Sale:
             <ul class="point">
-              <li>1.51 ‐ لئاوألا نورمثتسملاو نوسسؤملا</li>
+              <li> Primeros fundadores e inversores — 1,51%</li>
               <li> Token PreSale — 17,69%</li>
-              <li>Token Sale‐ 33.00٪</li>
-              <li> 13.80 ‐ قيرفلا</li>
-              <li> 2.00 ‐ نوراشتسملا</li>
-              <li> 1.00 ‐ ةأفاكملا</li>
-              <li> 30.00 ‐ ةيمنتلا قودنص</li>
-              <li> 1 ‐ يطايتحالا لوخدلل لوألا ديصرلا</li>
+              <li> Token Sale — 33,00%</li>
+              <li> Equipo — 13,80%</li>
+              <li> Asesores — 2,00%</li>
+              <li> Bounty — 1,00%</li>
+              <li> Fondo de desarrollo — 30,00%</li>
+              <li> Saldo inicial de la entrada de reserva - 1%</li>
 
             </ul>
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="100">
-          <a class="link name slide-group-next"><span class="name-link">6. ةّدم يه امو أدبي ىتم Token Sale؟ </span></a>
-          <div class="block-text text">14:00 ةعاسلا يف ربمسيد 15 يف لمعلا أدبي UTC. يهتنيو
-            15 14:00 ةعاسلا يف رياربف UTC.</div>
+          <a class="link name slide-group-next"><span class="name-link">6. Cuándo comenzará y cuánto durará Token Sale? </span></a>
+          <div class="block-text text">El inicio es el 10 de diciembre a las 14.00 UTC. El final es el 10 de febrero a las 14.00
+            UTC.</div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="150">
           <a class="link name slide-group-next"><span
-              class="name-link">7. ةلمح نم ضرغلا وه ام Token Sale؟ </span></a>
-          <div class="block-text text">Hard cap: رالود 10,000,000 ةلداعم.
+              class="name-link">7. Cuál es el objectivo de la campaña de Token Sale? </span></a>
+          <div class="block-text text">Hard cap: el equivalente de $ 10,000,000.
             <br/>
-            ىلع لاومألا عمج نم ضرغلا Token Sale ‐ لمع ةيادب ريفوت وه
-            هذه لالخ .ىلوألا تاونس 3 ةدمل ةيمنتلا ليومتو ةصنملا
-            لّصفملا فصولا .يتاذلا ءافتكالا ققحي قيرفلا ةرتفلا
-            يفWhite paper .
-            لداعي غلبمب نيماظنلا ضرعب تباث رعسب زنيكوتلا
-            3,000,000 ّمتي نل اذإ .يلاوتلا ىلع رالود 7,000,000 و رالود
-            ةرتف لالخ انططخ دقل Token Sale نم اتباث اددع عيبن نأ
-            لالخ رالود 3,000,000 ىندألا دحلا ىلع رعسلاب ماظنلا عيب
-            ةرتف Token Sale ةقيرطب ةيّقبتملا زنيكوتلا عيب فوس
-            ل يسيئرلا ءادألاWhite paper.
-            وأ صاخلا عاطقلا نم نيرمثتسملاو قيدانصلا عم تاقافتالا
-            ىلع زنيكوتلا عيب مدع ةلاح يف .ةيجراخلا ةصروبلا ةقيرطب
-            باسح ىلإ اهلاسرإ ّمتيس رالود 7,000,000 ماظنلا Development Trust مدختسم فلأ 100 دعب اهعيب
+            El objetivo de recaudar fondos en Token Sale es garantizar el lanzamiento de la
+            plataforma y la financiación del desarrollo para los primeros 3 años. Durante este
+            tiempo, el equipo debe alcanzar la autosuficiencia. El modelo de negocio se describe en
+            detalle en White paper.
+
+            <br/>
+            Durante el periodo de Token Sale planeamos implementar una cantidad fija de tokens a
+            un precio fijo mediante la colocación de 2 pedidos en el equivalente de $ 3,000,000 y $
+
+            7,000,000, respectivamente. Si no se vende un pedido de precio mínimo de $ 3,000,000
+            durante el período de Token Sale, los tokens restantes se venderán posteriormente
+            mediante acuerdos con fondos e inversores privados o a través de un intercambio
+            externo. En el caso de que los tokens del pedido en el equivalente de $ 7,000,000 no se
+            vendan, se enviarán a la cuenta de Development Trust y se realizarán después de KPI de
+            100 mil usuarios, que está indicado en el White paper.
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="150">
-          <a class="link name slide-group-next"><span class="name-link">8. يف اهعمج ّمت يتلا لاومألا مادختسا ّمتي فيك Token Sale؟ </span></a>
+          <a class="link name slide-group-next"><span class="name-link">8. Cómo se usarán los fondos obtenidos en Token Sale? </span></a>
           <div class="block-text text">
-            يلاتلا وحنلا ىلع ةعّمجملا لاومألا عيزوت ّمتي:
+            Los fondos obtenidos se distribuirán de la siguiente manera:
 
             <ul class="point">
-              <li>50.3 ‐ ريوطتلا٪</li>
-              <li>19.4 ‐ ليغشتلا تافورصم٪</li>
-              <li>21.7 ‐ قيوستلا٪</li>
-              <li>6.3 ‐ نيرّوطملا ةعومجم٪</li>
-              <li>1.9 ‐ ةينوناقلا تامدخلا٪</li>
+              <li>Desarrollo — 50,3 %</li>
+              <li>Gastos operativos — 19,4 %</li>
+              <li>Marketing — 21,7 %</li>
+              <li>Comunidad de desarrolladores — 6,3 %</li>
+              <li>Servicios legales — 1,9 %</li>
             </ul>
 
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="150">
           <a class="link name slide-group-next"><span
-              class="name-link">9. رادصإ ّمتي نيأ TravelToken؟ </span></a>
+              class="name-link">9. Dónde se emite el TravelToken? </span></a>
           <div class="block-text text">
-            رادصإ متي TravelToken لتكلا ةلسلس ةدعاق ىلع TravelChain
+            El TravelToken se emite sobre la base del blockchain del TravelChain.
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="200">
           <a class="link name slide-group-next"><span
-              class="name-link">10.  ردصن اذامل TravelTokenلتكلا ةلسلس ىلع block chain</span></a>
-          <div class="block-text text">يكذلا دقعلا ةدعاق ىلع رادصإلا طّطخن انك ةيادبلا يف (ETH20) ةكبش ىلع Ethereum ةلسلس ماظن ىلإ اهلقن ّمث نمو
-            لتكلاTravelChain. ةباتك ةمهم ذّفن دق ريوطتلا مسق نكلو
-            ءارجإل انل حمسي اذهو .ددحملا دعوملا لبق يلوألا جذومنلا Token Sale لتكلا ةلسلس ىلع block chainانل ةعباتلا.
+              class="name-link">10.  Por qué emitamos los TravelToken en nuestra propia blockchain? </span></a>
+          <div class="block-text text">Inicialmente, esperábamos emitar sobre la base de un contrato inteligente (ETH-20) en
+            la red de Ethereum y luego transferirlo al blockchain del TravelChain. Pero nuestro
+            departamento de desarrollo antes de lo previsto se ocupó de la tarea de escribir un
+            prototipo, lo que nos permite emitar Token Sale en nuestro propio blockchain.
 
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="200">
-          <a class="link name slide-group-next"><span class="name-link">11. ليغشت ّمت له Testnet؟ </span></a>
-          <div class="block-text text">ليغشت ّمت Testnet ىلع testnet.travelchain.io
+          <a class="link name slide-group-next"><span class="name-link">11. Funciona el testet?</span></a>
+          <div class="block-text text">El testnet se lanza en testnet.travelchain.io.
 
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="250">
-          <a class="link name slide-group-next"><span
-              class="name-link">12. ؟اهب لاومألا عمج ّمتيس يتلا تالمعلا يه ام</span></a>
+          <a class="link name slide-group-next"><span class="name-link">
+            12. En qué monedas se recogerán los fondos?
+          </span></a>
           <div class="block-text text">BCH, ETH, BTC, ETC, LSK. LTC, NEO, ZEC, DASH, DOGE, WAVES
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="250">
           <a class="link name slide-group-next"><span
-              class="name-link">13. ؟ةصروبلا يف زنيكوتلا عيب نكمي ىتم</span></a>
-          <div class="block-text text">ءاهتنا دعب نيعوبسألا نوضغ يف ةصروبلا ىلإ جورخلا Token Sale؟
+              class="name-link">13. Cuándo será posible vender los tokens en el intercambio?</span></a>
+          <div class="block-text text">Entraremos al intercambio dentro de las dos semanas posteriores a la finalización de
+            Token Sale.
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="250">
-          <a class="link name slide-group-next"><span class="name-link">14. ةروفاغنسو نيصلاو ةدحتملا تايالولا ينطاومل نكمي له
-يف ةكراشملا Token Sale؟ </span></a>
-          <div class="block-text text">
-            لا يمكن المشاركة في Token Sale إذا كنت مواطن الولايات المتحدة أو
-            جمهورية الصين الشعبية أو سنغافورة، وكذلك إن كنت مواطنا أو مقيما في بلد يتم
-            فيه تقييد استخدام العملات المشفرة والتوكينز.
+          <a class="link name slide-group-next"><span class="name-link">
+            14. Pueden los ciudadanos de los Estados Unidos, China y Singapur participar
+en Token Sale? </span></a>
+          <div class="block-text text">No puede participar en Token Sale si es ciudadano de los Estados Unidos, la República
+            Popular China o Singapur, y también es ciudadano o residente del país en el que el uso
+            de las monedas criptográficas y los tokens está restringido.
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="300">
           <a class="link name slide-group-next"><span
-              class="name-link">15.يف ةكراشملا ةيفيك Token Sale </span></a>
-          <div class="block-text text">يف ةكراشملا" ّرز رهظيس Token Sale" عقوم ىلع Travelchain.io يف يصخشلا باسحلا ىلإ كلقن ّمتيس هيلع طغضلا دعب
-            wallet.travelchain.io، يف كباسح ليجست ىلع ردقت ثيح
-            لتكلا ةلسلس TravelChain. ديكأتب موقت نأ كيلع كلذ دعب
-            لتكلا ةلسلس يف ةكراشملا طورش ىلع كتقفاوم
-            TravelChain جذومن ةئلمتو KYC.
-            ءدب نع رابخإلا ىلع لوصحلا لجأ نم Token Sale ، رت كنكمي
+              class="name-link">15. Cómo puede participar en Token Sale?</span></a>
+          <div class="block-text text">El botón “Participar en Token Sale” aparecerá en el sitio web de Travelchain.io. Cuando
+            se presiona, accederá a su espacio privado en wallet.travelchain.io, donde podrá
+            registrar su cuenta en el blockchain del TravelChain. Además, deberá confirmar su
+            acuerdo con los términos de participación en Token Sale y completar el formulario de
+            KYC.
+            Para recibir una alerta sobre el inicio de Token Sale, puede dejar su correo electronic en
+            TravelChain.io.
 
           </div>
         </div>
@@ -2625,25 +2620,25 @@
     <div class="container">
         <div class="padding-block">
             <div class="section-text text-center">
-                <div class="name-block white" data-aos="fade-up">بيع الرموز المميزة مفتوح!</div>
+                <div class="name-block white" data-aos="fade-up">La venta de tokens está abierta!</div>
             </div>
             <div class="section-text text-md text-center" data-aos="zoom-out-up" data-aos-delay="200">
                 <div class="name-block white">
-   الحصول على الرموز المميزة بخصم قدره 15% <br/>  قم بالتسجيل لمعرفة كيفية
+                    Date prisa para obtener tokens <br/> con un 15% de descuento
                 </div>
             </div>
             <div class="form-subs" data-aos="zoom-out-up" data-aos-delay="250">
                 <form class="subscribe-form">
                     <div class="box-control">
                         <div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>
-                        <input type="text" class="form-control subscribe-input" placeholder="البريد الإلكتروني الخاص بك">
-                        <div class="box-btn subscribe" data-lang="ar">
-                            <a class="btn btn-red btn-lg"  data-toggle="modal"><span class="hide-mobile">الانضمام</span><i class="icon icon-air-white show-mobile"></i></a>
+                        <input type="text" class="form-control subscribe-input" placeholder="Ваш e-mail">
+                        <div class="box-btn subscribe" data-lang="es">
+                            <a class="btn btn-red btn-lg"  data-toggle="modal"><span class="hide-mobile">Únete ahora</span><i class="icon icon-air-white show-mobile"></i></a>
                         </div>
                     </div>
                 </form>
-                <div class="text-info">
-                    <a  href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline"> من خلال النقر على الزر، فإنك توافق على معالجة بياناتك الشخصية وتوافق على سياسة الخصوصية</a>
+                <div class="text-info">Pulsando el botón está de acuerdo con el procesamiento de sus datos personales y acepta la
+                    <a href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">Política de confidencialidad</a>
                 </div>
             </div>
         </div>

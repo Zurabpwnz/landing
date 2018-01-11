@@ -34,6 +34,8 @@ var cwd_ar = './src/ar/';
 var cwd_es = './src/es/';
 var cwd_de = './src/de/';
 
+var cwd_ext = 'php';
+
 var html = ['*.html', '!_*.html'];
 var appScss = "./src/sass/*.scss";
 var appCssPath= "./css/";
@@ -45,7 +47,7 @@ gulp.task('template-en', function() {
         .pipe(plumber({
             errorHandler: notify.onError('Error: <%= error.message %>')
         }))
-        .pipe(nunjucksRender({path: cwd_en}))
+        .pipe(nunjucksRender({path: cwd_en})).pipe(rename('en.' + cwd_ext))
         .pipe(gulp.dest('./'));//direction for html
 });
 gulp.task('template-ru', function() {
@@ -55,7 +57,7 @@ gulp.task('template-ru', function() {
         .pipe(plumber({
             errorHandler: notify.onError('Error: <%= error.message %>')
         }))
-        .pipe(nunjucksRender({path: cwd_ru})).pipe(rename('index.html'))
+        .pipe(nunjucksRender({path: cwd_ru})).pipe(rename('index.' + cwd_ext))
         .pipe(gulp.dest('./ru'));//direction for html
 });
 
@@ -66,7 +68,7 @@ gulp.task('template-kr', function() {
     .pipe(plumber({
       errorHandler: notify.onError('Error: <%= error.message %>')
     }))
-    .pipe(nunjucksRender({path: cwd_kr})).pipe(rename('index.html'))
+    .pipe(nunjucksRender({path: cwd_kr})).pipe(rename('index.' + cwd_ext))
     .pipe(gulp.dest('./kr'));//direction for html
 });
 
@@ -77,7 +79,7 @@ gulp.task('template-jp', function() {
     .pipe(plumber({
       errorHandler: notify.onError('Error: <%= error.message %>')
     }))
-    .pipe(nunjucksRender({path: cwd_jp})).pipe(rename('index.html'))
+    .pipe(nunjucksRender({path: cwd_jp})).pipe(rename('index.' + cwd_ext))
     .pipe(gulp.dest('./jp'));//direction for html
 });
 
@@ -88,7 +90,7 @@ gulp.task('template-zh', function() {
     .pipe(plumber({
       errorHandler: notify.onError('Error: <%= error.message %>')
     }))
-    .pipe(nunjucksRender({path: cwd_zh})).pipe(rename('index.html'))
+    .pipe(nunjucksRender({path: cwd_zh})).pipe(rename('index.' + cwd_ext))
     .pipe(gulp.dest('./zh'));//direction for html
 });
 
@@ -99,7 +101,7 @@ gulp.task('template-ar', function() {
     .pipe(plumber({
       errorHandler: notify.onError('Error: <%= error.message %>')
     }))
-    .pipe(nunjucksRender({path: cwd_ar})).pipe(rename('index.html'))
+    .pipe(nunjucksRender({path: cwd_ar})).pipe(rename('index.' + cwd_ext))
     .pipe(gulp.dest('./ar'));//direction for html
 });
 
@@ -110,7 +112,7 @@ gulp.task('template-es', function() {
     .pipe(plumber({
       errorHandler: notify.onError('Error: <%= error.message %>')
     }))
-    .pipe(nunjucksRender({path: cwd_es})).pipe(rename('index.html'))
+    .pipe(nunjucksRender({path: cwd_es})).pipe(rename('index.' + cwd_ext))
     .pipe(gulp.dest('./es'));//direction for html
 });
 gulp.task('template-de', function() {
@@ -120,7 +122,7 @@ gulp.task('template-de', function() {
     .pipe(plumber({
       errorHandler: notify.onError('Error: <%= error.message %>')
     }))
-    .pipe(nunjucksRender({path: cwd_de})).pipe(rename('index.html'))
+    .pipe(nunjucksRender({path: cwd_de})).pipe(rename('index.' + cwd_ext))
     .pipe(gulp.dest('./de'));//direction for html
 });
 

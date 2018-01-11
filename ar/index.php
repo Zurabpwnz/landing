@@ -1,3 +1,4 @@
+<?php include '../init.php'; ?>
 <!doctype html>
 <html>
 <head>
@@ -9,10 +10,9 @@
           content="Join TravelChain Token Sale. Starts on December 15, 14:00 UTC. — We create smart traveling ecosystem.
            TravelChain is an open source blockchain managed by all market players.">
     <meta name="yandex-verification" content="7a3dae47a050cfac" />
-    <link href="/css/style.15122017.css" rel="stylesheet" type="text/css">
+    <link href="/css/style.15122017.css?version=1.1" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
-
     <meta property="og:site_name" content="TravelChain">
     <meta property="og:title" content="TravelChain — Decentralized Data Exchange for the Travel Industry" />
     <meta property="og:description" content="Join TravelChain Token Sale. Starts on December 15, 14:00 UTC. — We create smart traveling ecosystem.
@@ -64,7 +64,7 @@
         }
     </style>
 </head>
-<body data-lang="ZH">
+<body data-lang="EN" class="larg-ar">
 <!-- Google Tag Manager (noscript) -->
 <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQRXHZ5"
@@ -95,29 +95,29 @@
 
                     <div class="social">
                         <ul class="nav-link-more">
-                            <li><a href="WhitePaper.pdf" target="_blank" class="files-gtag-event">白皮书</a></li>
-                            <li><a href="Overview.pdf" target="_blank" class="files-gtag-event">概要</a></li>
-                            <li><a href="Business-plan.pdf" target="_blank" class="files-gtag-event">商业计划</a>
+                            <li><a href="WhitePaper.pdf" target="_blank" class="files-gtag-event">ورقة بيضاء</a></li>
+                            <li><a href="Overview.pdf" target="_blank" class="files-gtag-event">نظرة عامة</a></li>
+                            <li><a href="Business-plan.pdf" target="_blank" class="files-gtag-event">خطة العمل</a>
                             </li>
-                            <li><a href="technical_whitepaper.pdf" target="_blank" class="files-gtag-event">技术白皮书</a></li>
+                            <li><a href="technical_whitepaper.pdf" target="_blank" class="files-gtag-event">الورقة البيضاء التقنية</a></li>
                         </ul>
                     </div>
                     <div class="user">
                         <!--<a class="btn btn-border-blue" data-toggle="modal" data-target="#modalregistration">Регистрация</a>-->
-                        <a href="https://wallet.travelchain.io" class="btn btn-red">購買令牌</a>
+                        <a href="https://wallet.travelchain.io"  class="btn btn-red">شراء الرموز المميزة</a>
                     </div>
 
                     <!--<div class="lang padding-block"><a class="link active">Ru</a> / <a class="link" href="/">En</a>-->
                     <div class="lang lang-dropdown padding-block">
                         <div class="box-dropdown box-lang  box-inline"><a class="btn href-dropdown">
-                            <div class="change-value box-inline">Chi</div>
+                            <div class="change-value box-inline">Ara</div>
                             <i class="caret"></i></a>
                             <div class="menu-dropdown">
                                 <a href="/" >Eng</a>
-                                <a href="/ru" >Rus</a>
                                 <a href="/kr" >Kor</a>
                                 <a href="/jp" >Jpn</a>
-                                <a href="/ar" >Ara</a>
+                                <a href="/zh" >Chi</a>
+                                <a href="/ru" >Rus</a>
                                 <a href="/es" >Spa</a>
                                 <a href="/de" >Deu</a>
                             </div>
@@ -143,7 +143,7 @@
             <div class="video">
               <a class="btn btn-play" data-width="100%" data-height="340"
                  data-iframe="https://www.youtube.com/embed/_pECUlD2LXo"><i
-                      class="icon icon-play"></i></a>
+                  class="icon icon-play"></i></a>
               <div class="video-image"
                    style="background-image: url('https://img.youtube.com/vi/_pECUlD2LXo/0.jpg')"></div>
 
@@ -215,21 +215,21 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal"><i class="icon icon-middle icon-close"></i></button>
-          <div class="text text-center">限时折扣15%</div>
+          <div class="text text-center">الخصم 15% متاح خلال الوقت المحدّد </div>
           <div class="form-subs">
           <form class="subscribe-form">
             <div class="box-control">
               <div class="box-icon-left"><i class="icon icon-middle icon-mail"></i></div>
-              <input type="text" class="form-control subscribe-modal-input" placeholder="您的电子邮箱">
+              <input type="text" class="form-control subscribe-modal-input" placeholder="البريد الإلكتروني الخاص بك">
 
             </div>
 
             <div class="box-btn subscribe-modal">
-              <a class="btn btn-red btn-lg"><span class="middle">購買令牌</span></a>
+              <a class="btn btn-red btn-lg"><span class="middle">شراء الرموز المميزة</span></a>
             </div>
           </form>
             <div class="text-info">
-              <a href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">订阅点击按钮，您同意处理您的个人信息并赞同保密政策</a>
+              <a href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">من خلال النقر على الزر، فإنك توافق على معالجة بياناتك الشخصية وتوافق على سياسة الخصوصية</a>
             </div>
           </div>
         </div>
@@ -251,13 +251,13 @@
 <section class="section section-intro">
     <div class="container" data-aos="flip-up">
         <div class="padding-block">
-            <h1 class="lite" data-aos="fade-up" data-aos-delay="200">旅游市场分散数据交换平台</h1>
-            <div class=" name-block white" data-aos="fade-up" data-aos-delay="300">代币的销售现已开放
-                <p class="livenowsubtext">推薦的瀏覽器是Google Chrome</p>
+            <h1 class="lite" data-aos="fade-up" data-aos-delay="200"> المنصة اللامركزية لتبادل <br/>  البيانات المخصصة لسوق السياحة </h1>
+            <div class=" name-block white" data-aos="fade-up" data-aos-delay="300">بيع رمزية مفتوحة!
+                <p class="livenowsubtext">Recommended browser is Google Chrome</p>
             </div>
             <a class="btn btn-review " data-aos="fade-up" data-aos-delay="400" data-toggle="modal"
                data-target="#exampleModal">
-                90秒看懂什么是TravelChain
+                ما هو TravelChain في 90 ثانية
                 <div class="box-icon"><i class="icon icon-play"></i></div>
             </a>
         </div>
@@ -266,10 +266,9 @@
             <div class="point"></div>
         </div>
 
-
         <div class="intro-down-info block-flex-top">
             <div class="block-progress-bar">
-                <div class="text">Total funds raised (usd equivalent): </div>
+                <div class="text">Total funds raised (usd equivalent):</div>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="30"
                          aria-valuemin="0" aria-valuemax="100" style="width:110px">
@@ -280,16 +279,15 @@
                     </div>
                 </div>
             </div>
-
             <div class="form-subs">
-                <div class="text">抓紧获取代币购买15%折扣</div>
+                <div class="text">قم بالتسجيل لمعرفة كيفية الحصول على الرموز المميزة بخصم قدره 15%</div>
                 <form class="subscribe-form">
                     <div class="box-control">
                         <div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>
-                        <input type="text" class="form-control subscribe-input" placeholder="您的电子邮箱">
-                        <div class="box-btn subscribe" data-lang="zh">
+                        <input type="text" class="form-control subscribe-input" placeholder="بريدك الإلكتروني">
+                        <div class="box-btn subscribe" data-lang="ar">
                             <a class="btn btn-red btn-lg" data-toggle="modal"><span
-                                class="hide-mobile">加入</span><i
+                                class="hide-mobile">الاشتراك</span><i
                                 class="icon icon-air-white show-mobile"></i></a>
                         </div>
                     </div>
@@ -359,17 +357,112 @@
             </div>
         </div>
         <div class="text-info">
-            <a  href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf"
-                target="_blank" class="link link-underline">订阅点击按钮, 您同意处理您的个人信息并赞同保密政策</a>
+            <a  href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline"> من خلال النقر على الزر، فإنك توافق على معالجة بياناتك الشخصية وتوافق على سياسة الخصوصية</a>
         </div>
 
-        <div class="box-chat">
-            <div class="text-chat text-center">中国社区微信</div>
-            <div class="box-img">
-                <img width="70" height="auto" src="/images/QR.jpg" alt="">
-            </div>
-        </div>
 
+
+
+
+
+
+
+
+
+
+        <!--<div class="intro-down flexible padding-block" style="justify-content: space-around;">-->
+            <!--<div class="cash">-->
+                <!--<div class="label italic">مجموع ما تم جذبه مقابل عمليات ما قبل بيع الرموز المميزة:-->
+                   <!--دولار أمريكي-->
+                <!--</div>-->
+                <!--<div class="value">$-->
+                    <!--<div class="number">606</div>-->
+                    <!--<div class="number">936</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="form-subs">-->
+                <!--<div class="text">قم بالتسجيل لمعرفة كيفية الحصول على الرموز المميزة بخصم قدره 15%</div>-->
+                <!--<form class="subscribe-form">-->
+                    <!--<div class="box-control">-->
+                        <!--<div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>-->
+                        <!--<input type="text" class="form-control subscribe-input" placeholder="بريدك الإلكتروني">-->
+                        <!--<div class="box-btn subscribe">-->
+                            <!--<a class="btn btn-red btn-lg" data-toggle="modal"><span-->
+                                    <!--class="hide-mobile">الاشتراك</span><i-->
+                                    <!--class="icon icon-air-white show-mobile"></i></a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</form>-->
+
+                <!--<div class="text-info">-->
+                    <!--<a  href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline"> من خلال النقر على الزر، فإنك توافق على معالجة بياناتك الشخصية وتوافق على سياسة الخصوصية</a>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="timer">-->
+                <!--<div class="label italic">بيع الرموز المميزة مفتوح!</div>-->
+
+                <!--<div class="tokenbuybutton" style="display: none; margin-top: 1em;">-->
+                    <!--<a href="https://wallet.travelchain.io" class="btn btn-red">شراء الرموز المميزة</a>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="block-social">-->
+            <!--<div class="social-icon">-->
+                <!--<a class="link" href="https://Travelchainico.slack.com" target="_blank"><i-->
+                    <!--class="icon icon-slack icon-middle"></i></a>-->
+                <!--<a class="link" href="https://t.me/travelchain" target="_blank"><i-->
+                    <!--class="icon icon-tel icon-middle"></i></a>-->
+                <!--<a class="link" href="https://www.youtube.com/channel/UC0RykikaWqYQcBf2hp2E7qw" target="_blank"><i-->
+                    <!--class="icon icon-yt icon-middle"></i></a>-->
+                <!--<a class="link" href="https://medium.com/@travelchain" target="_blank"><i-->
+                    <!--class="icon icon-medium icon-middle"></i></a>-->
+                <!--<a class="link" href="https://facebook.com/travelchain/" target="_blank"><i-->
+                    <!--class="icon icon-fb icon-middle"></i></a>-->
+                <!--<a class="link" href="https://twitter.com/travelchain_ico" target="_blank"><i-->
+                    <!--class="icon icon-tw icon-middle"></i></a>-->
+                <!--<a class="link" href="https://www.instagram.com/travelchain_ico/" target="_blank"><i-->
+                    <!--class="icon icon-insta icon-middle"></i></a>-->
+                <!--<a class="link" href="https://steemit.com/@travelchain" target="_blank"><i-->
+                    <!--class="icon icon-steemit icon-middle"></i></a>-->
+                <!--<a class="link" href="https://bitcointalk.org/index.php?topic=2363991.new#new" target="_blank"><i-->
+                    <!--class="icon icon-bit icon-middle"></i></a>-->
+                <!--<a class="link" href="https://github.com/TravelChain" target="_blank"><i-->
+                    <!--class="icon icon-github icon-middle"></i></a>-->
+                <!--<a class="link" href="https://www.linkedin.com/company/travelchain/" target="_blank"><i-->
+                    <!--class="icon icon-link-hed icon-middle"></i></a>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="rating-wrapper block-flex-center" data-aos="fade-up" data-aos-delay="100">-->
+            <!--<div class="rating-cnt rating-cnt-3" style="background: #ffffff" data-aos="fade-up" data-aos-delay="200">-->
+                <!--<div class="rating-imgs">-->
+                    <!--<img src="/images/img-logo-0.png" alt="">-->
+                <!--</div>-->
+                <!--<span class="rating-count" style="color: #66cd22">STABLE</span>-->
+            <!--</div>-->
+            <!--<div class="rating-cnt rating-cnt-1" data-aos="fade-up" data-aos-delay="100">-->
+                <!--<div class="rating-imgs">-->
+                    <!--<img src="/images/logo-img-1.png" alt="">-->
+                <!--</div>-->
+                <!--<span class="rating-count">4.5</span>-->
+            <!--</div>-->
+            <!--<div class="rating-cnt rating-cnt-1-new" data-aos="fade-up" data-aos-delay="100">-->
+                <!--<div class="rating-imgs">-->
+                    <!--<img src="/images/Tokendesknew-min.png" alt="">-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="rating-cnt rating-cnt-2" data-aos="fade-up" data-aos-delay="100">-->
+                <!--<div class="rating-imgs">-->
+                    <!--<img src="/images/logo-img-2.png" alt="">-->
+                <!--</div>-->
+                <!--<span class="rating-count">4.6</span>-->
+            <!--</div>-->
+            <!--<div class="rating-cnt rating-cnt-3" data-aos="fade-up" data-aos-delay="200">-->
+                <!--<div class="rating-imgs">-->
+                    <!--<img src="/images/logo-img-3.png" alt="">-->
+                <!--</div>-->
+                <!--<span class="rating-count">97/100</span>-->
+            <!--</div>-->
+        <!--</div>-->
     </div>
 </section>
 <section class="section section-about">
@@ -377,12 +470,12 @@
         <div class="about-more" data-aos="flip-up">
             <div class="padding-block">
                 <div class="">
-                    <div class="name-box ">了解更多关于我们的信息：</div>
+                    <div class="name-box ">لمعرفة المزيد عنا:</div>
                     <ul class="nav-link-more">
-                        <li><a href="WhitePaper.pdf" target="_blank" class="files-gtag-event">白皮书</a></li>
-                        <li><a href="Overview.pdf" target="_blank" class="files-gtag-event">概要</a></li>
-                        <li><a href="Business-plan.pdf" target="_blank" class="files-gtag-event">商业计划</a></li>
-                        <li><a href="technical_whitepaper.pdf" target="_blank" class="files-gtag-event">技术白皮书</a></li>
+                        <li><a href="White.Paper.pdf" target="_blank" class="files-gtag-event">ورقة بيضاء</a></li>
+                        <li><a href="Overview.pdf" target="_blank" class="files-gtag-event">نظرة عامة</a></li>
+                        <li><a href="Business-plan.pdf" target="_blank" class="files-gtag-event">خطة العمل</a></li>
+                        <li><a href="technical_whitepaper.pdf" target="_blank" class="files-gtag-event">الورقة البيضاء التقنية</a></li>
                     </ul>
                 </div>
             </div>
@@ -392,7 +485,7 @@
 <section class="section section-public">
     <div class="container padding-block">
         <div class="section-text text-center">
-            <div class="name-block" data-aos="fade-up">Media Publications about TravelChain</div>
+            <div class="name-block" data-aos="fade-up">المنشورات حول ترافلشين</div>
         </div>
         <div class="player">
             <div class="player-line " data-aos="zoom-out-up">
@@ -421,21 +514,23 @@
 <section class="section section-data">
     <div class="container">
         <div class="data-text">
-            <div class="name-block" data-aos="fade-up">TravelChain — 是一个公开代码区块链，由市场所有参与者进行管理。</div>
-            <div class="block-text" data-aos="fade-up">用户安装应用程序或微件，自行选择收集数据及其类型。 </div>
+            <div class="name-block" data-aos="fade-up">TravelChain — هي عبارة عن سلسلة كتل مفتوحة المصدر تدار من قبل جميع المشاركين في السوق،
+
+            </div>
+            <div class="block-text" data-aos="fade-up">حيث يقوم المستخدم بتثبيت التطبيق أو البرنامج ويحدد بنفسه ما هي البيانات وفي أي شكل يمكن جمعها</div>
         </div>
         <div class="data-cloud">
             <div class="data-item flexible center" data-aos="fade-right" data-aos-delay="50">
-                <div class="name free">应用程序用户数据</div>
+                <div class="name free">بيانات المستخدم من التطبيقات</div>
                 <div class="box-icon"><i class="icon icon-app"></i></div>
             </div>
             <div class="data-item flexible center" data-aos="fade-right" data-aos-delay="100">
-                <div class="name free">网络服务商数据</div>
+                <div class="name free">بيانات خدمات الويب </div>
                 <div class="box-icon"><i class="icon icon-desktop"></i></div>
             </div>
             <div class="data-item right flexible center" data-aos="fade-left" data-aos-delay="150">
                 <div class="box-icon"><i class="icon icon-db"></i></div>
-                <div class="name free">旅行社和集成商数据</div>
+                <div class="name free">بيانات وكالات السفر والمُجمعات</div>
             </div>
             <!--<div class="data-cloud-item" data-aos="zoom-in">-->
                 <!--<div id="cloud"></div>-->
@@ -447,7 +542,7 @@
             </div>
         </div>
         <div class="data-text" data-aos="flip-down">
-            <div class="data-text-save italic">数据会以开放、非个人化或加密形式保存，提供一次性访问权限。</div>
+            <div class="data-text-save italic">يمكن تخزين البيانات بشكل مفتوح، غير شخصية أو بشكل مشفر مع توفير إمكانية الوصول لمرة واحدة</div>
         </div>
     </div>
 </section>
@@ -455,12 +550,12 @@
   <div class="container">
     <div class="padding-block">
       <div class="section-text text-md text-center">
-        <div class="name-block" data-aos="fade-up">TravelChain的使用将获得双赢 – 企业和终端客户都将受益
+        <div class="name-block" data-aos="fade-up">يعتبر استخدام TravelChain مفيد للجميع — سواء بالنسبة لرجال الأعمال وللمستخدمين النهائيين على حد السواء
         </div>
       </div>
 
       <div class="box-section">
-        <div class="name-section text-center">旅行者的TravelChain</div>
+        <div class="name-section text-center">TravelChain للمسافرين</div>
         <div class="block-journey block-flex-top">
           <div class="box-journey" data-aos="fade-right" data-aos-delay="50">
             <div class="box-img">
@@ -471,10 +566,12 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                个人信息货币化
+                تسييل<br/>
+                البيانات الشخصية
+
               </div>
               <div class="box-text">
-                每次授权使用信息，用户都能获得代币，可用于兑换现金或旅游服务。
+                مقابل كل إذن لاستخدام البيانات، يحصل المستخدم على الرموز المميزة التي يمكن استبدالها بالمال أو للحصول على خدمة سياحية
               </div>
             </div>
           </div>
@@ -487,37 +584,41 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                计划行程如UBER叫车一样简单
+                تنظيم رحلة أمر بسيط للغاية<br/>
+                مثل استدعاء أوبير
               </div>
               <div class="box-text">
-                服务商知道用户去过哪些国家，喜欢什么菜，从事什么运动。在这些数据基础上，个性化旅游将如模型一样进行拼接。
+                وأصبحت الخدمات تعرف بالفعل في أي البلدان كان المستخدم متواجداً، أي نوع من المأكولات يحب، وأي نوع من الرياضة يمارس. وبناء على هذه البيانات، سيتم تشكيل الرحلة الشخصية كمصمم
               </div>
             </div>
           </div>
         </div>
-        <div class="text-section text-section-padding text-center"><span class="bold italic">例如</span>
+        <div class="text-section text-section-padding text-center"><span class="bold italic">على سبيل المثال</span>
         </div>
         <div class="box-lesson block-flex-center">
           <div class="lesson lesson-left">
-            酒店看到用户准备去马德里，就知道他是素食主义者，练习瑜伽
+            يرى الفندق أن المستخدم يعتزم الذهاب إلى مدريد،
+            وهو على علم بأنه نباتي ويمارس اليوغا.
 
           </div>
           <div class="lesson lesson-right">
-            向他发出推荐：含素食早餐的房间，早餐含在房费中。酒店旁边就有一个瑜伽中心。
+            ويرسل له العرض: غرفة مع وجبة إفطار نباتية،
+            والتي هي بالفعل مدرجة ضمن التكلفة. في الفندق بجوار مركز اليوغا.
+
           </div>
         </div>
 
       </div>
 
       <div class="box-section">
-        <div class="name-section text-center">企业的TravelChain</div>
+        <div class="name-section text-center">TravelChain للأعمال</div>
         <div class="block-business block-flex-top" data-aos="flip-up">
           <div class="box-business">
             <div class="box-icon text-center">
               <i class="icon icon-middle icon-1"></i>
             </div>
             <div class="text text-center">
-              广告支出节省和客户决策早期的接触
+              التوفير على الإعلان والقدرة على الوصول إلى العملاء في مرحلة مبكرة من مرحلة اتخاذ القرار
             </div>
           </div>
           <div class="box-business">
@@ -525,7 +626,7 @@
               <i class="icon icon-middle icon-2"></i>
             </div>
             <div class="text text-center">
-              人工智能会在用户意识到之前说出他的意愿。
+              سوف يفصح الذكاء الاصطناعي عن رغبة المستخدم قبل أن يتكلم هو عنها
             </div>
           </div>
           <div class="box-business">
@@ -533,21 +634,24 @@
               <i class="icon icon-middle icon-3"></i>
             </div>
             <div class="text text-center">
-              公司不再需要为大众广告投入资金。而只是点击几次鼠标作出个性化方案。
+              ستتوقف الشركات عن إنفاق المال على الدعاية الضخمة. وسوف تقدم عرضاً شخصياً فقط بعدد قليل من النقرات
 
 
             </div>
           </div>
         </div>
-        <div class="text-section text-section-padding text-center"><span class="bold italic">例如</span>
+        <div class="text-section text-section-padding text-center"><span class="bold italic">على سبيل المثال</span>
         </div>
         <div class="box-lesson block-flex-center">
           <div class="lesson lesson-left">
-            酒店看到用户准备去马德里，就知道他是素食主义者，练习瑜伽
+            يرى الفندق أن المستخدم يعتزم الذهاب إلى مدريد،
+            وهو على علم بأنه نباتي ويمارس اليوغا.
 
           </div>
           <div class="lesson lesson-right">
-            向他发出推荐：含素食早餐的房间，早餐含在房费中。酒店旁边就有一个瑜伽中心。
+            ويرسل له العرض: غرفة مع وجبة إفطار نباتية،
+            والتي هي بالفعل مدرجة ضمن التكلفة. في الفندق بجوار مركز اليوغا.
+
           </div>
         </div>
         <div class="block-journey block-flex-top">
@@ -560,13 +664,13 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                拒绝在线代理手续费，从而提高利润
+                زيادة الأرباح عن طريق رفض تكليف وكالات الإنترنت
               </div>
               <div class="box-text">
-                公司不用向中介缴纳高额费用，直接向客户出售服务。
+                سوف تكون الشركات قادرة على بيع خدماتها مباشرة للعملاء، دون دفع عمولات عالية للوسطاء.
               </div>
               <div class="box-text bold italic">
-                现在公司向中介支付30%的费用，但对此束手无策。
+                في الوقت الحاضر تدفع الشركات ما يصل إلى 30% عمولات للوسطاء وليس لديها وسيلة للخروج من هذا الوضع
               </div>
             </div>
           </div>
@@ -579,16 +683,16 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                获得意见领袖的建议
+                الحصول على توصيات من رواد استطلاعات الرأي
               </div>
               <div class="box-text">
-                服务商会分析潜在客户，确认有众多跟随者的高端客户人群。
+                وسوف تكون الخدمات قادرة على تحليل العملاء المحتملين وتحديد الأشخاص الذين لديهم مكانة عالية والذين لديهم الكثير الأتباع.
               </div>
               <div class="box-text bold italic">
-                例如
+                على سبيل المثال
               </div>
               <div class="box-text">
-                Instagramm上拥有10万订阅用户的人预定了酒店。酒店给他折扣或特价 – 借此获得他的评论，这对成千上万人的想法都会产生影响。
+                تم حجز غرفة في فندق من قبل شخص لديه أكثر من 100000 متابع على انستغرام.  يعمل الفندق على تقديم خصم أو عرض خاص — وبالتالي يحصل على تقييم من شأنه أن يؤثر على آراء الآلاف من الناس.
               </div>
             </div>
           </div>
@@ -596,15 +700,15 @@
       </div>
 
       <div class="box-section">
-        <div class="name-section text-center">开发人员的TravelChain</div>
-        <div class="text-section text-section-padding text-center">开发人员可以将TravelChain用于自己的项目和实验。
+        <div class="name-section text-center">TravelChain للمطورين</div>
+        <div class="text-section text-section-padding text-center">يمكن للمطورين استخدام TravelChain لمشاريعهم وتجاربهم.
         </div>
-        <div class="text-section text-center">同时将筛选信息出售给公司和广告平台。
+        <div class="text-section text-center">وأيضاً بيع المعلومات التي تمت معالجتها غلى الشركات والمنصات الإعلانية.
         </div>
         <div class="text-section text-section-padding text-center">
-          下面就是几个服务商的例子，都可以在TravelChain基础上实现。
+          وفيما يلي بعض الأمثلة على الخدمات التي يمكن إنشاؤها على أساس TravelChain
         </div>
-        <div class="text-section text-section-padding text-center"><span class="bold italic">例如</span>
+        <div class="text-section text-section-padding text-center"><span class="bold italic">على سبيل المثال</span>
         </div>
         <div id="demo-carousel" class="box-flip" data-aos="flip-up">
 
@@ -613,7 +717,7 @@
               <li>
                 <img src="/images/33-k.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">地图应用程序
+                  <div class="box-info-name">تطبيقات الخرائط
 
                   </div>
                   <!--<div class="box-info-text"> Карты с нужными пользователю фильтрами. Это могут быть-->
@@ -624,7 +728,7 @@
               <li>
                 <img src="/images/44-p.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">旅行指南:
+                  <div class="box-info-name">الأدلاء السياحيين
 
                   </div>
                   <!--<div class="box-info-text"> Маршруты, составленные из положительных отзывов ваших друзей и основанные-->
@@ -635,7 +739,7 @@
               <li>
                 <img src="/images/55-y.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">通知系统
+                  <div class="box-info-name">نظم الإخطار
 
                   </div>
                   <!--<div class="box-info-text">Например, уведомления о том, что можно арендовать мотоцикл через дорогу от-->
@@ -647,7 +751,7 @@
               <li>
                 <img src="/images/22-v.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">微件
+                  <div class="box-info-name">التطبيقات المصغرة
 
                   </div>
                   <!--<div class="box-info-text">Визуальные элементы отображающие нужную пользователю информацию. От погоды-->
@@ -658,7 +762,7 @@
               <li>
                 <img src="/images/66-yz.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">专业报价
+                  <div class="box-info-name">العروض المتخصصة
                   </div>
                   <!--<div class="box-info-text">Система собирает и обрабатывает информацию о пользователях, а потому-->
                     <!--предлагает оффер, включающий все ключевые предпочтения пользователя, в то время, когда он наиболее-->
@@ -669,8 +773,8 @@
               <li>
                 <img src="/images/ai.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">人工智能服务</div>
-                  <div class="box-info-text">例如Aigents服务，您在社交网络上的活动会找出跟随者、权威人士、志趣相投的人。
+                  <div class="box-info-name">خدمات-AI </div>
+                  <div class="box-info-text">خدمة Aigents، استناداً إلى النشاط الخاص بك في الشبكات الاجتماعية، ويحدد متابعيك والأشخاص المحببين إليك والأشخاص ذوي المصالح المتشابهة
                   </div>
                 </div>
               </li>
@@ -906,15 +1010,15 @@
 <section class="section section-player">
     <div class="container padding-block">
         <div class="section-text text-center">
-            <div class="name-block" data-aos="fade-up">行业大型从业者不断加入到我们的行列</div>
-            <div class="block-text " data-aos="fade-up">我们合作伙伴超过3百万的用户将整合至TravelChain生态系统。</div>
+            <div class="name-block" data-aos="fade-up">انضم إلينا كبار اللاعبين في هذه الصناعة</div>
+            <div class="block-text " data-aos="fade-up">وسيتم دمج أكثر من 3000000 مستخدم لشركائنا في النظام البيئي TravelChain</div>
         </div>
         <div class="player">
             <div class="player-line block-flex-center" data-aos="zoom-out-up">
                 <div  class="box-img img-pavlin">
                     <img src="/images/PavlinTravel.png" alt="">
                 </div>
-                <div  class="box-img">
+                <div class="box-img">
                     <img src="/images/turister-eng.121217.png" alt="">
                 </div>
                 <div class="box-img">
@@ -925,8 +1029,8 @@
                 </div>
             </div>
             <div class="box-btn" data-aos="fade-up" data-aos-delay="100">
-                <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">購買令牌</a>-->
-                <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">購買令牌</a>
+                <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">شراء الرموز المميزة</a>-->
+                <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">شراء الرموز المميزة</a>
             </div>
         </div>
     </div>
@@ -934,8 +1038,8 @@
 <section class="section section-stage-web">
     <div class="container">
       <div class="text-stage padding-block">
-        <div class="name-block" data-aos="fade-up">TravelChain — 也是旅游行业移动和网络应用程序设计平台。</div>
-        <div class="block-text" data-aos="fade-up" data-aos-delay="50">类似的服务商已经存在了— Mapala，国际旅行者社区，基于TravelChain的服务商内容源头。</div>
+        <div class="name-block" data-aos="fade-up">TravelChain — هي أيضاً منصة لإنشاء تطبيقات الهاتف المحمول والويب الخاصة بمجال صناعة السياحة</div>
+        <div class="block-text" data-aos="fade-up" data-aos-delay="50">هذه الخدمة موجودة بالفعل — Mapala، الجمعية الدولية للمسافرين ومصدر للمحتوى الخاص بالخدمات القائمة على أساس TravelChain</div>
       </div>
       <div class="">
         <div class="box-mapala" data-aos="flip-left" data-aos-delay="100">
@@ -946,9 +1050,9 @@
               </div>
             </div>
             <div class="box-text-info" data-aos="fade-up" data-aos-delay="200">
-              <div class="text" >Mapala.net — 是一个旅行博客平台，使用区块链运行。我们在2017年初创建，用户人数每天不断上涨。</div>
+              <div class="text" >Mapala.net — هي منصة لمدونات السفر، تعمل على أساس سلاسل الكتل. لقد قمنا بإنشائها في أوائل العام 2017، وينمو عدد المستخدمين كل يوم.</div>
               <div class="text">
-                旅行者使用自己的见闻将数据库不断充实，并以此获得奖金和经验分 – 获得免费旅行的机会。
+                يعمل المسافرين على ملء قاعدة المعرفة، ويحصلون مقابل ذلك على الأموال ونقاط الخبرة — ويحصلون على فرصة للسفر مجاناً
               </div>
             </div>
           </div>
@@ -960,10 +1064,10 @@
     <div class="container padding-block">
         <div class="text-distribution">
             <div class="name-block" data-aos="fade-up">
-                TravelToken — 智能旅游生态系统的驱动力
+                TravelToken — هو وقود النظام البيئي للسفر الذكي
             </div>
-            <div class="block-text aos-init aos-animate text-center" data-aos="fade-up" data-aos-delay="50">
-                用户自行决定如何使用代币
+            <div class="block-text aos-init aos-animate text-center" data-aos="fade-up" data-aos-delay="50">Пيختار
+                المستخدمون بأنفسهم كيفية استخدام الرموز المميزة
             </div>
         </div>
         <div class="box-distribution-step block-flex-top">
@@ -971,48 +1075,49 @@
                 <div class="box-icon">
                     <i class="icon icon-middle icon-buy"></i>
                 </div>
-                <div class="name">智能数据购买</div>
-                <div class="text">公司可以从人工智能服务商获得筛选数据，支付TravelToken作为付款。
+                <div class="name">شراء البيانات الذكية</div>
+                <div class="text">يمكن للشركات الحصول على بيانات معالجة من خدمة-AI من خلال نقل TravelToken كدفع لقيمة
+                    الخدمة.
                 </div>
             </div>
             <div class="box-step" data-aos="fade-left" data-aos-delay="150">
                 <div class="box-icon">
                     <i class="icon icon-middle icon-pass"></i>
                 </div>
-                <div class="name">数据传输</div>
+                <div class="name">نقل البيانات</div>
                 <div class="text">
-                    用户通过网络服务商或应用程序可以和其他TravelChain参与者分享数据，并获得TravelToken作为回报。
-
-
+                    يمكن للمستخدمين تبادل البيانات مع أعضاء TravelChain الآخرين عبر خدمات الويب أو التطبيقات — والحصول
+                    على TravelToken بدلا عن ذلك.
                 </div>
             </div>
             <div class="box-step" data-aos="fade-left" data-aos-delay="250">
                 <div class="box-icon">
                     <i class="icon icon-middle icon-swap"></i>
                 </div>
-                <div class="name">数据交换</div>
-                <div class="text">服务商可以使用TravelToken，并使用访问密钥相互交换数据。
+                <div class="name">تبادل البيانات</div>
+                <div class="text">يمكن للخدمات استخدام TravelToken وتبادل البيانات مع بعضها البعض باستخدام مفاتيح الوصول
                 </div>
             </div>
         </div>
         <div class="text-distribution">
-            <div class="name-block" data-aos="fade-up" data-aos-delay="350">代币价格会随着用户数量和数据积累的增加而不断上升。
+            <div class="name-block" data-aos="fade-up" data-aos-delay="350">سوف ترتفع قيمة الرموز المميزة بزيادة عدد
+                المستخدمين والبيانات المتراكمة
             </div>
-            <!--<div class="block-text text-center white aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">-->
-            <!--Рост спроса на данные vs. Количество пользователей-->
-            <!--</div>-->
-
+            <!--<div class="block-text text-center white aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">Рост спроса на данные vs. Количество пользователей </div>-->
         </div>
         <div class="box-chart-line">
             <div class="box-img" data-aos="zoom-in" data-aos-delay="50">
                 <img class="" src="/images/enggraph.121217.png" alt="">
-                <!--<img class="show-mobile" src="images/1112.png" alt="">-->
             </div>
         </div>
 
         <div class="text-distribution date-distribution" data-aos="zoom-in" data-aos-delay="100">
-            <div class="name-block">693 000 000 TravelToken代币将于 <br/> 12月15日，在参与者中间进行分配</div>
-            <div class="block-text">代币销售将于2月15日14:00 (UTC)结束</div>
+            <div class="name-block">سيتم توزيع 693000000 من TravelToken بين المشاركين في عملية بيع الرموز بتاريخ 15
+                ديسمبر/ كانون الأول
+            </div>
+            <div class="block-text">سوف تنتهي عملية بيع الرموز بتاريخ 15 فبراير/ شباط في الساعة 14:00 (بالتوقيت
+                العالمي)
+            </div>
         </div>
         <div class="box">
             <div class="container ">
@@ -1021,11 +1126,11 @@
                         <ul class="nav">
                             <li class="active">
                                 <a href="#1a" data-toggle="tab" aria-expanded="true">
-                                    <div class="name-block">代币和基金</div>
+                                    <div class="name-block">توزيع الرموز المميزة</div>
                                 </a>
                             </li>
                             <li class=""><a href="#2a" data-toggle="tab" aria-expanded="false">
-                                <div class="name-block">分配</div>
+                                <div class="name-block"> والصناديق</div>
                             </a>
                             </li>
                         </ul>
@@ -1035,20 +1140,20 @@
                             <div class="box-chart-token block-flex-center" data-aos="zoom-in-down">
                                 <div class="box-sum ">
                                     <div class="item-sum">
-                                        <div class="name">相当于1千万美元</div>
-                                        <div class="text">硬上限</div>
+                                        <div class="name">ما يعادل 10 مليون دولار أمريكي</div>
+                                        <div class="text">الغطاء الصلب</div>
                                     </div>
                                     <div class="item-sum">
-                                        <div class="name">693 000 000</div>
-                                        <div class="text">代币销售</div>
+                                        <div class="name"> لـ 693000000</div>
+                                        <div class="text">رموز مخصصة للبيع</div>
                                     </div>
                                     <div class="item-sum">
-                                        <div class="name">相当于$0.0151</div>
-                                        <div class="text">代币价格</div>
+                                        <div class="name">ما يعادل 0،0151 دولار أمريكي</div>
+                                        <div class="text">سعر الرمز</div>
                                     </div>
                                     <div class="item-sum">
                                         <div class="name">BCH, ETH, BTC, ETC, LSK, LTC, NEO, ZEC, DASH, DOGE, WAVES</div>
-                                        <div class="text">输入货币</div>
+                                        <div class="text">عملة الدخول</div>
                                     </div>
                                 </div>
                                 <div class="block-chart ">
@@ -1063,7 +1168,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">33.00%</div>
-                                            <div class="text">代币销售</div>
+                                            <div class="text">بيع الرموز المميزة</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1072,7 +1177,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">30.00%</div>
-                                            <div class="text">开发基金</div>
+                                            <div class="text">صندوق التنمية</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1081,7 +1186,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">17.69%</div>
-                                            <div class="text">代币预售</div>
+                                            <div class="text">ما قبل بيع الرموز المميزة</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1090,7 +1195,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">13.80%</div>
-                                            <div class="text">团队</div>
+                                            <div class="text">الفريق</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1099,7 +1204,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">2.00%</div>
-                                            <div class="text">顾问</div>
+                                            <div class="text">الاستشاريون</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1108,7 +1213,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">1.51%</div>
-                                            <div class="text">早期投资者和创始人</div>
+                                            <div class="text">المستثمرين والمؤسسين المباشرين</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1117,7 +1222,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">1.00%</div>
-                                            <div class="text">奖金</div>
+                                            <div class="text">المكافآت</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1126,7 +1231,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">1.00%</div>
-                                            <div class="text">备用基金初始金额</div>
+                                            <div class="text"> الرصيد الافتتاحي للصندوق الاحتياطي</div>
                                         </div>
                                     </div>
                                 </div>
@@ -1136,20 +1241,20 @@
                             <div class="box-chart-token block-flex-center" data-aos="zoom-in-down">
                                 <div class="box-sum ">
                                     <div class="item-sum">
-                                        <div class="name">相当于1千万美元</div>
-                                        <div class="text">硬上限</div>
+                                        <div class="name">ما يعادل 10 مليون دولار أمريكي</div>
+                                        <div class="text">الغطاء الصلب</div>
                                     </div>
                                     <div class="item-sum">
-                                        <div class="name">693 000 000</div>
-                                        <div class="text">代币销售</div>
+                                        <div class="name"> لـ 693000000</div>
+                                        <div class="text">رموز مخصصة للبيع</div>
                                     </div>
                                     <div class="item-sum">
-                                        <div class="name">相当于$0.0151</div>
-                                        <div class="text">代币价格</div>
+                                        <div class="name">ما يعادل 0،0151 دولار أمريكي</div>
+                                        <div class="text">سعر الرمز</div>
                                     </div>
                                     <div class="item-sum">
                                         <div class="name">BCH, ETH, BTC, ETC, LSK, LTC, NEO, ZEC, DASH, DOGE, WAVES</div>
-                                        <div class="text">输入货币</div>
+                                        <div class="text">عملة الدخول</div>
                                     </div>
                                 </div>
 
@@ -1166,7 +1271,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">50.30%</div>
-                                            <div class="text">设计开发</div>
+                                            <div class="text">التطوير</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1175,7 +1280,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">21.70%</div>
-                                            <div class="text">市场营销</div>
+                                            <div class="text">التسويق</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1184,7 +1289,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">19.40%</div>
-                                            <div class="text">管理费用</div>
+                                            <div class="text">النفقات التشغيلية</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1193,7 +1298,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">6.70%</div>
-                                            <div class="text">开发人员社区</div>
+                                            <div class="text">مجتمع المطورين</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1202,7 +1307,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">1.90%</div>
-                                            <div class="text">法律服务</div>
+                                            <div class="text">الخدمات القانونية</div>
                                         </div>
                                     </div>
                                 </div>
@@ -1214,41 +1319,42 @@
         </div>
 
         <div class="box-btn text-center" data-aos="fade-up" data-aos-delay="100">
-            <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">購買令牌</a>-->
-            <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">購買令牌</a>
+
+            <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">شراء الرموز المميزة</a>-->
+            <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">شراء الرموز المميزة</a>
         </div>
     </div>
 </section>
-<section class="section section-roadmap">
+<section class="section section-roadmap roadmap-ara">
     <div class="container">
         <div class="text-roadmap padding-block">
-            <div class="name-block" data-aos="fade-right">项目发展蓝图</div>
+            <div class="name-block" data-aos="fade-right">خريطة الطريق للمشروع</div>
         </div>
         <div class="box-roadmap block-flex-center">
             <div class="box-item-roadmap" data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">
                 <div class="box-head">
                     <div class="box-number">1</div>
                     <div class="box-name">
-                        代币销售
+                        بيع الرموز المميزة
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">01.12.2017</div>
-                    <div class="text">目标：吸引 $10.000.000用于设计和开发TravelChain </div>
+                    <div class="name-date">ديسمبر/ كانون الأول من العام 2017</div>
+                    <div class="text">الهدف: جذب ما يصل إلى 10000000 دولار أمريكي لتصميم وتطوير TravelChain</div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages1"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>阶段</span>
+                            <span>المراحل</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages1">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>启动TravelChain测试</li>
-                                    <li> 启动TravelChain  MVP</li>
-                                    <li>组织TravelChain与行业代表整合工作组</li>
-                                    <li>代币销售</li>
+                                    <li> - تشغيل العينة الاختبارية من TravelChain</li>
+                                    <li>تشكيل فريق عمل حول إدخال TravelChain مع ممثلي الصناعة</li>
+                                    <li>تشكيل فريق عمل حول إدخال TravelChain مع ممثلي الصناعة</li>
+                                    <li>بيع الرموز</li>
                                 </ul>
                             </div>
                         </div>
@@ -1259,25 +1365,26 @@
                 <div class="box-head">
                     <div class="box-number">2</div>
                     <div class="box-name">
-                        TravelChain的启动准备
+                        الاستعداد لإطلاق عمل
+                        <br/> TravelChain
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">01.01.2018</div>
-                    <div class="text">目标：准备 TravelChain工作网络启动</div>
+                    <div class="name-date">يناير/ كانون الأول من العام 2018</div>
+                    <div class="text">الهدف: الاستعداد لإطلاق شبكة عمل TravelChain</div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages2"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>阶段</span>
+                            <span>المراحل</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages2">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>建立TravelChain平台旅游信息保存基本标准</li>
-                                    <li>区块研究(block-explorer)启动</li>
-                                    <li>TravelChain.io平台基础功能启动</li>
+                                    <li>إنشاء المعايير الأساسية لتخزين البيانات السياحية على منصة TravelChain</li>
+                                    <li> إطلاق مستكشف الكتل (block-explorer)</li>
+                                    <li>بدء تشغيل الميزة الأساسية على منصة TravelChain.io</li>
                                 </ul>
                             </div>
                         </div>
@@ -1288,26 +1395,26 @@
                 <div class="box-head">
                     <div class="box-number">3</div>
                     <div class="box-name">
-                        工作网络启动
+                        إطلاق شبكة العمل
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">01.02.2018</div>
-                    <div class="text">目标：为首批开发人员开放设计应用程序的功能，启动TravelChain工作网络
+                    <div class="name-date">فبراير/ شباط من العام 2018</div>
+                    <div class="text">الهدف: بدء تشغيل شبكة عمل، وإعطاء المطورين القدرة على إنشاء التطبيقات
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages3"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>阶段</span>
+                            <span>المراحل</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages3">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>初始模块建立</li>
-                                    <li>启动工作网络</li>
-                                    <li>上市</li>
+                                    <li>       تشكيل كتلة التكوين</li>
+                                    <li>بدء تشغيل شبكة العمل</li>
+                                    <li>الدخول إلى البورصة</li>
                                 </ul>
                             </div>
                         </div>
@@ -1321,26 +1428,28 @@
                 <div class="box-head">
                     <div class="box-number">4</div>
                     <div class="box-name">
-                        工具准备<br/> 信息收集
+                        إعداد أدوات <br/>  جمع
+                        المعلومات
+
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">2018年I-II 季度</div>
-                    <div class="text">目标：准备和启动信息收集工具</div>
+                    <div class="name-date">الربع الأول-الثاني من العام 2018</div>
+                    <div class="text">الهدف: تحضير وبدء عمل جامعي المعلومات</div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages4"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>阶段</span>
+                            <span>المراحل</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages4">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>Travelchain其他操作和插件应用</li>
-                                    <li> 集钱包和收集用户控制个人信息访问功能于一体的TravelChain移动应用</li>
-                                    <li>Chrome插件</li>
-                                    <li>合作伙伴网站应用JS微件</li>
+                                    <li>إدخال العمليات والمكونات الإضافية الخاصة بـ Travelchain</li>
+                                    <li>تطبيق الهاتف المحمول TravelChain مع المحفظة الوظيفية ومهام جمع وإدارة البيانات</li>
+                                    <li>إضافة مخصصة لغوغل كروم</li>
+                                    <li>التطبيق المصغر JS من أجل وضعها على مواقع الشركاء</li>
                                 </ul>
                             </div>
                         </div>
@@ -1351,26 +1460,27 @@
                 <div class="box-head">
                     <div class="box-number">5</div>
                     <div class="box-name">
-                        合作伙伴整合
+                        تكامل<br/> الشركاء
+
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">2018年2季度</div>
-                    <div class="text">目标：整合旅游经济领域战略合作伙伴
+                    <div class="name-date">الربع الثاني من العام 2018</div>
+                    <div class="text">الهدف: دمج الشركاء الاستراتيجيين من القطاع السياحي في الاقتصاد
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages5"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>阶段</span>
+                            <span>المراحل</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages5">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>按照合作伙伴需求扩大本体</li>
-                                    <li>合作伙伴微件应用</li>
-                                    <li>合作伙伴深入整合</li>
+                                    <li>التوسع في الأنطولوجيا بناء على طلبات الشركاء</li>
+                                    <li>تضمين التطبيقات المصغرة في مواقع الشركاء</li>
+                                    <li>التكامل العميق للشركاء</li>
                                 </ul>
                             </div>
                         </div>
@@ -1381,25 +1491,25 @@
                 <div class="box-head">
                     <div class="box-number">6</div>
                     <div class="box-name">
-                        建立开发人员社区
+                        إنشاء مجتمع<br/>  المطورين
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">2018年2季度</div>
-                    <div class="text">目标：为准备在现场项目上使用TravelChain，或开发新项目的开发人员创建社区。
+                    <div class="name-date">الربع الثاني من العام 2018</div>
+                    <div class="text">الهدف خلق مجتمع من المطورين على استعداد لإدخال TravelChain في المشاريع النهائية، أو إنشاء المشاريع الخاصة بهم.
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages6"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>阶段</span>
+                            <span>المراحل</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages6">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>建立更加丰富的文档</li>
-                                    <li>建立开发人员社区</li>
+                                    <li>إنشاء وثائق موسعة</li>
+                                    <li>خلق مجتمع من المطورين</li>
                                 </ul>
                             </div>
                         </div>
@@ -1412,27 +1522,27 @@
                 <div class="box-head">
                     <div class="box-number">7</div>
                     <div class="box-name">
-                        代币分配和关键群体
+                       وتحديد الكتلة الحرجة <br/>   توزيع العملات
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">2018年2-3季度</div>
-                    <div class="text">目标：通过生态系统项目，开发人员团队和活跃用户启动代币分配，聚集关键参与者群体。
+                    <div class="name-date">الربع الثاني والثالث من العام 2018</div>
+                    <div class="text">الهدف: بدء توزيع الرمز المميز من خلال مشاريع النظم الإيكولوجية، وفرق المطورين والمستخدمين النشيطين
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages7"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>阶段</span>
+                            <span>المراحل</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages7">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>启动数字发展基金
+                                    <li> إطلاق صندوق العمل
                                     </li>
-                                    <li>启动发行</li>
-                                    <li>聚集10万用户</li>
+                                    <li> طرح الإصدار</li>
+                                    <li> جمع 100 ألف مستخدم</li>
                                 </ul>
                             </div>
                         </div>
@@ -1443,24 +1553,24 @@
                 <div class="box-head">
                     <div class="box-number">8</div>
                     <div class="box-name">
-                        基础设施放大
+                       الخاصة بتوسيع النطاق<br/>   البنية التحتية
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">2019年1-2季度</div>
-                    <div class="text">目标：准备TravelChain基础设施放大方案。
+                    <div class="name-date">الربع الأول والثاني من العام 2019 </div>
+                    <div class="text">الهدف: إنشاء وإدخال حلول البنية التحتية لتوسيع نطاق النظام الإيكولوجي
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages8"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>阶段</span>
+                            <span>المراحل</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages8">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>建立和应用生态系统基础设施放大方案</li>
+                                    <li>إنشاء وإدخال حلول البنية التحتية لتوسيع نطاق النظام الإيكولوجي</li>
                                 </ul>
                             </div>
                         </div>
@@ -1470,13 +1580,12 @@
             <div class="box-item-roadmap" data-aos="fade-left" data-aos-delay="600" data-aos-duration="800">
                 <div class="box-head">
                     <div class="box-btn text-center">
-
-                        <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale"><span class="middle">購買令牌</span></a>-->
-                        <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io"><span class="middle">購買令牌</span></a>
+                        <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale"><span class="middle">شراء الرموز المميزة</span></a>-->
+                        <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io"><span class="middle">شراء الرموز المميزة</span></a>
                     </div>
                 </div>
                 <div class="box-body box-body-last">
-                    <div class="text text-center">获得TravelChain最新资讯</div>
+                    <div class="text text-center">المتعلقة بـ TravelChain <br/> كن أول من تصله الأخبار </div>
                 </div>
             </div>
         </div>
@@ -1485,14 +1594,12 @@
 <section class="section section-commands">
     <div class="container padding-block">
         <div class="text-commands text-center">
-            <div class="name-block" data-aos="fade-up">TravelChain团队</div>
-            <div class="block-text" data-aos="fade-up" data-aos-delay="50">团队总共24名专家，请查看领导信息：
-            </div>
+            <div class="name-block" data-aos="fade-up">فريق  TravelChain</div>
         </div>
         <div class="block-commands">
             <div class="block-accordion">
-                <div class="box-accordion-head block-flex-top">
-                    <div class="item-accordion " data-aos="fade-up" data-aos-delay="200">
+                <div class="box-accordion-head block-flex-top clearfix">
+                    <div class="item-accordion clearfix" data-aos="fade-up" data-aos-delay="200">
                         <div class="box-img">
                             <img class="lazyload" src="/images/orlov.png" alt="">
                             <a href="https://www.linkedin.com/in/ilya-orlov-0123ba80" target="_blank"
@@ -1500,12 +1607,13 @@
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
-                        <div class="box-name">伊利亚•奥尔洛夫</div>
-                        <div class="box-qualification">联合创始人,CEO</div>
-                        <div class="box-info">负责企业管理和战略管理。在小型和大型企业管理上经验丰富，下属人员达到450人
+                        <div class="box-name">إيليا أورلوف </div>
+                        <div class="box-qualification">مؤسس مشارك، الرئيس التنفيذي</div>
+                        <div class="box-info">مسؤول عن حوكمة الشركات والإدارة الاستراتيجية. خبرة ادارية واسعة فيما يتعلق بالمشاريع الصغيرة والكبيرة مع الموظفين تصل إلى 450 موظف
                         </div>
+
                     </div>
-                    <div class="item-accordion " data-aos="fade-up" data-aos-delay="400">
+                    <div class="item-accordion clearfix" data-aos="fade-up" data-aos-delay="400">
                         <div class="box-img">
                             <img class="lazyload" src="/images/muraviev.png" alt="">
                             <a href="https://www.linkedin.com/in/alex-ant-89b664154/" target="_blank"
@@ -1513,12 +1621,13 @@
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
-                        <div class="box-name">阿列克谢•穆拉维耶夫</div>
-                        <div class="box-qualification">联合创始人，项目设计人</div>
-                        <div class="box-info">区块链专家和程序研究家。纳米材料和光电子物理硕士。GOLOS区块链顶级代表
+                        <div class="box-name">أليكسي مورافيوف </div>
+                        <div class="box-qualification">مؤسس مشارك، مصمم</div>
+                        <div class="box-info">خبير في سلاسل الكتل ومبرمج-باحث. ماجستير في الفيزياء
+                            من المواد النانوية والإلكترونيات الضوئية. صوت المفوض الأعلى لسلاسل الكتل.
                         </div>
                     </div>
-                    <div class="item-accordion " data-aos="fade-up" data-aos-delay="600">
+                    <div class="item-accordion clearfix" data-aos="fade-up" data-aos-delay="600">
                         <div class="box-img">
                             <img class="lazyload" src="/images/coloviev.png" alt="">
                             <a href="https://www.linkedin.com/in/aleksey-soloviev-a8147727/" target="_blank"
@@ -1526,9 +1635,9 @@
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
-                        <div class="box-name">阿列克谢•索罗维耶夫</div>
-                        <div class="box-qualification">联合创始人，运营总经理</div>
-                        <div class="box-info">在不同行业内具有15年连续创业经历的企业家：贸易、服务、建筑行业。区块链顶级代表
+                        <div class="box-name">أليكسي سولوفيوف </div>
+                        <div class="box-qualification">مؤسس مشارك، كبير مسؤولي التشغيل</div>
+                        <div class="box-info">رجل أعمال كبير يتمتع بأكثر من 15 سنة من الخبرة في مجالات مختلفة: التجارة، الخدمات، البناء. المفوض الأول لسلاسل الكتل.
                         </div>
                     </div>
                     <div class="item-accordion clearfix" data-aos="fade-up" data-aos-delay="600">
@@ -1545,7 +1654,8 @@
                     </div>
                 </div>
                 <div class="box-btn text-center" data-aos="zoom-out-up">
-                    <a class="btn all-commands btn-border-blue">整個團隊</a>
+                    <a class="btn all-commands btn-border-blue">الفريق كاملاً
+                    </a>
                 </div>
                 <div class="box-accordion-body accordion-body-toggle">
 
@@ -1558,9 +1668,10 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">奥尔罕•泽伊纳雷</div>
-                            <div class="box-qualification">CTO</div>
+                            <div class="box-name">اورهان زيينالي</div>
+                            <div class="box-qualification">كبير الموظفين الفنيين</div>
                         </div>
+
                     </div>
 
                     <div class="item-accordion ">
@@ -1571,7 +1682,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">安东•克罗宁</div>
+                            <div class="box-name">أنطون كولينين</div>
                             <div class="box-qualification">AI, BigData Expert</div>
                         </div>
                     </div>
@@ -1579,12 +1690,12 @@
                     <div class="item-accordion ">
                         <div class="box-img">
                             <img class="lazyload" src="/images/team/anikin.png" alt="">
-                            <a href="https://www.linkedin.com/in/дмитрий-кин-767191122/" target="_blank" class="btn btn-red box-icon">
-                                <i class="icon icon-middle icon-in"></i>
+                            <a href="https://www.facebook.com/yury.anikin" target="_blank" class="btn btn-red box-icon">
+                                <i class="icon icon-middle icon-facebook"></i>
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">尤里•阿尼金</div>
+                            <div class="box-name">يوري أنيكين</div>
                             <div class="box-qualification">Ontology Analyst</div>
                         </div>
                     </div>
@@ -1598,7 +1709,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">鲍威尔•多罗锡金</div>
+                            <div class="box-name">بافيل دوروجكين</div>
                             <div class="box-qualification">Team Lead, Back-end
                                 Developer
                             </div>
@@ -1614,7 +1725,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">阿尔泽姆•博格莫洛夫</div>
+                            <div class="box-name">أرتيوم بوغومولوف</div>
                             <div class="box-qualification">Front-end Developer</div>
                         </div>
                     </div>
@@ -1628,7 +1739,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">祖拉博•西瓦尔比泽</div>
+                            <div class="box-name">زوراب شيفاربيدزه</div>
                             <div class="box-qualification">Front-end Developer</div>
                         </div>
                     </div>
@@ -1636,12 +1747,13 @@
                     <div class="item-accordion ">
                         <div class="box-img">
                             <img class="lazyload" src="/images/team/sabina.jpg" alt="">
-                            <a href="https://www.linkedin.com/in/sabina-gurbanova-7497b5154/" target="_blank" class="btn btn-red box-icon">
+                            <a href="https://www.linkedin.com/in/sabina-gurbanova-7497b5154/" target="_blank"
+                               class="btn btn-red box-icon">
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">萨比娜•古尔巴诺娃</div>
+                            <div class="box-name">سابينا غوربانوفا </div>
                             <div class="box-qualification">UX/UI Designer</div>
                         </div>
                     </div>
@@ -1649,15 +1761,18 @@
                     <div class="item-accordion ">
                         <div class="box-img">
                             <img class="lazyload" src="/images/team/chanchikov.png" alt="">
-                            <a href="https://www.linkedin.com/in/konstantin-chanchikov-3ba5a4154/" target="_blank" class="btn btn-red box-icon">
+                            <a href="https://www.linkedin.com/in/konstantin-chanchikov-3ba5a4154/" target="_blank"
+                               class="btn btn-red box-icon">
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">康斯坦丁•长契科夫</div>
+                            <div class="box-name">قسطنطين تشانتشيكوف</div>
                             <div class="box-qualification">System Architect</div>
                         </div>
                     </div>
+
+
 
                     <div class="item-accordion " data-aos="fade-left" data-aos-delay="650">
                         <div class="box-img">
@@ -1681,7 +1796,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">马克西姆•乌瓦洛夫</div>
+                            <div class="box-name">مكسيم اوفاروف</div>
                             <div class="box-qualification">Digital Producer</div>
                         </div>
                     </div>
@@ -1694,7 +1809,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">亚历山大•彼得罗夫</div>
+                            <div class="box-name">ألكساندر بيتروف</div>
                             <div class="box-qualification">Marketing Manager</div>
                         </div>
                     </div>
@@ -1707,7 +1822,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">米哈伊尔•谢泽莫夫</div>
+                            <div class="box-name">ميخائيل سيزيموف</div>
                             <div class="box-qualification">Marketing Manager</div>
                         </div>
                     </div>
@@ -1715,12 +1830,13 @@
                     <div class="item-accordion ">
                         <div class="box-img">
                             <img class="lazyload" src="/images/team/baranova.png" alt="">
-                            <a href="https://www.linkedin.com/in/vlrbaranova/" target="_blank" class="btn btn-red box-icon">
+                            <a href="https://www.linkedin.com/in/vlrbaranova/" target="_blank"
+                               class="btn btn-red box-icon">
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">瓦列莉亚•巴拉诺娃</div>
+                            <div class="box-name">فاليريا بارانوفا</div>
                             <div class="box-qualification">Head of SMM</div>
                         </div>
                     </div>
@@ -1734,7 +1850,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">罗曼•乌法耶夫</div>
+                            <div class="box-name">رومان اوفايف </div>
                             <div class="box-qualification">Head of Media Integration and Traffic</div>
                         </div>
                     </div>
@@ -1742,13 +1858,13 @@
                     <div class="item-accordion ">
                         <div class="box-img">
                             <img class="lazyload" src="/images/team/seleznev.png" alt="">
-                            <a href="https://www.linkedin.com/in/dmitrycom/" target="_blank"
+                            <a href="https://www.linkedin.com/in/dmitrycom" target="_blank"
                                class="btn btn-red box-icon">
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">德米特里•谢列兹涅夫</div>
+                            <div class="box-name">دميتري سيليزنيف</div>
                             <div class="box-qualification">Graphic Designer</div>
                         </div>
                     </div>
@@ -1762,7 +1878,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">伊万•贝古诺夫</div>
+                            <div class="box-name">إيفان بيغونوف</div>
                             <div class="box-qualification">Chief Business Development Officer</div>
                         </div>
                     </div>
@@ -1776,7 +1892,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">德米特里•拉古金</div>
+                            <div class="box-name">دميتري لاغوتين</div>
                             <div class="box-qualification">Investor Relations</div>
                         </div>
                     </div>
@@ -1790,7 +1906,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">谢尔盖•罗格文</div>
+                            <div class="box-name">سيرغي لوغفين</div>
                             <div class="box-qualification">HR Manager</div>
                         </div>
                     </div>
@@ -1798,13 +1914,13 @@
                     <div class="item-accordion ">
                         <div class="box-img">
                             <img class="lazyload" src="/images/team/dima-kin.png" alt="">
-                            <a href="https://www.facebook.com/profile.php?id=100001654368700" target="_blank"
+                            <a href="https://www.linkedin.com/in/дмитрий-кин-767191122/" target="_blank"
                                class="btn btn-red box-icon">
-                                <i class="icon icon-middle icon-facebook"></i>
+                                <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">德米特里•金</div>
+                            <div class="box-name">دميتري كين</div>
                             <div class="box-qualification">Lead Editor</div>
                         </div>
                     </div>
@@ -1818,7 +1934,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">叶卡捷琳娜•弗拉索娃</div>
+                            <div class="box-name">إيكاتيرينا فلالسوفا</div>
                             <div class="box-qualification">Copywriter</div>
                         </div>
                     </div>
@@ -1832,7 +1948,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">安娜斯塔西娅·拉兹马赫妮娜</div>
+                            <div class="box-name">أناستاسيا رازماخنينا</div>
                             <div class="box-qualification">Head of Community
                                 Management
                             </div>
@@ -1848,17 +1964,17 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">季莫费伊•马特维耶夫</div>
+                            <div class="box-name">تيموفي ماتفييف</div>
                             <div class="box-qualification">Community Manager</div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-        <div class="text-commands text-center">
-            <div class="name-block" data-aos="fade-up">发展顾问</div>
 
+        <div class="text-commands text-center">
+            <div class="name-block" data-aos="fade-up">استشاريو التطوير</div>
+            <!--<div class="block-text" data-aos="fade-up" data-aos-delay="20">Хорошо бы написать короткий текст про крутость этих ребят</div>-->
         </div>
         <div class="block-commands">
             <div class="block-accordion">
@@ -1872,7 +1988,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">卡尔西科•艾耶</div>
+                            <div class="box-name">كارثيك ايير </div>
                             <div class="box-qualification">Mentor, Founder & CEO of BlockchainMonk</div>
                         </div>
                     </div>
@@ -1885,7 +2001,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">克里斯托弗•霍林</div>
+                            <div class="box-name">كريستوف هيرينغ</div>
                             <div class="box-qualification">Elected BitShares Committee Member and Graphene Ambassador</div>
                         </div>
                     </div>
@@ -1898,13 +2014,14 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name"> 德斯蒙德•马尔沙尔
+                            <div class="box-name">   ديزموند مارشال
                             </div>
                             <div class="box-qualification">Member of global Enterprise Ethereum Alliance,
                                 Advisor to Hong Kong Government, MD of Rouge Ventures
                             </div>
                         </div>
                     </div>
+
                     <div class="item-accordion " data-aos="fade-left" data-aos-delay="150">
                         <div class="box-img">
                             <img class="lazyload" src="/images/advisers/vincent.png" alt="">
@@ -1914,12 +2031,10 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">文森特·莱
-                            </div>
+                            <div class="box-name">فينسينت لاي</div>
                             <div class="box-qualification">Founder/CEO of ToccoTravel</div>
                         </div>
                     </div>
-
 
                     <div class="item-accordion " data-aos="fade-left" data-aos-delay="350">
                         <div class="box-img">
@@ -1930,25 +2045,30 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name"> 阿列克斯•图尔斯基</div>
+                            <div class="box-name">أليكسي تورسكي </div>
                             <div class="box-qualification">Founder/CEO of izi.travel</div>
                         </div>
                     </div>
 
-                    <div class="item-accordion " data-aos="fade-left" data-aos-delay="650">
+
+                    <div class="item-accordion " data-aos="fade-left" data-aos-delay="250">
                         <div class="box-img">
                             <img class="lazyload" src="/images/advisers/povolotskiy.png" alt="">
-                            <a href="https://m.facebook.com/roman.povolotski" target="_blank"
+                            <a href="https://facebook.com/roman.povolotski" target="_blank"
                                class="btn btn-red box-icon">
                                 <i class="icon icon-middle icon-facebook"></i>
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name"> 罗曼•博沃罗茨基
-                            </div>
-                            <div class="box-qualification">Founder/CEO of “Cyber Russia”</div>
+                            <div class="box-name">رومان بوفولوتسكي</div>
+                            <div class="box-qualification">Founder/CEO of "Cyber Russia"</div>
                         </div>
                     </div>
+
+
+
+
+
                     <div class="item-accordion " data-aos="fade-left" data-aos-delay="750">
                         <div class="box-img">
                             <img class="lazyload" src="/images/advisers/dzhamgaryan.png" alt="">
@@ -1958,22 +2078,24 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">爱德华•扎穆噶里扬 </div>
+                            <div class="box-name">إدوارد جمهاريان </div>
                             <div class="box-qualification">CBDO ICObox, TOKEN SALE Analyst/Adviser</div>
                         </div>
                     </div>
 
 
+
                 </div>
             </div>
         </div>
+
+
         <div class="text-commands text-center">
-            <div class="name-block" data-aos="fade-up">市场营销顾问</div>
+            <div class="name-block" data-aos="fade-up">استشاريو التسويق</div>
         </div>
         <div class="block-commands">
             <div class="block-accordion">
                 <div class="box-accordion-body">
-
                     <div class="item-accordion " data-aos="fade-left" data-aos-delay="50">
                         <div class="box-img">
                             <img class="lazyload" src="/images/advisers/karolik.png" alt="">
@@ -1983,9 +2105,9 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">亚历山大•卡洛理克-席腊恩</div>
-                            <div class="box-qualification">Founder of Panache Managment Pte Ltd; Holds an Executive MBA
-                                from Kellogg School of Management and Hong Kong University of Science and Technology.
+                            <div class="box-name">ألكساندر كاروليك-شلاين</div>
+                            <div class="box-qualification">Founder of Panache Managment Pte Ltd; Holds an Executive
+                                MBA from Kellogg School of Management and Hong Kong University of Science and Technology.
                             </div>
                         </div>
                     </div>
@@ -1999,7 +2121,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name"> 托尼•西莫诺夫斯基</div>
+                            <div class="box-name"> توني سيمونوفسكي </div>
                             <div class="box-qualification">Marketing data scientist, Token Sale focused growth hacker
                             </div>
                         </div>
@@ -2014,29 +2136,28 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">尤里•马特维耶夫 </div>
+                            <div class="box-name">يوري ماتفييف </div>
                             <div class="box-qualification">Founder/CEO of the "Banzay" and "National Business"
                                 magazines
                             </div>
                         </div>
                     </div>
 
-                    <div class="item-accordion " data-aos="fade-left" data-aos-delay="550">
+                    <div class="item-accordion " data-aos="fade-left" data-aos-delay="750">
                         <div class="box-img">
                             <img class="lazyload" src="/images/advisers/sokolovskiy.png" alt="">
-                            <a href="https://www.linkedin.com/in/руслан-соколовский/" target="_blank"
+                            <a href="https://www.youtube.com/channel/UCyGPa4_EYA1OiBNjf6IeF6A" target="_blank"
                                class="btn btn-red box-icon">
-                                <i class="icon icon-middle icon-in"></i>
+                                <i class="icon icon-middle icon-youtube"></i>
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">鲁斯兰•索科洛夫斯基</div>
+                            <div class="box-name">رسلان سوكولوفسكي </div>
                             <div class="box-qualification">Founder/CEO of the magazine "BitJournal",
                                 YouTube Blogger > 500k subscribers
                             </div>
                         </div>
                     </div>
-
                     <div class="item-accordion " data-aos="fade-left" data-aos-delay="650">
                         <div class="box-img">
                             <img class="lazyload" src="/images/team/larin.png" alt="">
@@ -2046,7 +2167,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">德米特里•拉林</div>
+                            <div class="box-name">دميتري لارين</div>
                             <div class="box-qualification">PR-advisor, <br>
                                 YouTube Blogger > 2kk subscribers
                             </div>
@@ -2061,20 +2182,19 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">马尔科尔摩·唐</div>
+                            <div class="box-name">مالكولم تان</div>
                             <div class="box-qualification">
-                                CEO of The Bluesky Group; Founder of Gravitas Holding (Pte) Limited;
-                                Author of "How to ICO/ITO in Singapore";
+                                CEO of The Bluesky Group; Founder of Gravitas Holding (Pte) Limited; Author of "How
+                                to ICO/ITO in Singapore";
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
 
         <div class="text-commands text-center">
-            <div class="name-block" data-aos="fade-up">關於法律問題的顧問</div>
+            <div class="name-block" data-aos="fade-up">المستشار القانوني</div>
         </div>
         <div class="block-commands">
             <div class="block-accordion">
@@ -2088,7 +2208,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">德米特里·马奇辛 </div>
+                            <div class="box-name">دميتري ماتشخين </div>
                             <div class="box-qualification">Partner GMT Legal</div>
                         </div>
                     </div>
@@ -2097,25 +2217,26 @@
             </div>
         </div>
 
+
     </div>
 </section>
 <section class="section section-activity">
   <div class="container">
     <div class="section-text text-sm text-center">
-      <div class="name-block" data-aos="fade-up">我们的活动</div>
-      <div class="block-text" data-aos="fade-up" data-aos-delay="100">我们对与市场分享工作成果持开放态度，随时接受反馈。
+      <div class="name-block" data-aos="fade-up">نشاطنا</div>
+      <div class="block-text" data-aos="fade-up" data-aos-delay="100">نحن وبشكل منفتح نعمل على مشاركة أحدث التطورات مع السوق ونحن على استعداد دائم للرد على الاتصالات
       </div>
     </div>
     <div class="activity-tabs" data-aos="zoom-in-down" data-aos-delay="100">
       <div class="tab-block">
         <ul class="nav-tabs" role="tablist">
           <li role="presentation"><a class="btn" href="#speech" aria-controls="speech" role="tab"
-                                     data-toggle="tab"><span class="name">行动</span></a></li>
+                                     data-toggle="tab"><span class="name">الخطب</span></a></li>
           <li role="presentation" class="active"><a class="btn" href="#blog" aria-controls="blog" role="tab"
-                                                    data-toggle="tab"><span class="name">生活博客</span></a>
+                                                    data-toggle="tab"><span class="name">المنتديات الحية</span></a>
           </li>
           <li role="presentation"><a class="btn" href="#smi" aria-controls="smi" role="tab" data-toggle="tab"><span
-              class="name">媒体出版物</span></a></li>
+              class="name">المنشورات في وسائل الإعلام</span></a></li>
         </ul>
         <div class="tab-content">
           <div role="tabpanel" class="tab-pane fade" id="speech">
@@ -2128,7 +2249,7 @@
                 <li><a target="_blank"  href="https://steemit.com/travelchain/@travelchain/travelchain-offline-blockchain-project-on-graphene-2-0-won-the-ico-battle">ICO Battle <b>(1.11.2017)</b></a></li>
               </ul>
               <ul class="point box-inline text-left">
-                <li><a target="_blank"  href="http://www.fintechfestival.sg">Singapore FinTech Festiva <b>(13-17.11.2017)</b></a></li>
+                <li><a target="_blank"  href="http://www.fintechfestival.sg">Singapore FinTech Festival <b>(13-17.11.2017)</b></a></li>
                 <li><a target="_blank"  href="http://blockchainconfex.com/">Blockchain confex <b>(22-23.11.2017)</b></a></li>
                 <li><a target="_blank"  href="https://blockshowasia.com">Blockshow Asiа <b>(29-30.11.2017)</b></a></li>
                 <li><a target="_blank"  href="https://blockchainworldconferences.com/">Blockchain World Conferences <b>(4.12.2017)</b></a></li>
@@ -2341,135 +2462,159 @@
   <div class="container">
     <div class="padding-block">
       <div class="section-text">
-        <div class="name-block border" data-aos="fade-right">常见问题</div>
+        <div class="name-block border" data-aos="fade-right">الأسئلة الأكثر تكراراً</div>
       </div>
       <div class="question-list slide-group">
         <div class="question-item" data-aos="fade-right" data-aos-delay="50">
           <a class="link name slide-group-next"><span
-              class="name-link">1. 为什么是旅游行业区块链呢？</span></a>
+              class="name-link">1. لتكلا ةلسلس اذامل block chain ؟ةحايسلا لاجم يف</span></a>
           <div class="block-text text">
-            数据是21世纪的石油，但是大部分情况下数据都是封闭式的，为企业系统所占有，不能为其他公司所
-            用，从而建立创新型的服务。我们的使命是为所有市场从业者提供平等的数据交换通道。
+            لبق نم اهمادختسا نكمي الو تاكرشلا ةمظنأ لخاد ةقلغم
+            صرف ريفوت يه انتمهم .ةركتبم تامدخ ءاشنإل ىرخأ تاكرش
+            قوسلا يف نيبعاللا عيمج نيب تانايبلا لدابتل ةيواستم.
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="50">
           <a class="link name slide-group-next"><span
-              class="name-link">2. 为什么是开放代码区块链？</span></a>
-          <div class="block-text text">TravelChain生态系统中应用软件越多，参与者人数就越多，对于TravelToken的需求就越大。
+              class="name-link">2. لتكلا ةلسلس اذامل block chain ؟حوتفملا دوكلا عم</span></a>
+          <div class="block-text text">والمزيد من التطبيقات في النظام البيئي ترافلشين، وارتفاع عدد من التطبيقات
+                         المشاركين وزيادة الطلب على تر افلتوكين TravelToken .
+
+
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="50">
           <a class="link name slide-group-next"><span
-              class="name-link">3. 为什么企业需要TravelToken？</span></a>
-          <div class="block-text text">对于TravelChain生态系统数据的访问能极大地降低企业的市场营销费用。
+              class="name-link">3. ىلإ جاتحي سنزيبلا اذامل TravelToken ؟</span></a>
+          <div class="block-text text">يئيبلا ماظنلا تانايب ىلع لوصحلا TravelChain يطعي
+            ةيراجتلا لامعألا يف قيوستلا فيلاكت ليلقتل ةيناكمإلا
+            ريبك لكشب.
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="100">
-          <a class="link name slide-group-next"><span class="name-link">4. 代币销售中TravelToken价格会是多少？</span></a>
+          <a class="link name slide-group-next"><span class="name-link">4. ةفلكت مك TravelToken ىلع Token Sale؟</span></a>
           <div class="block-text text">
-            会有两种票.
+            ناماظن كانه:
             <ul class="point">
-              <li>等同 $ 3 000 000含15%折扣， 290 502,8 TT. <br/>
-                价格：等同 $0.0129
+              <li>232 290 502,8 يواسي ٪15 مصخ عم $ 3,000,000 ةلداعم TT. <br/>
+                0.0129 ةلداعم :رعسلا $
               </li>
-              <li>等同 $ 7 000 000， 460 709 497,2 TT. <br/>
-                价格：等同 $0.0151
+              <li>460 709 497,2 يواسي $ 7,000,000 ةلداعم TT.<br/>
+                0.0151 ةلداعم :رعسلا $.
               </li>
             </ul>
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="100">
-          <a class="link name slide-group-next"><span class="name-link">5. )代币预售和代币销售分配的代币发行量是多少?</span></a>
+          <a class="link name slide-group-next"><span class="name-link">5. ىلع ةعّزوم زنيكوتلا رادصإ ةيمك يه ام Token PreSale وToken Sale؟ </span></a>
           <div class="block-text text">
-            总共将发行 2 100 000 000 TravelToken，代币预售和销售完成后分配情况：
+            2,100,000,000 رادصإ ّمتيTravelToken ، ّمتي فوس يتلاو
+            جئاتن دعب اهعيزوت Token PreSale وToken Sale:
             <ul class="point">
-              <li>Early founders & investors — 1,51%</li>
+              <li>1.51 ‐ لئاوألا نورمثتسملاو نوسسؤملا</li>
               <li> Token PreSale — 17,69%</li>
-              <li> Token Sale — 33,00%</li>
-              <li> 团队 — 13,80%</li>
-              <li> Advisors — 2,00%</li>
-              <li> 奖金 — 1,00%</li>
-              <li> 发展基金 - 30,00%</li>
-              <li> 备用基金初始余额 - 1%</li>
+              <li>Token Sale‐ 33.00٪</li>
+              <li> 13.80 ‐ قيرفلا</li>
+              <li> 2.00 ‐ نوراشتسملا</li>
+              <li> 1.00 ‐ ةأفاكملا</li>
+              <li> 30.00 ‐ ةيمنتلا قودنص</li>
+              <li> 1 ‐ يطايتحالا لوخدلل لوألا ديصرلا</li>
 
             </ul>
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="100">
-          <a class="link name slide-group-next"><span class="name-link">6. 代币销售什么时候开放，将持续多长时间？ </span></a>
-          <div class="block-text text">启动时间为12月15日14.00 UTC. 结束时间为2月15日14.00 UTC.</div>
+          <a class="link name slide-group-next"><span class="name-link">6. ةّدم يه امو أدبي ىتم Token Sale؟ </span></a>
+          <div class="block-text text">14:00 ةعاسلا يف ربمسيد 15 يف لمعلا أدبي UTC. يهتنيو
+            15 14:00 ةعاسلا يف رياربف UTC.</div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="150">
           <a class="link name slide-group-next"><span
-              class="name-link">7. 代币销售活动的目标是什么？ </span></a>
-          <div class="block-text text">Hard cap:等同于$10 000 000.
+              class="name-link">7. ةلمح نم ضرغلا وه ام Token Sale؟ </span></a>
+          <div class="block-text text">Hard cap: رالود 10,000,000 ةلداعم.
             <br/>
-            代币销售融资目的是确保平台的启动，以及前3年的研发资金。经过这段时间，团队应该能做到自负盈 亏 。详细商业模式在白皮书（white paper）中有描述。
-
-            <br/>
-            我们计划在代币销售期间通过等同于3000000和7000000美金的两种订购方式出售一定数量的定价代币 。.如果代币销售期间无法出售等同于3000000美元的最低价票，那么剩余的代币将通过后续与基金和
-            个人投资者之间的商议情况，或者外部市场进行销售。如果等同于7000000美元代币无法售出，那么它 们将转入Development Trust账户，在白皮书（white paper）指定KPI达到10万用户时销售
-
+            ىلع لاومألا عمج نم ضرغلا Token Sale ‐ لمع ةيادب ريفوت وه
+            هذه لالخ .ىلوألا تاونس 3 ةدمل ةيمنتلا ليومتو ةصنملا
+            لّصفملا فصولا .يتاذلا ءافتكالا ققحي قيرفلا ةرتفلا
+            يفWhite paper .
+            لداعي غلبمب نيماظنلا ضرعب تباث رعسب زنيكوتلا
+            3,000,000 ّمتي نل اذإ .يلاوتلا ىلع رالود 7,000,000 و رالود
+            ةرتف لالخ انططخ دقل Token Sale نم اتباث اددع عيبن نأ
+            لالخ رالود 3,000,000 ىندألا دحلا ىلع رعسلاب ماظنلا عيب
+            ةرتف Token Sale ةقيرطب ةيّقبتملا زنيكوتلا عيب فوس
+            ل يسيئرلا ءادألاWhite paper.
+            وأ صاخلا عاطقلا نم نيرمثتسملاو قيدانصلا عم تاقافتالا
+            ىلع زنيكوتلا عيب مدع ةلاح يف .ةيجراخلا ةصروبلا ةقيرطب
+            باسح ىلإ اهلاسرإ ّمتيس رالود 7,000,000 ماظنلا Development Trust مدختسم فلأ 100 دعب اهعيب
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="150">
-          <a class="link name slide-group-next"><span class="name-link">8. 代币销售收集资金将会如何使用？ </span></a>
+          <a class="link name slide-group-next"><span class="name-link">8. يف اهعمج ّمت يتلا لاومألا مادختسا ّمتي فيك Token Sale؟ </span></a>
           <div class="block-text text">
-            收集资金将以下列方式分配：
+            يلاتلا وحنلا ىلع ةعّمجملا لاومألا عيزوت ّمتي:
 
             <ul class="point">
-              <li>研 — 50,3 %</li>
-              <li>管理费 — 19,4 %</li>
-              <li>市场营 — 21,7 %</li>
-              <li>开发人员社区 — 6,3 %</li>
-              <li>法律服 — 1,9 %</li>
+              <li>50.3 ‐ ريوطتلا٪</li>
+              <li>19.4 ‐ ليغشتلا تافورصم٪</li>
+              <li>21.7 ‐ قيوستلا٪</li>
+              <li>6.3 ‐ نيرّوطملا ةعومجم٪</li>
+              <li>1.9 ‐ ةينوناقلا تامدخلا٪</li>
             </ul>
 
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="150">
           <a class="link name slide-group-next"><span
-              class="name-link">9. TravelToken在哪儿发行？ </span></a>
+              class="name-link">9. رادصإ ّمتي نيأ TravelToken؟ </span></a>
           <div class="block-text text">
-            TravelToken在TravelChain区块链上发行。
+            رادصإ متي TravelToken لتكلا ةلسلس ةدعاق ىلع TravelChain
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="200">
           <a class="link name slide-group-next"><span
-              class="name-link">10.  为什么我们在自己区块链上发行TravelToken？ </span></a>
-          <div class="block-text text">最初，我们想在Ethereum网络智能合约（ETH20）上发行，后续转移到TravelChain区块链上。但是我们研发部门提前完成了原型编写的任务，让我
-            们能够在自己区块链上进行代币销售。
+              class="name-link">10.  ردصن اذامل TravelTokenلتكلا ةلسلس ىلع block chain</span></a>
+          <div class="block-text text">يكذلا دقعلا ةدعاق ىلع رادصإلا طّطخن انك ةيادبلا يف (ETH20) ةكبش ىلع Ethereum ةلسلس ماظن ىلإ اهلقن ّمث نمو
+            لتكلاTravelChain. ةباتك ةمهم ذّفن دق ريوطتلا مسق نكلو
+            ءارجإل انل حمسي اذهو .ددحملا دعوملا لبق يلوألا جذومنلا Token Sale لتكلا ةلسلس ىلع block chainانل ةعباتلا.
 
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="200">
-          <a class="link name slide-group-next"><span class="name-link">11. 测试网络已经启动了吗?</span></a>
-          <div class="block-text text">测试网络已在testnet.travelchain.io启动
+          <a class="link name slide-group-next"><span class="name-link">11. ليغشت ّمت له Testnet؟ </span></a>
+          <div class="block-text text">ليغشت ّمت Testnet ىلع testnet.travelchain.io
 
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="250">
           <a class="link name slide-group-next"><span
-              class="name-link">12. 资金收集币种是什么？</span></a>
+              class="name-link">12. ؟اهب لاومألا عمج ّمتيس يتلا تالمعلا يه ام</span></a>
           <div class="block-text text">BCH, ETH, BTC, ETC, LSK. LTC, NEO, ZEC, DASH, DOGE, WAVES
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="250">
           <a class="link name slide-group-next"><span
-              class="name-link">13. 什么时候可以在市场上销售代币？</span></a>
-          <div class="block-text text">代币销售完成两周之内进入市场
+              class="name-link">13. ؟ةصروبلا يف زنيكوتلا عيب نكمي ىتم</span></a>
+          <div class="block-text text">ءاهتنا دعب نيعوبسألا نوضغ يف ةصروبلا ىلإ جورخلا Token Sale؟
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="250">
-          <a class="link name slide-group-next"><span class="name-link">14.美国、中国、新加坡公民能不能参加代币预售？ </span></a>
-          <div class="block-text text">如果您是美国、中国或新加坡公民，或其他限制使用加密货币和代币国家公民或侨民，您将无法参加代 币销售。
+          <a class="link name slide-group-next"><span class="name-link">14. ةروفاغنسو نيصلاو ةدحتملا تايالولا ينطاومل نكمي له
+يف ةكراشملا Token Sale؟ </span></a>
+          <div class="block-text text">
+            لا يمكن المشاركة في Token Sale إذا كنت مواطن الولايات المتحدة أو
+            جمهورية الصين الشعبية أو سنغافورة، وكذلك إن كنت مواطنا أو مقيما في بلد يتم
+            فيه تقييد استخدام العملات المشفرة والتوكينز.
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="300">
           <a class="link name slide-group-next"><span
-              class="name-link">15. 如果参与代币销售？ </span></a>
-          <div class="block-text text">Travelchain.io网站上会出现一个“参与代币销售”按钮。点击按钮跳转时，您将进入到wallet.travelc
-            hain.io个人中心，这儿可以进行TravelChain区块链账户注册。然后您必须确认同意代币销售参与条款 ，填写KYC表格。 您可以将邮箱预留在TravelChain.io获取代币销售启动的通知
+              class="name-link">15.يف ةكراشملا ةيفيك Token Sale </span></a>
+          <div class="block-text text">يف ةكراشملا" ّرز رهظيس Token Sale" عقوم ىلع Travelchain.io يف يصخشلا باسحلا ىلإ كلقن ّمتيس هيلع طغضلا دعب
+            wallet.travelchain.io، يف كباسح ليجست ىلع ردقت ثيح
+            لتكلا ةلسلس TravelChain. ديكأتب موقت نأ كيلع كلذ دعب
+            لتكلا ةلسلس يف ةكراشملا طورش ىلع كتقفاوم
+            TravelChain جذومن ةئلمتو KYC.
+            ءدب نع رابخإلا ىلع لوصحلا لجأ نم Token Sale ، رت كنكمي
 
           </div>
         </div>
@@ -2481,26 +2626,25 @@
     <div class="container">
         <div class="padding-block">
             <div class="section-text text-center">
-                <div class="name-block white" data-aos="fade-up">代币的销售现已开放</div>
+                <div class="name-block white" data-aos="fade-up">بيع الرموز المميزة مفتوح!</div>
             </div>
             <div class="section-text text-md text-center" data-aos="zoom-out-up" data-aos-delay="200">
                 <div class="name-block white">
-                    抓紧获取代币购买 <br/> 15%折扣
+   الحصول على الرموز المميزة بخصم قدره 15% <br/>  قم بالتسجيل لمعرفة كيفية
                 </div>
             </div>
             <div class="form-subs" data-aos="zoom-out-up" data-aos-delay="250">
                 <form class="subscribe-form">
                     <div class="box-control">
                         <div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>
-                        <input type="text" class="form-control subscribe-input" placeholder="您的电子邮箱">
-                        <div class="box-btn subscribe" data-lang="zh">
-                            <a class="btn btn-red btn-lg"  data-toggle="modal"><span class="hide-mobile">加入</span><i class="icon icon-air-white show-mobile"></i></a>
+                        <input type="text" class="form-control subscribe-input" placeholder="البريد الإلكتروني الخاص بك">
+                        <div class="box-btn subscribe" data-lang="ar">
+                            <a class="btn btn-red btn-lg"  data-toggle="modal"><span class="hide-mobile">الانضمام</span><i class="icon icon-air-white show-mobile"></i></a>
                         </div>
                     </div>
                 </form>
                 <div class="text-info">
-                    <a  href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf"
-                        target="_blank" class="link link-underline">订阅点击按钮, 您同意处理您的个人信息并赞同保密政策</a>
+                    <a  href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline"> من خلال النقر على الزر، فإنك توافق على معالجة بياناتك الشخصية وتوافق على سياسة الخصوصية</a>
                 </div>
             </div>
         </div>

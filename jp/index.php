@@ -1,8 +1,10 @@
+<?php include '../init.php'; ?>
 <!doctype html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="keywords" content="">
+    <meta name="description" content="">
     <title>TravelChain — Decentralized Data Exchange for the Travel Industry.</title>
     <meta name="description"
           content="Join TravelChain Token Sale. Starts on December 15, 14:00 UTC. — We create smart traveling ecosystem.
@@ -11,21 +13,6 @@
     <link href="/css/style.15122017.css?version=1.1" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
-
-    <meta property="og:site_name" content="TravelChain">
-    <meta property="og:title" content="TravelChain — Decentralized Data Exchange for the Travel Industry" />
-    <meta property="og:description" content="Join TravelChain Token Sale. Starts on December 15, 14:00 UTC. — We create smart traveling ecosystem.
-           TravelChain is an open source blockchain managed by all market players" />
-    <meta property="og:image" content="https://travelchain.io/images/logo-og.png" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://travelchain.io/" />
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="TravelChain — Decentralized Data Exchange for the Travel Industry">
-    <meta name="twitter:description" content="Join TravelChain Token Sale. Starts on December 15, 14:00 UTC. — We create smart traveling ecosystem.
-           TravelChain is an open source blockchain managed by all market players">
-    <meta name="twitter:image" content="https://travelchain.io/images/logo-og.png">
-
     <script type='text/javascript' src='/js/jquery-3.2.1.min.js'></script>
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
@@ -63,7 +50,7 @@
         }
     </style>
 </head>
-<body data-lang="KR">
+<body data-lang="JP">
 <!-- Google Tag Manager (noscript) -->
 <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQRXHZ5"
@@ -93,26 +80,27 @@
                     <div class="logo"><i class="icon icon-logo icon-middle"></i></div>
                     <div class="social">
                         <ul class="nav-link-more">
-                            <li><a href="WhitePaper.pdf" target="_blank" class="files-gtag-event">백서</a></li>
-                            <li><a href="Overview.pdf" target="_blank" class="files-gtag-event">개요</a></li>
-                            <li><a href="Business-plan.pdf" target="_blank" class="files-gtag-event">사업 계획</a>
+                            <li><a href="WhitePaper.pdf" target="_blank" class="files-gtag-event">白書</a></li>
+                            <li><a href="Overview.pdf" target="_blank" class="files-gtag-event">概要</a></li>
+                            <li><a href="Business-plan.pdf" target="_blank" class="files-gtag-event">ビジネスプラン</a>
                             </li>
-                            <li><a href="technical_whitepaper.pdf" target="_blank" class="files-gtag-event">기술 백서</a></li>
+                            <li><a href="technical_whitepaper.pdf" target="_blank" class="files-gtag-event">テクニカル白書</a></li>
                         </ul>
                     </div>
                     <div class="user">
                         <!--<a class="btn btn-border-blue" data-toggle="modal" data-target="#modalregistration">Регистрация</a>-->
-                        <a href="https://wallet.travelchain.io"  class="btn btn-red">구매 토큰</a>
+                        <a href="https://wallet.travelchain.io"  class="btn btn-red">購入トークン</a>
                     </div>
 
+                    <!--<div class="lang padding-block"><a class="link active">ロシア語</a> / <a class="link" href="/">英語</a>-->
                     <div class="lang lang-dropdown padding-block">
                         <div class="box-dropdown box-lang  box-inline"><a class="btn href-dropdown">
-                            <div class="change-value box-inline">Kor</div>
+                            <div class="change-value box-inline">Jpn</div>
                             <i class="caret"></i></a>
                             <div class="menu-dropdown">
                                 <a href="/" >Eng</a>
                                 <a href="/ru" >Rus</a>
-                                <a href="/jp" >Jpn</a>
+                                <a href="/kr" >Kor</a>
                                 <a href="/zh" >Chi</a>
                                 <a href="/ar" >Ara</a>
                                 <a href="/es" >Spa</a>
@@ -125,7 +113,7 @@
         </div>
     </div>
 </header>
-<div class="wrapper" id="top">
+<div class="wrapper wrapper-jp" id="top">
     <div class="main">
 
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
@@ -211,21 +199,21 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal"><i class="icon icon-middle icon-close"></i></button>
-          <div class="text text-center"> 15 % 할인을 받을 수 있는 기간은 제한되어 있습니다</div>
+          <div class="text text-center">限られた時間に15％の割引が入手可能</div>
           <div class="form-subs">
           <form class="subscribe-form">
             <div class="box-control">
               <div class="box-icon-left"><i class="icon icon-middle icon-mail"></i></div>
-              <input type="text" class="form-control subscribe-modal-input" placeholder="귀하의 E-MAIL">
+              <input type="text" class="form-control subscribe-modal-input" placeholder="あなたの電子メールアドレス">
 
             </div>
 
             <div class="box-btn subscribe-modal">
-              <a class="btn btn-red btn-lg"><span class="middle">구매 토큰</span></a>
+              <a class="btn btn-red btn-lg"><span class="middle">購入トークン</span></a>
             </div>
           </form>
-            <div class="text-info">이 버튼을 누르면 개인정보 처리에 동의하고 개인정보보호정책에
-              <a href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">동의하게 됩니다.</a>
+            <div class="text-info">
+              <a href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">ボタンをクリックすることでお客様は個人データの処理に同意し、プライバシー ポリシーに同意します</a>
             </div>
           </div>
         </div>
@@ -237,8 +225,8 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal"><i class="icon icon-middle icon-close"></i></button>
-          <div class="name text-center">고마워.</div>
-          <div class="text text-center">구독 중입니다.</div>
+          <div class="name text-center">Спасибо!</div>
+          <div class="text text-center">Вы подписаны!</div>
         </div>
       </div>
     </div>
@@ -247,13 +235,13 @@
 <section class="section section-intro">
     <div class="container" data-aos="flip-up">
         <div class="padding-block">
-            <h1 class="lite" data-aos="fade-up" data-aos-delay="200">관광 시장 분산형 데이터 교환을 위한 플랫폼</h1>
-            <div class=" name-block white" data-aos="fade-up" data-aos-delay="300" style="font-size: 3em;">토큰 판매가 시작되었습니다
-                <p class="livenowsubtext">추천 브라우저는 Google Chrome 입니다</p>
+            <h1 class="lite" data-aos="fade-up" data-aos-delay="200">観光市場向けの分散型データ交換プラットフォーム</h1>
+            <div class=" name-block white" data-aos="fade-up" data-aos-delay="300">トークンセールが開始しました
+                <p class="livenowsubtext">推奨ブラウザは Google Chrome です</p>
             </div>
             <a class="btn btn-review " data-aos="fade-up" data-aos-delay="400" data-toggle="modal"
                data-target="#exampleModal">
-                90초 TravelChain 은 무엇일까?
+                90秒でTravelChainとは何かを説明します
                 <div class="box-icon"><i class="icon icon-play"></i></div>
             </a>
         </div>
@@ -261,6 +249,9 @@
             <img src="/images/map.png" alt="">
             <div class="point"></div>
         </div>
+
+
+
 
         <div class="intro-down-info block-flex-top">
             <div class="block-progress-bar">
@@ -276,13 +267,14 @@
                 </div>
             </div>
             <div class="form-subs">
-                <div class="text">You can get Tokens at 15% discount</div>
+                <div class="text">サインアップし、トークンを15％割引で入手ができます</div>
                 <form class="subscribe-form">
                     <div class="box-control">
                         <div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>
-                        <input type="text" class="form-control subscribe-en-input" placeholder="Your e-mail">
-                        <div class="box-btn subscribe" data-lang="kr">
-                            <a class="btn btn-red btn-lg" data-toggle="modal"><span class="hide-mobile">Join in</span><i
+                        <input type="text" class="form-control subscribe-input" placeholder="あなたの電子メールアドレス">
+                        <div class="box-btn subscribe" data-lang="jp">
+                            <a class="btn btn-red btn-lg" data-toggle="modal"><span
+                                class="hide-mobile">購読する</span><i
                                 class="icon icon-air-white show-mobile"></i></a>
                         </div>
                     </div>
@@ -351,47 +343,47 @@
                 </div>
             </div>
         </div>
-        <div class="text-info" style="z-index:1;">By clicking on the button, you consent to the processing of your personal
-            data and agree to
-            the
-            <a href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">Privacy
-                Policy</a>
+        <div class="text-info">
+            <a  href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">ボタンをクリックすることでお客様は個人データの処理に同意し、プライバシー ポリシーに同意します</a>
         </div>
+
+
+
 
 
 
 
         <!--<div class="intro-down flexible padding-block" style="justify-content: space-around;">-->
             <!--<div class="cash">-->
-                <!--<div class="label italic">Token PreSale 으로 의 자금을  모았다</div>-->
+                <!--<div class="label italic">Token PreSaleで集められた金額：</div>-->
                 <!--<div class="value">$-->
                     <!--<div class="number">606</div>-->
                     <!--<div class="number">936</div>-->
                 <!--</div>-->
             <!--</div>-->
             <!--<div class="form-subs">-->
-                <!--<div class="text">할인율 15%로 토큰을 구입하는 방법을 알고 싶으시면 팔로우하세요.</div>-->
+                <!--<div class="text">サインアップし、トークンを15％割引で入手ができます</div>-->
                 <!--<form class="subscribe-form">-->
                     <!--<div class="box-control">-->
                         <!--<div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>-->
-                        <!--<input type="text" class="form-control subscribe-input" placeholder="당신의 e-mail">-->
+                        <!--<input type="text" class="form-control subscribe-input" placeholder="あなたの電子メールアドレス">-->
                         <!--<div class="box-btn subscribe">-->
                             <!--<a class="btn btn-red btn-lg" data-toggle="modal"><span-->
-                                    <!--class="hide-mobile">팔로우</span><i-->
+                                    <!--class="hide-mobile">購読する</span><i-->
                                     <!--class="icon icon-air-white show-mobile"></i></a>-->
                         <!--</div>-->
                     <!--</div>-->
                 <!--</form>-->
 
-                <!--<div class="text-info">이 버튼을 누르면 개인정보 처리에 동의하고 개인정보보호정책에-->
-                    <!--<a  href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">동의하게 됩니다.</a>-->
+                <!--<div class="text-info">-->
+                    <!--<a  href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">ボタンをクリックすることでお客様は個人データの処理に同意し、プライバシー ポリシーに同意します</a>-->
                 <!--</div>-->
             <!--</div>-->
             <!--<div class="timer">-->
-                <!--<div class="label italic">토큰 판매가 시작되었습니다</div>-->
+                <!--<div class="label italic">トークンセールが開始しました</div>-->
 
                 <!--<div class="tokenbuybutton" style="display: none; margin-top: 1em;">-->
-                    <!--<a href="https://wallet.travelchain.io" class="btn btn-red">구매 토큰</a>-->
+                    <!--<a href="https://wallet.travelchain.io" class="btn btn-red">購入トークン</a>-->
                 <!--</div>-->
             <!--</div>-->
         <!--</div>-->
@@ -459,12 +451,12 @@
         <div class="about-more" data-aos="flip-up">
             <div class="padding-block">
                 <div class="">
-                    <div class="name-box ">저희에 대해 자세히 알아보세요:</div>
+                    <div class="name-box ">私たちについて詳しく知る：</div>
                     <ul class="nav-link-more">
-                        <li><a href="White.Paper.pdf" target="_blank" class="files-gtag-event">백서</a></li>
-                        <li><a href="Overview.pdf" target="_blank" class="files-gtag-event">개요</a></li>
-                        <li><a href="Business-plan.pdf" target="_blank" class="files-gtag-event">사업 계획</a></li>
-                        <li><a href="technical_whitepaper.pdf" target="_blank" class="files-gtag-event">기술 백서</a></li>
+                        <li><a href="White.Paper.pdf" target="_blank" class="files-gtag-event">白書</a></li>
+                        <li><a href="Overview.pdf" target="_blank" class="files-gtag-event">概要</a></li>
+                        <li><a href="Business-plan.pdf" target="_blank" class="files-gtag-event">ビジネスプラン</a></li>
+                        <li><a href="technical_whitepaper.pdf" target="_blank" class="files-gtag-event">テクニカル白書</a></li>
                     </ul>
                 </div>
             </div>
@@ -504,21 +496,21 @@
 <section class="section section-data">
     <div class="container">
         <div class="data-text">
-            <div class="name-block" data-aos="fade-up">Travel Chain 은 모든 이용자가 다 같이 운영하는 오픈소스 블록체인입니다.</div>
-            <div class="block-text" data-aos="fade-up">이용자는 직접 어플이나 위젯을 설치해서 어떤 데이터를 어떤 형태로 수집할지 직접 결정할 수 있습니다.  </div>
+            <div class="name-block" data-aos="fade-up">TravelChainは、すべての市場参加者が管理するオープンソースのブロックチェー ンです。</div>
+            <div class="block-text" data-aos="fade-up">ユーザーはアプリケーションまたはウィジェットをインストールし、収集できる 個人データとその形を定めます。</div>
         </div>
         <div class="data-cloud">
             <div class="data-item flexible center" data-aos="fade-right" data-aos-delay="50">
-                <div class="name free">어플 개인정보</div>
+                <div class="name free">アプリケーションのユーザーデータ</div>
                 <div class="box-icon"><i class="icon icon-app"></i></div>
             </div>
             <div class="data-item flexible center" data-aos="fade-right" data-aos-delay="100">
-                <div class="name free">웹 데이터</div>
+                <div class="name free">Webサービスデータ</div>
                 <div class="box-icon"><i class="icon icon-desktop"></i></div>
             </div>
             <div class="data-item right flexible center" data-aos="fade-left" data-aos-delay="150">
                 <div class="box-icon"><i class="icon icon-db"></i></div>
-                <div class="name free">여행사 및 대행사 데이터</div>
+                <div class="name free">旅行代理店およびアグリゲーターのデータ</div>
             </div>
             <!--<div class="data-cloud-item" data-aos="zoom-in">-->
                 <!--<div id="cloud"></div>-->
@@ -530,7 +522,7 @@
             </div>
         </div>
         <div class="data-text" data-aos="flip-down">
-            <div class="data-text-save italic">데이터는 개방형, 개인 형태 또는 일회성 엑세스 형태의 암호화 방식으로 저장 될 수 있습니다.</div>
+            <div class="data-text-save italic">データは、ワンタイムアクセスの形式で公開、非公開または暗号化された形で保 存できます</div>
         </div>
     </div>
 </section>
@@ -538,12 +530,12 @@
   <div class="container">
     <div class="padding-block">
       <div class="section-text text-md text-center">
-        <div class="name-block" data-aos="fade-up">TravelChain 은 회사뿐만이 아니라 개인에게도 유용한 플랫폼입니다.
+        <div class="name-block" data-aos="fade-up">TravelChainの使用はビジネスとユーザの両方にとって有益です
         </div>
       </div>
 
       <div class="box-section">
-        <div class="name-section text-center">여행자를 위한</div>
+        <div class="name-section text-center">旅行者のためのTravelChain</div>
         <div class="block-journey block-flex-top">
           <div class="box-journey" data-aos="fade-right" data-aos-delay="50">
             <div class="box-img">
@@ -554,10 +546,10 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                개인정보에 대한 수익 창출
+                個人データから収益を得る
               </div>
               <div class="box-text">
-                데이터를 사용할 수 있는 권한을 부여받을때마다 사용자는 이후 돈으로 환전하거나 관광 서비스로 교환할 수 있는 토큰을 받는다.
+                データ使用の許可をするたびにユーザはお金または観光サービスと交換ができる トークンを受け取ります
               </div>
             </div>
           </div>
@@ -570,37 +562,36 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                관광 서비스 사용은 우버택시를 <br/> 부르는 것 처럼 간단합니다.
+                旅行の構成はUberに電話するようにで簡単です
               </div>
               <div class="box-text">
-                서비스는 사용자가 어떤 나라를 방문했고 어떤 음식을 좋아하고 어떤 운동을 하는지 알고 있습니다.
-                <span class="bold"> 이러한 데이터를 가지고 블록 장난감 같이 개인 투어를 기획할 수 있습니다.</span>
+                サービスはユーザーがどの国に行ったか、好きな料理の種類、行っているスポー ツをすでに知っています。このデータに基づいて、個人ツアーはレゴのように組 み立てられます
               </div>
             </div>
           </div>
         </div>
-        <div class="text-section text-section-padding text-center"><span class="bold italic">예를 들어</span>
+        <div class="text-section text-section-padding text-center"><span class="bold italic">例えば</span>
         </div>
         <div class="box-lesson block-flex-center">
           <div class="lesson lesson-left">
-            사용자가 마드리드로 여행할 것이며 채식주의자에 요가를 즐겨한다는 것을 호텔이 볼 수 있습니다.
+            ホテルは、ユーザーがマドリードに行くことを知り、 彼は菜食主義者であり、ヨガに夢中です。
           </div>
           <div class="lesson lesson-right">
-            그리고 사용자에게 채식주의 조식이 포함되어 있는 룸을 보낼 수 있습니다. 요가 센터 근처 호텔을 말이죠.
+            ユーザーには次のオファーが送られます：ヨガセンターの隣のホテル内にある、 すでに価格に含まれているベジタリアン朝食付きの部屋。
           </div>
         </div>
 
       </div>
 
       <div class="box-section">
-        <div class="name-section text-center">비즈니스용</div>
+        <div class="name-section text-center">ビジネスのためのTravelChain</div>
         <div class="block-business block-flex-top" data-aos="flip-up">
           <div class="box-business">
             <div class="box-icon text-center">
               <i class="icon icon-middle icon-1"></i>
             </div>
             <div class="text text-center">
-              광고비 절약 및 관광 기획 전 단계에 있는 고객과의 소통
+              意思決定の早い段階での顧客へのアクセスによる広告の節約。
             </div>
           </div>
           <div class="box-business">
@@ -608,7 +599,7 @@
               <i class="icon icon-middle icon-2"></i>
             </div>
             <div class="text text-center">
-              인공지능이 사용자의 희망사항을 본인이 인지하기 전부터 예측하여 말해준다.
+              人工知能は、ユーザの望みを本人が意識する前に分かってします。
             </div>
           </div>
           <div class="box-business">
@@ -616,19 +607,18 @@
               <i class="icon icon-middle icon-3"></i>
             </div>
             <div class="text text-center">
-              회사는 대대적인 광고에 더 이상 돈을 소비하지 않을 것입니다. 그리고 몇 번의 클릭만으로 개별적으로 제안을 할 수 있을 것입니다.
-
+              業者はマス広告にお金を使うのをやめて、数クリックで個人的なオファーに移り ます。
             </div>
           </div>
         </div>
-        <div class="text-section text-section-padding text-center"><span class="bold italic">예를 들어</span>
+        <div class="text-section text-section-padding text-center"><span class="bold italic">例えば</span>
         </div>
         <div class="box-lesson block-flex-center">
           <div class="lesson lesson-left">
-            사용자가 마드리드로 여행할 것이며 채식주의자에 요가를 즐겨한다는 것을 호텔이 볼 수 있습니다.
+            ホテルは、ユーザーがマドリードに行くことを知り、 彼は菜食主義者であり、ヨガに夢中です。
           </div>
           <div class="lesson lesson-right">
-            그리고 사용자에게 채식주의 조식이 포함되어 있는 룸을 보낼 수 있습니다. 요가 센터 근처 호텔을 말이죠.
+            ユーザーには次のオファーが送られます：ヨガセンターの隣のホテル内にある、 すでに価格に含まれているベジタリアン朝食付きの部屋。
           </div>
         </div>
         <div class="block-journey block-flex-top">
@@ -641,13 +631,13 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                온라인 에이전트가 부가하는 수수료가 사라짐으로서 수입증가로 나타나게 됩니다.
+                オンライン代理店への手数料の拒否による利益の増加
               </div>
               <div class="box-text">
-                회사는 높은 중개수수료를 지불하지 않고 고객에게 서비스를 제공할 수 있습니다.
+                業者は仲介会社に高い手数料を支払うことなく、サービスを顧客に直接与えるこ とができます。
               </div>
               <div class="box-text bold italic">
-                현재 회사는 중개사에게 최대 30%에 달하는 수수료를 지불하고 있으며 이 상황을 해결할 방법이 없어 보였습니다.
+                現在、業者はこの状況を乗り切る方法なしに仲介会社に30％の手数料を支払いま す。
               </div>
             </div>
           </div>
@@ -660,16 +650,16 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                오피니언 리더에게 추천 받기
+                オピニオンリーダーからの勧告を得る
               </div>
               <div class="box-text">
-                서비스는 잠재 고격을 분석하고 많은 추종자를 있는 높은 지위를 가진 사람,을 분석할 수 있을 것입니다
+                サービスは、ポテンシャルが高い顧客を分析し、ステータスが高い人、多くのフ ォロワーを持つ人を特定することができます
               </div>
               <div class="box-text bold italic">
-                예를 들어
+                例えば
               </div>
               <div class="box-text">
-                인스타그램 100 000 명의 팔로워가 있는 사람이 호텔을 예약합니다. 호텔은 할인을 해주거나 특별조건을 제안해서 수천명에게 영향을 줄 수 있는 후기를 남기게 합니다.
+                インすタグラムに10万人以上のフォロワーを持つ人がホテルを予約しました。 ホテルは割引と個人的なオファーを提供し、何千人の人々の意見に影響を与えま す。
               </div>
             </div>
           </div>
@@ -677,15 +667,15 @@
       </div>
 
       <div class="box-section">
-        <div class="name-section text-center">개발자용</div>
-        <div class="text-section text-section-padding text-center">개발자는 TravelChain을 프로젝트나 실험용으로 사용할 수 있습니다.
+        <div class="name-section text-center">開発者向けのTravelChain</div>
+        <div class="text-section text-section-padding text-center">開発者は、プロジェクトや実験にTravelChainを使用できます。
         </div>
-        <div class="text-section text-center">또한 정보를 반대로 회사나 광고 플랫폼에 재판매할 수 있습니다.
+        <div class="text-section text-center">また、処理された情報を業者や広告プラットフォームに販売ができます。
         </div>
         <div class="text-section text-section-padding text-center">
-          아래 몇가지 예시로 TravelChain 기반으로 만들 수 있는 서비스가 있습니다.
+          TravelChainに基づいて作成できるサービスのほんの数例です
         </div>
-        <div class="text-section text-section-padding text-center"><span class="bold italic">예를 들어</span>
+        <div class="text-section text-section-padding text-center"><span class="bold italic">例えば</span>
         </div>
         <div id="demo-carousel" class="box-flip" data-aos="flip-up">
 
@@ -694,7 +684,7 @@
               <li>
                 <img src="/images/33-k.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">어플-지도
+                  <div class="box-info-name">地図アプリケーション
 
                   </div>
                   <!--<div class="box-info-text"> Карты с нужными пользователю фильтрами. Это могут быть-->
@@ -705,7 +695,7 @@
               <li>
                 <img src="/images/44-p.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">여행 가이드
+                  <div class="box-info-name">旅行ガイド
 
                   </div>
                   <!--<div class="box-info-text"> Маршруты, составленные из положительных отзывов ваших друзей и основанные-->
@@ -716,7 +706,7 @@
               <li>
                 <img src="/images/55-y.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">알림 시스템
+                  <div class="box-info-name">通知システム
 
                   </div>
                   <!--<div class="box-info-text">Например, уведомления о том, что можно арендовать мотоцикл через дорогу от-->
@@ -728,7 +718,7 @@
               <li>
                 <img src="/images/22-v.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">위젯
+                  <div class="box-info-name">ウィジェット
 
                   </div>
                   <!--<div class="box-info-text">Визуальные элементы отображающие нужную пользователю информацию. От погоды-->
@@ -739,7 +729,7 @@
               <li>
                 <img src="/images/66-yz.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">전문화된 오퍼
+                  <div class="box-info-name">スペシャルオファー
                   </div>
                   <!--<div class="box-info-text">Система собирает и обрабатывает информацию о пользователях, а потому-->
                     <!--предлагает оффер, включающий все ключевые предпочтения пользователя, в то время, когда он наиболее-->
@@ -750,10 +740,9 @@
               <li>
                 <img src="/images/ai.jpg">
                 <div class="box-info">
-                  <div class="box-info-name">AI 서비스</div>
-                  <!--<div class="box-info-text">Например сервис Aigents, на основе вашей деятельности в социальных сетях-->
-                    <!--выявляет ваших последователей, авторитетов, людей со схожими интересами.-->
-                  <!--</div>-->
+                  <div class="box-info-name">AIサービス</div>
+                  <div class="box-info-text">たとえば、ソーシャルネットワークでのあなたの活動に基づいたAigentsサービス は、あなたのフォロワー、影響者、同様の好みを持つ人々を見つけます
+                  </div>
                 </div>
               </li>
 
@@ -988,8 +977,8 @@
 <section class="section section-player">
     <div class="container padding-block">
         <div class="section-text text-center">
-            <div class="name-block" data-aos="fade-up">저희 사업에 주요 업계 관계자들이 합류했습니다.</div>
-            <div class="block-text " data-aos="fade-up">TravelChain <span class="bold">생태계에 사용자 3 000 000 </span>명 이상이 합류하게 됩니다.</div>
+            <div class="name-block" data-aos="fade-up">私たちには業界の主要なプレイヤーが加わります</div>
+            <div class="block-text " data-aos="fade-up">パートナーの3,000,000人以上のユーザーがTravelChainエコシステムに統合され ます</div>
         </div>
         <div class="player">
             <div class="player-line block-flex-center" data-aos="zoom-out-up">
@@ -1007,8 +996,8 @@
                 </div>
             </div>
             <div class="box-btn" data-aos="fade-up" data-aos-delay="100">
-                <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">구매 토큰</a>-->
-                <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">구매 토큰</a>
+                <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">購入トークン</a>-->
+                <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">購入トークン</a>
             </div>
         </div>
     </div>
@@ -1016,8 +1005,8 @@
 <section class="section section-stage-web">
     <div class="container">
       <div class="text-stage padding-block">
-        <div class="name-block" data-aos="fade-up">TravelChain은 관광산업에서 사용할 수 있는 모바일, 웹 어플을 만들 수 있는 플랫폼입니다</div>
-        <div class="block-text" data-aos="fade-up" data-aos-delay="50">본 서비스는 이미 존재합니다 - Mapala는 여행자 전세계 커뮤니티이며 TravelChain 기반의 서비스를 위한 콘텐츠 소스입니다 </div>
+        <div class="name-block" data-aos="fade-up">TravelChainは、旅行業界でモバイルアプリケーションやWebアプリケーションを 作成するためのプラットフォームです。</div>
+        <div class="block-text" data-aos="fade-up" data-aos-delay="50">このサービスは既に存在します。Mapalaは旅行者の国際的なコミュニティであり 、TravelChainに基づくサービスコンテンツの源です。</div>
       </div>
       <div class="">
         <div class="box-mapala" data-aos="flip-left" data-aos-delay="100">
@@ -1028,9 +1017,9 @@
               </div>
             </div>
             <div class="box-text-info" data-aos="fade-up" data-aos-delay="200">
-              <div class="text" >Mapala.net는 블록체인에서 운영되는 여행 블로그 플랫폼입니다. 저희가 2017년 초에 개시했으며 이용자수가 매일 늘어나고 있습니다.</div>
+              <div class="text" >Mapala.netはブロックチェーンで運用される旅行ブログのプラットフォームです 。このサービスは2017年初めに作成され、ユーザー数は毎日増えています。</div>
               <div class="text">
-                여행자들이 지식 기반을 채우고 보상금과 경험치를 얻습니다 - 그리고 무료로 여행 할 수 있는 기회를 얻습니다.
+                旅行者は知識ベースにデータを送ることで報酬を受けてポイントを獲得します。 後に無料で旅行する機会を得ることができます。
               </div>
             </div>
           </div>
@@ -1042,7 +1031,7 @@
     <div class="container padding-block">
         <div class="text-distribution">
             <div class="name-block" data-aos="fade-up">
-                TravelToken은 현명한 여행 생태계의 연료입니다 <br/> 이용자들이 토큰 사용 시기를 직접 결정합니다
+                TravelTokenはスマート旅行エコシステムの燃料 <br/> ユーザー自身がトークンの使用方法を決定します
             </div>
         </div>
         <div class="box-distribution-step block-flex-top">
@@ -1050,32 +1039,32 @@
                 <div class="box-icon">
                     <i class="icon icon-middle icon-buy"></i>
                 </div>
-                <div class="name">SmartData 구입</div>
-                <div class="text">회사는 TravelToken으로 지불하며 인공지능 서비스에서 처리된 데이터를 받을 수 있습니다.
+                <div class="name">スマートデータの購入</div>
+                <div class="text">業者はTravelTokenを支払いとして使うことで、AIサービスから処理されたデータ を受け取ることができます
                 </div>
             </div>
             <div class="box-step" data-aos="fade-left" data-aos-delay="150">
                 <div class="box-icon">
                     <i class="icon icon-middle icon-pass"></i>
                 </div>
-                <div class="name">데이터 전송</div>
+                <div class="name">データ転送</div>
                 <div class="text">
-                    TravelChain 사용자들은 웹 서비스나 어플로 정보를 서로 교환할 수 있으며 TravelToken으로 지불할 수 있습니다
+                    ユーザーは、Webサービスやアプリケーションを介して他のTravelChainメンバー とデータを共有する代わりにTravelTokenを受け取ることができます。
                 </div>
             </div>
             <div class="box-step" data-aos="fade-left" data-aos-delay="250">
                 <div class="box-icon">
                     <i class="icon icon-middle icon-swap"></i>
                 </div>
-                <div class="name">데이터 교환</div>
-                <div class="text">서비스는 액세스 키를 사용하여 TravelToken로 서로 데이터를 주고받을 수 있습니다.
+                <div class="name">データの交換</div>
+                <div class="text">サービスは、TravelTokenを使用しアクセスキーを使用しながらお互いに通信し 合うことができます
                 </div>
             </div>
         </div>
         <div class="text-distribution">
-            <div class="name-block" data-aos="fade-up" data-aos-delay="350">사용자 수와 데이터 양이 많아질 수록 토큰의 가치도 증가될 것입니다
+            <div class="name-block" data-aos="fade-up" data-aos-delay="350">トークンの価値は、ユーザー数と蓄積されたデータと共に増加します
             </div>
-            <!--<div class="block-text text-center white aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">Рост спроса на данные vs. Количество пользователей </div>-->
+            <div class="block-text text-center white aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">データの需要 </div>
 
         </div>
         <div class="box-chart-line">
@@ -1086,8 +1075,9 @@
         </div>
 
         <div class="text-distribution date-distribution" data-aos="zoom-in" data-aos-delay="100">
-            <div class="name-block">12월 15일에 Token Sale 이용자에게 <br/> 693 000 000 TravelToken이 분배됩니다</div>
-            <div class="block-text">Token Sale은 2월 15일 오후 2시 (UTC) 에 마감되었습니다</div>
+            <div class="name-block">693000000のTravelTokenが12月15日のトークンセールの参加者に配布されます
+               </div>
+            <div class="block-text"> トークンセールは2月10日14:00（協定世界時）に終了します。</div>
         </div>
         <div class="box">
             <div class="container ">
@@ -1096,11 +1086,11 @@
                         <ul class="nav">
                             <li class="active">
                                 <a href="#1a" data-toggle="tab" aria-expanded="true">
-                                    <div class="name-block">토큰 및 펀드 분배</div>
+                                    <div class="name-block">トークンと資金の分布</div>
                                 </a>
                             </li>
                             <li class=""><a href="#2a" data-toggle="tab" aria-expanded="false">
-                                <div class="name-block"> 분배</div>
+                                <div class="name-block"> 分布</div>
                             </a>
                             </li>
                         </ul>
@@ -1110,20 +1100,20 @@
                             <div class="box-chart-token block-flex-center" data-aos="zoom-in-down">
                                 <div class="box-sum ">
                                     <div class="item-sum">
-                                        <div class="name">$1000만과 같습니다</div>
-                                        <div class="text">Hard Cap</div>
+                                        <div class="name">1,000万ドルに相当</div>
+                                        <div class="text">ハードキャップ</div>
                                     </div>
                                     <div class="item-sum">
                                         <div class="name">693 000 000</div>
-                                        <div class="text">판매용 토큰</div>
+                                        <div class="text">セール用トークン</div>
                                     </div>
                                     <div class="item-sum">
-                                        <div class="name">$0.0151와 같습니다</div>
-                                        <div class="text">가격, 토큰</div>
+                                        <div class="name">0.0151ドルに相当</div>
+                                        <div class="text">トークンの価格</div>
                                     </div>
                                     <div class="item-sum">
                                         <div class="name">BCH, ETH, BTC, ETC, LSK, LTC, NEO, ZEC, DASH, DOGE, WAVES</div>
-                                        <div class="text">인푸트 통화</div>
+                                        <div class="text">参加通貨</div>
                                     </div>
                                 </div>
                                 <div class="block-chart ">
@@ -1138,7 +1128,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">33.00%</div>
-                                            <div class="text">토큰 판매</div>
+                                            <div class="text">トークンセール</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1147,7 +1137,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">30.00%</div>
-                                            <div class="text">개발 펀드</div>
+                                            <div class="text">開発基金</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1156,7 +1146,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">17.69%</div>
-                                            <div class="text">토큰 예약판매</div>
+                                            <div class="text">トークンプレセール</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1165,7 +1155,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">13.80%</div>
-                                            <div class="text">팀</div>
+                                            <div class="text">チーム</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1174,7 +1164,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">2.00%</div>
-                                            <div class="text">컨설턴트</div>
+                                            <div class="text">コンサルト</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1183,7 +1173,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">1.51%</div>
-                                            <div class="text">선 투자자 및 설립자</div>
+                                            <div class="text">初期投資家と創業者</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1192,7 +1182,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">1.00%</div>
-                                            <div class="text">장려금</div>
+                                            <div class="text">ボーナス</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1201,7 +1191,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">1.00%</div>
-                                            <div class="text">예비 펀드에서의 스타트 잔고</div>
+                                            <div class="text">準備ファンドの開始残高</div>
                                         </div>
                                     </div>
                                 </div>
@@ -1211,20 +1201,20 @@
                             <div class="box-chart-token block-flex-center" data-aos="zoom-in-down">
                                 <div class="box-sum ">
                                     <div class="item-sum">
-                                        <div class="name">$1000만과 같습니다</div>
-                                        <div class="text">Hard Cap</div>
+                                        <div class="name">1,000万ドルに相当</div>
+                                        <div class="text">ハードキャップ</div>
                                     </div>
                                     <div class="item-sum">
                                         <div class="name">693 000 000</div>
-                                        <div class="text">판매용 토큰</div>
+                                        <div class="text">セール用トークン</div>
                                     </div>
                                     <div class="item-sum">
-                                        <div class="name">$0.0151와 같습니다</div>
-                                        <div class="text">가격, 토큰</div>
+                                        <div class="name">0.0151ドルに相当</div>
+                                        <div class="text">トークンの価格</div>
                                     </div>
                                     <div class="item-sum">
                                         <div class="name">BCH, ETH, BTC, ETC, LSK, LTC, NEO, ZEC, DASH, DOGE, WAVES</div>
-                                        <div class="text">인푸트 통화</div>
+                                        <div class="text">参加通貨</div>
                                     </div>
                                 </div>
 
@@ -1241,7 +1231,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">50.30%</div>
-                                            <div class="text">개발</div>
+                                            <div class="text">開発</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1250,7 +1240,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">21.70%</div>
-                                            <div class="text">마케팅</div>
+                                            <div class="text">マーケティング</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1259,7 +1249,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">19.40%</div>
-                                            <div class="text">운영비</div>
+                                            <div class="text">営業費用</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1268,7 +1258,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">6.70%</div>
-                                            <div class="text">개발자 커뮤니티</div>
+                                            <div class="text">開発者コミュニティ</div>
                                         </div>
                                     </div>
                                     <div class="item-chart box-table">
@@ -1277,7 +1267,7 @@
                                         </div>
                                         <div class="box-text item-cell">
                                             <div class="title">1.90%</div>
-                                            <div class="text">법률자문</div>
+                                            <div class="text">法的サービス</div>
                                         </div>
                                     </div>
                                 </div>
@@ -1289,41 +1279,42 @@
         </div>
 
         <div class="box-btn text-center" data-aos="fade-up" data-aos-delay="100">
-            <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">구매 토큰</a>-->
-            <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">구매 토큰</a>
+
+            <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">購入トークン</a>-->
+            <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">購入トークン</a>
         </div>
     </div>
 </section>
 <section class="section section-roadmap">
     <div class="container">
         <div class="text-roadmap padding-block">
-            <div class="name-block" data-aos="fade-right">Roadmap 프로젝트</div>
+            <div class="name-block" data-aos="fade-right">Roadmap</div>
         </div>
         <div class="box-roadmap block-flex-center">
             <div class="box-item-roadmap" data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">
                 <div class="box-head">
                     <div class="box-number">1</div>
                     <div class="box-name">
-                        TOKEN SALE
+                        トークンセール
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">2017년 12월</div>
-                    <div class="text">목표: TravelChain 개발 및 발전을 위해 $10.000.000까지 유치</div>
+                    <div class="name-date">2017年の12月</div>
+                    <div class="text">フェーズの目標はTravelChainの開発と発展に最大10000000ドルを引き付ける</div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages1"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>단계</span>
+                            <span>ステージ</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages1">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>테스트 네트워크 TravelChain 개시;</li>
-                                    <li>MVP TravelChain 개시;</li>
-                                    <li>이사진과 같이 TravelChain 개시을 위한 운영팀 생성</li>
-                                    <li>토큰 판매;</li>
+                                    <li>TravelChain TestNetの実行</li>
+                                    <li>MVP TravelChainの開始</li>
+                                    <li>TravelChainと業界関係者との統合に関するチームの形成</li>
+                                    <li>トークンセール</li>
                                 </ul>
                             </div>
                         </div>
@@ -1334,25 +1325,25 @@
                 <div class="box-head">
                     <div class="box-number">2</div>
                     <div class="box-name">
-                        개시 준비 <br/> TravelChain
+                       TravelChainの実装準備
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">2018년 1월</div>
-                    <div class="text">목표: TravelChain 운용 네트워크 개시 준비</div>
+                    <div class="name-date">2018年の１月</div>
+                    <div class="text">フェーズの目的：運用ネットワークの立ち上げの準備TravelChain</div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages2"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>단계</span>
+                            <span>ステージ</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages2">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>TravelChain 플랫폼에 관광 데이터를 저장할 수 있는 기본 기준 생성</li>
-                                    <li>블록 분석 시스템 개시 (block-explorer);</li>
-                                    <li>TravelChain.io 플랫폼에 기본 기능 개시;</li>
+                                    <li>TravelChainプラットフォームに観光データを保存するための基本基準の作成</li>
+                                    <li>ブロックエクスプローラの実行</li>
+                                    <li>TravelChain.ioプラットフォームの基本機能の開始</li>
                                 </ul>
                             </div>
                         </div>
@@ -1363,26 +1354,26 @@
                 <div class="box-head">
                     <div class="box-number">3</div>
                     <div class="box-name">
-                        운용 네트워크
+                        運用ネットワークの開始
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">2018년 2월</div>
-                    <div class="text">목표: 개발자가 어플을 만들수 있도록 운용 네트워크 개시
+                    <div class="name-date">2018年の2月</div>
+                    <div class="text">フェーズの目標はTravelChain運用ネットワークを立ち上げ、開発者が独自のアプリケー ションを作成できるようにすることです
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages3"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>단계</span>
+                            <span>ステージ</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages3">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>제네시스 블록 생성;</li>
-                                    <li>운용 네트워크 개시;</li>
-                                    <li>교환소에 출시;</li>
+                                    <li>起源ブロックの形成</li>
+                                    <li>運用ネットワークの開始</li>
+                                    <li>取引所に出世</li>
                                 </ul>
                             </div>
                         </div>
@@ -1396,26 +1387,26 @@
                 <div class="box-head">
                     <div class="box-number">4</div>
                     <div class="box-name">
-                        데이터 수집 도구 준비
+                        情報収集ツールの作成
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">2018년 1-2분기</div>
-                    <div class="text">목표: 정보 수집 프로그램 준비 및 개시</div>
+                    <div class="name-date">期間：2018年の第１四半期、第２四半期</div>
+                    <div class="text">フェーズの目的は情報収集者の準備と立ち上げ：</div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages4"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>단계</span>
+                            <span>ステージ</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages4">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>TravelChain용 추가 운영책 및 플러그인 도입</li>
-                                    <li>지갑 기능과 데이터 수집 및 제어 기능이 탑재되어 있는 TravelChain 모바일 어플;</li>
-                                    <li>Chrome 용 플러그인;</li>
-                                    <li>파트너 홈페이지에 도입 가능한 JS 위젯;</li>
+                                    <li>Travelchainの追加操作とプラグインを実装する</li>
+                                    <li>TravelChainのウォレットの機能とユーザーのデータへのアクセスと管理機能を備えたモ バイルアプリケーション</li>
+                                    <li>Chrome用プラグイン</li>
+                                    <li>パートナーサイトでの実装用のJSウィジェット</li>
                                 </ul>
                             </div>
                         </div>
@@ -1426,26 +1417,26 @@
                 <div class="box-head">
                     <div class="box-number">5</div>
                     <div class="box-name">
-                        파트너 통합
+                        パートナーの統合
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">2018년 2분기</div>
-                    <div class="text">목표: 관광 분야의 전략적 파트너 연결
+                    <div class="name-date">2018年の第２四半期</div>
+                    <div class="text">フェーズの目標は経済の観光部門からの戦略的に重要なパートナーを統合すること
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages5"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>단계</span>
+                            <span>ステージ</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages5">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>파트너의 요청에 따라 온톨로지 확장;</li>
-                                    <li>파트너 홈페이지용 위젯 도입</li>
-                                    <li>파트너와의 긴밀한 통합;</li>
+                                    <li>パートナーの要求に応じてオントロジの拡張</li>
+                                    <li>パートナーサイトへのウィジェットの展開</li>
+                                    <li>パートナーの統合</li>
                                 </ul>
                             </div>
                         </div>
@@ -1456,25 +1447,25 @@
                 <div class="box-head">
                     <div class="box-number">6</div>
                     <div class="box-name">
-                        개발자 커뮤니티 생성
+                        開発者のコミュニティを作成する。
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">2018년 2분기</div>
-                    <div class="text">목표: TravelChain에 개발자들의 프로젝트를 도입하거나 생성하고자 하는 개발자들의 커뮤니티 생성
+                    <div class="name-date">2018年の第２四半期</div>
+                    <div class="text">フェーズの目標は完成したプロジェクトをTravelChainで実装する開発者のコミュニティ の作成
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages6"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>단계</span>
+                            <span>ステージ</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages6">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>고급 문서 생성;</li>
-                                    <li>개발자 커뮤니티 생성;</li>
+                                    <li>高度なドキュメントを作成する</li>
+                                    <li>開発者コミュニティを作成する</li>
                                 </ul>
                             </div>
                         </div>
@@ -1487,27 +1478,27 @@
                 <div class="box-head">
                     <div class="box-number">7</div>
                     <div class="box-name">
-                        코인 배포 및 임계량 도달
+                        コインの分配と臨界量。
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">2018년 2-3분기</div>
-                    <div class="text">목표: 생태계 프로젝트, 개발자팀 그리고 활동적인 이용자를 통해 토큰 배포 개시
+                    <div class="name-date">2018年の第２四半期、第３四半期</div>
+                    <div class="text">フェーズの目標は、エコシステムプロジェクト、開発チーム、アクティブなユーザー勧誘 で参加者を
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages7"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>단계</span>
+                            <span>ステージ</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages7">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>인력 펀드 개시;
+                                    <li>デジタル開発基金の立ち上げ
                                     </li>
-                                    <li>발행 개시;</li>
-                                    <li>이용자 10만명 모집</li>
+                                    <li>課題の実行</li>
+                                    <li>100,000ユーザーのセット</li>
                                 </ul>
                             </div>
                         </div>
@@ -1518,24 +1509,24 @@
                 <div class="box-head">
                     <div class="box-number">8</div>
                     <div class="box-name">
-                        확장용 인프라
+                        スケーリングのため  <br/>  のインフラストラクチャ
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="name-date">2019년 1-2분기</div>
-                    <div class="text">목표: 생태계 확장을 위한 인프라 솔루션 생성 및 개시
+                    <div class="name-date">2019年の第１四半期、第２四半期</div>
+                    <div class="text">フェーズの目標はTravelChainのスケーリングのためのインフラストラクチャのソリュー ションの準備。
                     </div>
                 </div>
                 <div class="box-stages">
                     <div class="dropdown">
                         <a class=" btn-secondary dropdown-toggle" type="button" id="stages8"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>단계</span>
+                            <span>ステージ</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="stages8">
                             <div class="block-text text">
                                 <ul class="point">
-                                    <li>생태계 확장을 위한 인프라 솔루션 생성 및 개시;</li>
+                                    <li>フェーズの目標はTravelChainのスケーリングのためのインフラストラクチャのソリュー ションの準備。;</li>
                                 </ul>
                             </div>
                         </div>
@@ -1546,12 +1537,12 @@
                 <div class="box-head">
                     <div class="box-btn text-center">
 
-                        <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale"><span class="middle">구매 토큰</span></a>-->
-                        <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io"><span class="middle">구매 토큰</span></a>
+                        <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale"><span class="middle">購入トークン</span></a>-->
+                        <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io"><span class="middle">購入トークン</span></a>
                     </div>
                 </div>
                 <div class="box-body box-body-last">
-                    <div class="text text-center">TravelChain에 대한 뉴스를 <br/> 제일 먼저 받아보세요</div>
+                    <div class="text text-center">TravelChainのニュースを最速に知る</div>
                 </div>
             </div>
         </div>
@@ -1560,8 +1551,8 @@
 <section class="section section-commands">
     <div class="container padding-block">
         <div class="text-commands text-center">
-            <div class="name-block" data-aos="fade-up">TravelChain 팀</div>
-            <div class="block-text" data-aos="fade-up" data-aos-delay="50">팀에는 각 분야 전문가 24명이 있습니다, 그들을 소개하겠습니다:
+            <div class="name-block" data-aos="fade-up">TravelChainチーム</div>
+            <div class="block-text" data-aos="fade-up" data-aos-delay="50">チームにはそれぞれの分野の24人の専門家がいます。指導者紹介：
             </div>
         </div>
         <div class="block-commands">
@@ -1575,9 +1566,9 @@
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
-                        <div class="box-name">일리야 오를로프 </div>
-                        <div class="box-qualification">공동설립자, 최고경영자</div>
-                        <div class="box-info">기업 경영 및 전략적 경영 담당자. 450 명 이하의 직원을 보유한 중소기업에서의 풍부한 경영 경험 보유자
+                        <div class="box-name">イルヤ・オルロフ</div>
+                        <div class="box-qualification">共同設立者、CEO。</div>
+                        <div class="box-info">コーポレートガバナンスと戦略的管理を担当する。小規模および大規模な企業で450人以上の従業員を持つ豊富な管理経験を習得。
                         </div>
                     </div>
                     <div class="item-accordion " data-aos="fade-up" data-aos-delay="400">
@@ -1588,9 +1579,9 @@
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
-                        <div class="box-name">알렉세이 무라비요프 </div>
-                        <div class="box-qualification">공동설립자, 설계자</div>
-                        <div class="box-info">블록 전문가 및 프로그래머 연구원. 나노 재료 및 광전자 공학 석사. `보이스` 블록체인 최고 대표자
+                        <div class="box-name">アレクセイ・ムラヴィヨフ</div>
+                        <div class="box-qualification">共同創設者、建築家。</div>
+                        <div class="box-info">ブロックチェーン エクスパートとプログラマー 研究員。ナノマテリアルとオプトエレクトロニクスの物理学修士。ブロックチェーンとのゴロスというネットワークのトップ代表。
                         </div>
                     </div>
                     <div class="item-accordion " data-aos="fade-up" data-aos-delay="600">
@@ -1601,9 +1592,9 @@
                                 <i class="icon icon-middle icon-in"></i>
                             </a>
                         </div>
-                        <div class="box-name"> 알렉세이 솔로비요프</div>
-                        <div class="box-qualification">공동설립자, 운영 이사</div>
-                        <div class="box-info">무역, 서비스, 건설 등 다양한 분야에서의 15 년 이상의 경력을 가진 연속 기업가. 블록체인 최고 대표자
+                        <div class="box-name">アレクセイ・ソロビョフ</div>
+                        <div class="box-qualification">共同創設者、オペレーションディレクター。</div>
+                        <div class="box-info">コーポレートガバナンスと戦略的管理を担当する。小規模および大規模な企業で450人以上の従業員を持つ豊富な管理経験を習得。
                         </div>
                     </div>
                     <div class="item-accordion clearfix" data-aos="fade-up" data-aos-delay="600">
@@ -1620,7 +1611,7 @@
                     </div>
                 </div>
                 <div class="box-btn text-center" data-aos="zoom-out-up">
-                    <a class="btn all-commands btn-border-blue">모든 팀원</a>
+                    <a class="btn all-commands btn-border-blue">チーム全体</a>
                 </div>
                 <div class="box-accordion-body accordion-body-toggle">
 
@@ -1633,8 +1624,8 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">오르한 제이날르 </div>
-                            <div class="box-qualification">최고기술경영자 </div>
+                            <div class="box-name">オルハン・ゼイナリ</div>
+                            <div class="box-qualification">CTO</div>
                         </div>
                     </div>
 
@@ -1646,7 +1637,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">안똔 꼴로닌 </div>
+                            <div class="box-name">アントン・コロニン</div>
                             <div class="box-qualification">AI, BigData Expert</div>
                         </div>
                     </div>
@@ -1659,7 +1650,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">유리 아니낀 </div>
+                            <div class="box-name">ユリー・アニキン</div>
                             <div class="box-qualification">Ontology Analyst</div>
                         </div>
                     </div>
@@ -1673,7 +1664,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">바벨 도로즈킨</div>
+                            <div class="box-name">パベル・ドロシキン</div>
                             <div class="box-qualification">Team Lead, Back-end
                                 Developer
                             </div>
@@ -1689,7 +1680,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">아르뚐 보고몰로프 </div>
+                            <div class="box-name">アルチョム・ボゴモロフ</div>
                             <div class="box-qualification">Front-end Developer</div>
                         </div>
                     </div>
@@ -1703,7 +1694,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">주라브 씨와르비제 </div>
+                            <div class="box-name">ズラブ・シヴァルビーズ</div>
                             <div class="box-qualification">Front-end Developer</div>
                         </div>
                     </div>
@@ -1716,7 +1707,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name"> 사비나 구르바노바 </div>
+                            <div class="box-name">サビーナ・ギルバノバ</div>
                             <div class="box-qualification">UX/UI Designer</div>
                         </div>
                     </div>
@@ -1729,7 +1720,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name"> 콘스탄틴 찬치코프 </div>
+                            <div class="box-name">コンスタンティン・チャンチコフ</div>
                             <div class="box-qualification">System Architect</div>
                         </div>
                     </div>
@@ -1758,7 +1749,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name"> 막심 우바로브 </div>
+                            <div class="box-name">マキシム・ウヴァロフ</div>
                             <div class="box-qualification">Digital Producer</div>
                         </div>
                     </div>
@@ -1771,7 +1762,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">알렉산드르 뻬트로프 </div>
+                            <div class="box-name">アレキサンダーペトロフ</div>
                             <div class="box-qualification">Marketing Manager</div>
                         </div>
                     </div>
@@ -1784,7 +1775,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">미하일 세제모프 </div>
+                            <div class="box-name">ミハイル・セゼモフ</div>
                             <div class="box-qualification">Marketing Manager</div>
                         </div>
                     </div>
@@ -1797,7 +1788,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">발레리야 바라노바 </div>
+                            <div class="box-name">ヴァレリヤ・バラノワ</div>
                             <div class="box-qualification">Head of SMM</div>
                         </div>
                     </div>
@@ -1811,7 +1802,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">로만 우파예브</div>
+                            <div class="box-name">ローマン・ウファエフ</div>
                             <div class="box-qualification">Head of Media Integration and Traffic</div>
                         </div>
                     </div>
@@ -1825,7 +1816,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">드미트리 셀레즈네브 </div>
+                            <div class="box-name">ドミトリー・セレズネフ</div>
                             <div class="box-qualification">Graphic Designer</div>
                         </div>
                     </div>
@@ -1839,7 +1830,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">이반 베구노프 </div>
+                            <div class="box-name">イワン・ベグノフ</div>
                             <div class="box-qualification">Chief Business Development Officer</div>
                         </div>
                     </div>
@@ -1853,7 +1844,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name"> 드미트리 라구틴 </div>
+                            <div class="box-name">ドミトリー・ラグチン</div>
                             <div class="box-qualification">Investor Relations</div>
                         </div>
                     </div>
@@ -1867,7 +1858,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name"> 세르게이 로그빈</div>
+                            <div class="box-name">セルゲイ・ログビン</div>
                             <div class="box-qualification">HR Manager</div>
                         </div>
                     </div>
@@ -1881,7 +1872,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name"> 드미트리 킨</div>
+                            <div class="box-name">ドミトリー・キン</div>
                             <div class="box-qualification">Lead Editor</div>
                         </div>
                     </div>
@@ -1895,7 +1886,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">예까테리나 블라소바 </div>
+                            <div class="box-name">エカテリーナ・ブラソヴァ</div>
                             <div class="box-qualification">Copywriter</div>
                         </div>
                     </div>
@@ -1909,7 +1900,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">아나스타시야 라즈마히나</div>
+                            <div class="box-name">アナスタシア・ラズマク二ナ</div>
                             <div class="box-qualification">Head of Community
                                 Management
                             </div>
@@ -1925,7 +1916,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name"> 티모페이 마트베예프 </div>
+                            <div class="box-name">チモフェイ・マトベイエフ</div>
                             <div class="box-qualification">Community Manager</div>
                         </div>
                     </div>
@@ -1934,7 +1925,7 @@
             </div>
         </div>
         <div class="text-commands text-center">
-            <div class="name-block" data-aos="fade-up">개발 컨설턴트</div>
+            <div class="name-block" data-aos="fade-up">発展コンサルタント</div>
 
         </div>
         <div class="block-commands">
@@ -1949,7 +1940,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">카르틱 아예르</div>
+                            <div class="box-name">カルチク・アイヤル</div>
                             <div class="box-qualification">Mentor, Founder & CEO of BlockchainMonk</div>
                         </div>
                     </div>
@@ -1962,7 +1953,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">크리스토프 헤링</div>
+                            <div class="box-name">クリストフ・ヘリング</div>
                             <div class="box-qualification">Elected BitShares Committee Member and Graphene Ambassador</div>
                         </div>
                     </div>
@@ -1975,7 +1966,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">데스몬드 마르쌸
+                            <div class="box-name">デスモンド・マーシャル
                             </div>
                             <div class="box-qualification">Member of global Enterprise Ethereum Alliance,
                                 Advisor to Hong Kong Government, MD of Rouge Ventures
@@ -1991,7 +1982,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">윈셋 라이
+                            <div class="box-name">ヴィンセント・ライ
                             </div>
                             <div class="box-qualification">Founder/CEO of ToccoTravel</div>
                         </div>
@@ -2007,7 +1998,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">알렉스 뚜르스키</div>
+                            <div class="box-name">アレックス・トゥルスキー</div>
                             <div class="box-qualification">Founder/CEO of izi.travel</div>
                         </div>
                     </div>
@@ -2021,7 +2012,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">로만 뽀볼로쯔키
+                            <div class="box-name">ローマン・ポボロツキー
                             </div>
                             <div class="box-qualification">Founder/CEO of “Cyber Russia”</div>
                         </div>
@@ -2035,7 +2026,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">에두아르트 잠가랸</div>
+                            <div class="box-name">エドゥアルド・ジャムハリャン</div>
                             <div class="box-qualification">CBDO ICObox, TOKEN SALE Analyst/Adviser</div>
                         </div>
                     </div>
@@ -2045,7 +2036,7 @@
             </div>
         </div>
         <div class="text-commands text-center">
-            <div class="name-block" data-aos="fade-up">마케팅 컨설턴트:</div>
+            <div class="name-block" data-aos="fade-up">マーケティングコンサルタント</div>
         </div>
         <div class="block-commands">
             <div class="block-accordion">
@@ -2060,7 +2051,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">알레산드르 카롤릭-슬라옌</div>
+                            <div class="box-name">アレクサンダー・カロリクシュラエン</div>
                             <div class="box-qualification">Founder of Panache Managment Pte Ltd; Holds an Executive MBA
                                 from Kellogg School of Management and Hong Kong University of Science and Technology.
                             </div>
@@ -2076,7 +2067,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">토니 시모노프스키</div>
+                            <div class="box-name">トニー・シモノフスキー</div>
                             <div class="box-qualification">Marketing data scientist, Token Sale focused growth hacker
                             </div>
                         </div>
@@ -2091,7 +2082,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">유리 마트베예프</div>
+                            <div class="box-name">ユリー・マトベイエフ</div>
                             <div class="box-qualification">Founder/CEO of the "Banzay" and "National Business"
                                 magazines
                             </div>
@@ -2107,7 +2098,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">루슬란 소콜로브스키</div>
+                            <div class="box-name">ルスラン・ソコロフスキー</div>
                             <div class="box-qualification">Founder/CEO of the magazine "BitJournal",
                                 YouTube Blogger > 500k subscribers
                             </div>
@@ -2123,7 +2114,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">드미트리 라린</div>
+                            <div class="box-name">ドミトリー・ラリン</div>
                             <div class="box-qualification">PR-advisor, <br>
                                 YouTube Blogger > 2kk subscribers
                             </div>
@@ -2138,7 +2129,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">말컴 탄</div>
+                            <div class="box-name">マルコム・タン</div>
                             <div class="box-qualification">
                                 CEO of The Bluesky Group; Founder of Gravitas Holding (Pte) Limited; Author of
                                 "How to ICO/ITO in Singapore";
@@ -2150,7 +2141,7 @@
         </div>
 
         <div class="text-commands text-center">
-            <div class="name-block" data-aos="fade-up">법률컨설턴트:</div>
+            <div class="name-block" data-aos="fade-up">法律問題に関するコンサルタント：</div>
         </div>
         <div class="block-commands">
             <div class="block-accordion">
@@ -2164,7 +2155,7 @@
                             </a>
                         </div>
                         <div class="content">
-                            <div class="box-name">드미트리 마치힌 </div>
+                            <div class="box-name">ドミトリー・マーティン</div>
                             <div class="box-qualification">Partner GMT Legal</div>
                         </div>
                     </div>
@@ -2173,25 +2164,26 @@
             </div>
         </div>
 
+
     </div>
 </section>
 <section class="section section-activity">
   <div class="container">
     <div class="section-text text-sm text-center">
-      <div class="name-block" data-aos="fade-up">활동상황</div>
-      <div class="block-text" data-aos="fade-up" data-aos-delay="100">우리는 개발 내용을 시장에 공개하고 있으며 항상 피드백에 대한 준비가 되어 있습니다.
+      <div class="name-block" data-aos="fade-up">私たちの活動</div>
+      <div class="block-text" data-aos="fade-up" data-aos-delay="100">私たちは市場と途中成功についての情報を共有し、常にフィードバックを待って おります
       </div>
     </div>
     <div class="activity-tabs" data-aos="zoom-in-down" data-aos-delay="100">
       <div class="tab-block">
         <ul class="nav-tabs" role="tablist">
           <li role="presentation"><a class="btn" href="#speech" aria-controls="speech" role="tab"
-                                     data-toggle="tab"><span class="name">발표</span></a></li>
+                                     data-toggle="tab"><span class="name">スピーチ</span></a></li>
           <li role="presentation" class="active"><a class="btn" href="#blog" aria-controls="blog" role="tab"
-                                                    data-toggle="tab"><span class="name">Live 블로그</span></a>
+                                                    data-toggle="tab"><span class="name">ライブブログ</span></a>
           </li>
           <li role="presentation"><a class="btn" href="#smi" aria-controls="smi" role="tab" data-toggle="tab"><span
-              class="name">언론기사</span></a></li>
+              class="name">メディア内の登場</span></a></li>
         </ul>
         <div class="tab-content">
           <div role="tabpanel" class="tab-pane fade" id="speech">
@@ -2417,139 +2409,144 @@
   <div class="container">
     <div class="padding-block">
       <div class="section-text">
-        <div class="name-block border" data-aos="fade-right">자주하는질문</div>
+        <div class="name-block border" data-aos="fade-right">よくある質問</div>
       </div>
       <div class="question-list slide-group">
         <div class="question-item" data-aos="fade-right" data-aos-delay="50">
           <a class="link name slide-group-next"><span
-              class="name-link">1. 관광산업에서 블록체인이 필요한 이유가 무엇인가요?</span></a>
+              class="name-link">1. なぜ観光産業でブロックチェーンが使用されていますか？</span></a>
           <div class="block-text text">
-            데이터는 21 세기의 석유이지만 대부분 기업 시스템 내부에서 폐쇄되어 다른 회사에서 혁신적인 서비스를 창출하는데 사용할 수 없습니다. 저희 미션은 모든 시장 참가자들간에 데이터 교환을 위한
-            평등한 접근을 제공하는 것입니다
+            データは21世紀の石油の一種ですが、ほとんどの場合、企業システム内で閉じられており、他の企業
+            が革新的なサービスを作成するために使用することはできません。私たちの使命は、すべての市場プ
+            レイヤー間でのデータ交換のための平等なアクセスを提供することです。
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="50">
           <a class="link name slide-group-next"><span
-              class="name-link">2. 블록체인에 오픈코드를 쓰는 이유가 무엇인가요?</span></a>
-          <div class="block-text text">TravelChain 생태계의 응용 프로그램이 많을 수록 참여자 수가 많아지고 TravelToken에 대한 수요가 커집니다.
+              class="name-link">2. なぜオープンソースのブロックチェーン？</span></a>
+          <div class="block-text text">
+            より多くのアプリケーションがTravelChainエコシステムに含まれるほど、参加者数が増加し
+            、TravelTokenのも需要が増加します。
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="50">
           <a class="link name slide-group-next"><span
-              class="name-link">3. TravelToken이 사업에서 필요하는 이유는 무엇입니까??</span></a>
-          <div class="block-text text">TravelChain 생태계 데이터에 접속하면 비즈니스 마케팅 비용을 크게 줄일 수 있습니다.
+              class="name-link">3. TravelTokenがビジネスを必要とする理由 </span></a>
+          <div class="block-text text">
+            TravelChainエコシステムデータにアクセスすることで、ビジネスのマーケティングコストを大幅に
+            削減できます。
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="100">
-          <a class="link name slide-group-next"><span class="name-link">4. Token Sale 의 TravelToken 가격은 얼마입니까</span></a>
+          <a class="link name slide-group-next"><span class="name-link">4. TravelTokenのトークンセールはいくらかかるでしょうか？</span></a>
           <div class="block-text text">
-            두 가지 주문이 발행됩니다.
+            2つのオーダが発行されます。
             <ul class="point">
-              <li>232,290,502.8 TT에 상응하는 15 % 할인되어3백만달러에 상응하는 금액. <br/>
-                가격 : 0.0129달러에 상응하는 금액
+              <li>300万ドルに相当し、232,290,502.8 TTの15％割引。<br/>
+                価格：$0.0129相当
               </li>
-              <li>7 백만 달러에 상응하는 460,709,497.2 TT.
+              <li>460,709,497.2 TTの7,000,000ドルに相当します。<br/>
+                価格：$0.0151相当
               </li>
             </ul>
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="100">
-          <a class="link name slide-group-next"><span class="name-link">5. Token PreSale 및 Token Sale에서 배포되는 토큰의 발행수는 어느정도 됩니까? 토큰Token? </span>
+          <a class="link name slide-group-next"><span class="name-link">5. Token PreSaleとToken
+            Saleにどの程度の大きさのトークンを配布するのですか？</span>
           </a>
           <div class="block-text text">
-            PreSale 및 Token Sale의 결과에 따라 배포될 총 2 100 000 000 건의 TravelToken이 발급됩니다.
+            合計 2 100 000 000の TravelTokenが発行され、 Token PreSaleと Token Sale の結果に従って配布されます。
             <ul class="point">
-              <li> Early founders & investors — 1,51%</li>
-              <li> Token PreSale — 17,69%</li>
-              <li> Token Sale — 33,00%</li>
-              <li> 회사팀 — 13,80%</li>
-              <li> Advisors — 2,00%</li>
-              <li> 회사팀 — 1,00%</li>
-              <li> 개발 기금 — 30,00%</li>
-              <li> 예비 입장의 스타트 발란 - 1%</li>
+              <li>Early founders & investors – 1.51%</li>
+              <li>Token PreSale - 17.69%</li>
+              <li>Token Sale – 33,00%</li>
+              <li>Team – 13.80%</li>
+              <li> Advisors – 2,00%</li>
+              <li> Bounty – 1.00%</li>
+              <li> 開発基金– 30,00%</li>
+              <li> リザーブ入力の開始残高は- 1%</li>
 
             </ul>
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="100">
-          <a class="link name slide-group-next"><span class="name-link">6. Token Sale언제부터 시작되며 언제까지 지속됩니까? </span></a>
-          <div class="block-text text">Token Sale언제부터 시작되며 언제까지 지속됩니까?</div>
+          <a class="link name slide-group-next"><span class="name-link">6. トークンセールが開催時といつまで続くだろうか？ </span></a>
+          <div class="block-text text">トークンセールが開催時といつまで続くだろうか？</div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="150">
           <a class="link name slide-group-next"><span
-              class="name-link">7. Token Sale언제부터 시작되며 언제까지 지속됩니까? </span></a>
-          <div class="block-text text">Hard cap: 1천만달러에 상응하는 금액.
+              class="name-link">7. トークンセールキャンペーンの目的とは？ </span></a>
+          <div class="block-text text">トークンセールキャンペーンの目的とは？
             <br/>
-            Token Sale을 위한 자금을 모으는 목적은 첫 3 년 동안 플랫폼을 시작하고 개발 자금을 확보하는 것입니다. 이 기간 동안 회사팀
-            은 자급 자족해야 합니다. 비즈니스 모델에 대해서는White paper에서 자세히 설명합니다.
+            トークンセールの資金調達の目的は、プラットフォームの立ち上げと最初の3年間に渡っての開発資 金の確保です。この期間中、チームは
+            自給自足を達成する必要になります。 ビジネスモデルについては、ホワイトペーパーで詳しく説明しています。
             <br/>
-            Token Sale을 위한 자금을 모으는 목적은 첫 3 년 동안 플랫폼을 시작하고 개발 자금을 확보하는 것입니다. 이 기간 동안 회사팀은
-            자급 자족해야 합니다. 비즈니스 모델에 대해서는White paper에서 자세히 설명합니다.
-            수량의 토큰에 대한 주문하도록 계획했습니다. Token Sale기간 중에 3백만 달러에
-            상응하는 최소 금액으로 주문이 판매되지 않으면 나머지 토큰은 나중에 폰드 및 개인 투자자와의 계약 또는 외부 거래를 통해 판매 될
-            것입니다. 7 백만 달러 상당의 금액으로 주문의 토큰이 판매되지
-            않을 경우Development Trust계좌로 송금되어White paper KPI에 표시된 사용자의 명수가 10 만 명까지 도달한 후 판매하게 됩니다.
+            私たちはトークンセール時に固定価格の固定数のトークンを 3,000,000ドルと 7,000,000 ドルに相当する 2
+            つのオーダを入れて固定価格で実装するように計画しました。トークンセール期間中に最低オーダ価 格 300万ドルが売られていない場合、残りのトークンは後で資金と個人投資家との契約また
+            私たちはトークンセール時に固定価格の固定数のトークンを 3,000,000ドルと 7,000,000 ドルに相当する 2
+            つのオーダを入れて固定価格で実装するように計画しました。トークンセール期間中に最低オーダ価 格 300万ドルが売られていない場合、残りのトークンは後で資金と個人投資家との契約また
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="150">
-          <a class="link name slide-group-next"><span class="name-link">8. Token Sale를 위해 수집된 자금은 어떻게 사용되나요? </span></a>
+          <a class="link name slide-group-next"><span class="name-link">8. トークンセールのために回収される資金はどのように使用されますか？</span></a>
           <div class="block-text text">
-            수집된 기금은 다음과 같이 배포됩니다.
+            回収された資金は次のように配分されます：
 
             <ul class="point">
-              <li>개발 — 50,3 %</li>
-              <li>운영비— 19,4 %</li>
-              <li>마케 — 21,7 %</li>
-              <li>개발자 커뮤니티 — 6,3 %</li>
-              <li>법률 서비스 — 1,9 %</li>
+              <li>開発 — 50,3 %</li>
+              <li>営業費用 — 19,4 %</li>
+              <li>マーケティング — 21,7 %</li>
+              <li>開発者コミュニティ — 6,3 %</li>
+              <li>法律サービス — 1,9 %</li>
             </ul>
 
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="150">
           <a class="link name slide-group-next"><span
-              class="name-link">9. TravelToken은 어디에서 발행됩니까?</span></a>
+              class="name-link">9. TravelTokenはどこからリリースされましたか？</span></a>
           <div class="block-text text">
-            TravelToken은 TravelChain 블록체인을 기반으로 하여 발행됩니다.
+            TravelTokenは大ヒットした TravelChainに基づいてリリースされています。
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="200">
           <a class="link name slide-group-next"><span
-              class="name-link">10.  저희는 왜 TravelToken을 자신의 블록체인을 통해 발행하나요? </span></a>
-          <div class="block-text text">처음에 저희는 Ethereum 네트워크에서 스마트 계약 (ETH-20)을 기반으로 하여 생산한 다음 TravelChain 블록체인으로 이전하기로
-            했습니다. 그러나 자희 개발 부서는 프로토타입을 작성하는 일을 기한전에 수행했습니다. 따라서 Token Sale을 자체 블록체인에서 수행 할 수게 되었습니다.
+              class="name-link">10.  TravelTokenは大ヒットした TravelChainに基づいてリリースされています。? </span></a>
+          <div class="block-text text">当初、我々は Ethereumネットワーク上のスマートコントラクト（ ETH­20 ）に基づいて生産することを期待してから、 TravelChain
+            ブロックシステムに移行しました。しかし、私たちの開発部門は、プロトタイプを書くという課題に 前向きに対応していました。これは、私たち自身の分離でトークンセールを行うことを可能にします
 
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="200">
-          <a class="link name slide-group-next"><span class="name-link">11. Testnet가 실행 중입니까?</span></a>
-          <div class="block-text text">Testnet은testnet.travelchain.io에서 실행중입니다.
+          <a class="link name slide-group-next"><span class="name-link">11. テストネットは動作していますか？</span></a>
+          <div class="block-text text">testnet.travelchain.ioにてテストネットが起動します。
+
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="250">
-          <a class="link name slide-group-next"><span class="name-link">12. 자금은 어떤 통화로 수집됩니까?</span></a>
+          <a class="link name slide-group-next"><span
+              class="name-link">12. どの通貨で資金が集められますか？</span></a>
           <div class="block-text text">BCH, ETH, BTC, ETC, LSK. LTC, NEO, ZEC, DASH, DOGE, WAVES
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="250">
           <a class="link name slide-group-next"><span
-              class="name-link">13. 자금은 어떤 통화로 수집됩니까?</span></a>
-          <div class="block-text text">Token Sale완료 후 2 주 이내에 해당 거래소에 상장됩니다.
+              class="name-link">13. 交換所でのトークンの販売はいつ可能ですか？</span></a>
+          <div class="block-text text">トークンセールの完了後 2週間以内に取引所に出る予定
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="250">
-          <a class="link name slide-group-next"><span
-              class="name-link">14. 미국, 중국, 싱가포르 시민은Token Sale에 참여할 수 있습니까? </span></a>
-          <div class="block-text text">미국, 중국 또는 싱가포르 시민권자인 경우Token Sale에 참여할 수 없으며 또는암호화화폐 및 토큰 사용이 제한된 국가의 시민 또는 거주자인
-            경우Token Sale에 참여할 수 없습니다.
+          <a class="link name slide-group-next"><span class="name-link">14. 米国、中国、シンガポールの市民はトークンセールに参加できますか？ </span></a>
+          <div class="block-text text">米国、中国、シンガポールの市民であれば、また、暗号化通貨やトークンの使用が制限されている国 の市民または居住者の場合は、トークンセールに参加することはできません。
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="300">
           <a class="link name slide-group-next"><span
-              class="name-link">15. Token Sale에 어떻게 참여할 수 있습니까? </span></a>
-          <div class="block-text text">Travelchain.io 웹 사이트에 "Token Sale에 참여하기" 버튼이나타납니다. 이 버튼을 클릭하면
-            wallet.travelchain.io에서 개인 계정으로 이동하게 되며, TravelChain 블록 체인에서 계정을 등록 할 수 있습니다. 또한Token Sale참가 조건에 동의하고 KYC
-            양식을 작성해야 합니다. Token Sale시작에 대한 알림을 받으려면 TravelChain.io에 메일을 남겨 주십시오.
+              class="name-link">15. トークンセールに参加するには？ </span></a>
+          <div class="block-text text">「トークンセールに参加する」というボタンが Travelchain.ioの Web サイトにて表示されます。それをナビゲートすると、 wallet.travelchain.io の個人アカウントに移動し、そこで TravelChain
+            ブロックバスターでアカウントを登録することができます。さらに、トークンセールの参加条件に同 意し、 KYCフォームに記入する必要があります。 トークンセールの開始の通知を受信するには、 TravelChain.ioにメールを残すことができます。
+
           </div>
         </div>
       </div>
@@ -2560,25 +2557,27 @@
     <div class="container">
         <div class="padding-block">
             <div class="section-text text-center">
-                <div class="name-block white" data-aos="fade-up">토큰 판매가 시작되었습니다</div>
+                <div class="name-block white" data-aos="fade-up">トークンセールが開始しました</div>
             </div>
             <div class="section-text text-md text-center" data-aos="zoom-out-up" data-aos-delay="200">
                 <div class="name-block white">
-                    토큰을 15%할인된 가격으로  구매할 수 있는 기회를 놓지지 마십시오
+                    トークンを15％割引で取得す <br/> るチャンス
                 </div>
             </div>
             <div class="form-subs" data-aos="zoom-out-up" data-aos-delay="250">
                 <form class="subscribe-form">
                     <div class="box-control">
                         <div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>
-                        <input type="text" class="form-control subscribe-input" placeholder="당신의 e-mail">
-                        <div class="box-btn subscribe" data-lang="kr">
-                            <a class="btn btn-red btn-lg"  data-toggle="modal"><span class="hide-mobile">가입하기</span><i class="icon icon-air-white show-mobile"></i></a>
+                        <input type="text" class="form-control subscribe-input" placeholder="あなたの電子メールアドレス">
+                        <div class="box-btn subscribe" data-lang="jp">
+                            <a class="btn btn-red btn-lg"  data-toggle="modal"><span class="hide-mobile">今すぐ参加する</span><i class="icon icon-air-white show-mobile"></i></a>
                         </div>
                     </div>
                 </form>
-                <div class="text-info">이 버튼을 누르면 개인정보 처리에 동의하고 개인정보보호정책에
-                    <a href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">동의하게 됩니다.</a>
+                <div class="text-info">
+                    <a href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank"
+                       class="link link-underline">ボタンをクリックすることでお客様は個人データの処理に同意し、プライバシー ポリシーに同意します
+                    </a>
                 </div>
             </div>
         </div>
