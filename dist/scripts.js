@@ -593,6 +593,11 @@ $(document).ready(function () {
         })
     }
 
+    $('.lang-dropdown .menu-dropdown a').on('click', function() {
+        var date = new Date(new Date().getTime() + 60*60*24*90 * 1000);
+        document.cookie = "langchangedbyhand=changed; path=/; expires=" + date.toUTCString();
+    })
+
     $('.btn-menu').on('click', function () {
         $(this).toggleClass('open');
         $('.navbar-collapse').toggleClass('open').slideToggle();
