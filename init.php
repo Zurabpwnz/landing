@@ -1,9 +1,4 @@
 <?php
-    ini_set('session.gc_maxlifetime', 3600);
-    ini_set('error_reporting', E_ALL);
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    
     $countries = array(
         'ar' => "ar,dz,bh,dj,eg,il,jo,iq,ye,qa,km,kw,lb,ly,mr,ma,ae,om,er,sa,sy,so,sd,tn,td,ps",
         'de' => "de,at,li,ch,lu,be,br,va,dk,it,na,py,pl,pl,sk,fr",
