@@ -39,5 +39,5 @@
     $current_lang = array_splice($current_lang, 1, 1);
     $current_lang = substr($current_lang[0], 0, 2);
     if ( $current_lang != $lang && @$_COOKIE['langchangedbyhand'] != "changed" )
-        header(  "Location: http://". $_SERVER['SERVER_NAME'] ."/". ( $lang == "en" ? "" : $lang ) );
+        header(  "Location: /". ( $lang == "en" ? "" : $lang ) );
 ?>
