@@ -4,7 +4,6 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="keywords" content="">
-    <meta name="description" content="">
     <title>TravelChain - децентрализованная платформа обмена данных для рынка туризма</title>
     <meta name="description"
           content="Продажа токенов TravelChain стартует 15 декабря 2017. — Мы создаем экосистему умных путешествий.

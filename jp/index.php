@@ -4,7 +4,6 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="keywords" content="">
-    <meta name="description" content="">
     <title>TravelChain — Decentralized Data Exchange for the Travel Industry.</title>
     <meta name="description"
           content="Join TravelChain Token Sale. Starts on December 15, 14:00 UTC. — We create smart traveling ecosystem.
