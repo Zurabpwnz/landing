@@ -2535,7 +2535,7 @@
               class="name-link">10. Why do we produce TravelToken on our own blockchain?
  </span></a>
           <div class="block-text text">
-            Initially, we were going to issue it on a smart contract (ETH-20) basis on Ethereum and then transfer it to
+            Initially, we were going to issue it on a smart contract (ERC20) basis on Ethereum and then transfer it to
             the TravelChain blockchain. But our development department coped with the prototype writing ahead of
             schedule, this allows us to run Token Sale on our own blockchain.
 
@@ -2544,9 +2544,9 @@
 
         <div class="question-item" data-aos="fade-right" data-aos-delay="200">
           <a class="link name slide-group-next"><span
-              class="name-link">11. Has the blockchain been launched? </span></a>
+              class="name-link">11.Is the blockachain running already?  </span></a>
           <div class="block-text text">
-            The blockchain launched on wallet.travelchain.io.
+            Yes. You are welcome to follow the link <a href="https://wallet.travelchain.io/"> wallet.travelchain.io</a>
           </div>
         </div>
         <div class="question-item" data-aos="fade-right" data-aos-delay="250">

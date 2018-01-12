@@ -2667,7 +2667,7 @@
         <div class="question-item" data-aos="fade-right" data-aos-delay="200">
           <a class="link name slide-group-next"><span
               class="name-link">10.  Почему мы выпускаем TravelToken на собственном блокчейне? </span></a>
-          <div class="block-text text">Изначально мы предполагали выпускать на базе смарт-контракта (ETH - 20)
+          <div class="block-text text">Изначально мы предполагали выпускать на базе смарт-контракта (ERC20)
             в сети Ethereum с последующим переносом в блокчейн TravelChain. Но наш отдел разработки досрочно
             справился с задачей написания прототипа, что позволяет нам провести Token Sale на собственном
             блокчейне.

@@ -2563,7 +2563,7 @@ Token Sale? </span></a>
         <div class="question-item" data-aos="fade-right" data-aos-delay="200">
           <a class="link name slide-group-next"><span
               class="name-link">10.  Por qué emitamos los TravelToken en nuestra propia blockchain? </span></a>
-          <div class="block-text text">Inicialmente, esperábamos emitar sobre la base de un contrato inteligente (ETH-20) en
+          <div class="block-text text">Inicialmente, esperábamos emitar sobre la base de un contrato inteligente (ERC20) en
             la red de Ethereum y luego transferirlo al blockchain del TravelChain. Pero nuestro
             departamento de desarrollo antes de lo previsto se ocupó de la tarea de escribir un
             prototipo, lo que nos permite emitar Token Sale en nuestro propio blockchain.
