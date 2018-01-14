@@ -38,6 +38,7 @@
     $current_lang = explode('/', $current_lang);
     $current_lang = array_splice($current_lang, 1, 1);
     $current_lang = substr($current_lang[0], 0, 2);
+    $query = @http_build_query(@$_GET);
     if ( $current_lang != $lang && @$_COOKIE['langchangedbyhand'] != "changed" )
-        header(  "Location: /". ( $lang == "en" ? "" : $lang ) );
+        header(  "Location: /". ( $lang == "en" ? "" : $lang ) . ( $query ? "?$query" : "" ) );
 ?>
