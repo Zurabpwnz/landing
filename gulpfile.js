@@ -34,7 +34,7 @@ var cwd_ar = './src/ar/';
 var cwd_es = './src/es/';
 var cwd_de = './src/de/';
 
-var cwd_ext = 'html';
+var cwd_ext = 'php';
 
 var html = ['*.html', '!_*.html'];
 var appScss = "./src/sass/*.scss";
