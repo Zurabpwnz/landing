@@ -1202,7 +1202,8 @@
     padding: 4px;
   }
   .section-distribution .block-chart-info-two .box-chart-info-two{
-    display: block;
+    flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
     .box-chart-info{
       width: 100%;
       .box-img{
