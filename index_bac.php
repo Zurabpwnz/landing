@@ -20,7 +20,7 @@ function cityByIp($ip = null)
 }
 $city = cityByIp();
 if($city == 'BY' || $city=='RU' || $city=='UA'){
-    readfile('index.html');
+    readfile('index.php');
 }else{
-    readfile('en.html');
+    readfile('en.php');
 }

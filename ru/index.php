@@ -336,8 +336,6 @@
               </div>
             </div>
           </a>
-          <!--<a class="link" href="https://www.wechat.com" target="_blank"><i-->
-              <!--class="icon icon-letitpay icon-middle"></i></a>-->
           <a class="link" href="https://Travelchainico.slack.com" target="_blank"><i
               class="icon icon-slack icon-middle"></i></a>
           <a class="link" href="https://t.me/travelchain" target="_blank"><i
@@ -2245,10 +2243,10 @@
         <ul class="nav-tabs" role="tablist">
           <li role="presentation"><a class="btn" href="#speech" aria-controls="speech" role="tab"
                                      data-toggle="tab"><span class="name">Выступления</span></a></li>
-          <li role="presentation" class="active"><a class="btn" href="#blog" aria-controls="blog" role="tab"
-                                                    data-toggle="tab"><span class="name">Live блог</span></a>
-          </li>
-          <li role="presentation"><a class="btn" href="#smi" aria-controls="smi" role="tab" data-toggle="tab"><span
+          <!--<li role="presentation" class="active"><a class="btn" href="#blog" aria-controls="blog" role="tab"-->
+                                                    <!--data-toggle="tab"><span class="name">Live блог</span></a>-->
+          <!--</li>-->
+          <li role="presentation" class="active"><a class="btn" href="#smi" aria-controls="smi" role="tab" data-toggle="tab"><span
               class="name">Публикации в СМИ</span></a></li>
         </ul>
         <div class="tab-content">
@@ -2291,83 +2289,83 @@
               </ul>
             </div>
           </div>
-          <div role="tabpanel" class="tab-pane fade in active" id="blog">
-            <div class="slide-activity">
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/IWDnqwRVRvg"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/IWDnqwRVRvg/0.jpg')"></div>
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/rOVodrJEV5c"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/rOVodrJEV5c/0.jpg')"></div>
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/i2PLDv5tOpg"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/i2PLDv5tOpg/0.jpg')"></div>
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/pR5zPQlf8r4"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/pR5zPQlf8r4/0.jpg')"></div>
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/TsyOD_lx0Ss"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/TsyOD_lx0Ss/0.jpg')"></div>
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/63gsuFGZlhY"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/63gsuFGZlhY/0.jpg')"></div>
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div role="tabpanel" class="tab-pane fade" id="smi">
+          <!--<div role="tabpanel" class="tab-pane fade in active" id="blog">-->
+            <!--<div class="slide-activity">-->
+              <!--<div class="slide">-->
+                <!--<div class="activity-video">-->
+                  <!--<div class="video">-->
+                    <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                       <!--data-iframe="https://www.youtube.com/embed/IWDnqwRVRvg"><i-->
+                        <!--class="icon icon-play"></i></a>-->
+                    <!--<div class="video-image"-->
+                         <!--style="background-image: url('https://img.youtube.com/vi/IWDnqwRVRvg/0.jpg')"></div>-->
+                    <!--<div class="video-iframe"></div>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<div class="slide">-->
+                <!--<div class="activity-video">-->
+                  <!--<div class="video">-->
+                    <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                       <!--data-iframe="https://www.youtube.com/embed/rOVodrJEV5c"><i-->
+                        <!--class="icon icon-play"></i></a>-->
+                    <!--<div class="video-image"-->
+                         <!--style="background-image: url('https://img.youtube.com/vi/rOVodrJEV5c/0.jpg')"></div>-->
+                    <!--<div class="video-iframe"></div>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<div class="slide">-->
+                <!--<div class="activity-video">-->
+                  <!--<div class="video">-->
+                    <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                       <!--data-iframe="https://www.youtube.com/embed/i2PLDv5tOpg"><i-->
+                        <!--class="icon icon-play"></i></a>-->
+                    <!--<div class="video-image"-->
+                         <!--style="background-image: url('https://img.youtube.com/vi/i2PLDv5tOpg/0.jpg')"></div>-->
+                    <!--<div class="video-iframe"></div>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<div class="slide">-->
+                <!--<div class="activity-video">-->
+                  <!--<div class="video">-->
+                    <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                       <!--data-iframe="https://www.youtube.com/embed/pR5zPQlf8r4"><i-->
+                        <!--class="icon icon-play"></i></a>-->
+                    <!--<div class="video-image"-->
+                         <!--style="background-image: url('https://img.youtube.com/vi/pR5zPQlf8r4/0.jpg')"></div>-->
+                    <!--<div class="video-iframe"></div>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<div class="slide">-->
+                <!--<div class="activity-video">-->
+                  <!--<div class="video">-->
+                    <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                       <!--data-iframe="https://www.youtube.com/embed/TsyOD_lx0Ss"><i-->
+                        <!--class="icon icon-play"></i></a>-->
+                    <!--<div class="video-image"-->
+                         <!--style="background-image: url('https://img.youtube.com/vi/TsyOD_lx0Ss/0.jpg')"></div>-->
+                    <!--<div class="video-iframe"></div>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<div class="slide">-->
+                <!--<div class="activity-video">-->
+                  <!--<div class="video">-->
+                    <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                       <!--data-iframe="https://www.youtube.com/embed/63gsuFGZlhY"><i-->
+                        <!--class="icon icon-play"></i></a>-->
+                    <!--<div class="video-image"-->
+                         <!--style="background-image: url('https://img.youtube.com/vi/63gsuFGZlhY/0.jpg')"></div>-->
+                    <!--<div class="video-iframe"></div>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+          <div role="tabpanel" class="tab-pane fade in active" id="smi">
             <div class="slide-article">
               <div class="slide">
                 <div class="activity-article">
