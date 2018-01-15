@@ -101,7 +101,7 @@
                     </div>
                     <div class="user">
                         <!--<a class="btn btn-border-blue" data-toggle="modal" data-target="#modalregistration">Регистрация</a>-->
-                        <a href="https://wallet.travelchain.io"  class="btn btn-red">Приобрести токены</a>
+                        <a href="https://wallet.travelchain.io"  class="btn btn-red">Войти в кошелёк</a>
                     </div>
 
                     <!--<div class="lang padding-block"><a class="link active">Ru</a> / <a class="link" href="/">En</a>-->
@@ -250,7 +250,7 @@
     <div class="padding-block">
       <h1 class="lite" data-aos="fade-up" data-aos-delay="200">Децентрализованная платформа обмена данных <br/> для
         рынка туризма</h1>
-      <div class=" name-block white" data-aos="fade-up" data-aos-delay="300">Token Sale открыт!
+      <div class=" name-block white" data-aos="fade-up" data-aos-delay="300">Token Sale открыт и продлится до 15 февраля!
         <p class="livenowsubtext">Рекомендуемый браузер - Google Chrome</p>
       </div>
       <a class="btn btn-review " data-aos="fade-up" data-aos-delay="400" data-toggle="modal"
@@ -266,7 +266,7 @@
 
     <div class="intro-down-info block-flex-top">
       <div class="block-progress-bar">
-        <div class="text">Всего средств собрано:</div>
+        <div class="text">Собрано с учетом Presale</div>
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="30"
                aria-valuemin="0" aria-valuemax="100" style="width:110px">
@@ -278,14 +278,14 @@
         </div>
       </div>
       <div class="form-subs">
-        <div class="text">Подпишитесь, чтоб получить токены со скидкой в 15%</div>
+        <div class="text">Получите инструкцию, как приобрести токены с 15% скидкой! </div>
         <form class="subscribe-form">
           <div class="box-control">
             <div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>
             <input type="text" class="form-control subscribe-input" placeholder="Ваш e-mail">
             <div class="box-btn subscribe" data-lang="ru">
               <a class="btn btn-red btn-lg" data-toggle="modal"><span
-                  class="hide-mobile">Подписаться</span><i
+                  class="hide-mobile">Преобрести</span><i
                   class="icon icon-air-white show-mobile"></i></a>
             </div>
           </div>
