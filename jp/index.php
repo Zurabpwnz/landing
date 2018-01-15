@@ -314,7 +314,7 @@
             </div>
             <div class="block-social">
                 <div class="social-icon">
-                    <a class="link" href="https://letitplay.io/" target="_blank"><i
+                    <a class="link" href="https://www.wechat.com" target="_blank"><i
                         class="icon icon-letitpay icon-middle"></i></a>
                     <a class="link" href="https://Travelchainico.slack.com" target="_blank"><i
                         class="icon icon-slack icon-middle"></i></a>
