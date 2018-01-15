@@ -6,7 +6,7 @@
     <meta name="keywords" content="">
     <title>TravelChain — Decentralized Data Exchange for the Travel Industry.</title>
     <meta name="description"
-          content="Join TravelChain Token Sale. Starts on December 15, 14:00 UTC. — We create smart traveling ecosystem.TravelChain is an open source blockchain managed by all market players.">
+          content="TravelChain Token Sale is Live Now. Join Us and Get 15% Discount — We create smart traveling ecosystem. TravelChain is an open source blockchain managed by all market players.">
     <meta name="yandex-verification" content="7a3dae47a050cfac" />
     <link href="/css/style.15122017.css?version=1.1" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">

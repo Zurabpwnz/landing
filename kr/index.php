@@ -14,14 +14,14 @@
 
     <meta property="og:site_name" content="TravelChain">
     <meta property="og:title" content="TravelChain — Decentralized Data Exchange for the Travel Industry" />
-    <meta property="og:description" content="Join TravelChain Token Sale. Starts on December 15, 14:00 UTC. — We create smart traveling ecosystem.TravelChain is an open source blockchain managed by all market players" />
+    <meta property="og:description" content="TravelChain Token Sale is Live Now. Join Us and Get 15% Discount — We create smart traveling ecosystem. TravelChain is an open source blockchain managed by all market players." />
     <meta property="og:image" content="https://travelchain.io/images/logo-og.png" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://travelchain.io/" />
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="TravelChain — Decentralized Data Exchange for the Travel Industry">
-    <meta name="twitter:description" content="Join TravelChain Token Sale. Starts on December 15, 14:00 UTC. — We create smart traveling ecosystem.TravelChain is an open source blockchain managed by all market players">
+    <meta name="twitter:description" content="TravelChain Token Sale is Live Now. Join Us and Get 15% Discount — We create smart traveling ecosystem. TravelChain is an open source blockchain managed by all market players.">
     <meta name="twitter:image" content="https://travelchain.io/images/logo-og.png">
 
     <script type='text/javascript' src='/js/jquery-3.2.1.min.js'></script>
