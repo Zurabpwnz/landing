@@ -89,7 +89,7 @@
                     </div>
                     <div class="user">
                         <!--<a class="btn btn-border-blue" data-toggle="modal" data-target="#modalregistration">Sign up</a>-->
-                        <a href="https://wallet.travelchain.io"  class="btn btn-red">Purchase Tokens</a>
+                        <a href="https://wallet.travelchain.io"  class="btn btn-red">login to your wallet</a>
                     </div>
 
                     <!--<div class="lang padding-block"><a class="link" href="/ru">Ru</a> / <a class="link active">En</a></div>-->
@@ -237,8 +237,7 @@
         <div class="padding-block">
             <h1 class="lite" data-aos="fade-up" data-aos-delay="200">Decentralized Data Exchange for the Travel
                 Industry </h1>
-            <div class="name-block white" data-aos="fade-up" data-aos-delay="300">Token Sale is
-                live now!
+            <div class="name-block white" data-aos="fade-up" data-aos-delay="300">Token sale is open and will last until 15th of February
                 <p class="livenowsubtext">Recommended browser is Google Chrome</p>
             </div>
             <a class="btn btn-play-video btn-review " data-aos="fade-up" data-aos-delay="400" data-toggle="modal"
@@ -289,7 +288,7 @@
 
         <div class="intro-down-info block-flex-top">
             <div class="block-progress-bar">
-                <div class="text">Total funds raised (usd equivalent): </div>
+                <div class="text">Collected considering Presale </div>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="30"
                          aria-valuemin="0" aria-valuemax="100" style="width:110px">
@@ -301,13 +300,13 @@
                 </div>
             </div>
             <div class="form-subs">
-                <div class="text">You can get Tokens at 15% discount</div>
+                <div class="text">Get instruction on how to purchase tokens with 15% discount </div>
                 <form class="subscribe-form">
                     <div class="box-control">
                         <div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>
                         <input type="text" class="form-control subscribe-en-input" placeholder="Your e-mail">
                         <div class="box-btn subscribe" data-lang="en">
-                            <a class="btn btn-red btn-lg" data-toggle="modal"><span class="hide-mobile">Join in</span><i
+                            <a class="btn btn-red btn-lg" data-toggle="modal"><span class="hide-mobile">Subscribe </span><i
                                 class="icon icon-air-white show-mobile"></i></a>
                         </div>
                     </div>
