@@ -108,6 +108,23 @@
         border-radius: 8px;
         .link {
           margin: 2px 8px;
+          position: relative;
+          .box-qr{
+            display: none;
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            bottom: 90%;
+            left: 50%;
+            margin-left: -40px;
+            overflow: hidden;
+            border-radius: 4px;
+          }
+          &.active{
+            .box-qr {
+              display: block;
+            }
+          }
         }
       }
     }
