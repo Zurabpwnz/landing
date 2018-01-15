@@ -331,7 +331,8 @@
             </div>
             <div class="block-social">
                 <div class="social-icon">
-                    <<a class="link link-qr">
+
+                    <a class="link link-qr">
                     <i class="icon icon-letitpay icon-middle"></i>
                     <div class="box-qr">
                         <div class="box-img">
