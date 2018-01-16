@@ -2708,5 +2708,6 @@ End of Zendesk Chat Script-->
 
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script type='text/javascript' src='/dist/scripts.min.js?v=3'></script>
+<script src="/app.js"></script>
 </body>
 </html>
