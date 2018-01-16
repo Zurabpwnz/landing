@@ -1088,6 +1088,110 @@
                 <img class="" src="/images/enggraph.121217.png" alt="">
             </div>
         </div>
+        <div class="block-chart-info-two">
+            <div class="name-block"> Unlimited issue of tokens and what is the difference between TravelChain and Ethereum
+            </div>
+            <div class="box-chart-info-two block-flex-top">
+                <div class="box-chart-info">
+                    <div class="box-chart">
+                        <div class="name-chart">TravelChain Charts</div>
+                        <div class="box-img">
+                            <img src="/images/1-ch.png" alt="">
+                        </div>
+                        <div class="box-text-charges">
+                            <div class="item">
+                                <i class="icon icon-11"></i>
+                                <span>AMOUNT OF USERS</span>
+                            </div>
+                            <div class="item">
+                                <i class="icon icon-12"></i>
+                                <span>TOKENS / USERS</span>
+                            </div>
+                            <div class="item">
+                                <i class="icon icon-13"></i>
+                                <span>CIRCULATING SUPPLY (TT)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-chart-text">
+                        <div class="block-text">
+                            <span> TravelToken will be used by all travelers (1,2 billion people in 2016)</span>
+                            <ul class="point">
+                                <li>Issue of new tokens is not limited</li>
+                                <li>New tokens are used for popularization and platform filling
+                                </li>
+                                <li>Ability to change “emission” volume.
+                                    Carried out by voting of all users who own tokens.
+                                </li>
+                                <li>Issue of new tokens is enough to motivate users to develop the platform. At the
+                                    same time it keeps deflationary model ( the amount of tokens per user decreases with the lapse of time)
+                                </li>
+                            </ul>
+                            <span>Built-in algorithms of motivation to keep the token:</span>
+                            <ul class="point">
+                                <li>TT Holder Rating (Travel Power) depends on amount of tokens and time spent in the wallet.
+                                    The bigger rating user has, the bigger reward he will get for development of the platform</li>
+                                <li>Access to the registry for analysis is limited per day by the amount of tokens on the wallet. 3 </li>
+
+                            </ul>
+                            <span>Tokens are not waisted. The limit of access is running out</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-chart-info">
+                    <div class="box-chart">
+                        <div class="name-chart">Ethereum Charts</div>
+                        <div class="box-img">
+                            <img src="/images/2-ch.png" alt="">
+                        </div>
+                        <div class="box-text-charges">
+                            <div class="item">
+                                <i class="icon icon-13"></i>
+                                <span>CIRCULATING SUPPLY (ETH)</span>
+                            </div>
+                            <div class="item">
+                                <i class="icon icon-15"></i>
+                                <span>PRICE (USD)</span>
+                            </div>
+                            <div class="item">
+                                <i class="icon icon-14"></i>
+                                <span>ETHEREUM BASED COIN</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="box-chart-text">
+                        <div class="block-text">
+                            <span>Ethereum is used by majority of investors and ICO founders. </span>
+                            <ul class="point">
+                                <li> Issue of new tokens is not limited
+                                </li>
+                                <li> New tokens are used for maintenance of network availability (mining) </li>
+                                <li>В 2017 году при средней цене $300 за ETH на майнинг потрачено $3 млрд.
+                                </li>
+                                <li>In 2017 with the average price of $300 for ETH, approximately $3 billions was spent on mining
+                                </li>
+                                <li>No ability to change “emission” volume ( only through hard fork)
+                                </li>
+                                <li>The growth in the price of the token began with the increase of popularity due to ICO
+                                </li>
+                                <li> 30 transactions per second
+                                </li>
+                                <li> In-network commission for transactions (gas)
+                                </li>
+                                <li>ETH has increased in 2800 times since July 2015 </li>
+                                <li>BTC has increased in 1000 times since July 2015 </li>
+                            </ul>
+                            <span>Ethereum Classic is used by some crypto investors and ICO founders. </span>
+                            <ul class="point">
+                                <li>ETC has increased in 150 times since July 2015
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="text-distribution date-distribution" data-aos="zoom-in" data-aos-delay="100">
             <div class="name-block"><span class="bold">693.000.000 </span> TravelToken <span class="light">will be distributed among Token Sale participants from</span>
