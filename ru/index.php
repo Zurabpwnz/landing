@@ -1018,7 +1018,7 @@
             <div class="box-chart-info-two block-flex-top">
                 <div class="box-chart-info">
                     <div class="box-chart">
-                        <div class="name-chart">TravelToken Charts</div>
+                        <div class="name-chart">TravelChain Charts</div>
                         <div class="box-img">
                            <img src="/images/1-ch.png" alt="">
                        </div>
@@ -1039,7 +1039,7 @@
                     </div>
                     <div class="box-chart-text">
                         <div class="block-text">
-                            <span> TravelToken Charts - будут использовать ВСЕ путешественники (1,2 млрд. чел. в 2016г)</span>
+                            <span> TravelToken - будут использовать ВСЕ путешественники (1,2 млрд. чел. в 2016г)</span>
                             <ul class="point">
                                 <li>Выпуск новых токенов не ограничен.</li>
                                 <li>Новые токены идут на популяризацию и наполнение платформы. Каждый новый токен подкреплен новыми данными.
