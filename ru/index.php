@@ -826,7 +826,7 @@
                     </div>
                 </div>
                 <div class="box-btn text-center" data-aos="zoom-out-up">
-                    <a class="btn all-commands btn-red btn-lg">Все видео</a>
+                    <a class="btn all-commands btn-blue-new btn-lg">Все видео</a>
                 </div>
                 <div class="box-accordion-body accordion-body-toggle" style="display: none;">
                     <div class="box-video">
@@ -919,7 +919,7 @@
             </div>
             <div class="box-btn" data-aos="fade-up" data-aos-delay="100">
                 <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">Приобрести токены</a>-->
-                <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">Приобрести токены</a>
+                <a class="btn btn-blue-new btn-lg" href="https://wallet.travelchain.io">Приобрести токены</a>
             </div>
         </div>
     </div>
@@ -1331,7 +1331,7 @@
         <div class="box-btn text-center" data-aos="fade-up" data-aos-delay="100">
 
             <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">Приобрести токены</a>-->
-            <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">Приобрести токены</a>
+            <a class="btn btn-blue-new btn-lg" href="https://wallet.travelchain.io">Приобрести токены</a>
         </div>
     </div>
 </section>
@@ -1594,7 +1594,7 @@
                     <div class="box-btn text-center">
 
                         <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale"><span class="middle">Приобрести токены</span></a>-->
-                        <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io"><span class="middle">Приобрести токены</span></a>
+                        <a class="btn btn-blue-new btn-lg" href="https://wallet.travelchain.io"><span class="middle">Приобрести токены</span></a>
                     </div>
                 </div>
                 <div class="box-body box-body-last">
