@@ -824,7 +824,7 @@
                     </div>
                 </div>
                 <div class="box-btn text-center" data-aos="zoom-out-up">
-                    <a class="btn all-commands btn-blue-new btn-lg">Все видео</a>
+                    <a class="btn all-commands btn-red btn-lg">Все видео</a>
                 </div>
                 <div class="box-accordion-body accordion-body-toggle" style="display: none;">
                     <div class="box-video">
