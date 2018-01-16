@@ -268,9 +268,7 @@
                 <div class="text">Total funds raised (usd equivalent): </div>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="30"
-                         aria-valuemin="0" aria-valuemax="100" style="width:110px">
-                        814 408
-                    </div>
+                         aria-valuemin="0" aria-valuemax="100" style="width:110px"></div>
                     <div class="number-text">
                         of 10 606 000
                     </div>

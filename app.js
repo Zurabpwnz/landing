@@ -705,26 +705,20 @@ __webpack_require__(27);
 var _bitsharesjsWs = __webpack_require__(32);
 
 _bitsharesjsWs.Apis.instance("wss://wallet.travelchain.io/ws", true).init_promise.then(function (res) {
-    setInterval(function(){
-        _bitsharesjsWs.Apis.instance().history_api().exec("get_fill_order_history", ["1.3.0", "1.3.2", -1]).then(function (res) {
-            var summ = {},
-                ids = [];
-            res.forEach(function (order) {
-                if (ids.indexOf(order.op.order_id) != -1) return true;
+    var progressBar = $(".section-intro .intro-down-info .block-progress-bar .progress");
+    progressBar.find(".progress-bar").text("Counting...");
 
-                if (!summ[order.op.pays.asset_id]) summ[order.op.pays.asset_id] = 0;
-                summ[order.op.pays.asset_id] += order.op.pays.amount / 100;
-                ids.push(order.op.order_id);
-            });
-
-            var total = Math.round(summ['1.3.0']);
+    var i = setInterval(function() {
+        _bitsharesjsWs.Apis.instance().db_api().exec("get_objects", [["1.7.0"]])
+        .then(function (res) {
+            var total = Math.round(3000000 - res[0].for_sale/10000 * 0.0129 + 680000);
             (function($){
-                var progressBar = $(".section-intro .intro-down-info .block-progress-bar .progress");
                 var newWidth = progressBar.width()/10606000 * total;
 
                 progressBar.find(".progress-bar")
                     .text(numberize(total))
                     .width( newWidth + "px" )
+                    .css({ 'min-width': "100px", 'max-width': "100%" })
             })(jQuery);
         });
     }, 1000);
