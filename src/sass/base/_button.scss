@@ -46,6 +46,20 @@
       border-color: #de004e;
     }
   }
+  &-blue-new{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fbfdfa+0,b1e2f1+31,38c2df+57,39c2e2+78,42c0e6+100 */
+    background: #fbfdfa; /* Old browsers */
+    background: -moz-linear-gradient(top, #fbfdfa 0%, #b1e2f1 31%, #38c2df 57%, #39c2e2 78%, #42c0e6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fbfdfa 0%,#b1e2f1 31%,#38c2df 57%,#39c2e2 78%,#42c0e6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fbfdfa 0%,#b1e2f1 31%,#38c2df 57%,#39c2e2 78%,#42c0e6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfdfa', endColorstr='#42c0e6',GradientType=0 ); /* IE6-9 */
+    @include box-shadow(0 5px 27px rgba(66, 192, 230, 0.44));
+    border: none;
+    color: #00074a;
+    &:hover{
+      opacity:0.75;
+    }
+  }
   &-border-blue{
     border-color: $color_blue_1;
     &:hover{
