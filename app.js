@@ -711,7 +711,7 @@ _bitsharesjsWs.Apis.instance("wss://wallet.travelchain.io/ws", true).init_promis
     var i = setInterval(function() {
         _bitsharesjsWs.Apis.instance().db_api().exec("get_objects", [["1.7.0"]])
         .then(function (res) {
-            var total = Math.round(3000000 - res[0].for_sale/10000 * 0.0129 + 680000);
+            var total = Math.round(3000000 - res[0].for_sale/10000 * 0.0129 + 606000);
             (function($){
                 var newWidth = progressBar.width()/10606000 * total;
 
