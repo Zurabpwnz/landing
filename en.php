@@ -1131,10 +1131,9 @@
                             <ul class="point">
                                 <li>TT Holder Rating (Travel Power) depends on amount of tokens and time spent in the wallet.
                                     The bigger rating user has, the bigger reward he will get for development of the platform</li>
-                                <li>Access to the registry for analysis is limited per day by the amount of tokens on the wallet. 3 </li>
-
+                                <li>Access to the registry for analysis is limited per day by the amount of tokens on the wallet.
+                                    Tokens are not waisted. The limit of access is running out </li>
                             </ul>
-                            <span>Tokens are not waisted. The limit of access is running out</span>
                         </div>
                     </div>
                 </div>
