@@ -824,7 +824,7 @@
                     </div>
                 </div>
                 <div class="box-btn text-center" data-aos="zoom-out-up">
-                    <a class="btn all-commands btn-blue-new btn-lg">Все видео</a>
+                    <a class="btn all-commands btn-red btn-lg">Все видео</a>
                 </div>
                 <div class="box-accordion-body accordion-body-toggle" style="display: none;">
                     <div class="box-video">
@@ -1016,7 +1016,7 @@
             <div class="box-chart-info-two block-flex-top">
                 <div class="box-chart-info">
                     <div class="box-chart">
-                        <div class="name-chart">TravelToken Charts</div>
+                        <div class="name-chart">TravelChain Charts</div>
                         <div class="box-img">
                            <img src="/images/1-ch.png" alt="">
                        </div>
@@ -1037,7 +1037,7 @@
                     </div>
                     <div class="box-chart-text">
                         <div class="block-text">
-                            <span> TravelToken Charts - будут использовать ВСЕ путешественники (1,2 млрд. чел. в 2016г)</span>
+                            <span> TravelToken - будут использовать ВСЕ путешественники (1,2 млрд. чел. в 2016г)</span>
                             <ul class="point">
                                 <li>Выпуск новых токенов не ограничен.</li>
                                 <li>Новые токены идут на популяризацию и наполнение платформы. Каждый новый токен подкреплен новыми данными.
@@ -1051,20 +1051,9 @@
                             <ul class="point">
                                 <li>TT Holder Rating (Travel Power) зависит от количества токенов и времени их нахождения в кошельке - чем больше этот рейтинг у пользователя тем большее вознаграждение он получает за развитие платформы;
                                 </li>
-                                <li>доступ к реестру для анализа в сутки ограничен объемом токенов на кошельке. Токены не тратятся. </li>
-
+                                <li>Доступ к реестру для анализа в сутки ограничен объемом токенов на кошельке. Токены не тратятся.
+                                    Токены не тратятся - исчерпывается лимит обращений.</li>
                             </ul>
-                            <span>Токены не тратятся - исчерпывается лимит обращений.</span>
-                            <!--<span>Исчерпывается лимит обращений.</span>-->
-                            <!--<ul class="point">-->
-                                <!--<li>до 100 000 транзакций в секунду.-->
-                                <!--</li>-->
-                                <!--<li>транзакции внутри сети без комиссий.-->
-                                <!--</li>-->
-                                <!--<li>Рост цены на токен начнется когда спрос превысит предложение с появлением первого приложения-->
-                                    <!--в Q1 2018 г.-->
-                                <!--</li>-->
-                            <!--</ul>-->
                         </div>
                     </div>
                 </div>
