@@ -46,6 +46,15 @@
       border-color: #de004e;
     }
   }
+  &-blue-new{
+    background: #00caf3;
+    @include box-shadow(0 5px 27px rgba(66, 192, 230, 0.44));
+    border: none;
+    color: #ffffff;
+    &:hover{
+      opacity:0.75;
+    }
+  }
   &-border-blue{
     border-color: $color_blue_1;
     &:hover{

@@ -101,7 +101,7 @@
                     </div>
                     <div class="user">
                         <!--<a class="btn btn-border-blue" data-toggle="modal" data-target="#modalregistration">Регистрация</a>-->
-                        <a href="https://wallet.travelchain.io"  class="btn btn-red">Приобрести токены</a>
+                        <a href="https://wallet.travelchain.io"  class="btn btn-red">Войти в кошелёк</a>
                     </div>
 
                     <!--<div class="lang padding-block"><a class="link active">Ru</a> / <a class="link" href="/">En</a>-->
@@ -250,7 +250,7 @@
     <div class="padding-block">
       <h1 class="lite" data-aos="fade-up" data-aos-delay="200">Децентрализованная платформа обмена данных <br/> для
         рынка туризма</h1>
-      <div class=" name-block white" data-aos="fade-up" data-aos-delay="300">Token Sale открыт!
+      <div class=" name-block white" data-aos="fade-up" data-aos-delay="300">Token Sale открыт и продлится до 15 февраля!
         <p class="livenowsubtext">Рекомендуемый браузер - Google Chrome</p>
       </div>
       <a class="btn btn-review " data-aos="fade-up" data-aos-delay="400" data-toggle="modal"
@@ -266,26 +266,24 @@
 
     <div class="intro-down-info block-flex-top">
       <div class="block-progress-bar">
-        <div class="text">Всего средств собрано:</div>
+        <div class="text">Собрано с учетом Presale</div>
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="30"
-               aria-valuemin="0" aria-valuemax="100" style="width:110px">
-            814 408
-          </div>
+               aria-valuemin="0" aria-valuemax="100" style="width:110px"></div>
           <div class="number-text">
             of 10 606 000
           </div>
         </div>
       </div>
       <div class="form-subs">
-        <div class="text">Подпишитесь, чтоб получить токены со скидкой в 15%</div>
+        <div class="text">Получите инструкцию, как приобрести токены с 15% скидкой! </div>
         <form class="subscribe-form">
           <div class="box-control">
             <div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>
             <input type="text" class="form-control subscribe-input" placeholder="Ваш e-mail">
             <div class="box-btn subscribe" data-lang="ru">
               <a class="btn btn-red btn-lg" data-toggle="modal"><span
-                  class="hide-mobile">Подписаться</span><i
+                  class="hide-mobile">Приобрести</span><i
                   class="icon icon-air-white show-mobile"></i></a>
             </div>
           </div>
@@ -328,8 +326,14 @@
       </div>
       <div class="block-social">
         <div class="social-icon">
-          <a class="link" href="https://www.wechat.com" target="_blank"><i
-              class="icon icon-letitpay icon-middle"></i></a>
+          <a class="link link-qr">
+            <i class="icon icon-letitpay icon-middle"></i>
+            <div class="box-qr">
+              <div class="box-img">
+                <img src="/images/qr-wechat.jpg" alt="">
+              </div>
+            </div>
+          </a>
           <a class="link" href="https://Travelchainico.slack.com" target="_blank"><i
               class="icon icon-slack icon-middle"></i></a>
           <a class="link" href="https://t.me/travelchain" target="_blank"><i
@@ -913,7 +917,7 @@
             </div>
             <div class="box-btn" data-aos="fade-up" data-aos-delay="100">
                 <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">Приобрести токены</a>-->
-                <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">Приобрести токены</a>
+                <a class="btn btn-blue-new btn-lg" href="https://wallet.travelchain.io">Приобрести токены</a>
             </div>
         </div>
     </div>
@@ -1012,7 +1016,7 @@
             <div class="box-chart-info-two block-flex-top">
                 <div class="box-chart-info">
                     <div class="box-chart">
-                        <div class="name-chart">TravelToken Charts</div>
+                        <div class="name-chart">TravelChain Charts</div>
                         <div class="box-img">
                            <img src="/images/1-ch.png" alt="">
                        </div>
@@ -1033,7 +1037,7 @@
                     </div>
                     <div class="box-chart-text">
                         <div class="block-text">
-                            <span> TravelToken Charts - будут использовать ВСЕ путешественники (1,2 млрд. чел. в 2016г)</span>
+                            <span> TravelToken - будут использовать ВСЕ путешественники (1,2 млрд. чел. в 2016г)</span>
                             <ul class="point">
                                 <li>Выпуск новых токенов не ограничен.</li>
                                 <li>Новые токены идут на популяризацию и наполнение платформы. Каждый новый токен подкреплен новыми данными.
@@ -1325,7 +1329,7 @@
         <div class="box-btn text-center" data-aos="fade-up" data-aos-delay="100">
 
             <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">Приобрести токены</a>-->
-            <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">Приобрести токены</a>
+            <a class="btn btn-blue-new btn-lg" href="https://wallet.travelchain.io">Приобрести токены</a>
         </div>
     </div>
 </section>
@@ -1588,7 +1592,7 @@
                     <div class="box-btn text-center">
 
                         <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale"><span class="middle">Приобрести токены</span></a>-->
-                        <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io"><span class="middle">Приобрести токены</span></a>
+                        <a class="btn btn-blue-new btn-lg" href="https://wallet.travelchain.io"><span class="middle">Приобрести токены</span></a>
                     </div>
                 </div>
                 <div class="box-body box-body-last">
@@ -2237,10 +2241,10 @@
         <ul class="nav-tabs" role="tablist">
           <li role="presentation"><a class="btn" href="#speech" aria-controls="speech" role="tab"
                                      data-toggle="tab"><span class="name">Выступления</span></a></li>
-          <li role="presentation" class="active"><a class="btn" href="#blog" aria-controls="blog" role="tab"
-                                                    data-toggle="tab"><span class="name">Live блог</span></a>
-          </li>
-          <li role="presentation"><a class="btn" href="#smi" aria-controls="smi" role="tab" data-toggle="tab"><span
+          <!--<li role="presentation" class="active"><a class="btn" href="#blog" aria-controls="blog" role="tab"-->
+                                                    <!--data-toggle="tab"><span class="name">Live блог</span></a>-->
+          <!--</li>-->
+          <li role="presentation" class="active"><a class="btn" href="#smi" aria-controls="smi" role="tab" data-toggle="tab"><span
               class="name">Публикации в СМИ</span></a></li>
         </ul>
         <div class="tab-content">
@@ -2283,83 +2287,83 @@
               </ul>
             </div>
           </div>
-          <div role="tabpanel" class="tab-pane fade in active" id="blog">
-            <div class="slide-activity">
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/IWDnqwRVRvg"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/IWDnqwRVRvg/0.jpg')"></div>
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/rOVodrJEV5c"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/rOVodrJEV5c/0.jpg')"></div>
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/i2PLDv5tOpg"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/i2PLDv5tOpg/0.jpg')"></div>
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/pR5zPQlf8r4"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/pR5zPQlf8r4/0.jpg')"></div>
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/TsyOD_lx0Ss"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/TsyOD_lx0Ss/0.jpg')"></div>
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/63gsuFGZlhY"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/63gsuFGZlhY/0.jpg')"></div>
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div role="tabpanel" class="tab-pane fade" id="smi">
+          <!--<div role="tabpanel" class="tab-pane fade in active" id="blog">-->
+            <!--<div class="slide-activity">-->
+              <!--<div class="slide">-->
+                <!--<div class="activity-video">-->
+                  <!--<div class="video">-->
+                    <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                       <!--data-iframe="https://www.youtube.com/embed/IWDnqwRVRvg"><i-->
+                        <!--class="icon icon-play"></i></a>-->
+                    <!--<div class="video-image"-->
+                         <!--style="background-image: url('https://img.youtube.com/vi/IWDnqwRVRvg/0.jpg')"></div>-->
+                    <!--<div class="video-iframe"></div>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<div class="slide">-->
+                <!--<div class="activity-video">-->
+                  <!--<div class="video">-->
+                    <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                       <!--data-iframe="https://www.youtube.com/embed/rOVodrJEV5c"><i-->
+                        <!--class="icon icon-play"></i></a>-->
+                    <!--<div class="video-image"-->
+                         <!--style="background-image: url('https://img.youtube.com/vi/rOVodrJEV5c/0.jpg')"></div>-->
+                    <!--<div class="video-iframe"></div>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<div class="slide">-->
+                <!--<div class="activity-video">-->
+                  <!--<div class="video">-->
+                    <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                       <!--data-iframe="https://www.youtube.com/embed/i2PLDv5tOpg"><i-->
+                        <!--class="icon icon-play"></i></a>-->
+                    <!--<div class="video-image"-->
+                         <!--style="background-image: url('https://img.youtube.com/vi/i2PLDv5tOpg/0.jpg')"></div>-->
+                    <!--<div class="video-iframe"></div>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<div class="slide">-->
+                <!--<div class="activity-video">-->
+                  <!--<div class="video">-->
+                    <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                       <!--data-iframe="https://www.youtube.com/embed/pR5zPQlf8r4"><i-->
+                        <!--class="icon icon-play"></i></a>-->
+                    <!--<div class="video-image"-->
+                         <!--style="background-image: url('https://img.youtube.com/vi/pR5zPQlf8r4/0.jpg')"></div>-->
+                    <!--<div class="video-iframe"></div>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<div class="slide">-->
+                <!--<div class="activity-video">-->
+                  <!--<div class="video">-->
+                    <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                       <!--data-iframe="https://www.youtube.com/embed/TsyOD_lx0Ss"><i-->
+                        <!--class="icon icon-play"></i></a>-->
+                    <!--<div class="video-image"-->
+                         <!--style="background-image: url('https://img.youtube.com/vi/TsyOD_lx0Ss/0.jpg')"></div>-->
+                    <!--<div class="video-iframe"></div>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<div class="slide">-->
+                <!--<div class="activity-video">-->
+                  <!--<div class="video">-->
+                    <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                       <!--data-iframe="https://www.youtube.com/embed/63gsuFGZlhY"><i-->
+                        <!--class="icon icon-play"></i></a>-->
+                    <!--<div class="video-image"-->
+                         <!--style="background-image: url('https://img.youtube.com/vi/63gsuFGZlhY/0.jpg')"></div>-->
+                    <!--<div class="video-iframe"></div>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+          <div role="tabpanel" class="tab-pane fade in active" id="smi">
             <div class="slide-article">
               <div class="slide">
                 <div class="activity-article">
@@ -2833,5 +2837,6 @@ End of Zendesk Chat Script-->
 
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script type='text/javascript' src='/dist/scripts.min.js?v=3'></script>
+<script src="/app.js"></script>
 </body>
 </html>

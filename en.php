@@ -89,7 +89,7 @@
                     </div>
                     <div class="user">
                         <!--<a class="btn btn-border-blue" data-toggle="modal" data-target="#modalregistration">Sign up</a>-->
-                        <a href="https://wallet.travelchain.io"  class="btn btn-red">Purchase Tokens</a>
+                        <a href="https://wallet.travelchain.io"  class="btn btn-red">login to your wallet</a>
                     </div>
 
                     <!--<div class="lang padding-block"><a class="link" href="/ru">Ru</a> / <a class="link active">En</a></div>-->
@@ -237,8 +237,7 @@
         <div class="padding-block">
             <h1 class="lite" data-aos="fade-up" data-aos-delay="200">Decentralized Data Exchange for the Travel
                 Industry </h1>
-            <div class="name-block white" data-aos="fade-up" data-aos-delay="300">Token Sale is
-                live now!
+            <div class="name-block white" data-aos="fade-up" data-aos-delay="300">Token sale is open and will last until 15th of February
                 <p class="livenowsubtext">Recommended browser is Google Chrome</p>
             </div>
             <a class="btn btn-play-video btn-review " data-aos="fade-up" data-aos-delay="400" data-toggle="modal"
@@ -289,25 +288,23 @@
 
         <div class="intro-down-info block-flex-top">
             <div class="block-progress-bar">
-                <div class="text">Total funds raised (usd equivalent): </div>
+                <div class="text">Collected considering Presale </div>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="30"
-                         aria-valuemin="0" aria-valuemax="100" style="width:110px">
-                        814 408
-                    </div>
+                         aria-valuemin="0" aria-valuemax="100" style="width:110px"></div>
                     <div class="number-text">
                         of 10 606 000
                     </div>
                 </div>
             </div>
             <div class="form-subs">
-                <div class="text">You can get Tokens at 15% discount</div>
+                <div class="text">Get instruction on how to purchase tokens with 15% discount </div>
                 <form class="subscribe-form">
                     <div class="box-control">
                         <div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>
                         <input type="text" class="form-control subscribe-en-input" placeholder="Your e-mail">
                         <div class="box-btn subscribe" data-lang="en">
-                            <a class="btn btn-red btn-lg" data-toggle="modal"><span class="hide-mobile">Join in</span><i
+                            <a class="btn btn-red btn-lg" data-toggle="modal"><span class="hide-mobile">Subscribe </span><i
                                 class="icon icon-air-white show-mobile"></i></a>
                         </div>
                     </div>
@@ -349,8 +346,14 @@
             </div>
             <div class="block-social">
                 <div class="social-icon">
-                    <a class="link" href="https://www.wechat.com" target="_blank"><i
-                        class="icon icon-letitpay icon-middle"></i></a>
+                    <a class="link link-qr">
+                        <i class="icon icon-letitpay icon-middle"></i>
+                        <div class="box-qr">
+                            <div class="box-img">
+                                <img src="/images/qr-wechat.jpg" alt="">
+                            </div>
+                        </div>
+                    </a>
                     <a class="link" href="https://Travelchainico.slack.com" target="_blank"><i
                         class="icon icon-slack icon-middle"></i></a>
                     <a class="link" href="https://t.me/travelchain" target="_blank"><i
@@ -1000,7 +1003,7 @@
             </div>
             <div class="box-btn" data-aos="fade-up" data-aos-delay="100">
                 <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">Purchase Tokens</a>-->
-                <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">Purchase Tokens</a>
+                <a class="btn btn-blue-new btn-lg" href="https://wallet.travelchain.io">Purchase Tokens</a>
             </div>
         </div>
     </div>
@@ -1083,6 +1086,110 @@
         <div class="box-chart-line">
             <div class="box-img" data-aos="zoom-in" data-aos-delay="50">
                 <img class="" src="/images/enggraph.121217.png" alt="">
+            </div>
+        </div>
+        <div class="block-chart-info-two">
+            <div class="name-block"> Unlimited issue of tokens and what is the difference between TravelChain and Ethereum
+            </div>
+            <div class="box-chart-info-two block-flex-top">
+                <div class="box-chart-info">
+                    <div class="box-chart">
+                        <div class="name-chart">TravelChain Charts</div>
+                        <div class="box-img">
+                            <img src="/images/1-ch.png" alt="">
+                        </div>
+                        <div class="box-text-charges">
+                            <div class="item">
+                                <i class="icon icon-11"></i>
+                                <span>AMOUNT OF USERS</span>
+                            </div>
+                            <div class="item">
+                                <i class="icon icon-12"></i>
+                                <span>TOKENS / USERS</span>
+                            </div>
+                            <div class="item">
+                                <i class="icon icon-13"></i>
+                                <span>CIRCULATING SUPPLY (TT)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-chart-text">
+                        <div class="block-text">
+                            <span> TravelToken will be used by all travelers (1,2 billion people in 2016)</span>
+                            <ul class="point">
+                                <li>Issue of new tokens is not limited</li>
+                                <li>New tokens are used for popularization and platform filling
+                                </li>
+                                <li>Ability to change “emission” volume.
+                                    Carried out by voting of all users who own tokens.
+                                </li>
+                                <li>Issue of new tokens is enough to motivate users to develop the platform. At the
+                                    same time it keeps deflationary model ( the amount of tokens per user decreases with the lapse of time)
+                                </li>
+                            </ul>
+                            <span>Built-in algorithms of motivation to keep the token:</span>
+                            <ul class="point">
+                                <li>TT Holder Rating (Travel Power) depends on amount of tokens and time spent in the wallet.
+                                    The bigger rating user has, the bigger reward he will get for development of the platform</li>
+                                <li>Access to the registry for analysis is limited per day by the amount of tokens on the wallet. 3 </li>
+
+                            </ul>
+                            <span>Tokens are not waisted. The limit of access is running out</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-chart-info">
+                    <div class="box-chart">
+                        <div class="name-chart">Ethereum Charts</div>
+                        <div class="box-img">
+                            <img src="/images/2-ch.png" alt="">
+                        </div>
+                        <div class="box-text-charges">
+                            <div class="item">
+                                <i class="icon icon-13"></i>
+                                <span>CIRCULATING SUPPLY (ETH)</span>
+                            </div>
+                            <div class="item">
+                                <i class="icon icon-15"></i>
+                                <span>PRICE (USD)</span>
+                            </div>
+                            <div class="item">
+                                <i class="icon icon-14"></i>
+                                <span>ETHEREUM BASED COIN</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="box-chart-text">
+                        <div class="block-text">
+                            <span>Ethereum is used by majority of investors and ICO founders. </span>
+                            <ul class="point">
+                                <li> Issue of new tokens is not limited
+                                </li>
+                                <li> New tokens are used for maintenance of network availability (mining) </li>
+                                <li>В 2017 году при средней цене $300 за ETH на майнинг потрачено $3 млрд.
+                                </li>
+                                <li>In 2017 with the average price of $300 for ETH, approximately $3 billions was spent on mining
+                                </li>
+                                <li>No ability to change “emission” volume ( only through hard fork)
+                                </li>
+                                <li>The growth in the price of the token began with the increase of popularity due to ICO
+                                </li>
+                                <li> 30 transactions per second
+                                </li>
+                                <li> In-network commission for transactions (gas)
+                                </li>
+                                <li>ETH has increased in 2800 times since July 2015 </li>
+                                <li>BTC has increased in 1000 times since July 2015 </li>
+                            </ul>
+                            <span>Ethereum Classic is used by some crypto investors and ICO founders. </span>
+                            <ul class="point">
+                                <li>ETC has increased in 150 times since July 2015
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -1291,7 +1398,7 @@
         </div>
         <div class="box-btn text-center" data-aos="fade-up" data-aos-delay="100">
             <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale">Purchase Tokens</a>-->
-            <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io">Purchase Tokens</a>
+            <a class="btn btn-blue-new btn-lg" href="https://wallet.travelchain.io">Purchase Tokens</a>
         </div>
     </div>
 </section>
@@ -1547,7 +1654,7 @@
         <div class="box-head">
           <div class="box-btn text-center">
             <!--<a class="btn btn-red btn-lg" data-toggle="modal" data-target="#presale"><span class="middle">Purchase Tokens</span></a>-->
-            <a class="btn btn-red btn-lg" href="https://wallet.travelchain.io"><span class="middle">Purchase Tokens</span></a>
+            <a class="btn btn-blue-new btn-lg" href="https://wallet.travelchain.io"><span class="middle">Purchase Tokens</span></a>
           </div>
         </div>
         <div class="box-body box-body-last">
@@ -2192,10 +2299,10 @@
                 <ul class="nav-tabs" role="tablist">
                     <li role="presentation"><a class="btn" href="#speech" aria-controls="speech" role="tab"
                                                data-toggle="tab"><span class="name">Our Presentations</span></a></li>
-                    <li role="presentation" class="active"><a class="btn" href="#blog" aria-controls="blog" role="tab"
-                                                              data-toggle="tab"><span class="name">Live Blog</span></a>
-                    </li>
-                    <li role="presentation"><a class="btn" href="#smi" aria-controls="smi" role="tab" data-toggle="tab"><span
+                    <!--<li role="presentation" class="active"><a class="btn" href="#blog" aria-controls="blog" role="tab"-->
+                                                              <!--data-toggle="tab"><span class="name">Live Blog</span></a>-->
+                    <!--</li>-->
+                    <li role="presentation" class="active"><a class="btn" href="#smi" aria-controls="smi" role="tab" data-toggle="tab"><span
                             class="name">Media Publications</span></a></li>
                 </ul>
                 <div class="tab-content">
@@ -2217,77 +2324,77 @@
                             </ul>
                         </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane fade in active" id="blog">
-                        <div class="slide-activity">
+                    <!--<div role="tabpanel" class="tab-pane fade in active" id="blog">-->
+                        <!--<div class="slide-activity">-->
 
-                            <div class="slide">
-                                <div class="activity-video">
-                                    <div class="video">
-                                        <a class="btn btn-play" data-width="100%" data-height="300"
-                                           data-iframe="https://www.youtube.com/embed/jTHgFMH79Pc"><i
-                                                class="icon icon-play"></i></a>
-                                        <div class="video-image"
-                                             style="background-image: url('https://img.youtube.com/vi/jTHgFMH79Pc/0.jpg')"></div>
+                            <!--<div class="slide">-->
+                                <!--<div class="activity-video">-->
+                                    <!--<div class="video">-->
+                                        <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                                           <!--data-iframe="https://www.youtube.com/embed/jTHgFMH79Pc"><i-->
+                                                <!--class="icon icon-play"></i></a>-->
+                                        <!--<div class="video-image"-->
+                                             <!--style="background-image: url('https://img.youtube.com/vi/jTHgFMH79Pc/0.jpg')"></div>-->
 
-                                        <div class="video-iframe"></div>
-                                    </div>
-                                </div>
-                            </div>
+                                        <!--<div class="video-iframe"></div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
 
-                            <div class="slide">
-                                <div class="activity-video">
-                                    <div class="video">
-                                        <a class="btn btn-play" data-width="100%" data-height="300"
-                                           data-iframe="https://www.youtube.com/embed/HH36xOg5TVk"><i
-                                                class="icon icon-play"></i></a>
-                                        <div class="video-image"
-                                             style="background-image: url('https://img.youtube.com/vi/HH36xOg5TVk/0.jpg')"></div>
-                                        <div class="video-iframe"></div>
-                                    </div>
-                                </div>
-                            </div>
+                            <!--<div class="slide">-->
+                                <!--<div class="activity-video">-->
+                                    <!--<div class="video">-->
+                                        <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                                           <!--data-iframe="https://www.youtube.com/embed/HH36xOg5TVk"><i-->
+                                                <!--class="icon icon-play"></i></a>-->
+                                        <!--<div class="video-image"-->
+                                             <!--style="background-image: url('https://img.youtube.com/vi/HH36xOg5TVk/0.jpg')"></div>-->
+                                        <!--<div class="video-iframe"></div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
 
-                            <div class="slide">
-                                <div class="activity-video">
-                                    <div class="video">
-                                        <a class="btn btn-play" data-width="100%" data-height="300"
-                                           data-iframe="https://www.youtube.com/embed/XNKjjr694ls"><i
-                                                class="icon icon-play"></i></a>
-                                        <div class="video-image"
-                                             style="background-image: url('https://img.youtube.com/vi/XNKjjr694ls/0.jpg')"></div>
-                                        <div class="video-iframe"></div>
-                                    </div>
-                                </div>
-                            </div>
+                            <!--<div class="slide">-->
+                                <!--<div class="activity-video">-->
+                                    <!--<div class="video">-->
+                                        <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                                           <!--data-iframe="https://www.youtube.com/embed/XNKjjr694ls"><i-->
+                                                <!--class="icon icon-play"></i></a>-->
+                                        <!--<div class="video-image"-->
+                                             <!--style="background-image: url('https://img.youtube.com/vi/XNKjjr694ls/0.jpg')"></div>-->
+                                        <!--<div class="video-iframe"></div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
 
-                            <div class="slide">
-                                <div class="activity-video">
-                                    <div class="video">
-                                        <a class="btn btn-play" data-width="100%" data-height="300"
-                                           data-iframe="https://www.youtube.com/embed/d0JB8Guni7s"><i
-                                                class="icon icon-play"></i></a>
-                                        <div class="video-image"
-                                             style="background-image: url('https://img.youtube.com/vi/d0JB8Guni7s/0.jpg')"></div>
-                                        <div class="video-iframe"></div>
-                                    </div>
-                                </div>
-                            </div>
+                            <!--<div class="slide">-->
+                                <!--<div class="activity-video">-->
+                                    <!--<div class="video">-->
+                                        <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                                           <!--data-iframe="https://www.youtube.com/embed/d0JB8Guni7s"><i-->
+                                                <!--class="icon icon-play"></i></a>-->
+                                        <!--<div class="video-image"-->
+                                             <!--style="background-image: url('https://img.youtube.com/vi/d0JB8Guni7s/0.jpg')"></div>-->
+                                        <!--<div class="video-iframe"></div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
 
-                            <div class="slide">
-                                <div class="activity-video">
-                                    <div class="video">
-                                        <a class="btn btn-play" data-width="100%" data-height="300"
-                                           data-iframe="https://www.youtube.com/embed/_pECUlD2LXo"><i
-                                                class="icon icon-play"></i></a>
-                                        <div class="video-image"
-                                             style="background-image: url('https://img.youtube.com/vi/_pECUlD2LXo/0.jpg')"></div>
-                                        <div class="video-iframe"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade" id="smi">
+                            <!--<div class="slide">-->
+                                <!--<div class="activity-video">-->
+                                    <!--<div class="video">-->
+                                        <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                                           <!--data-iframe="https://www.youtube.com/embed/_pECUlD2LXo"><i-->
+                                                <!--class="icon icon-play"></i></a>-->
+                                        <!--<div class="video-image"-->
+                                             <!--style="background-image: url('https://img.youtube.com/vi/_pECUlD2LXo/0.jpg')"></div>-->
+                                        <!--<div class="video-iframe"></div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <div role="tabpanel" class="tab-pane fade in active" id="smi">
                         <div class="slide-article">
                             <div class="slide">
                                 <div class="activity-article">
@@ -2703,5 +2810,6 @@ End of Zendesk Chat Script-->
 
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script type='text/javascript' src='/dist/scripts.min.js?v=3'></script>
+<script src="/app.js"></script>
 </body>
 </html>

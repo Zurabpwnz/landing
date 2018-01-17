@@ -265,9 +265,7 @@
                 <div class="text">Total funds raised (usd equivalent): </div>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="30"
-                         aria-valuemin="0" aria-valuemax="100" style="width:110px">
-                        814 408
-                    </div>
+                         aria-valuemin="0" aria-valuemax="100" style="width:110px"></div>
                     <div class="number-text">
                         of 10 606 000
                     </div>
@@ -322,8 +320,14 @@
             </div>
             <div class="block-social">
                 <div class="social-icon">
-                    <a class="link" href="https://www.wechat.com" target="_blank"><i
-                        class="icon icon-letitpay icon-middle"></i></a>
+                    <a class="link link-qr">
+                        <i class="icon icon-letitpay icon-middle"></i>
+                        <div class="box-qr">
+                            <div class="box-img">
+                                <img src="/images/qr-wechat.jpg" alt="">
+                            </div>
+                        </div>
+                    </a>
                     <a class="link" href="https://Travelchainico.slack.com" target="_blank"><i
                         class="icon icon-slack icon-middle"></i></a>
                     <a class="link" href="https://t.me/travelchain" target="_blank"><i
@@ -2185,10 +2189,10 @@
         <ul class="nav-tabs" role="tablist">
           <li role="presentation"><a class="btn" href="#speech" aria-controls="speech" role="tab"
                                      data-toggle="tab"><span class="name">발표</span></a></li>
-          <li role="presentation" class="active"><a class="btn" href="#blog" aria-controls="blog" role="tab"
-                                                    data-toggle="tab"><span class="name">Live 블로그</span></a>
-          </li>
-          <li role="presentation"><a class="btn" href="#smi" aria-controls="smi" role="tab" data-toggle="tab"><span
+          <!--<li role="presentation" class="active"><a class="btn" href="#blog" aria-controls="blog" role="tab"-->
+                                                    <!--data-toggle="tab"><span class="name">Live 블로그</span></a>-->
+          <!--</li>-->
+          <li role="presentation" class="active"><a class="btn" href="#smi" aria-controls="smi" role="tab" data-toggle="tab"><span
               class="name">언론기사</span></a></li>
         </ul>
         <div class="tab-content">
@@ -2210,77 +2214,77 @@
               </ul>
             </div>
           </div>
-          <div role="tabpanel" class="tab-pane fade in active" id="blog">
-            <div class="slide-activity">
+          <!--<div role="tabpanel" class="tab-pane fade in active" id="blog">-->
+            <!--<div class="slide-activity">-->
 
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/jTHgFMH79Pc"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/jTHgFMH79Pc/0.jpg')"></div>
+              <!--<div class="slide">-->
+                <!--<div class="activity-video">-->
+                  <!--<div class="video">-->
+                    <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                       <!--data-iframe="https://www.youtube.com/embed/jTHgFMH79Pc"><i-->
+                        <!--class="icon icon-play"></i></a>-->
+                    <!--<div class="video-image"-->
+                         <!--style="background-image: url('https://img.youtube.com/vi/jTHgFMH79Pc/0.jpg')"></div>-->
 
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
+                    <!--<div class="video-iframe"></div>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
 
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/HH36xOg5TVk"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/HH36xOg5TVk/0.jpg')"></div>
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
+              <!--<div class="slide">-->
+                <!--<div class="activity-video">-->
+                  <!--<div class="video">-->
+                    <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                       <!--data-iframe="https://www.youtube.com/embed/HH36xOg5TVk"><i-->
+                        <!--class="icon icon-play"></i></a>-->
+                    <!--<div class="video-image"-->
+                         <!--style="background-image: url('https://img.youtube.com/vi/HH36xOg5TVk/0.jpg')"></div>-->
+                    <!--<div class="video-iframe"></div>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
 
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/XNKjjr694ls"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/XNKjjr694ls/0.jpg')"></div>
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
+              <!--<div class="slide">-->
+                <!--<div class="activity-video">-->
+                  <!--<div class="video">-->
+                    <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                       <!--data-iframe="https://www.youtube.com/embed/XNKjjr694ls"><i-->
+                        <!--class="icon icon-play"></i></a>-->
+                    <!--<div class="video-image"-->
+                         <!--style="background-image: url('https://img.youtube.com/vi/XNKjjr694ls/0.jpg')"></div>-->
+                    <!--<div class="video-iframe"></div>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
 
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/d0JB8Guni7s"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/d0JB8Guni7s/0.jpg')"></div>
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
+              <!--<div class="slide">-->
+                <!--<div class="activity-video">-->
+                  <!--<div class="video">-->
+                    <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                       <!--data-iframe="https://www.youtube.com/embed/d0JB8Guni7s"><i-->
+                        <!--class="icon icon-play"></i></a>-->
+                    <!--<div class="video-image"-->
+                         <!--style="background-image: url('https://img.youtube.com/vi/d0JB8Guni7s/0.jpg')"></div>-->
+                    <!--<div class="video-iframe"></div>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
 
-              <div class="slide">
-                <div class="activity-video">
-                  <div class="video">
-                    <a class="btn btn-play" data-width="100%" data-height="300"
-                       data-iframe="https://www.youtube.com/embed/_pECUlD2LXo"><i
-                        class="icon icon-play"></i></a>
-                    <div class="video-image"
-                         style="background-image: url('https://img.youtube.com/vi/_pECUlD2LXo/0.jpg')"></div>
-                    <div class="video-iframe"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div role="tabpanel" class="tab-pane fade" id="smi">
+              <!--<div class="slide">-->
+                <!--<div class="activity-video">-->
+                  <!--<div class="video">-->
+                    <!--<a class="btn btn-play" data-width="100%" data-height="300"-->
+                       <!--data-iframe="https://www.youtube.com/embed/_pECUlD2LXo"><i-->
+                        <!--class="icon icon-play"></i></a>-->
+                    <!--<div class="video-image"-->
+                         <!--style="background-image: url('https://img.youtube.com/vi/_pECUlD2LXo/0.jpg')"></div>-->
+                    <!--<div class="video-iframe"></div>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+          <div role="tabpanel" class="tab-pane fade in active" id="smi">
             <div class="slide-article">
               <div class="slide">
                 <div class="activity-article">
@@ -2674,5 +2678,6 @@ End of Zendesk Chat Script-->
 
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script type='text/javascript' src='/dist/scripts.min.js?v=3'></script>
+<script src="/app.js"></script>
 </body>
 </html>
