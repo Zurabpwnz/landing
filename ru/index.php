@@ -2739,10 +2739,16 @@
 <footer>
     <div class="block-social">
         <div class="social-icon">
-            <a class="link" href="https://letitplay.io/" target="_blank"><i
-                class="icon icon-letitpay icon-middle"></i></a>
-            <a class="link" href="https://Travelchainico.slack.com" target="_blank"><i
-                class="icon icon-slack icon-middle"></i></a>
+            <a class="link link-qr">
+                <i class="icon icon-letitpay icon-middle"></i>
+                <div class="box-qr">
+                    <div class="box-img">
+                        <img src="/images/qr-wechat.jpg" alt="">
+                    </div>
+                </div>
+            </a>
+            <!--<a class="link" href="https://Travelchainico.slack.com" target="_blank"><i-->
+                <!--class="icon icon-slack icon-middle"></i></a>-->
             <a class="link" href="https://t.me/travelchain" target="_blank"><i
                 class="icon icon-tel icon-middle"></i></a>
             <a class="link" href="https://www.youtube.com/channel/UC0RykikaWqYQcBf2hp2E7qw" target="_blank"><i

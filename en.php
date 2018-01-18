@@ -304,7 +304,7 @@
                         <div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>
                         <input type="text" class="form-control subscribe-en-input" placeholder="Your e-mail">
                         <div class="box-btn subscribe" data-lang="en">
-                            <a class="btn btn-red btn-lg" data-toggle="modal"><span class="hide-mobile">Subscribe </span><i
+                            <a class="btn btn-red btn-lg" data-toggle="modal"><span class="hide-mobile">Purchase </span><i
                                 class="icon icon-air-white show-mobile"></i></a>
                         </div>
                     </div>
@@ -354,8 +354,8 @@
                             </div>
                         </div>
                     </a>
-                    <a class="link" href="https://Travelchainico.slack.com" target="_blank"><i
-                        class="icon icon-slack icon-middle"></i></a>
+                    <!--<a class="link" href="https://Travelchainico.slack.com" target="_blank"><i-->
+                        <!--class="icon icon-slack icon-middle"></i></a>-->
                     <a class="link" href="https://t.me/travelchain" target="_blank"><i
                         class="icon icon-tel icon-middle"></i></a>
                     <a class="link" href="https://www.youtube.com/channel/UC0RykikaWqYQcBf2hp2E7qw" target="_blank"><i
@@ -379,7 +379,7 @@
                 </div>
             </div>
         </div>
-        <div class="text-info" style="z-index:1;">By clicking on the button, you consent to the processing of your personal
+        <div class="text-info" style="z-index:1;">By clicking the button, you consent to the processing of your personal
             data and agree to
             the
             <a href="TRAVELCHAIN.TOKENS.SALE.PRIVACY.POLICY.pdf" target="_blank" class="link link-underline">Privacy
@@ -480,7 +480,7 @@
     <div class="container">
         <div class="data-text">
             <div class="name-block" data-aos="fade-up">TravelChain is an open source blockchain managed by all market players</div>
-            <div class="block-text" data-aos="fade-up">The user installs the application or widget and decides what data and in what form can be collected.  </div>
+            <div class="block-text" data-aos="fade-up">The user installs the application or widget and decides what data and in what form will be collected.  </div>
         </div>
         <div class="data-cloud">
             <div class="data-item flexible center" data-aos="fade-right" data-aos-delay="50">
@@ -534,7 +534,7 @@
                 Personal data <br/> monetization
               </div>
               <div class="box-text">
-                For each permission to use the data, the user gets tokens, which he can exchange for
+                For each permission to use data, the user gets tokens, which he can exchange for
                 money or a tourist service
               </div>
             </div>
@@ -551,7 +551,7 @@
                 Making travelling as easy as booking an Uber.
               </div>
               <div class="box-text">
-                Services already have info about the countries the user have visited, what cuisine he likes,
+                Services already have info about the countries user have visited, what cuisine he likes,
                 what kind of sport he is into.
                 <span
                     class="bold">A personal tour will be designed according to these data as a construction kit.</span>
@@ -569,7 +569,7 @@
               <i class="icon icon-middle icon-1"></i>
             </div>
             <div class="text text-center">
-              Savings on advertising and access to clients at an early decision-making stage.
+              Savings on advertising and access to clients at early decision-making stage.
             </div>
           </div>
           <div class="box-business">
@@ -577,8 +577,7 @@
               <i class="icon icon-middle icon-2"></i>
             </div>
             <div class="text text-center">
-              Artificial intelligence will tell you about the user's wishes before he himself realizes
-              them.
+              Artificial intelligence will tell you about user's wishes before he will realize them.
 
             </div>
           </div>
@@ -587,8 +586,8 @@
               <i class="icon icon-middle icon-3"></i>
             </div>
             <div class="text text-center">
-              Companies will stop wasting money on mass advertising and will start making personal offers
-              in a few clicks.
+              Companies will stop wasting money on mass advertising and will start to make personal offers
+              in few clicks.
 
             </div>
           </div>
@@ -617,7 +616,7 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                Increase of profit due to refusal of commission to online agencies
+                Increase of profit due to waiver of online agencies commission
               </div>
               <div class="box-text">
                 Companies will be able to sell their services directly to customers without paying high
@@ -637,12 +636,12 @@
             </div>
             <div class="box-info">
               <div class="box-name">
-                Getting recommendations <br/> from opinion leaders
+                Get recommendations <br/> from opinion leaders
 
               </div>
               <div class="box-text">
                 Services will be able to analyze potential customers and identify people with high media
-                status with a lots of followers.
+                status and lots of followers.
 
               </div>
               <div class="box-text bold italic">
@@ -687,8 +686,8 @@
                   <div class="box-info-name">Map apps:
 
                   </div>
-                  <div class="box-info-text">Maps with the user-needed filters. Those can be all the
-                    museums in the city center or vegeterian restaurants accepting TravelTokens as payment.
+                  <div class="box-info-text">Maps with user-needed filters. Those can be all the
+                    museums in the city center or vegeterian restaurants accepting TravelTokens asa payment.
                   </div>
                 </div>
               </li>
@@ -734,7 +733,7 @@
                   </div>
                   <div class="box-info-text">
                     Firstly, system gathers and processes infotmation about users and then provides them with an offer,
-                    which includes every key preference of the user in the most preferable time.
+                    which includes every key preference of user in the most preferable time.
                   </div>
                 </div>
               </li>
@@ -819,7 +818,7 @@
     <div class="container padding-block">
         <div class="text-commands text-center">
             <div class="name-block" data-aos="fade-up">We are making a series about the TravelChain team and project creation! </div>
-            <div class="block-text" data-aos="fade-up" data-aos-delay="50">Push the Like button and subscribe to our channel
+            <div class="block-text" data-aos="fade-up" data-aos-delay="50">Leave a like and subscribe to our channel
             </div>
         </div>
         <div class="block-commands">
@@ -887,7 +886,7 @@
                     </div>
                 </div>
                 <div class="box-btn text-center" data-aos="zoom-out-up">
-                    <a class="btn all-commands btn-red btn-lg">All video</a>
+                    <a class="btn all-commands btn-red btn-lg">All videos</a>
                 </div>
                 <div class="box-accordion-body accordion-body-toggle" style="display: none;">
                     <div class="box-video">
@@ -2703,7 +2702,7 @@
                         <div class="box-icon-left hide-mobile"><i class="icon icon-air"></i></div>
                         <input type="text" class="form-control subscribe-en-input" placeholder="Your e-mail">
                         <div class="box-btn subscribe-en" data-lang="en">
-                            <a class="btn btn-red btn-lg"  data-toggle="modal"><span class="hide-mobile">Subscribe</span><i class="icon icon-air-white show-mobile"></i></a>
+                            <a class="btn btn-red btn-lg"  data-toggle="modal"><span class="hide-mobile">Purchase</span><i class="icon icon-air-white show-mobile"></i></a>
                         </div>
                     </div>
                 </form>
@@ -2722,10 +2721,16 @@
 <footer>
     <div class="block-social">
         <div class="social-icon">
-            <a class="link" href="https://letitplay.io/" target="_blank"><i
-                class="icon icon-letitpay icon-middle"></i></a>
-            <a class="link" href="https://Travelchainico.slack.com" target="_blank"><i
-                class="icon icon-slack icon-middle"></i></a>
+            <a class="link link-qr">
+                <i class="icon icon-letitpay icon-middle"></i>
+                <div class="box-qr">
+                    <div class="box-img">
+                        <img src="/images/qr-wechat.jpg" alt="">
+                    </div>
+                </div>
+            </a>
+            <!--<a class="link" href="https://Travelchainico.slack.com" target="_blank"><i-->
+                <!--class="icon icon-slack icon-middle"></i></a>-->
             <a class="link" href="https://t.me/travelchain" target="_blank"><i
                 class="icon icon-tel icon-middle"></i></a>
             <a class="link" href="https://www.youtube.com/channel/UC0RykikaWqYQcBf2hp2E7qw" target="_blank"><i
