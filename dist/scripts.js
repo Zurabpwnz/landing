@@ -576,6 +576,32 @@ $(document).ready(function () {
     };
     // $('#cloud').svg3DTagCloud(settings);
 });
+
+var rtl = "en";
+var userLang = (navigator.language || navigator.userLanguage).substring(0, 2);
+var countries = {
+    'ar': "ar,dz,bh,dj,eg,il,jo,iq,ye,qa,km,kw,lb,ly,mr,ma,ae,om,er,sa,sy,so,sd,tn,td,ps",
+    'de': "de,at,li,ch,lu,be,br,va,dk,it,na,py,pl,pl,sk,fr",
+    'es': "mx,es,co,pe,ve,cl,cu,ec,do,gt,hn,bo,sv,ni,py,cr,pr,uy,pa,ph,pt,ht,ma,it,gq,au,bz,cw,ad,tt,nz",
+    'jp': "ja,jp,gu,tw,pe",
+    'kr': "kr,ko",
+    'ru': "ru,ua,uk,kg,kz,by",
+    'zh': "kp,zh,sg",
+};
+Object.keys(countries).forEach(function(country_lang){
+    var list = countries[ country_lang ];
+    if ( list.split(',').indexOf(userLang) !== -1 )
+        rtl = country_lang;
+});
+
+var current_lang = location.pathname.split('/')[1].substring(0, 2);
+    current_lang = !current_lang ? 'en' : current_lang;
+
+if ( rtl && current_lang != rtl && getCookie('rtf') != rtl && getCookie('langchangedbyhand') != current_lang ) {
+    document.cookie = "rtf="+ current_lang +"; path=/; expires=" + new Date(new Date().getTime() + 60 * 1000).toUTCString();
+    location.href = "/"+ (rtl == "en" ? "" : rtl +"/") + location.search;
+}
+
 $(window).on('load', function () {
     $('.preloader .load').fadeOut();
     $('.preloader').delay(200).fadeOut().remove();
@@ -594,8 +620,7 @@ $(document).ready(function () {
     }
 
     $('.lang-dropdown .menu-dropdown a').on('click', function() {
-        var date = new Date(new Date().getTime() + 60*60*24*90 * 1000);
-        document.cookie = "langchangedbyhand=changed; path=/; expires=" + date.toUTCString();
+        document.cookie = "langchangedbyhand="+ $(this).attr('href').substring(1) +"; path=/; expires=" + new Date(new Date().getTime() + 3600*24).toUTCString();
     });
 
     $('.btn-menu').on('click', function () {
@@ -870,3 +895,4 @@ $(document).ready(function () {
     $(".menu-dropdown").slideToggle(0)
   });
 });
+function getCookie(name) { var matches = document.cookie.match(new RegExp( "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)" )); return matches ? decodeURIComponent(matches[1]) : undefined; }
