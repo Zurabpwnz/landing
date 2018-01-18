@@ -516,7 +516,7 @@
   <div class="container">
     <div class="padding-block">
       <div class="section-text text-md text-center">
-        <div class="name-block" data-aos="fade-up">TravelChain benefitеs both businesses and travelers</div>
+        <div class="name-block" data-aos="fade-up">TravelChain benefits both businesses and travelers</div>
       </div>
 
       <div class="box-section">
@@ -709,7 +709,7 @@
                   <div class="box-info-name">Notification systems:
                   </div>
                   <div class="box-info-text">For example, notifications about possibility of renting a motorbike across
-                    the road from the hotel and paying for it in TravelTokes. Sellers rating is a guarantee of a good
+                    the road from the hotel and paying for it in TravelTokens. Sellers rating is a guarantee of a good
                     deal.
                   </div>
                 </div>
@@ -732,7 +732,7 @@
 
                   </div>
                   <div class="box-info-text">
-                    Firstly, system gathers and processes infotmation about users and then provides them with an offer,
+                    Firstly, system gathers and processes information about users and then provides them with an offer,
                     which includes every key preference of user in the most preferable time.
                   </div>
                 </div>
@@ -2170,7 +2170,7 @@
                         </div>
                         <div class="content">
                             <div class="box-name">Alexander Karolik-Shlaen</div>
-                            <div class="box-qualification">Founder of Panache Managment Pte Ltd; Holds an Executive
+                            <div class="box-qualification">Founder of Panache Management Pte Ltd; Holds an Executive
                                 MBA from Kellogg School of Management and Hong Kong University of Science and Technology.
                             </div>
                         </div>
