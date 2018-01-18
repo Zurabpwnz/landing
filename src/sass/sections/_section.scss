@@ -102,30 +102,7 @@
       position: relative;
       display: block;
       z-index: 1;
-      .social-icon {
-        display: inline-block;
-        padding: 5px 15px;
-        border-radius: 8px;
-        .link {
-          margin: 2px 8px;
-          position: relative;
-          .box-qr{
-            display: none;
-            width: 160px;
-            height: 160px;
-            position: absolute;
-            bottom: 90%;
-            left: 0;
-            overflow: hidden;
-            border-radius: 4px;
-          }
-          &.active{
-            .box-qr {
-              display: block;
-            }
-          }
-        }
-      }
+
     }
     .rating-wrapper {
       max-width: 520px;
@@ -754,6 +731,30 @@
           ul {
             margin-top: 1em;
           }
+        }
+      }
+    }
+  }
+  .social-icon {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 8px;
+    .link {
+      margin: 2px 8px;
+      position: relative;
+      .box-qr{
+        display: none;
+        width: 160px;
+        height: 160px;
+        position: absolute;
+        bottom: 90%;
+        left: 0;
+        overflow: hidden;
+        border-radius: 4px;
+      }
+      &.active{
+        .box-qr {
+          display: block;
         }
       }
     }
