@@ -42,7 +42,9 @@ $(document).ready(function () {
     }
 
     $('.lang-dropdown .menu-dropdown a').on('click', function() {
-        document.cookie = "langchangedbyhand="+ $(this).attr('href').substring(1) +"; path=/; expires=" + new Date(new Date().getTime() + 3600*24).toUTCString();
+        var lang = $(this).attr('href').substring(1);
+        if (!lang) lang = "en";
+        document.cookie = "langchangedbyhand="+ lang +"; path=/; expires=" + new Date(new Date().getTime() + 3600*24).toUTCString();
     });
 
     $('.btn-menu').on('click', function () {
