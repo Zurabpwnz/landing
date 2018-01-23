@@ -237,7 +237,9 @@
         <div class="padding-block">
             <h1 class="lite" data-aos="fade-up" data-aos-delay="200">Decentralized Data Exchange for the Travel
                 Industry </h1>
-            <div class="name-block white" data-aos="fade-up" data-aos-delay="300">Token sale is open and will last until 15th of February
+            <div class="name-block white" data-aos="fade-up" data-aos-delay="300">Token sale is open and will last until 15th of February</div>
+            <div class=" name-block white" data-aos="fade-up" data-aos-delay="300" style="font-size: 24px;">Hitting the Bitshares exchange at 15th of February
+
                 <p class="livenowsubtext">Recommended browser is Google Chrome</p>
             </div>
             <a class="btn btn-play-video btn-review " data-aos="fade-up" data-aos-delay="400" data-toggle="modal"
