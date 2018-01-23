@@ -250,7 +250,8 @@
     <div class="padding-block">
       <h1 class="lite" data-aos="fade-up" data-aos-delay="200">Децентрализованная платформа обмена данных <br/> для
         рынка туризма</h1>
-      <div class=" name-block white" data-aos="fade-up" data-aos-delay="300">Token Sale открыт и продлится до 15 февраля!
+      <div class=" name-block white" data-aos="fade-up" data-aos-delay="300">Token Sale открыт и продлится до 15 февраля!</div>
+      <div class=" name-block white" data-aos="fade-up" data-aos-delay="300">Выход на биржу Bitshares DEX с 15 февраля!
         <p class="livenowsubtext">Рекомендуемый браузер - Google Chrome</p>
       </div>
       <a class="btn btn-review " data-aos="fade-up" data-aos-delay="400" data-toggle="modal"
